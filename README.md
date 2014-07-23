@@ -1,0 +1,4 @@
+temporario
+==========
+
+arquivos temporarios
