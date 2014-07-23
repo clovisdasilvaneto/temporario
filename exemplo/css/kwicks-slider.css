@@ -4,6 +4,10 @@
 /* FlexSlider Necessary Styles
 *********************************/
 
+.mascara {position: relative;width: 100%;height: 146px;overflow: hidden;}
+.mascara a{text-decoration: none; z-index: 8; display: block; position: absolute; width: 100%; height: 100%; box-shadow: inset 0 0 0 0 rgba(232, 83, 86, 0.69); opacity: 0; text-align: center; line-height: 142px; color: #fff; font-size: 60px}
+.mascara img {position: relative; z-index: 2;}
+
 .flex-container a,
 .flexslider a,
 .flex-container a:active,
@@ -28,12 +32,15 @@ border-bottom-right-radius: 5px;
 left: -800px; -webkit-transition:all ease-out 1s; box-shadow:0 0 5px rgba(0,0,0,0.8);}
 .slides div {width: 100%; opacity: 0; bottom:0;  -webkit-transition:all ease-out 0.4s;  background: rgba(0,0,0,0.8); color: #fff; font-size: 18px; padding: 14px;}
 
-.slides li:hover div{opacity: 1; -webkit-transition:all ease-out 1s; }
+.slides li:hover div{opacity: 1;}
+.mascara a{ -webkit-transition:all ease-out 0.5s;  -moz-transition:all ease-out 0.5s;  -o-transition:all ease-out 0.5s;  -ms-transition:all ease-out 0.5s;  transition:all ease-out 0.5s; }
+.slides li:hover div { -webkit-transition:all ease-out 1s;  -moz-transition:all ease-out 1s;  -o-transition:all ease-out 1s;  -ms-transition:all ease-out 1s;  transition:all ease-out 1s; }
+.mascara:hover a {opacity: 1; box-shadow: inset 0 0 5px 100px rgba(232, 83, 86, 0.57);}
 .slides li:hover p {left:0;}
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider {margin: 40px 0 55px; padding: 0;background:#000;}
+.flexslider {margin: 40px 0 31px; padding: 0;background:#000;}
 .slides {max-height: 393px; overflow: hidden;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {max-width: 100%; display: block;}
@@ -112,7 +119,6 @@ html[xmlns] .slides {
 	list-style: none outside none;
 }
 .flexslider .slides > li{
-	opacity:0.6;
 	position:relative;
 }
 .flexslider .slides > li.active {

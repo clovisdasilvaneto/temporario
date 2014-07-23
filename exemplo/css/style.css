@@ -62,6 +62,11 @@ a[href^="tel:"] {
 header {
   padding: 30px 0 29px;
   z-index: 50;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  top: 0;
 }
 /* navbar */
 .navbar_ {
@@ -126,6 +131,15 @@ header {
   width: 84px;
   border-radius: 5px;
 }
+
+body >header,header > div,header > div img, .nav-collapse_ .nav > li > a .sf-sub-indicator {
+  -webkit-transition: all ease-out 1s!important;
+  -moz-transition: all ease-out 1s!important;
+  -ms-transition: all ease-out 1s!important;
+  -o-transition: all ease-out 1s!important;
+  transition: all ease-out 1s!important;}
+
+
 .nav-collapse_ .nav > li > a .sf-sub-indicator {
   position: absolute;
   width: 0;
@@ -136,11 +150,6 @@ header {
   border-top-color: #E85356!important;
   border: solid 6px transparent;
   opacity: 0;
-  -webkit-transition: all ease-out 1s;
-  -moz-transition: all ease-out 1s;
-  -ms-transition: all ease-out 1s;
-  -o-transition: all ease-out 1s;
-  transition: all ease-out 1s;
 
   -webkit-transition-delay: 0.5s;
   -moz-transition-delay: 0.5s;
@@ -179,7 +188,8 @@ box-shadow: inset 0 0 0 50px #e85356;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.21);
+
   width: 141px;
   border: solid 1px #e85356;
   border-radius: 5px;
@@ -283,6 +293,7 @@ p {
 }
 .bg-content {
   background: url(../img/bg-content.jpg) 50% 50%;
+  margin-top: 149px;
 }
 .block-slogan {
   overflow: hidden;
@@ -735,22 +746,19 @@ padding-left: 23px;}
   border-radius: 0;
   text-shadow: none;
   border: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .btn-1:hover {
-  color: #1a1a1a;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  color: #e85356;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   text-decoration: none;
-  background: #ffffff;
+  box-shadow: inset 0 0 0 50px #fff!important;
 }
 /* policy */.policy {
   position: relative;

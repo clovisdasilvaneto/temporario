@@ -182,3 +182,7 @@ $(function(){
   }
 });
 }(window.jQuery)
+
+window.onscroll = function(){
+  console.log("oi");
+}
