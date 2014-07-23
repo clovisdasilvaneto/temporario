@@ -1,0 +1,247 @@
+/*************************************************************
+*                         page layout                        *
+*************************************************************/
+
+* {
+   padding:0;
+   margin:0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background:#fff url('css/images/bg.gif') repeat-x;
+	margin:20px;
+	padding:0;
+	text-align:center;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000
+}
+
+#page {
+	width:750px;
+	background:transparent;
+	margin:0 auto;
+	height:100%;
+	
+}
+
+/*************************************************************
+*                  this controls the header                  *
+*************************************************************/
+
+#header {
+	background: url('images/header.gif') no-repeat;
+	border:1px solid #fff;
+	width:750px;
+	height:100px;
+	text-align:right
+}
+
+#branding {
+	background:url('imamges/header.gif') no-repeat;
+	text-align:left;
+	padding:20px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#fff;
+}
+
+#search {
+	text-align:right;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+input.textarea {
+	padding:5px;
+	border:solid 0 #fff;
+	background: transparent url("images/search.gif") no-repeat; 
+	font-size: 10px;
+	font-weight: bold; 
+	font-size: 12px; 
+	color: #999;
+	width:200px;
+	height:20px;
+}
+
+/*************************************************************
+*                  this is all the content                   *
+*************************************************************/
+
+#content {
+	background:#fff;
+	height:100%;
+	margin:5px 0 0 0;
+	padding:1px 0 10px 0;
+	width:750px;
+	font-size:10px;
+}
+
+#main{
+	float:right;
+	width:565px;
+	background:#fff;
+	text-align:left;
+	padding:5px;
+	border-top:5px solid #d0d7f6;
+	border:5px solid #d0d7f6;
+}
+
+#sub{
+	float:right;
+	width:555px;
+	background:#fff;
+	text-align:left;
+	margin:5px 0px 0 15px;
+	padding:5px;
+	border-left:3px solid #333;
+	border:5px dashed #e4e4e4;
+}
+
+/*************************************************************
+*               this is the navigation stuff                 *
+*************************************************************/
+#local {
+	float:center;
+	background:url('images/local.gif') no-repeat;
+	width: 750px;
+	color: #000;
+	font-weight: bold;
+	padding:3px;
+	height:52px;
+}
+
+#local ul {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#ccc;
+}
+
+#local ul li { 
+	display: inline;
+}
+
+#local a {
+	display:inline;
+	color: #000;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:10px;
+}
+
+#local a:hover {
+	color: #fbb63d;
+	padding-top: 3px;
+	padding-bottom: 13px;
+	padding-left: 3px;		
+	padding-right: 3px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#nav { 
+	float:left;
+	width:150px;
+	margin:0 5px 0 0;
+	background:#fbb63d;
+	border:1px solid #fbb63d;
+}
+
+.wrapper {
+	width:150px;
+	background:#fff;
+	margin:5px 0 5px 0;
+	text-align:left;
+}
+
+#nav ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#fbe9ca;
+	color:#ccc;
+}
+
+#nav a {
+	display: block;
+	padding: 3px 3px 3px 3px;
+	width:150px;
+	border-top:1px solid #fff;
+}
+
+#nav a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+/*************************************************************
+*                           footer                           *
+*************************************************************/
+
+#footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background:#fff;
+	border-top:1px solid #ccc;
+	text-align:center;
+	font-size:10px;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}
+
+
+#footer p {
+	color:#000;
+}
+
+#footer a{
+	text-decoration:none;
+	color:#000;
+}
+
+/*************************************************************
+*                           misc                             *
+*************************************************************/
+a:link { color: #366c9c; text-decoration:none;}
+a:visited { color: #366c9c; text-decoration:none;}
+a:hover { color: #ffffff; text-decoration:none;}
+a:active { color: #366c9c; text-decoration:none;}
+
+hr {
+	border:0;
+	display:none;
+}
+
+h1 {
+	font-size:16px;
+	color:#676767;
+	font-weight:bold;
+}
+
+h2 {
+	margin:0 0 0 30px;
+	font-size: 12px;
+	text-align:left;
+	color:#b4bbd9;
+}
+
+h4 {
+	margin: 0 0 10px 0;
+	font-size:12px;
+	font-weight:bold;
+}
+
+img {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	border:none;
+}

@@ -1,0 +1,29 @@
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+/***  footer_23a  **/
+.footer_23a {display:block;clear:both;margin-top:5px;
+width:100%;background-color: #930209;border-top:2px outset #ffffff;
+border-bottom:4px inset #ffffff;text-align:center;color:#FFFFFF;}
+/****  "FOOTER_TOP = basemenu" HORIZONTAL   ****/
+ul.foot_nav {display:block; margin:0; padding:0; padding-bottom:2px; 
+list-style: none inside; text-align: center;}
+ul.foot_nav li {margin:0; padding:0; display:inline;}
+/****  "basemenu" menu link styles   ****/
+ul.foot_nav li a:link, ul.foot_nav li a:visited {color:#FFFFFF;
+text-decoration:underline; border-bottom:2px dotted #FFCC33;font-weight:bold;}
+ul.foot_nav li a:hover, ul.foot_nav li a:active {
+border-bottom:0px dotted #ffcc33;}
+.foot_about {display:block;clear:both;margin:0px;
+padding:0px 0px 2px 0px;width:100%;background-color: #293158;
+border-top:4px solid #ffcc33;border-bottom: 2px outset #ffffff;
+text-align:center;color:#ffffff;}
+/****  "footer_bottom" link styles   ****/
+.foot_about a {color:#FFFFFF;text-decoration:underline; 
+border-bottom:2px dotted #FFCC33;font-weight:bold;}
+.foot_about a:hover {border-bottom:0px dotted #990000;}
+

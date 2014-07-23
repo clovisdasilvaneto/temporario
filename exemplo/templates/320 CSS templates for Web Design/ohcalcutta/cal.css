@@ -1,0 +1,162 @@
+/*Oh!Calcutta design for OWD March 2006 design contest
+by Janpd24 a.k.a. Payal Dhar (http://writeside.net) */
+
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+background: #FFF;
+font: 9pt Arial, sans-serif;
+line-height: 12pt;
+}
+
+#content {
+position: relative;
+margin: 5px auto;
+width: 750px;
+}
+
+#header {
+position: relative;
+background: url(images/howrah.jpg);
+height: 150px;
+border: 0;
+}
+
+#header h1 {
+text-align: right;
+padding: 3px;
+color: #922926;
+font: 25pt Arial, sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+#topnav {
+position: relative;
+margin: 2px 2px 2px 0;
+width: 746px;
+text-align: center;
+}
+
+#topnav ul li {
+list-style-type: none;
+float: left;
+margin: 2px 15px 2px 0;
+padding: 2px 7px 2px 0;
+background: url(images/nav-arrow.gif) right no-repeat;
+text-align: left;
+}
+
+#topnav ul li a {
+color: #922926;
+text-decoration: none;
+border: 0;
+display: inline;
+}
+
+#topnav ul li a:hover {
+color: #000;
+text-decoration: underline;
+border: 0;
+}
+
+#topnav ul li a.selected {
+color: #922926;
+text-decoration: underline;
+border: 0;
+}
+
+#text {
+float: left;
+position: relative;
+margin-top: 2px;
+text-align: justify;
+width: 580px;
+border-left: 1px solid #922926;
+}
+
+#text p {
+margin: 0;
+padding: 5px 5px 5px 10px;
+}
+
+#text h1 {
+font: 15pt Garamond, "Times New Roman", serif;
+font-weight: 550;
+margin: 5px 2px;
+}
+
+#text h2 {
+font: 12pt Garamond, "Times New Roman", serif;
+margin: 0;
+padding: 10px;
+}
+
+#text img {
+float: right;
+border: 1px solid #922926;
+padding: 2px;
+margin-left: 3px;
+}
+
+#text a {
+color: #922926;
+text-decoration: none;
+}
+
+#text a:hover {
+color: #000;
+text-decoration: underline;
+}
+
+#navbox {
+float: right;
+position: relative;
+margin-top: 25px;
+width: 146px;
+padding: 2px;
+}
+
+#navbox h1 {
+font: 11pt Garamond, "Times New Roman", sans-serif;
+padding: 4px 0 1px;
+margin-bottom: 2px;
+font-weight: 500;
+border-bottom: 1px solid #000;
+}
+
+#navbox p {
+font: 9pt Arial, sans-serif;
+}
+
+#navbox ul li{
+list-style-type: none;
+margin:0;
+padding: 0;
+}
+
+#navbox a {
+color: #922926;
+text-decoration: none;
+border-bottom: 1px solid #F0F0F0;
+display: block;
+width: 144px;
+}
+
+#navbox a:hover {
+color: #000;
+text-decoration: none;
+border-bottom: 1px solid #922926;
+background: url(images/nav-arrow.gif) right no-repeat;
+}
+
+#footer {
+padding: 2px;
+margin: 0;	
+background-color: #F0F0F0;
+font-size: 8pt;
+text-align: right;
+}

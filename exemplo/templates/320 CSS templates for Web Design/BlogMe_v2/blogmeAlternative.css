@@ -1,0 +1,649 @@
+/* CSS Document */
+
+  /************************************************
+   *  BlogMeAlternative.css - By Jacob Tallman    *
+   *                               	          *
+   *      (C)Copyright 2006 - Jacob Tallman       *
+   *	                                          *
+   *        You are free to use and/or            *
+   *        manipulate this file as much          *
+   *        as you want so long as this           *
+   *        seal stays intact                     *
+   *                                              *
+   ************************************************/
+
+* html{ padding:0; margin:0; }
+
+/******  Main Styles ******/
+html{
+background-color:#000;
+color:#527611;
+}
+
+body{
+background:#000;
+color:#143151;
+text-align:center;
+}
+
+form{ padding:0; margin:0; }
+
+a.alternative{
+color:#0099FF;
+background-color:inherit;
+text-decoration:none;
+padding-bottom:2px;
+font-size:90%;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+a.alternative:visited{
+color:#0099FF;
+background-color:inherit;
+}
+a.alternative:hover{
+color:#00CCFF;
+background-color:inherit;
+text-decoration:underline;
+}
+a.alternative:active{
+color:#FF6600;
+background-color:inherit;
+text-decoration:underline;
+}
+/**** Alternative Link (In Alternative Design, this is the regular link) ***/
+a{
+color:#666666;
+background-color:inherit;
+text-decoration:none;
+padding-bottom:2px;
+font-size:90%;
+font-family:Arial, Helvetica, sans-serif;
+}
+a:visited{
+color:#444;
+background-color:inherit;
+}
+a:hover{
+color:#0099FF;
+background-color:inherit;
+text-decoration:underline;
+}
+a:active{
+color:#00FFCC;
+background-color:inherit;
+text-decoration:underline;
+}
+
+p{
+padding-left:5px;
+text-indent:10px;
+line-height: 1.5em;
+color:#CEEFFF;
+background-color:inherit;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:80%;
+}
+
+img{
+float:right;
+display:inline;
+padding:.3em .3em .6em .3em;
+border:1px solid #CFCFCF;
+background-color:#000000;
+}
+
+img.noFloat{
+float:none;
+display:inline;
+padding:.3em;
+background-color:#000;
+border:1px solid #CFCFCF;
+}
+
+/**** Container ***/
+#container{
+width:760px;
+height:auto;
+border:2px solid #000102;
+text-align:left;
+background:#000000;
+color:#EFEFEF;
+margin:10px auto;
+}
+
+/****** Header Styles ******/
+
+#header{
+background:#000000 url(header.jpg) no-repeat; /* FOR BIGGER SITE NAMES: url(headerWide.jpg) */ /* Also note that the wide header image is lower quality than the regular */
+color:#EEE;
+width:750px;
+height:110px;
+margin:0 5px 1px 5px;
+padding:0;
+clear:both;
+}
+
+#header h1{
+float:right;
+color:#000; /*#333538;*/
+background:none;
+font-family:"Times New Roman", Tahoma, serif;
+font-size:2.5em; /** For Long Site Names, Possibly Make Smaller? **/
+margin:.8em 1em 0 0;
+padding:0px;
+}
+
+#header h2{
+float:left;
+font-weight:normal;
+color:#FCFCFC;
+background:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-transform:lowercase;
+margin:1em 0 0 1.3em;
+padding:0;
+font-size:1em;
+}
+
+/***** Navigation Styles ******/
+#nav{
+clear:both;
+padding:2px 0 2px 0;
+margin-left:10px;
+}
+
+#nav ul{
+list-style:none;
+display:inline;
+padding:0;
+margin:0;
+margin-left:.6em;
+}
+
+#nav ul li {
+list-style:none;
+display:inline;
+padding:0px 3px 0px 3px;
+}
+
+#nav ul li a{
+text-decoration:none;
+font-size:80%;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+color:#FEFFFF;
+background-color:inherit;
+font-weight:bold;
+padding:2px 0px 2px 0px;
+border-bottom:1px dotted #121313;
+}
+
+#nav ul li a:hover{
+color:#FF6600;
+background-color:inherit;
+border-bottom:1px dotted #ffffff;
+}
+
+#nav ul li a:active{
+color:#009933;
+background-color:inherit;
+border-bottom:1px dotted #666666;
+}
+
+#nav ul li a.selected{ border-bottom:1px dotted #FFFFFF; }
+
+/******* UPPER DIV *******/
+#upper{
+background:none;
+color:#eee;
+padding:0 5px 10px 5px;
+margin:0;
+}
+
+#upperLinks{
+width:auto;                /*** Note That These Are the Links At The Very Top of the Page ***/
+background-color:#000000;
+margin:0 0 0 .1em;
+padding:0px 0px 2px 0px;
+color:#B6B6B6;
+float:left;
+clear:none;
+}
+
+#upperLinks p{
+color:#B6B6B6;
+padding:0px;
+margin:0px;
+}
+
+#upperLinks a{
+color:#F60;
+border:none;
+background-color:#000;
+}
+
+#upperLinks a:hover{
+color:#00CCFF;
+}
+
+/*** Search ***/
+#search{
+float:right;
+text-align:right;
+width:50%;
+height:auto;
+padding:0;
+padding-right:1em !important;
+margin:0 !important;
+clear:none;
+}
+
+.searchKeywords{
+background:none;
+color:#0066CC;
+width:10em;
+height:auto; /** The Actual Search Box Where One Would Type The Search Keywords **/
+font-size:90%;
+font-family:Arial, Helvetica, sans-serif;
+border-right:1px solid #A9A9A9;
+border-left:1px solid #A9A9A9;
+border-top:1px solid #000;
+border-bottom:1px solid #A9A9A9;
+margin:0 !important;
+padding:0px 1px 1px 1px;
+clear:none;
+}
+
+.searchBtn{
+padding:1px;
+margin:0;
+background:none;
+color:#0066CC;
+width:auto; 		/** The Search Button **/
+height:auto;
+font-size:90%;
+font-family:Arial, Helvetica, sans-serif;
+border-top:1px solid #a9a9a9;
+border-right:1px solid #a9a9a9;
+border-left:1px solid #a9a9a9;
+border-bottom:1px solid #000;
+clear:none;
+}
+
+/***** RSS Feed Button (Currently Unused) *****/
+a.rss{
+width:auto;
+height:auto;
+background-color:#000;
+color:#FFFFFF;
+padding:0;
+margin:0;
+}
+a.rss img.rssBtn{
+padding:0;
+margin:0;
+margin-top:2px;
+float:none;
+border:none;
+}
+
+/****** Content Styles *****/
+#content{
+clear:both;
+width:750px;
+margin:10px 5px 0 5px;  /** Content is the div that holds the actual blog and subMenu **/
+padding:0;
+background-color:#000000;
+color:#EEFFFF;
+}
+
+/***** Blog and Entries Styles *****/
+#blog{
+float:left;
+width:75%;  /** Main Div that holds entries **/
+height:auto;
+}
+
+#blog ul{
+list-style-type:square;
+}
+
+.entry{
+border-bottom:1px dotted #CCCCCC;
+background-color:#000000;
+color:#EFFFFF;
+padding:5px 0px 13px 0px; /** Each Entry Into The Blog **/
+margin-left:20px;
+width:90%;
+text-align:justify;
+}
+
+.entry h2{
+color:#09F;
+background-color:inherit;
+margin-bottom:0px;
+font-family:Georgia, "Times New Roman", Times, serif; /** Entry Heading **/
+font-size:150%;
+font-weight:normal;
+}
+
+.entry p{
+padding-left:15px;
+text-indent:10px;
+line-height: 1.5em;
+color:#CEEFFF;
+background-color:inherit;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:80%;
+}
+
+.tools{
+background-color:#000000;
+color:#303030;
+clear:both;             /** Div with comment links and permalinks **/
+margin:0px 0px 2px 0px;
+padding:0px 0px 2px 0px;
+}
+
+.tools a.toolsComments{ /** Coments **/
+background:url("starHover.jpg") no-repeat;
+padding-left:17px;
+float:left;
+color:#FF6600;                     /** Comments Link | Note that the star.jpg changes on hover, and on active **/
+text-decoration:none;
+font-family:"Times New Roman", Tahoma, serif;
+font-size:80%;
+border-bottom:none;
+}
+.tools a.toolsComments:hover{
+background:url("star.jpg") no-repeat;
+color:#0099CC;
+}
+.tools a.toolsComments:active{
+background:url("starActive.jpg") no-repeat;
+color:#00CC66;
+}
+
+.tools a.permalink{ /** Permalink **/
+background:url("spiral.jpg") no-repeat;
+padding-left:17px;
+float:right;
+color:#F60;                                   /** Permalink | Note that the spiral.jpg changes on hover, and on active **/
+text-decoration:none;
+font-family:"Times New Roman", Tahoma, serif;
+font-size:80%;
+border-bottom:none;
+}
+.tools a.permalink:hover{
+background:url("spiralHover.jpg") no-repeat;
+color:#09C;
+}
+.tools a.permalink:active{
+background:url("spiralActive.jpg") no-repeat;
+color:#00CC66;
+}
+
+/******** SubMenu Styles ********/
+#subMenu{
+float:right;
+width:23%;
+line-height:1.5em;
+margin-top:1em;
+}
+
+#subMenu h3{
+color:#F60;
+background-color:inherit;
+padding:0px;
+margin:0px;
+font-family:Georgia,Geneva,Arial,Helvetica,sans-serif;
+font-size:110%;
+font-weight:bold;
+}
+
+#subMenu ul{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+
+#subMenu ul li{
+display:block;
+padding-left:10px;
+}
+
+#subMenu a{
+color:#0099CC;
+background-color:inherit;
+padding:0px 3px 0px 0px;
+border-bottom:none;
+text-decoration:none;
+font-weight:bold;
+}
+
+#subMenu a:hover{
+color:#FF6600;
+background-color:inherit;
+padding:0px 3px 0px 0px;
+border-bottom:none;
+text-decoration:none;
+}
+
+#subMenu a.link{
+margin-left:10px;
+padding-left:5px;
+border-left:5px solid #494949;
+}
+
+#subMenu a.link:hover{
+margin-left:10px;
+padding-left:5px;
+border-left:5px solid #A9A9A9;
+}
+
+#subMenu ul.links{
+list-style:none;
+}
+
+/******* Utility Links Div *****/
+#utility{
+text-align:center;
+width:100%;
+height:auto;
+clear:both;
+background-color:#000000;
+color:#ECECEC;
+padding:10px 0 0 0;
+margin:3px 0 0 0;
+font-size:70%;
+}
+
+#utility a{
+color:#0011FF;
+background-color:#000000;
+text-decoration:underline;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#utility a:visited{ color:#663399; background-color:#000000; }
+#utility a:hover{ text-decoration:none; }
+
+/******* Footer Styles ********/
+#footer{
+clear:both;
+width:750px;
+height:35px;
+margin:.3em 5px 0 5px;
+padding:0;
+background:url("footer.jpg") no-repeat;
+}
+
+#footer h3{
+margin:8px 0 0 10px;
+float:left;
+color:#232323;
+background-color:inherit;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:80%;
+}
+
+#footer h4{
+margin:10px 20px 0 0;
+float:right;
+color:#cacaca;
+background-color:inherit;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:70%;
+}
+
+#footer a{
+color:#333333;
+border:none;
+text-decoration:none;
+}
+
+#footer a:hover{
+color:#006699;
+}
+
+/****** Blog Navigation ******/
+#blogNav{
+background-color:#000000;
+color:#F90;
+width:90%;
+padding:5px 0px 13px 0px;
+margin-left:20px;
+}
+
+#blogNav a, #blogNav a:visited{
+color:#09F;
+background-color:#000000;
+text-decoration:none;
+border:none;
+}
+
+#blogNav a:hover{
+color:#666;
+background-color:#000000;
+}
+
+#blogNav a:active{
+color:#888;
+background-color:#000000;
+}
+
+/***** Archives Menu ***/
+ul.archives{
+padding:0;
+margin:0;
+margin-left:.6em !important;
+list-style:none;
+}
+
+ul.archives li{
+list-style:none;
+margin:0;
+padding:1px 0px 1px 0px;
+}
+
+ul.archives li a{
+color:#FF6600;
+font-size:70%;
+font-weight:bold !important;
+text-decoration:none;
+padding:0 1px 1px 1px !important;
+margin:0;
+border-right:1px solid #000000;
+border-bottom:1px solid #000000;
+}
+
+ul.archives li a:visited{
+color:#858585;
+}
+
+ul.archives li a:hover{
+border-right:1px solid #0099CC;
+border-bottom:1px solid #0099CC !important;
+}
+
+ul.archives li a:active{
+border-right:1px solid #00CC33;
+border-bottom:1px solid #00CC33 !important;
+}
+
+/***** Box Class *****/
+.box{ padding:2px; background-color:#101010; border:1px solid #999999; width:25em; height:auto; margin-left:7px; margin:3px; }
+.smallBox{ padding:2px; background-color:#101010; border:1px solid #999999; width:11em; height:11em; overflow:hidden; margin-left:7px; margin:3px; }
+.box h3, .smallBox h3{ color:#FF6600; font-weight:normal; margin-left:3px; }
+.box p, .smallBox p{
+padding-left:15px;
+text-indent:10px;
+line-height: 1.5em;
+color:#CEEFFF;
+background-color:inherit;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:80%;
+}
+
+/*** News ***/
+#news{
+border:1px dotted #666666;
+padding:3px;
+margin-bottom:.3em;
+}
+
+/**** Misc Styles ****/
+.important{ color:#F00; background-color:inherit; font-weight:bold; }
+.right{ float:right; text-align:right; }
+.left{ float:left; text-align:left; }
+.justify{ text-align:justify; }
+.center{ text-align:center; }
+.red{ color:#FF0000; }
+.green{ color:#00CC66; }
+.orange{ color:#FF9900; }
+.blue{ color:#0099CC; }
+.border{ padding:2px; border:1px solid #CDCDCD; }
+.floatRight{ float:right; }
+
+/** Opaque Image **/
+#opaque{
+background:url(roseOpaque.jpg) center no-repeat;
+height:117px;
+width:166px;
+padding:0px;
+border:.5px solid #CFCFCF;
+text-align:center;
+}
+#opaque>img{
+display:inline;
+visibility:hidden;
+border:none;
+vertical-align:middle;
+padding:0;
+margin:0;
+margin-top:3px;
+}
+#opaque:hover>img{
+visibility:visible;
+cursor:pointer;
+}
+
+/**** I AM TAKING THIS OUT BECAUSE IT DOESN'T VALIDATE CORRECTLY. IT WORKS THOUGH SO USE IT WHEN/IF YOU DOWNLOAD THIS
+		TEMPLATE PLEASE **
+a img{
+float:right;
+display:inline;
+padding:.3em .3em .6em .3em;
+border:1px solid #CFCFCF;
+background-color:#000000;
+opacity:.6;
+filter:alpha(opacity=60);
+}
+a:hover img{
+opacity:1;
+filter:alpha(opacity=100);
+}
+***********************************************/

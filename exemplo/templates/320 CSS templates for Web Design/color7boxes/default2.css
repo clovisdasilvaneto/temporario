@@ -1,0 +1,42 @@
+body{font:76%/150% Verdana,sans-serif;padding:0px;margin:0px;}
+h1{font-size:30px;line-height:34px;letter-spacing:-1px;font-weight:500;display:inline;}
+h2{font-size:17px;font-weight:600;letter-spacing:-1px;}
+h3{font-size:12px;font-weight:600;margin:15px 0px 8px 0px;}
+h1,h2,h3{font-family:"lucida console","courier new",sans-serif;}
+a:link,a:visited{text-decoration:none;font-weight:500;font-size:8pt;}
+a:hover,a:active{text-decoration:line-through;}
+#top{position:relative;top:5px;border:1px solid #000;margin:0px 236px 0px 5px;height:70px;} 
+#header{position:relative;top:18px;left:252px;}
+#main{position:relative;top:10px;border:1px solid #000;margin:0px 236px 4px 5px;}
+#right{position:absolute;top:5px;right:10px;width:220px;font-size:10px;line-height:16px;}
+#rblock1{border:1px solid #000;position:relative;}
+#rblock2{border:1px solid #000;position:relative;margin-top:5px;}
+.pad {padding:10px;}
+ul{list-style-type:square;margin-top:0px;}
+#box1{position:absolute;top:10px;left:11px;width:28px;height:60px;}
+#box2{position:absolute;top:10px;left:43px;width:28px;height:28px;}
+#box3{position:absolute;top:42px;left:43px;width:28px;height:28px;}
+#box4{position:absolute;top:10px;left:75px;width:60px;height:28px;}
+#box5{position:absolute;top:42px;left:75px;width:60px;height:28px;}
+#box6{position:absolute;top:10px;left:139px;width:28px;height:28px;}
+#box7{position:absolute;top:42px;left:139px;width:28px;height:28px;}
+
+/* set template colors here  */
+
+body{color:#061208;background:#bfb8a6;}
+a:link,a:visited{color:#ffe;}
+ul{color:#ffe;}
+h1{color:#ffe;}
+h2{color:#c17f6f;}
+h3{color:#5c5f80;}
+#top{background:#5c5f80;}
+#main{background:#e1d8c9;}
+#rblock1{background:#bdcde4;}
+#rblock2{background:#5c5f80;}
+.box1{background:#7599c0;border:1px solid #333;}  /* box colors */  
+.box2{background:#b5f0ff;border:1px solid #333;}
+.box3{background:#87bce4;border:1px solid #333;}
+.box4{background:#6890b4;border:1px solid #333;}
+.box5{background:#556d87;border:1px solid #333;}
+.box6{background:#9dd2fc;border:1px solid #333;}
+.box7{background:#c17f6f;border:1px solid #333;}

@@ -1,0 +1,134 @@
+/* ##== General ==## */
+
+*
+{
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+body
+{
+	background: #CEDAFF url(../images/bg.png) repeat;
+}
+
+#wrap
+{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+/* ##== Header ==## */
+#header
+{
+    background-color: #ccccff;
+    border: solid #9a9aff;
+    border-width: 0 1px 1px 1px;
+}
+
+#header h1
+{
+    font-family: Eurostile , sans-serif;
+    font-size: 48px;
+    color: #5d5dff;
+    margin-bottom: 0px;
+}
+
+#header h2
+{
+    font-family: Eurostile , sans-serif;
+    font-size: 24px;
+    color: #3b3bdd;
+    position: relative;
+    top: -10px;
+    left: 40px;
+    margin-bottom: 0px;
+}
+
+/* ##== Navigation ==## */
+
+#nav
+{
+    background-color: #bbbbee;
+    border: solid #9a9aff;
+    border-width: 0 1px 1px 1px;
+    text-align: center;
+}
+
+#nav a
+{
+    font-family: sans-serif;
+    text-decoration: none;
+    border: solid #9a9aff;
+    border-width: 0 1px 0 1px;
+    padding: 0 5px 0 5px;
+    background-color: #4242ce;
+    color: #a2a2ff;
+}
+
+#nav a:hover
+{
+    background-color: #a2a2ff;
+    color: #4242ce;
+}
+
+/* ##== Content ==## */
+
+#content
+{
+    background-color: #ccccff;
+    border: 1px solid #9a9aff;
+    text-align: left;
+    font-size: small;
+    color: #000;
+    font-family: sans-serif;
+    padding: 2px;
+}
+
+#content h1
+{
+    text-align: right;
+    font: normal small-caps 150% Garamond , serif;
+    color: #000;
+    margin: 0 2px 2px 2px;
+    border-bottom: 1px dashed #000;
+}
+
+#content a
+{
+    color: #454578;
+}
+
+#content a:hover
+{
+    color: #343467;
+    text-decoration: underline;
+}
+
+/* ##== Copyright ==## */
+
+#copyright
+{
+    clear: both;
+    background-color: #bbbbee;
+    border: solid #9a9aff;
+    border-width: 0 1px 1px 1px;
+    text-align: right;
+    font-size: x-small;
+    color: #000;
+    font-family: sans-serif;
+    padding: 2px;
+}
+
+#copyright a
+{
+    color: #454578;
+}
+
+#copyright a:hover
+{
+    color: #343467;
+    text-decoration: underline;
+}

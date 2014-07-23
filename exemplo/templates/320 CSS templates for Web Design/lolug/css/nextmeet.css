@@ -1,0 +1,29 @@
+#nextmeet_box{
+	float:right;
+	width:100%;
+	margin-bottom: 30px;
+	height:auto;
+}
+
+.nextmeet{
+	font: bold 20pt Verdana;
+	text-align: center;
+	padding:5px;	
+}
+
+.hidden_new_meet{
+	text-align: right; 
+	font: 10px arial;
+}
+.hidden_new_meet a{
+	background:transparent;
+	color:white;
+}
+.hidden_new_meet a:visited{
+	background:transparent;
+	color:white;
+}
+.hidden_new_meet a:hover{
+	background:transparent;
+	color:white;
+}

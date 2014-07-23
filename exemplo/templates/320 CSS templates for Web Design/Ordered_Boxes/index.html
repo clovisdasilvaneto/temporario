@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Ordered Boxes</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="style.css" />
+<link rel="stylesheet" type="text/css" media="print" href="print.css" />
+</head>
+
+<body id="home">
+
+<div id="header">
+<h1>Ordered Boxes</h1>
+<p>An open source template</p>
+</div>
+
+<div id="nav-page">
+<h2>Quick access</h2>
+<ul>
+<li><a href="#nav-main">Site navigation</a></li>
+<li><a href="#nav-secondary">Recent articles</a></li>
+</ul>
+</div>
+
+<div id="content-main">
+
+<h2>About Ordered Boxes</h2>
+
+<p>The template exists in 4 different versions. Maybe only this one will be used but it is good to have a choice.</p>
+<p>There are links for quick access to the page contents. These links are hidden when CSS is enabled. I have created a simple print stylesheet which displays only the main content.</p>
+
+<p>You are free to use this design for any purpose but please keep my name in the footer.</p>
+
+<h2>Highlighted current page link in the navigation</h2>
+
+<p>Every page has an <code>id</code> attribute with its name and the link to that page has a <code>class</code> with the same name. It is then easy to style the active link with CSS. Here are the rules for highlighting the navigation items in this case:</p>
+<pre>
+<code>#home .home, #v2 .v2, #v3 .v3, #v4 .v4  {
+	color: #000;
+	background: #98BFE6 url(arrow.gif) 0.2em no-repeat;
+}
+</code></pre>
+<p>Don't forget change the <code>class</code> attributes in the navigation and the <code>id</code> of the <code>body</code> tag and then replace the values in the style sheet as well.</p>
+
+<h2>Lorem ipsum</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed ut dui ac lacus egestas vehicula. Quisque faucibus, risus id consequat porta, orci ligula condimentum mi, ac commodo leo libero eget tortor. Maecenas a ligula in nibh luctus gravida. Praesent vehicula rhoncus tortor. <a href="#">Donec porta rutrum dui.</a> Donec dignissim congue mauris. Sed rhoncus laoreet sem. Nam dui pede, vestibulum convallis, posuere ut, dictum eu, diam. Phasellus nunc. Ut eget ante a ipsum porttitor scelerisque. Quisque auctor elit vitae massa. Vestibulum massa risus, gravida quis, hendrerit sit amet, bibendum sit amet, enim. Fusce nulla. Quisque vulputate metus vitae orci. Pellentesque at arcu. Ut sed neque.</p>
+
+<h2>Donec sollicitudin</h2>
+
+<p>Donec sollicitudin, turpis vel lacinia ultrices, ante tellus adipiscing sem, quis pulvinar magna lectus at tellus. Sed vulputate. Nunc turpis turpis, mattis vel, placerat nec, congue quis, erat. Maecenas ac ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam interdum placerat metus. Praesent interdum feugiat quam. Suspendisse tincidunt ultrices nisi. In pede ante, condimentum eu, viverra a, ullamcorper sit amet, quam. Suspendisse lacus lectus, eleifend ut, iaculis ut, dictum quis, ante. Ut gravida pulvinar eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur vitae lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget nisi quis orci auctor porttitor. Suspendisse dui. Praesent rhoncus mi vitae enim. Phasellus nibh.</p>
+
+</div>
+
+<div id="nav-main">
+<h2>Choose a version</h2>
+<ul>
+<li><a class="home" href="index.html">Home</a></li>
+<li><a class="v2" href="version2.html">Version 2</a></li>
+<li><a class="v3" href="version3.html">Version 3</a></li>
+<li><a class="v4" href="version4.html">Version 4</a></li>
+</ul>
+</div>
+
+<div id="nav-secondary">
+<h2>Recent articles</h2>
+<form action="get">
+<p><label for="search" class="hide">Search</label> <input type="text" id="search" /> <input type="button" value="search" />
+</p>
+</form>
+<ul>
+<li><a href="#">An article</a></li>
+<li><a href="#">Another one</a></li>
+<li><a href="#">One more article</a></li>
+<li><a href="#">An article</a></li>
+<li><a href="#">Another one</a></li>
+<li><a href="#">One more article</a></li>
+<li><a href="#">An article</a></li>
+<li><a href="#">Another one</a></li>
+<li><a href="#">One more article</a></li>
+<li><a href="#">An article</a></li>
+<li><a href="#">Another one</a></li>
+<li><a href="#">One more article</a></li>
+</ul>
+</div>
+
+<p id="footer">
+&copy; Your site | Design by Dimiter Petrov
+</p>
+
+</body>
+</html>

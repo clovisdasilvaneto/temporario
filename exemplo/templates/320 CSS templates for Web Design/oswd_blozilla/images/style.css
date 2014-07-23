@@ -1,0 +1,151 @@
+html {  width: 100% }
+
+body {
+        font-family: "Trebuchet MS", verdana, arial, "Times New Roman";
+        font-size: 90%;
+        color: #3D3535;
+        background-color: #E4E5E0;
+        margin: 20px;
+        padding: 0px;
+        line-height: 140%;
+}
+
+/* Wrapper */
+.all {
+        text-align: center;
+        width: 100%;
+}
+
+/* the container */
+.box {
+        background-color: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        text-align: left;
+        width: 90%;
+}
+
+/*holds the tabs at the top*/
+.snazzy {background:transparent;}
+.snazzy span {text-align:center; color:#000; margin:0; font-weight:normal;}
+
+.b1, .b2, .b3, .b4 {display:block; font-size:1px;
+/* hide overflow:hidden from IE5/Mac */
+/* \*/
+overflow: hidden;
+/* */ }
+.b1, .b2, .b3 {height:1px;}
+.b2, .b3, .b4 {border-left:1px solid #fff; border-right:1px solid #fff;}
+.b1 {margin:0 5px; background:#fff;}
+.b2 {margin:0 3px; border-width:0 2px;}
+.b3 {margin:0 2px;}
+.b4 {height:2px; margin:0 1px;}
+.boxcontent {display:block; border-left:1px solid #fff; border-right:1px solid #fff;}
+
+.red {background:#c00;}
+.orange {background:#f90;}
+.yellow {background:#b8b800;}
+.green {background:#090;}
+.blue {background:#00c;}
+.indigo {background:#309;}
+.violet {background:#c6c;}
+
+#navigation2 {background:transparent; margin:1em auto; height:3em; background:#fff;font-size:12px;
+/* hide overflow:hidden from IE5/Mac */
+/* \*/
+overflow: hidden;
+/* */ }
+
+#navigation2 ul {margin:0; padding:0; list-style-type:none; background:transparent;}
+#navigation2 li {display:block; float:left; margin:0 1px;}
+
+.pad {display:block; height:1em;
+/* hide overflow:hidden from IE5/Mac */
+/* \*/
+overflow: hidden;
+/* */ }
+
+a.menu2, a.menu2:visited {display:block; text-decoration:none; width:5.5em;}
+a.menu2:hover {background:transparent; cursor:pointer;}
+a.menu2:hover .boxcontent {padding-bottom:0.8em;}
+a.menu2:hover .pad {height:0.2em;}
+
+.header {
+        padding: 10px;
+        margin-top:3px;
+        height: 265px;
+        background: #fff url(logo.gif) no-repeat;
+        border:1px solid #000;
+}
+
+/*just a fix, taken from http://www.positioniseverything.net/easyclearing.html*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+        display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+        height: 1%;
+}
+
+.clearfix {
+        display: block;
+}
+/* End hide from IE-mac */
+
+/*the container*/
+.content {
+        margin-right: 255px;
+        padding: 20px;
+}
+
+.content h1 {
+        font-size: 110%;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 2px solid #090;
+}
+
+/*this is the right hand bar, news bar, links bar w/e*/
+.sidebar {
+        margin-top: 40px;
+        width: 245px;
+        float: right;
+}
+
+.sidebar h1 {
+        background-color: #090;
+        color: #FFFFFF;
+        padding: 3px;
+        margin: 0px 0px 0px 0px;
+        font-size: 100%;
+        font-weight: normal;
+}
+
+/*the footer, with copyright*/
+.footer {
+clear:both;
+        background-color: #090;
+        padding: 4px;
+        font-size: 80%;
+        text-align: center;
+}
+
+/*sets the link colours and style*/
+a:link, a:active, a:visited {
+        color: #A53512;
+}
+
+a:hover {
+        color: #A53512;
+        text-decoration: none;
+}

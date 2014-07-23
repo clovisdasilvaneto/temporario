@@ -1,0 +1,80 @@
+/* ||| CSS file for Gamer 01-dk ||| */
+/* ||| print file (to make pages more printer-friendly) ||| */
+
+/* It is HIGHLY recommended that the doctype stay on the page for the best rendering possible. Without the doctype, the browsers start pulling some crazy stunts. For example, #content, the div that encloses actual content, has the overflow set to auto. While this creates a layout where the content does not flow under #subMenu (as it is floating left), the page creates scrollbars when the page lacks a doctype. These scrollbars are visually distracting. If you want a visually distracting layout, then I guess it would be OK.
+
+That is only one such example. Doctypes will make the page less distracting and make it easier to use. */
+
+
+/* General Link Rules */
+
+ a:link,a:visited,a:hover{
+ color: #000;
+ text-decoration: none;
+ background-color: transparent;}
+
+/* Layout Rules */
+
+body{
+ color: #000;
+ background-color: #fff;}
+
+#container{
+ color: #000;
+ background-color: #fff;}
+
+#pageHeader{}
+
+#headerText{
+ font: 28pt verdana,arial,sans-serif;
+ margin-bottom: 25px;}
+
+#bodyOfPage{
+ background-color: transparent;}
+
+#subMenu{
+ display: none;}
+
+#content{
+ font: medium "times new roman",serif;}
+
+#content a{
+ margin: auto;}
+
+#notice{
+ clear: both;
+ margin: auto;
+ padding-left: 5px;
+ border: solid #000 1px;
+ font: small arial,verdana,sans-serif;
+ background: transparent none;}
+
+/* Other Formatting */
+
+.noDisplay{
+ display: none;}
+
+.print{display: block;}
+
+.sectionHead{
+ font: x-large verdana,arial,sans-serif;
+ display: block;
+ border-bottom: solid #000 1px;
+ background: transparent none;
+ padding-bottom: 15px;}
+
+p{
+ line-height: 170%;}
+
+.sectionHead+p{
+ margin-top: 5px;}
+
+p+.sectionHead{
+ margin-top: 30px;}
+
+acronym{
+ border-bottom: none;}
+
+.smallNote{
+ font: inherit;
+ font-size: x-small;}

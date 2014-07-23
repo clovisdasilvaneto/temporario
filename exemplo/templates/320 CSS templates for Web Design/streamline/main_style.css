@@ -1,0 +1,283 @@
+/*--------------------------------------------
+    main_style.css for global styles
+    coded by generalissmo
+     (http://www.oswd.org/designs/search/designer/id/6986/)
+    code spacers influenced by JJenZz
+     (http://www.oswd.org/user/profile/id/7634)
+---------------------------------------------- */
+
+/*--------------------------------------------
+    Anchor Rules for Content / Notice
+---------------------------------------------- */
+
+#content a:link{
+ color: #333399;
+ background: transparent;
+ text-decoration: underline;}
+
+#content a:visited{
+ color: #660066;
+ background: transparent;
+ text-decoration: none;}
+
+#content a:hover{
+ color: #6666ff;
+ background: transparent;
+ text-decoration: none;}
+
+#content a:active{
+ color: #6633cc;
+ background: transparent;
+ text-decoration: underline;}
+
+#notice a:link{
+ color: #003366;
+ background: transparent;
+ text-decoration: underline;}
+
+#notice a:visited{
+ color: #660000;
+ background: transparent;
+ text-decoration: none;}
+
+#notice a:hover{
+ color: #fff;
+ background: #333;
+ text-decoration: none;}
+
+#notice a:active{
+ color: #ffcc00;
+ background: #333;
+ text-decoration: none;}
+
+/*--------------------------------------------
+    Page Layout
+---------------------------------------------- */
+
+body{
+ margin: 0;
+ padding: 0;
+ color: inherit;
+ background: #666;
+}
+
+#pageContainer{
+ margin: 0;
+}
+
+/*--------------------------------------------
+    Header
+---------------------------------------------- */
+
+#header{
+ display: block;
+ color: inherit;
+ background: #333 url(images/bg_header.png) no-repeat;
+}
+
+h1#streamlineTextualLogo{
+ height: 50px;
+ width: auto;
+ margin: 0;
+ font: 200% verdana,arial,sans-serif;
+ text-transform: lowercase;
+ font-style: oblique;
+ background: transparent url(images/arrow.gif) no-repeat 150px 0px;
+}
+
+/*--------------------------------------------
+    Top Menu
+---------------------------------------------- */
+
+#menuContainer{
+ margin: auto;
+ padding: 1px;
+ color: #fff;
+ background: #333;
+}
+
+ul#menuAbove{}
+
+ul#menuAbove li{
+ display: inline;
+ color: #fff;
+ font: 900 small-caps 80% arial,verdana,sans-serif;
+ vertical-align: middle;
+ background: transparent;
+ text-decoration: none;
+}
+
+ul#menuAbove li a{
+ color: #fff;
+ width: 13%;
+ text-align: center;
+ margin: auto 1em;
+ padding: 3px 1em;
+ border-bottom: dashed 2px white;
+ background: transparent;
+ text-decoration: none;
+}
+
+ul#menuAbove li  > a{  /* to correct width in firefox */
+ width: auto;
+}
+
+ul#menuAbove li a:hover{
+ color: #ff9933;
+ background: transparent;
+ border-bottom: solid 2px;
+ border-color: transparent;
+}
+
+/*--------------------------------------------
+    Left Menu
+---------------------------------------------- */
+
+#centerPage{    /* all content but header and footer */
+ background: #999;
+ color: inherit;
+ height: 100%;
+}
+
+#menuLeft{     /* left menu */
+ display: block;
+ float: left;
+ clear: left;
+ width: 10em;
+ height: 100%; /* for IE */
+}
+
+#centerPage > #menuLeft{  
+ height: auto;  /* to correct in firefox */
+}
+
+ul.menuBox li{
+ list-style-type: none;
+ margin-left: -2em;
+}
+
+ul.menuBox li a{
+ display: block;
+ width: 100%;
+ color: #003366;
+ margin: 3px;
+ padding: .5em;
+ background: transparent;
+ text-decoration: underline;
+}
+
+ul.menuBox li > a{  /* to fix width in firefox */
+ width: auto;
+}
+
+ul.menuBox li a:visited{
+ color: #660000;
+ background: transparent;
+ text-decoration: none;
+}
+
+ul.menuBox li a:hover{
+ color: #fff;
+ background: #333;
+ text-decoration: none;
+}
+
+ul.menuBox li a:active{
+ color: #ffcc00;
+ background: #333;
+ text-decoration: none;
+}
+
+/*--------------------------------------------
+    Content
+---------------------------------------------- */
+
+#content{
+ margin: auto 0 0 10.2em;
+ padding: 1px 20px 10px 7px;
+ background: #fff;
+ color: inherit;
+ border-left: solid 1px #000;
+ font: 100% arial,verdana,sans-serif;
+ min-height: 23em;
+}
+
+/*--------------------------------------------
+    Notice
+---------------------------------------------- */
+
+#notice{
+ clear: both !important;
+ padding: 5px 6px;
+ border-top: solid 1px black;
+ background: #666;
+ color: inherit;
+ font: 80% arial,verdana,sans-serif;
+}
+
+/*--------------------------------------------
+    General
+---------------------------------------------- */
+
+.noDisplay{
+ display: none;
+}
+
+.floatRight{
+ float: right;
+}
+
+.floatLeft{
+ float: left;
+}
+
+code{
+ font: 110% "courier new",courier,monospace;
+}
+
+.menuHead{
+ display: block;
+ text-align: center;
+ font: small-caps 80% verdana,arial,sans-serif;
+}
+
+#firstMenuHead{
+ margin-top: 5px;
+}
+
+h2,h3,h4,h5,h6{
+ font-family: verdana,arial,sans-serif;
+ display: block;
+ margin: auto;
+}
+
+#content h1{
+ font: 100 150% arial,verdana,sans-serif;
+ color: #000;
+ background: transparent;
+ margin: 0 auto 5px auto;
+ text-transform: lowercase;
+}
+
+h2{
+ font: 100 105% verdana,arial,sans-serif;
+ margin: auto;
+ background: maroon;
+ color: #fff;
+ text-indent: 1%;
+ padding: 5px 0;
+}
+
+h3{
+ margin: 10px auto auto auto;
+ font: bold 98% verdana,arial,sans-serif;
+}
+
+p{
+ line-height: 150%;
+}
+
+acronym{
+ cursor: help;
+ border-bottom: dashed 1px;
+}

@@ -1,0 +1,206 @@
+/*
+	Pistachio: 
+		while eating pistachios left over from Christmas,
+		I couldn't help but notice that the colors look pretty
+		good together: (tan) #f4e295 & (green) #709f30...
+		Or you can pick green to be #8fa44d, a lighter green
+*/
+
+body {
+	background-color: white;
+	margin: 0;
+	font-family: Georgia;
+}
+
+#container {
+	background-color: #709f30;
+}
+
+#header {
+	padding-left: 5px;
+	padding-top: 5px;
+	height: 40px;
+	font-family: Georgia, Helvetica;
+	font-size: 25px;
+}
+
+#header img {
+	vertical-align: middle;
+}
+
+#ruler {
+	width: 100%;
+	color: black;
+	background-color: #f4e295;
+	border-bottom: dashed 1px gray;
+	border-top: dashed 1px gray;
+	/*padding-left: 16%;
+	height: 30px;
+	padding-top: 10px;*/
+}
+
+#ruler2 {
+	margin-left: 16%;
+	color: black;
+	background-color: #f4e295;
+	border-bottom: dashed 1px gray;
+	border-top: dashed 1px gray;
+}
+
+#ruler a, #ruler2 a {
+	text-decoration: none;
+	/*font-size: 16px;*/
+	font-weight: bold;
+	line-height: 40px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#ruler a:hover, #ruler2 a:hover {
+	background-color: #709f30;
+}
+
+#navigation {
+	padding: 5px;
+	float: left;
+	width: 15%;
+}
+
+#navigation .linkbox {
+	margin-bottom: 15px;
+}
+
+#navigation .linkbox h2 {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: -5px;
+	margin-right: -5px;
+	padding-left: 5px;
+	text-transform: uppercase;
+	background-color: #f4e295;
+	font-size: 12px;
+	border-top: dashed 1px gray;
+	border-bottom: dashed 1px gray;
+}
+
+#navigation .linkbox a {
+	color: black;
+}
+
+#navigation .linkbox a:hover {
+	color: red;
+}
+
+#main {
+	margin: 0;
+	/*border: solid 1px red;*/
+}
+
+#right {
+}
+
+/*
+	content & right column
+*/
+
+#content {
+	background-color: white;
+	margin-left: 16%;
+	margin-top: 0;
+	/*border: solid 1px black;*/
+	padding: 5px;
+	/*padding-right: 400px;*/
+	border-left: dashed 1px gray;
+	/*width: 60%;*/
+}
+
+#rightColumn {
+	float: right;
+	width: 30%;
+	/*border: dashed 1px gray;*/
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 20px;
+}
+
+#content h1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	border-bottom: dashed 1px gray;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 60%;
+}
+
+#rightColumn h1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	border-bottom: dashed 1px gray;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#content h2, #rightColumn h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	/*background-color: #f4e295;*/
+	padding: 3px;
+}
+
+#content h3, #rightColumn h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	/*background-color: #f4e295;*/
+	padding: 3px;
+}
+
+
+#content p, #rightColumn p {
+	text-indent: 25px;
+}
+
+#content .book:first-letter, #rightColumn .book:first-letter {
+	float:left;
+	font-size: 50px;
+	color: black;
+}
+
+#content img, #rightColumn img {
+	float: left;
+	border: dashed 1px #709f30;
+	margin: 5px;
+	/*padding: 3px;*/
+}
+
+#content th, #rightColumn th {
+	font-size: 12px;
+	font-style: italic;
+	text-align: left;
+}
+
+
+#content tr.green td, #rightColumn tr.green td {
+	/*background-color: #709f30;*/
+	background-color: #8fa44d;
+	border-top: dashed 1px gray;
+}
+
+#content tr.creme td, #rightColumn tr.creme td {
+	background-color: #f4e295;
+	border-top: dashed 1px gray;
+}
+
+#content ul, #rightColumn ul {
+	list-style-image: url('images/arrow1.gif');
+	/*list-style-image: url('images/arrow2.gif'); the lighter green */
+}
+
+#content ol, #rightColumn ol {
+	
+}

@@ -1,0 +1,116 @@
+/* ------------------------------ */
+/* --- Written by Ray Gerrard --- */
+/* ------------------------------ */
+
+body{
+	font: 11px/22px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-image: url("images/background.gif");
+	padding: 1em;
+	text-align: center;
+}
+a{
+	color: #6699FF;
+}
+a:hover{
+	color: #3366CC;
+}
+#container{
+	width: 680px;
+	text-align: left;
+	padding: 0;
+	margin: 0 auto;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#nav a{
+	float: left;
+	width: 120px;
+	height: 30px;
+	background-image: url("images/tab.gif");
+	padding: auto;
+	margin: 0 1px 0 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+}
+#main{
+	float: left;
+}
+#main img{
+	border: 1px solid #333;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#news{
+	width: 220px;
+	height: 202px;
+	padding: 0;
+	margin: 0 0 0 -1px;
+	background-color: #f3f3f3;
+	border: 1px solid #333;
+	float: left;
+}
+#news p{
+	float: left;
+	padding: 0 0 0 1em;
+	margin: 0;
+}
+#content{
+	width: 671px;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	border: 1px solid #333;
+	border-top: 0;
+	background-color: #fcfcfc;
+}
+#content h2{
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	background-color: #cccccc;
+	font: 12px/24px Verdana, Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	text-indent: 1em;
+}
+#content p{
+	font-size: 11px/22px;
+	margin: 0;
+	padding: 0.5em 1em 0.5em 1em;
+	letter-spacing: 1px;
+}
+#content ul{
+	list-style-image: url("images/bullet.gif");
+	margin: 0;
+	padding: 0.5em 0.5em 0.5em 4em ;
+}
+#footer{
+	width: 671px;
+	clear: both;
+	background-color: #f3f3f3;
+	border: 1px solid #333333;
+	margin: -1px 0 0 0;
+	padding: 0;
+}
+#footer p{
+	margin: 0.5em;
+	padding: 0;
+	text-align: center;
+}
+#content blockquote{
+	background-color: #f3f3f3;
+	border-left: 3px solid #cccccc;
+	padding: 1em;
+	margin: 1em;
+}
+#content blockquote p{
+	margin: 0;
+	padding: 0;
+}

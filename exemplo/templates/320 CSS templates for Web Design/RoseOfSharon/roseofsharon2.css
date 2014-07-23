@@ -1,0 +1,320 @@
+/*
+    roseofsharon.css -- CSS for raZor's Rose of Sharon
+*/
+
+/*
+	COLOR KEY:
+	
+	dark - baseline/background: #8c464e - dark lavender
+	medium - content/left pane: #e08ba0 - dark barbie pink
+	light - foreground: #f9dfde - very light pink
+
+
+*/
+
+body {
+    font-family: Georgia, Verdana, Helvetica, Sans-serif;
+	font-size: 11pt;
+	margin: 0em;
+	padding: 15px;
+	background: white;
+	/*border: solid 1px black;*/
+}
+
+/* container styles */
+#container {
+    background: gray;
+    padding: 15px;
+	/*border: solid 1px black;*/
+	/*min-height: 1024px;*/
+}
+
+/* header styles */
+
+#header {
+    background: #e08ba0; /* medium */
+	height: 50px;
+    border: solid 1px black;
+}
+
+#header div {
+    display: block;
+}
+
+#logo {
+	/*display: inline;*/
+	/*background: #777 url('images/rose_logo.jpg') repeat top left;*/
+	border-top: solid 1px gray;
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	background: #f9dfde; /* light */
+	float: left;
+	height: 30px;
+	font-size: 1.2em;
+	font-weight: bold;
+    text-align: center;
+    width: 250px;
+	margin-top: 9px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+#logo img {
+    vertical-align: top;
+}
+
+#tabs {
+	float: right;
+    text-align: right;
+	background: #f9dfde; /* light */
+	margin-top: 29px;
+	height: 20px;
+	margin-right: 20px;
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	border-top: solid 1px gray;
+}
+
+#tabs ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#tabs li {
+    display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#tabs li a#current {
+	text-decoration: none;
+	color: gray;
+}
+
+#tabs li a {
+	text-decoration: none;
+	color: black;
+}
+
+#tabs li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+
+/* main styles */
+
+#main {
+    padding: 5px;
+    background: #8c464e; /* dark */
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+/* left side styles */
+
+#left {
+	float: left;
+	width: 200px;
+	background: #e08ba0; /* medium */
+	padding: 5px;
+}
+
+/* content styles */
+
+#content {
+	margin-left: 215px;
+	background: #e08ba0; /* medium */
+	padding: 5px;
+	/*vertical-align: bottom;*/
+}
+
+#content h4 {
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
+	font-size: 1em;
+}
+
+#content h2 {
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
+	font-size: 1.1em;
+}
+
+#content h1 {
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
+	font-size: 1em;
+	width: 99%;
+	background: #8c464e; /* dark */
+}
+
+#content p {
+	text-indent: 1.5em;
+}
+
+#content p.book {
+	text-indent: 1em;
+}
+
+#content p.book:first-letter {
+	float: left;
+	font-size: 1.5em;
+}
+
+/* form / input styles */
+
+input {
+	background: #ddd; /* light */
+}
+
+/* table styles */
+
+table.rose {
+}
+
+table.rose caption {
+	font-size: 0.7em;
+}
+
+table.rose tr.rowA {
+	background: #e08ba0; /* medium */
+}
+
+table.rose tr.rowB {
+}
+
+td.fiftypercent {
+	width: 50%;
+}
+
+/* large links - taken from softened Cells by (snop?) fullahead.org */
+
+ul.links {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.links li {
+  float: left;
+  list-style-type: none;
+  list-style: none;
+}
+
+ul.links li a {
+  float: left;
+  width: 195px;
+  padding-top: 5px;
+  margin: 0px;  
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul.links li a:hover {
+  background: #f9dfde url(images/link_top.jpg) no-repeat top center;
+}
+
+ul.links li a span.title {
+  display: block;
+  margin-left: 11px;
+  text-indent: 20px;  
+  background: url(images/link_arrow.gif) no-repeat center left;
+  color: black;
+}
+
+
+ul.links li a span.desc {
+  float: left;
+  width: 175px;
+  padding-right: 3px;
+  margin-left: 10px;
+  color: #666;
+}
+
+
+
+ul.links li a span.bottom {
+  display: block;
+  height: 18px;
+  clear: both;
+}
+
+
+ul.links li a:hover span.bottom {
+  background: #e08ba0 url(images/link_bottom.jpg) no-repeat top center;
+}
+
+/* box styles */
+
+.box { /* full-width box */
+	background: #f9dfde; /* light */
+	margin-bottom: 0.5em;
+	padding-bottom: 0.1em;
+	width: 95%; /* 100% makes IE wrap funny */
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.box50 { /* half-width box */
+	background: #f9dfde; /* light */
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	width: 49%;
+	padding-left: 5px;
+	padding-right: 5px;
+	/*
+	float: left;
+	margin-left: 3%;
+	margin-right: 3%;
+	*/
+	/*display: inline;*/
+}
+
+
+.box h3, .box50 h3 {
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+	font-size: 0.8em;
+	font-variant: small-caps;
+	background: #8c464e; /* dark */
+}
+
+.box a, .box50 a {
+	display: block;
+	color: black;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+.box a:hover, .box50 a:hover {
+	background: #8c464e; /* dark */
+}
+
+.box img.left {
+	float: left;
+	margin: 2px;
+	border: dashed 1px #8c464e; /* dark */
+}
+
+.box img.right {
+	float: right;
+	margin: 2px;
+	border: dashed 1px #8c464e; /* dark */
+}
+
+/* Copyright & validation links styles */
+
+span.smallGray {
+	color: #777;
+	font-size: 0.7em;
+}
+
+span.smallGray a {
+	color: #777;
+}

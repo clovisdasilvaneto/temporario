@@ -1,0 +1,31 @@
+#sondaggio{
+	width:100%;
+	margin-bottom: 30px;
+	height:100px;
+	padding:0.2em;
+}
+
+#sondaggio .table_result{
+	font: 12pt Tahoma, Verdana;
+	margin: auto;
+	text-align:center;
+}
+
+#sondaggio .table_result td{
+	width: 100px;
+}
+	
+
+#sondaggio .text{
+	margin: auto;
+	text-align:center;
+}
+
+#sondaggio .vote{
+	background:transparent;
+	margin: auto;
+	text-align: center;
+	height:100%;
+	width: 80%;
+	border: 1px solid black;
+}

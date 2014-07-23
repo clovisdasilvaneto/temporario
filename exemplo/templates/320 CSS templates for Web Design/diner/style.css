@@ -1,0 +1,82 @@
+body{
+background:url(bg.gif);
+margin:0;
+font: 10pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif; 
+}
+
+A:link{ color:#62395A; text-decoration:none; }
+A:hover{ color:#333333; text-decoration:underline; }
+A:active{ color:#62395A; text-decoration:none; }
+A:active:hover{ color:#333333; text-decoration:underline; }
+A:visited{ color:#62395A; text-decoration:none; }
+A:visited:hover{ color:#333333; text-decoration:underline; }
+
+#header{
+background:url(headerbg.gif) no-repeat #F4DDB1 top left;
+width:548px;
+height:369px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0;
+}
+
+#wrap{
+width:548px;
+margin-left:auto;
+margin-right:auto;
+background:#FFFFFF;
+border:#FFFAC1 2px solid;
+}
+
+#container{
+width:548px;
+}
+
+#navcontainer{
+background:#62395A;
+}
+
+ #navlist li{
+background:transparent;
+display:inline;
+list-style-type: none;
+text-align:center;
+padding: 12px;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:14px;
+color:#666666;
+}
+
+#navlist li a:link { color: #F2F2F2; text-decoration:none; }
+#navlist li a:visited { color: #CCCCCC; text-decoration:none; }
+#navlist li a:hover {color: #999999; text-decoration:none; }
+
+h3{
+font-size:18px;
+font-weight:bold;
+color:#244164;
+}
+
+.content{
+padding:21px;
+text-align:justify;
+font: 9pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+}
+
+#footer{
+background:#FFFAC1;
+padding:9px;
+text-align:center;
+font: 8pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#333333;
+}
+
+#title{
+background:#FFFAC1;
+text-align:right;
+padding:9px;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:18px;
+font-weight:bold;
+color:#666666;
+}

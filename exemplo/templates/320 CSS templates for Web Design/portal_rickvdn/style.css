@@ -1,0 +1,168 @@
+a:link {
+	color: #FFA54F;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:visited{
+	color:#FFA54F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFA54F;
+	border-bottom: 1px dotted #D2B48C;
+}
+
+#container{
+margin: 20px auto 0px auto;
+padding: 0;
+width: 750px;
+font-size:14px;
+font-weight: normal; 
+}
+
+#top{
+background-color: #FFFFFF;
+font-size:20px;
+font-weight: bold; 
+color: #8B7D6B;
+padding: 25px 10px 0px 0px;
+}
+
+#main{
+width: 550px;
+background-color: #FFFFFF;
+font-size:20px;
+font-weight: bold; 
+color: #8B7D6B;
+margin: 10px auto 10px 0px;
+}
+
+.categorie1{
+float: left;
+font-family: Batang, Tahoma;
+font-size:17px;
+font-weight: bold;
+width: 145px;
+background-color: #FFFFFF;
+color: #FFFFFF;
+margin: 10px 10px 10px 10px;
+border-left: 1px dotted #0AFF00;
+border-right: 1px dotted #0AFF00;
+border-bottom: 1px dotted #0AFF00;
+}
+	.categorie1 h3{
+	width: 130px;
+	background-color: #0AFF00;
+	color: #FFFFFF;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 0px 0px;
+	}
+	.categorie1 h3:hover{
+	width: 130px;
+	background-color: #C4FF6D;
+	color: #000000;
+	padding: 0px 0px 0px 15px;
+	}
+	.categorie1 li{
+	font-family: Batang, Tahoma;
+	font-size: 12px;
+	list-style-image: url('arrow.jpg')
+	}
+	.categorie1 li:hover{
+	font-family: Batang, Tahoma;
+	font-size: 12px;
+	list-style-image: url('arrow3.jpg')
+	}
+
+.categorie2{
+float: left;
+font-family: Batang, Tahoma;
+font-size:17px;
+font-weight: bold;
+width: 145px;
+background-color: #FFFFFF;
+color: #FFFFFF;
+margin: 10px 10px 10px 10px;
+border-left: 1px dotted #00BFFF;
+border-right: 1px dotted #00BFFF;
+border-bottom: 1px dotted #00BFFF;
+}
+	.categorie2 h3{
+	width: 130px;
+	background-color: #00BFFF;
+	color: #FFFFFF;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 0px 0px;
+	}
+	.categorie2 h3:hover{
+	width: 130px;
+	background-color: #87CEFF;
+	color: #000000;
+	padding: 0px 0px 0px 15px;
+	}
+	.categorie2 li{
+	font-family: Batang, Tahoma;
+	font-size: 12px;
+	list-style-image: url('arrow2.jpg')
+	}
+	.categorie2 li:hover{
+	font-family: Batang, Tahoma;
+	font-size: 12px;
+	list-style-image: url('arrow.jpg')
+	}
+
+.categorie3{
+float: left;
+font-family: Batang, Tahoma;
+font-size:17px;
+font-weight: bold;
+width: 145px;
+background-color: #FFFFFF;
+color: #FFFFFF;
+margin: 10px 10px 10px 10px;
+border-left: 1px dotted #EEC591;
+border-right: 1px dotted #EEC591;
+border-bottom: 1px dotted #EEC591;
+}
+	.categorie3 h3{
+	width: 130px;
+	background-color: #EE9A49;
+	color: #FFFFFF;
+	padding: 0px 0px 0px 15px;
+	margin: 0px 0px 0px 0px;
+	}
+	.categorie3 h3:hover{
+	width: 130px;
+	background-color: #FFA54F;
+	color: #000000;
+	padding: 0px 0px 0px 15px;
+	}
+	.categorie3 li{
+	font-family: Batang, Tahoma;
+	font-size: 12px;
+	list-style-image: url('arrow3_hover.jpg')
+	}
+	.categorie3 li:hover{
+	font-family: Batang, Tahoma;
+	font-size: 12px;
+	list-style-image: url('arrow.jpg')
+	}
+
+#footer{
+font-family: Batang, Tahoma;
+width: 320px;
+font-size: 10px;
+font-weight: normal; 
+clear: both;
+padding: 10px 10px 10px 180px;
+} 
+	#footer:hover{
+	font-family: Batang, Tahoma;
+	width: 318px;
+	font-size: 10px;
+	font-weight: normal; 
+	clear: both;
+	padding: 10px 10px 10px 180px;
+	} 

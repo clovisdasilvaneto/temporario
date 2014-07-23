@@ -1,0 +1,211 @@
+/**
+*
+* file: css.css
+* date: 16 Feb 2006
+* author: tetsucceed
+* feedback go to: tetsucceed [at] gmail [dot] com
+*
+* Enjoy!
+*
+*******************/  
+
+
+body {
+  font-family: "Serif", sans-serif;
+  font-size: 14px;
+  background: #000 url(./img/img_134.gif) repeat;
+  color: #000;
+}
+
+a {
+  color: #e8669d;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+h1,h2,h3 {
+  color: #e8669d;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+#global {
+  width: 700px;
+  height: 100%;
+  background-color: #fff;
+  text-align: justify;
+  border-top: 3px solid #e8669d;
+  border-bottom: 3px solid #e8669d;
+}
+
+#header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #fff url(./img/bg.jpg) repeat-x bottom;
+  border-bottom: 3px solid #fcee00;
+}
+
+#header ul {
+  padding-left: 20px;
+}
+
+#header li {
+  float: left;
+  padding: 5px 5px 5px 5px;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#header a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 2px solid #999;
+  display: block;
+}
+
+#header a:hover {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 2px solid #444;
+}
+
+#header a.current {
+  color: #444;
+  border-bottom: 2px solid #444;
+}
+  
+#header .lefttext {
+  margin-top: 20px;
+  padding: 20px 40px 20px 40px;
+}
+
+#header .lefttext em {
+  color: #e8669d;
+}
+
+#content {
+  padding: 10px 5px 10px 15px;
+  color: #444;
+}
+
+#content .leftone {
+  width: 200px;
+  float: left;
+  border-bottom: 4px solid #ffb239;
+  padding: 5px 0 5px 0;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+#content .leftone ul {
+  background-color: #fafafa;
+  color: #fff;
+  padding-top: 5px;
+}
+
+#content .right {
+  border: 4px solid #f1f1f1;
+  background-color: #ffffef;
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 20px;
+  margin-left: 235px;
+  margin-right: 10px;
+}
+
+#content li {
+  list-style: none;
+  padding-left: 15px;
+}
+
+#content li:hover {
+  background-color: #f1f1f1;
+  color: #fff;
+}
+
+#content .leftone h3 {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+  background: #fff url(./img/bt.jpg) repeat-x;
+}
+
+#content .right h2 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 5px;
+}
+
+#content .right p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#bottom {
+  clear: both;
+  margin: 10px 5px 10px 5px;
+  border-top: 3px solid #cccfff;
+}
+
+#bottom .bleft {
+  width: 200px;
+  float: left;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+  border-right: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+}
+
+#bottom .bleft:hover {
+  background-color: #eeeeff;
+}
+
+#footer {
+  width: 700px;
+  color: #aaa;
+  text-align: right;
+  padding: 5px 5px 5px 5px;
+}
+
+#footer a {
+  color: #ccc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.divend1 {
+  clear: both;
+  height: 3px;
+}
+
+.uptext {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #888;
+  padding: 10px 0px 10px 0px;
+}
+
+/* misc */
+#bigtext {
+  font-size: 34px;
+  color: #ddd;
+  background-color: transparent;
+  display: block;
+  text-transform: uppercase;
+  position: absolute;
+}

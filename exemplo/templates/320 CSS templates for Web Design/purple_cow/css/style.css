@@ -1,0 +1,135 @@
+#page
+{
+cursor: url("purple.cur") !important;
+background: url(img/bg.gif) no-repeat bottom left;
+
+}
+
+#body
+{
+	cursor: crosshair;
+	width: 70%;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	
+	left: 15%;
+	position: relative;
+	right: 15%;
+}
+#header 
+{
+	width: 780px;
+	height: 200px;
+	background: url(img/header.gif) no-repeat top;
+}
+
+#logo 
+{
+	margin-left: 40px;
+	margin-top: -120px;
+	width: 190px;
+	font-family:	Trebuchet MS, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+#hmenu
+{
+	margin-left: 630px;
+	width: 92px;
+	margin-top: -70px;
+
+}
+
+#content
+{
+	margin-top: 20px;
+}
+
+.toplinks,.toplinks a
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 9px;
+}
+.toplinks a:hover
+{
+	color: #666;
+	text-align: center;
+	padding-top: 9px;
+}
+.menuitem
+{
+	color: #666;
+	height: 20px;
+	width: 144px;
+	text-align: center;
+	padding-top: 7px;
+}
+.menuitem a:hover
+{
+	color: #333;
+	height: 20px;
+	width: 144px;
+}
+a
+{
+text-decoration: underline;
+color: #993399;
+}
+	
+a:hover
+{
+background: url(img/menubg.gif);
+cursor: default;
+}
+.contenttitle
+{
+margin-right: 8px;
+padding-right: 15px;
+padding-top: 23px;
+text-align: right;
+font-size: 20px;
+font-family: Trebuchet MS;
+color: #999999;
+font-variant: small-caps;
+background: url(img/titlebg.gif) no-repeat right;
+height: 54px;
+}
+.contenttitle a
+{
+color: #999999;
+}
+.contenttitle a:hover
+{
+color: #993399;
+}
+
+.node
+{
+	width: 740px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	border-bottom: thin dotted #993399;
+}
+
+.inline
+{
+	display: inline;
+	padding: 5px;
+	float: right;
+}
+.align
+	{
+	border: none;
+	}
+	
+.footer
+{
+text-align: center;
+}
+.footer a
+{
+text-decoration: none !important;
+}

@@ -1,0 +1,463 @@
+
+
+/*
+^ foncé
+Bleu 1 : 313f83
+Bleu 2 : 374691
+Bleu 3 : 3c4c9e
+Bleu 4 : 828fdb
+Bleu 5 : 8894dd
+Bleu 6 : a5aee4
+Bleu 7 : adb7e8
+^ clair
+*/
+
+
+
+/* Page de base */
+
+body {
+	margin: 0; /* pour ?iter les marges */
+	text-align: justify;
+	background-color: #c4c7fd;
+        background-image: url("penrose_1_coin_1.jpeg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+    font-family: serif;
+    font-size: 0.8em;
+}
+
+#page {
+	/*font-size:0.8em;*/
+}
+
+h1 { 
+	font-variant: small-caps;
+	font-family: sans-serif;
+	font-weight: bold;
+
+	text-align:center;
+    font-size: large;
+	margin:0px;
+	padding:0px;
+
+	color:#313f83;
+}
+
+h2 {
+        text-align:left;
+	font-size: 1.3em;
+	font-family: sans-serif;
+	font-weight:bold;
+	color:#374691;
+}
+
+h3 {
+    font-size:medium;
+    margin-bottom:0px;
+}
+
+a {
+	color: #4c5cae;
+}
+
+a:hover {
+	color: #5c6cbe;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+}
+
+/* Parties */
+
+#enteteDePage {
+	font-size:small;
+	text-align:right;
+	/*margin: 5px 0px 5px 0px ;*/
+    margin:0px;
+	padding-bottom: 1px;
+	padding-left:2px;
+/*
+	border-top: solid 1px #556fbb;
+    */
+	border-bottom: solid thin black;
+
+/*    background-color:#9cc4ff;*/
+    background-color:#313f83;
+
+    height:100px;
+	background-image: url("penrose_1_bandeau_2.jpeg");
+	background-repeat: no-repeat;
+	background-position: left top;
+
+    color:#eee;
+}
+
+
+#enteteDePage a {
+    color:#a5aee4;
+    /*color:white;*/
+}
+
+#enteteDePage a:hover {
+    color:#adb7e8;
+}
+
+
+#titreSite{
+	float:left;
+	text-align:left;
+}
+
+#titreSiteMain {
+	text-align:left;
+	font-weight:bold;
+	font-style:italic;
+	font-variant: small-caps;
+	font-size:x-large;
+}
+
+#titreSiteSous {
+	text-align:right;
+	font-style:italic;
+}
+
+#piedDePage {
+	font-size:small;
+	clear: both;
+	text-align:right;
+	margin: 5px 0px 5px 0px ;
+	padding-right:2px;
+/*
+	border-top: solid 1px #99F;
+	border-bottom: solid 1px #99F;
+	background-color:white;
+    */
+}
+
+
+#colonneGaucheMiseEnPage2Colonnes {
+    font-size:0.9em;
+	float:right;
+  	width: 20%;
+    margin-left:0px;
+    text-align:left;
+/*
+	border-style:solid;
+	border-width:thin;
+	border-color:#f8e18f;
+    background-color:#fffacd
+*/
+}
+
+#colonneGaucheMiseEnPage2Colonnes h1 {
+    font-size:small;
+}
+
+
+#colonneGaucheMiseEnPage2Colonnes ul {
+    margin-left:0px;
+    padding-left:20px;
+}
+
+#colonneGaucheMiseEnPage2Colonnes .cadre {
+    margin:0px;
+    margin-top:5px;
+    /*padding-left:10%;*/
+    border-bottom:solid thin #ddd;
+}
+
+
+#colonneCentraleMiseEnPage2Colonnes {
+	float:left;
+    width:73%;
+/*    width:68%;*/
+	padding:10px;
+	margin:10px;
+    margin-right:0px;
+    margin-left:5px;
+
+	border-style:solid;
+	border-width:1px;
+
+	border-color:#AAA;
+    border-color:black;
+
+	background-color:white;
+
+    position:relative;
+    bottom:25px;
+    /*-moz-border-radius:15px;*/
+}
+
+
+#colonneCentraleMiseEnPage2Colonnes h2 {
+    margin-bottom:0em;
+}
+
+#colonneCentraleMiseEnPage2Colonnes p {
+    margin-top:0.5em;
+}
+
+
+/* Cadres */
+
+.cadreBasGauche {
+    margin-bottom:40px;
+}
+
+.cadre {
+	/*padding:10px;*/
+	border-style:none;
+	border-width:thin;
+	border-color:#222;
+/*
+	margin:5px;
+    */
+	margin-bottom:10px;
+
+	border-color:#AAA;
+    background-color:none;
+}
+
+.cadre h1 {
+	text-align:left;
+	margin:0px;
+	position:relative;
+	top:0pt;
+}
+
+
+.raccourcis {
+
+	padding-left:0px;
+	padding-top:20px;
+	padding-bottom:0px;
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+
+#raccourcis1 {
+	background-image: url("bookmark.png");
+}
+
+#raccourcis2 {
+	background-image: url("attach.png");
+}
+
+#raccourcis3 {
+	background-image: url("colorpicker.png");
+}
+
+#raccourcis4 {
+	background-image: url("exec.png");
+}
+
+#resume {
+	/*margin-bottom:20px;*/
+    margin:0px;
+    padding:0px;
+    margin-top:2.5em;
+    /*float:right;*/
+}
+
+#resume  a{
+/*	font-weight:bold;*/
+}
+
+#resume h1 {
+    display:none;
+}
+
+#resume span {
+}
+
+
+
+.cadre ul {}
+.cadre ul li {}
+.cadre a {}
+
+#sommaire {
+}
+
+#sommaire h1 {	
+}
+
+#sommaire a {	
+}
+
+#sommaire ul {
+    /*padding-left:20%;*/
+}
+
+#rechercher {
+}
+
+#labelRechercher {
+}
+
+#articlesPopulaires {
+}
+
+#articlesPopulaires h1 {
+}
+
+#articlesPopulaires a {	
+}
+
+
+#derniersArticles {
+	padding:10px;
+	border-style:none;
+
+	margin:5px;
+	margin-bottom:10px;
+
+	border-color:#AAA;
+    background-color:none;
+
+}
+
+#derniersArticles h2{
+}
+
+#derniersArticles h1 {
+}
+
+#articlesHasard {
+}
+
+#articlesHasard h1 {
+}
+
+#articlesHasard a {
+}
+
+#breves {
+}
+
+#breves h1 {
+}
+
+#breves a {
+}
+
+#derniersMessages    {
+}
+
+
+#derniersMessages h1 {
+}
+
+#derniersMessages a {
+}
+
+
+#syndication {
+}
+
+#syndication h1 {
+}
+
+#syndication a {
+}
+
+#liens  {
+}
+
+#liens h1 {
+}
+
+#liens a {
+}
+
+#rubriques h1 {
+    border-top:solid thin #ddd;
+    border-bottom:solid thin #ddd;
+    margin-top:50px;
+    padding-bottom:5px;
+}
+
+#pageRecherche {
+	float:left;
+    width:95%;
+/*    width:68%;*/
+	padding:10px;
+	margin:10px;
+    margin-right:0px;
+    margin-left:5px;
+
+	border-style:solid;
+	border-width:1px;
+
+	border-color:#AAA;
+    border-color:black;
+
+	background-color:white;
+
+    position:relative;
+    bottom:25px;
+}
+
+/* Divers */
+
+.formrecherche {
+/*	margin-top:20px;*/
+	padding:2px;
+	width:90%;
+/*-moz-border-radius: 10px;*/
+    border:solid thin;
+    border-color:#999 #ccc #ccc #999 ;
+
+}
+.recent {
+	font-size:0.6em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-align:left;
+	font-weight:normal;
+}
+
+.surtitre {
+	font-weight:normal;
+	font-style:italic;
+      	font-size: 10pt;
+}
+
+.chapeau {
+	font-weight:bold;
+	margin-bottom:50px;
+}
+
+
+
+table.spip {
+}
+
+table.spip tr.row_first {
+	background-color: #FCF4D0;
+}
+
+table.spip tr.row_odd {
+	background-color: #C0C0C0;
+}
+
+table.spip tr.row_even {
+	background-color: #F0F0F0;
+}
+
+table.spip td {
+	padding: 1px;
+	text-align: left;
+	vertical-align: center;
+}
+
+.spip_code {
+    color:#556f88;
+}
+
+.spacer {
+	font-size:0em;
+	clear: both;
+}

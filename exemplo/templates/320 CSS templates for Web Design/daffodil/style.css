@@ -1,0 +1,65 @@
+body {
+	font-family: "Bitstream Vera Sans",Verdana,Arial,Helvetica,Sans,"Bitstream Vera Serif";
+	font-size: 1em;
+	width: 800px;
+	color: #feffb7;
+	background: #000000 url(daffodil.jpg) no-repeat scroll top left;
+}
+
+a {
+	color: #eeff00;
+	text-decoration: none;
+}
+a:hover {
+	color: #003600;
+}
+
+#contain {
+	position: relative;
+	top: 25px;
+	left: 460px;
+	width: 340px; /* change this total width for wider resolutions */
+}
+
+.title {
+	height: 120px;
+	font: italic 6em "Times New Roman", Times, serif;
+	color: #ffff00;
+}
+
+.menu {
+	height: 40px;
+}
+
+.bouquet {
+	position: relative;
+	top: 6px;
+	left: -34px;
+}
+.bouquet img {
+	float: left;
+	clear: left;
+	margin-right: 1em;
+}
+/* \*/
+* html .hollyhack {height: 1%; margin-top: -8px; margin-left: -2px;} /* hack found on positioniseverything.net */
+/* */
+
+.filler {
+	clear: left;
+	float: left;
+	width: 2em;
+	height: 150px; /* make this a height that will be long enough for the rest of the content */
+}
+
+.footer {
+	clear: both;
+	position: relative;
+	top: 0;
+	left: -1em;
+	margin-right: 1em;
+	padding-top: 3px;
+	border-top: 1px solid #cbcd65;
+	font-size: .75em;
+	text-align: right;
+}

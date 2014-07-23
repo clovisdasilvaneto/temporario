@@ -1,0 +1,162 @@
+* {
+   padding:0;
+   margin:0;
+}
+
+html,body {height: 100%;}
+
+body {
+background : url(images/body_bg.jpg);
+	margin			: 0;
+	padding			: 0;
+	text-align		: center;
+font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:100%;
+}
+
+#wrap {
+	width:650px;
+	background:transparent;
+margin:0 auto;
+}
+
+#container {
+	width:400px;
+	float:right;
+}
+
+/*this controls the top bar*/
+#top {
+	background : url(images/top_bg.jpg) no-repeat;
+	width:400px;
+	height:150px;
+	text-align:right;
+}
+
+h1 {
+	padding:100px 20px 0 0;
+	font-size:150%;
+	font-weight:normal;
+color:#fff;
+}
+
+/* this is all the content */
+#content_one {
+background:#fff;
+margin-top:5px;
+padding:1px 0 1px 0;
+width:400px;
+font-size:80%;
+}
+
+#content_one p{
+background:#f9daa9;
+	text-align:left;
+	margin:10px;
+	padding:5px;
+	border:1px solid #6E5010;
+}
+
+#content_two {
+background:#fff;
+margin-top:5px;
+padding:1px 0 1px 0;
+width:400px;
+font-size:80%;
+}
+
+#content_two p{
+background:#f9daa9;
+	text-align:left;
+	margin:10px;
+	padding:5px;
+	border:1px solid #6E5010;
+}
+
+/* this is the navigation stuff */
+#sidebar {
+	float:left;
+	width:200px;
+	background:#fff;
+	margin-top:200px;
+	height:300px;
+	text-align:left;
+}
+
+#navcontainer { 
+width: 180px;
+margin:10px;
+background:#294729;
+border:1px solid #478347;
+}
+
+#navcontainer ul
+{
+margin-left: 0;
+margin-top:50px;
+padding-left: 0;
+list-style-type: none;
+font-family: Arial, Helvetica, sans-serif;
+background:#bfddbf;
+}
+
+#navcontainer a
+{
+display: block;
+padding: 10px 3px 3px 3px;
+width: 174px;
+height:30px;
+text-align:center;
+border-top:3px solid #fff;
+}
+
+#navcontainer a:link, #navlist a:visited
+{
+color: #6E5010;
+text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+background-color: #f9daa9;
+color: #000;
+}
+
+/*footer*/
+#footer {
+background:#fff;
+margin-top:5px;
+margin-bottom:20px;
+padding:1px 0 1px 0;
+width:400px;
+font-size:80%;
+}
+
+
+#footer p {
+	background:#bfddbf;
+	margin:10px;
+	padding:3px;
+border:1px solid #478347;
+}
+
+/* this is my link, please leave if poss */
+span.design {
+	font-size:80%;
+	color:#9a9a9a;
+}
+
+a.design {
+	text-decoration:none;
+	color:#9a9a9a;
+}
+
+a.design:hover {
+	color:#000;
+}
+
+a.midtext {
+text-decoration : none;
+color:#126C12;
+font-weight:bold;
+}

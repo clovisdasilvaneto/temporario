@@ -1,0 +1,10 @@
+body {font-family: Trebuchet MS, sans-serif}
+#header a {
+	text-decoration: none; color: black;
+	font-size: 30pt
+	margin-bottom: 2px;
+	border-bottom: 2px solid black;
+	display: block;
+}
+h3 {padding: 0}
+#navigation,#footer {display: none}

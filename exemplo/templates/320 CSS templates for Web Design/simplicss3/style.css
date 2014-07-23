@@ -1,0 +1,52 @@
+/*
+Theme Name: sgreen
+Theme URI: http://myhedspace.com/
+Description: SimpliCss3
+Version: 1
+Author: Jose Erlino M. Lontok
+*/
+body {margin: 0px auto; background-color: #336666;}
+#header{width: 494px; height:230px; display:table;}
+#headerimg {width: 494px; height:230px; background-image:url(images/header.jpg); background-repeat:no-repeat;}
+#headerimg h1 {margin:0; font-size: 13px; font-family: Arial, Verdana, sans-serif; color: #336666; padding-left:15px;padding-top:2px; letter-spacing: 3px;}
+#page{width: 494px; display:table; background-image:url(images/pagebg.jpg);}
+#content{float: left; width: 295px; margin-left: 16px; padding: 10px 6px 0px 0px; display:inline; overflow:auto}
+#content h1{font-size: 15px; font-family:Georgia, "Times New Roman", Times, serif; color: #336666;}
+#content h1 a {color: #336666; text-decoration:none;}
+#content h2{font-size: 14px; font-family:Georgia, "Times New Roman", Times, serif; color: #663333;}
+small{font-size: 10px; font-family:Georgia, "Times New Roman", Times, serif; color: #663333; margin-top: 0px;}
+#content p{font-size: 11px; font-family:Arial, Helvetica, sans-serif; color: #666666; line-height:12px;}
+#content p a{color: #336666; text-decoration:none;}
+#content p a:hover {color:#663333; font-weight:bold; text-decoration:none;}
+#content  .post_info {font-size: 11px; font-family:Arial, Helvetica, sans-serif; color: #666666; margin-bottom: 10px;}
+#content  .post img{border: 0}
+#content  .post_info a { color: #336666; text-decoration:none;}
+#content  .post_info a:hover {color:#663333; font-weight:bold;text-decoration:none;}
+#content ul li{font-size: 11px; font-family:Arial, Helvetica, sans-serif; color: #666666; text-align:justify; list-style-type:square}
+#content ul li a{font-size: 11px; color:#663333; text-decoration:none;}
+#content .portfolio_item {clear:both; }
+#content img {margin-right: 3px; border: 1px solid #336666; padding: 4px; float: left;}
+.post {line-height: 1em; /*border-bottom: 1px #ccc solid;*/}
+.cont_col {width: 295px; margin-top: 10px;}
+.cont_col p{text-align:left; text-indent:0px;}
+.col_left {float:left; width:130px;}
+.col_right {width: 130px; margin-left: 150px;}
+hr {width: 192px; height: 25px; background-image:url(images/hr.gif); border: 0; clear:both;} /*doesn't seem to work in ie opted for div.hr instead*/
+.hr {width: 192px; height: 25px; background-image:url(images/hr.gif); margin: 0 auto; clear:both; }
+
+#sidebar {margin-left:340px; padding-top: 10px; line-height: 12px; height:100%;}
+.sidebar_item{margin-top: 10px; display:inline;}
+strong {font-size: 12px; color: #663333; font-family:Georgia, "Times New Roman", Times, serif;}
+.sidebar_item ul {width: 100px; list-style-type: none; border-top: 1px #999999 solid; border-bottom: 1px #999999 solid; margin-left: 0px; padding:5px 0px 5px 0px;}
+.sidebar_item ul li {font-size: 11px; color: #999999; font-family:Arial, Helvetica, sans-serif; width:100%; font-weight:bolder;}
+.sidebar_item ul li a {display: block; color: #999999; text-decoration: none; width:100%}
+.sidebar_item ul li a:hover {display: block; color:#CCCCCC; text-decoration: none; background-color:#999999; text-align:right;}
+.sidebar_item p {width: 100px; border-top: 1px #999999 solid; border-bottom: 1px #999999 solid; margin-left: 0px; padding:5px 0px 5px 0px; font-size: 11px; color: #999999; font-family:Arial, Helvetica, sans-serif; font-weight:bolder;}
+
+#footer {width: 494px; background-image:url(images/footer.jpg); background-repeat:no-repeat; padding: 20px 0px 10px 5px; height: 100%;}
+#footer p {font-size:10px; font-family:Georgia, "Times New Roman", Times, serif; color: #FFFFFF;}
+#footer p a {color: #FFFFFF; text-decoration:none; font-weight:bold;}
+/*for wordpress comments*/
+#comment{width:250px; padding-left:4px;}
+#commentlist{width:250px; list-style-type:none;margin-left: 0px;padding-left: 0px;}
+/*for wordpress comments*/

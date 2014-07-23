@@ -1,0 +1,214 @@
+/*	GENERAL STYLES			*/
+body {
+margin: 0;
+padding: 0 0 0 20px;
+background-color: #FFF;
+color: #000;
+font-family: Verdana, Arial, Tahoma, Helvetica, Geneva, sans-serif;
+font-size: 76%;
+background-image: url(man_on_world.gif);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 262px 50px;
+}
+
+p, address, ul, li, ol, div, form, h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0;}
+img {border: 0;}
+
+address {
+color: #000;
+font-style: normal;
+font-size: 0.9em;
+line-height: 150%;
+}
+address a {color: #000; text-decoration: none;}
+
+
+#container {
+width: 700px;
+float: left;
+}
+
+#header {
+width: 500px;
+height: 150px;
+}
+#header h1 {
+color: #7788AB;
+padding-top: 10px;
+font-size: 4em;
+font-family: "Brush Script MT", "Bradley Hand ITC", "Apple Cancery", cursive;
+font-weight: normal;
+}
+
+#header h2 {
+font-size: 2em;
+color: #B5A89A;
+font-family: "Brush Script MT", "Bradley Hand ITC", "Apple Cancery", cursive;
+font-weight: normal;
+}
+
+
+#text {
+float: left;
+width: 410px;
+}
+
+#right {
+float: right;
+width: 240px;
+}
+
+
+/*	BACK TO THE TOP				*/
+#text p#begin{
+margin-top: 40px;
+padding-bottom: 50px;
+text-align: right;
+padding-right: 15px; 
+font-family: Tahoma, Arial, Geneva, Helvetica, sans-serif;
+color: #000;
+background-color: transparent; 
+font-weight: bold;
+line-height: 150%;}
+
+#text p#begin a{
+font-size: 0.9em;
+color: #000;
+background: transparent url(up.gif) no-repeat 300px 1px;  
+text-decoration:none; display: block;}
+#text #begin a:link {}
+#text #begin a:visited {}
+#text #begin a:active {}
+#text #begin a:hover {color: #CC9; background: transparent url(up_over.gif) no-repeat 300px 1px;}
+
+
+
+
+/*	END GENERAL STYLES			*/
+
+
+
+/*	TEXT STYLES 				*/
+
+#text p {
+font-size: 0.9em; 
+line-height: 1.4; 
+margin-top: 15px;}
+
+#text p:first-letter {
+font-size: 2em; 
+font-weight: bold;
+color: #7788AB; 
+}
+
+#text p:first-line {line-height: 1.0;}
+
+
+#text ul {
+font-size: 0.9em; 
+clear: left;
+line-height: 1.4;
+margin: 0 0 0 16px;}
+
+#text a {color: #600; background-color: transparent;}
+#text a:link {}
+#text a:visited {color: #633;}
+#text a:hover {color: #600; text-decoration: none;}
+#text a:active {}
+
+#text h1{
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 1.6em;
+font-weight: normal;
+color: #600;
+background-color: transparent;
+letter-spacing: 0.1em;
+margin-bottom: 18px;
+} 
+
+#text h1:first-letter {font-size: 2em; font-weight: normal;}
+
+#text h2 {
+margin: 20px 0 -5px 0;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 1.2em;
+color: #600;
+background-color: transparent;
+letter-spacing: 0.15em;} 
+
+#text h2:first-letter{font-size: 1.6em; font-weight: normal;}
+
+#text h3{
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 1.0em;
+color: #600;
+background-color: transparent;
+padding-left: 35px;
+padding-top: 12px;
+} 
+
+
+
+
+/*	MENU STYLES			*/
+#menu{font-family: Tahoma, Arial, Geneva, Helvetica, sans-serif;}
+
+#menu ul{
+font-size: 1.0em;
+font-family: Tahoma, Arial, Geneva, Helvetica, sans-serif;
+font-weight: bold;
+color: #000;
+background-color: transparent;
+list-style-type: none;
+margin: 0;
+padding: 0;
+list-style-position:outside;
+}
+
+#menu ul li{background-color: transparent; margin: 0 0 7px 0; height: 14px;}
+
+#menu ul li a{
+display: block;
+font-weight: bold;
+color: #000;
+text-decoration: none;
+padding-left: 1.5em;
+background: transparent url(row.gif) no-repeat 0px 1px; }
+
+#menu li a:link {}
+#menu li a:visited {}
+#menu li a:active {}
+#menu li a:hover {color: #CC9; background: transparent url(row_over.gif) no-repeat 0px 1px;}
+#menu .pag{color: #630; padding-left: 1.5em; background: transparent url(qui.gif) no-repeat 0px 1px; display: block;}
+
+/*	END MENU STYLES		*/
+
+
+/*	EXTRA-INFO			*/
+#info{
+margin-top: 45px;
+color: #330;
+background-color: transparent;
+font-size: 0.8em;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+line-height: 1.2;}
+
+#info h1 {
+color: #600;
+background-color: transparent;
+font-size: 0.9em;
+font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
+font-weight:bold;
+}
+
+#info ul {
+padding-left: 4%;
+margin: 0 0 0 4%;
+list-style-position:outside;
+}
+
+#copy{
+font-size: 0.9em;
+margin-top: 50px;
+}

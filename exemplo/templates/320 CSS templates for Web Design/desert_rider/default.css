@@ -1,0 +1,151 @@
+*	{
+	margin: 0;
+	padding: 0;
+}
+body	{
+
+	background-image: url('bg.gif');
+	background-color: #d7a677;
+	background-position: top left;
+	background-repeat: repeat-x;
+	font-size: 82%;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#container	{
+	position: relative;
+	background-color: #d7a677;
+	color: inherit;
+	width: 550px;
+}
+#header 	{
+	background-image: url('desert_bike.gif');
+	background-color: #d7a677;
+	background-position: top left;
+	background-repeat: repeat-x;
+	width: 550px;
+	height: 231px;
+	text-align: right;
+}
+#header .title	{
+	color: #000066;
+	background-color: inherit;
+	font-size: 2.5em;
+}
+#header .tagline	{
+	color: #000066;
+	background-color: inherit;
+	font-style: italic;
+	font-size: 1.2em;
+}
+ul.navbar {
+	list-style-type:none; 
+	float:left; 
+	display:block; 
+	width:100%; 
+	line-height:1.5em; 
+	clear:both; 
+	margin:0; 
+	padding:0; 
+	background-color:#d7a677;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+ul.navbar li {
+	display:inline;
+}
+
+a.nav:link, a.nav:visited {
+	display:block; 
+	float:left; 
+	width:24.5%; 
+	padding:0.6em 0 0.6em 0; 
+	margin:0; 
+	text-align: center;
+	text-decoration:none; 
+	background-color:#d7a677;
+	color:#6e4e2c;
+}
+
+a.nav:hover {
+	display:block; 
+	float:left; 
+	width:24.5%; 
+	padding:0.6em 0 0.6em 0; 
+	margin:0;
+	text-decoration:none; 
+	background-color:#bd9a76; 
+	color:#6e4e2c;
+}
+
+a.nav:active {
+	display:block; 
+	float:left; 
+	width:24.5%; 
+	padding:0.6em 0 0.6em 0; 
+	margin:0; 
+	text-decoration:none; 
+	background-color:#d7a677; 
+	color:#6e4e2c;}
+#content	{
+	position: relative;
+	float: left;
+	width: 350px;
+	padding: 4px 8px 8px 10px; 
+}
+#content a, a:link, a:visited, a:active	{
+	text-decoration: underline;
+	color: #000000;
+}
+#content a:hover	{
+	text-decoration: none;
+	color: #000000;
+}
+#sidebar	{
+	position: relative;
+	float: right;
+	width: 146px;
+	padding: 4px;
+	border-left: 4px solid #a57d55;
+}
+#sidebar a	{
+	color: #6d4217;
+}
+#footer	{
+	position: relative;
+	clear: both;
+	width: 550px;
+	padding: 4px;
+	text-align: center;
+	font-size: .9em;
+}
+#footer a, a:link, a:active, a:visited	{
+	text-decoration: underline;
+	color: #6d4217;
+}
+#footer	a:hover	{
+	text-decoration: none;
+	color: #6d4217;
+}
+
+h1	{
+	color: #6d4217;
+	background-color: inherit;
+}
+#sidebar ul li	{
+	list-style: none;
+	padding: 2px;
+}
+
+#sidebar ul li a:hover	{
+	color: #6b4c2d;
+	background-color: #a9d5f3;
+	padding: 2px;
+
+}
+p.highlight	{
+	border: 1px dashed #b08660;
+	background-color: #e9bb92;
+	padding: 4px;
+}

@@ -1,0 +1,75 @@
+/* ------------------------------ */
+/* ----- By Raymond Gerrard ----- */
+/* ------------------------------ */
+
+body{
+	margin: 0;
+	padding: 0;
+	font: normal 11px/24px Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f3f3f3;
+	text-align: center;
+}
+#container{
+	width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+#content{
+	float: left;
+	width: 400px;
+	padding: 0;
+	margin: 0 0 1em 0;
+	border-right: 1px dashed #cc9966;
+}
+#header h1{
+	color: #cc9966;
+	margin: 1em 0 1em 0;
+	font: 28px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+#content h2{
+	text-indent: 1em;
+	background-color: #cc9966;
+	font-size: 1em;
+	text-transform: capitalize;
+	color: #f3f3f3;
+	margin: 0 0.5em 0 0;
+}
+#content p{
+	margin: 0.5em 0 0.5em 0;
+	padding: 0 0 0 1em;
+}
+#nav{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+#nav ul{
+	list-style-type: none;
+}
+#nav li a{
+	display: block;
+	border-bottom: 1px dashed #cc9966;
+	padding: 0;
+	width: 150px;
+	color: #666;
+	text-decoration: none;
+}
+#nav li a:hover{
+	background: url("images/bullet.gif");
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+}
+#news p{
+	width: 150px;
+	float: right;
+	text-align: justify;
+}
+#footer{
+	margin: 0;
+	clear: both;
+	text-align: center;
+	border-top: 1px dashed #cc9966;
+	color: #666666;
+}

@@ -1,0 +1,90 @@
+body {
+	margin: 0 0 2px 0;
+	font-family: Trebuchet MS,sans-serif;
+	font-size: 11pt;
+	background-color: #F0EEF0;
+	background-image: url('./hbg.gif');
+	text-align: center;
+}
+
+#container {
+	width: 770px;
+	margin: 10px auto 2px auto;
+	text-align: left;
+	border: 1px solid black;
+}
+
+#navigation ul {
+	background-image: url('./menubg.gif');
+	background-color: #038BE0;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+#navigation li {
+	display: inline;
+	font-weight: bold;
+	color: #DBF2FF;
+}
+
+#navigation #current,#navigation li:hover {
+	background-image: url('./amenubg.gif');
+	background-color: #005ABC;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#navigation li a {
+	padding: 10px;
+	color: #DBF2FF;
+	text-decoration: none;
+	border-right: 1px solid black;
+}
+
+#header {
+	border: 1px solid black;
+	border-width: 1px 0 1px 0;
+	background-color: #009FFC;
+	background-image: url('./logo.gif');
+	padding: 10px;
+	font-size: 70px;
+	margin: 0;
+	font-weight: normal;
+}
+
+#header a {
+	color: #DBF2FF;
+	text-decoration: none;
+}
+
+#header a:hover {color: #CCE1ED}
+
+#content {
+	padding: 10px;
+	background-color: #00ADFC;
+	background-image: url('./grad.jpg');
+	background-repeat: no-repeat;
+}
+
+#content h3 {
+	margin: 6px 0 0 0;
+	color: #DBF2FF;
+}
+
+#content p {
+	margin: 3px 0 0 0;
+}
+
+#content a {
+	color: #DBF2FF;
+	text-decoration: none;
+}
+
+#content a:hover {color: #CCE1ED}
+
+#footer {
+	font-size: 8pt;
+}
+
+#footer a {color: black}

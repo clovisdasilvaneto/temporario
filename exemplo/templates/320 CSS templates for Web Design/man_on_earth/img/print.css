@@ -1,0 +1,133 @@
+/*	GENERAL STYLES			*/
+body {
+margin: 15pt;
+padding: 0;
+background-color: #FFF;
+color: #000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+p, address, ul, li, ol, div, form, h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0;}
+img {border: 0;}
+
+address {
+font-style: normal;
+font-size: 8pt;
+line-height: 1.2;
+}
+address a {color: #000; text-decoration: none;}
+
+
+#container {width: 90%;}
+
+#header {border-bottom: 2pt dotted #000; margin-bottom: 30pt;}
+#header h1 {
+padding-top: 10pt;
+font-size: 20pt;
+font-family: "Brush Script MT", "Bradley Hand ITC", "Apple Cancery", cursive;
+font-weight: normal;
+}
+
+#header h2 {
+font-size: 16pt;
+font-family: "Brush Script MT", "Bradley Hand ITC", "Apple Cancery", cursive;
+font-weight: normal;
+padding-bottom: 4pt;
+}
+
+
+#text {}
+
+#right {}
+
+
+/*	BACK TO THE TOP				*/
+#text p#begin{display: none;}
+
+/*	END GENERAL STYLES			*/
+
+
+
+/*	TEXT STYLES 				*/
+
+#text p {
+text-align: justify;
+font-size: 10pt; 
+line-height: 1.3; 
+margin-top: 15pt;}
+
+#text p:first-letter {
+color: #000;
+font-size: 18pt; 
+font-weight: bold;
+}
+
+#text p:first-line {line-height: 1.0;}
+
+
+#text ul {
+font-size: 10pt; 
+clear: left;
+line-height: 1.3;
+margin: 0 0 0 16pt;}
+
+#text a {color: #000; background-color: transparent; text-decoration: none;}
+#text a:link {}
+#text a:visited {}
+#text a:hover {}
+#text a:active {}
+
+#text h1{
+font-family: "Times New Roman", Times, serif;
+font-size: 14pt;
+font-weight: normal;
+color: #000;
+background-color: transparent;
+letter-spacing: 0.1em;
+margin-bottom: 18pt;
+} 
+
+#text h1:first-letter {font-size: 20pt; font-weight: normal; color: #000;}
+
+#text h2 {
+margin: 20pt 0 -5pt 0;
+font-family: "Times New Roman", Times, serif;
+font-size: 13pt;
+background-color: transparent;
+letter-spacing: 0.15em;} 
+
+#text h2:first-letter{font-size: 16pt; font-weight: normal; color: #000;}
+
+#text h3{
+font-family: "Times New Roman", Times, serif;
+font-size: 1.2em;
+} 
+
+
+
+
+/*	MENU STYLES			*/
+#menu{display: none;}
+
+/*	END MENU STYLES		*/
+
+
+/*	EXTRA-INFO			*/
+#info{
+text-align: right;
+margin-top: 50pt;
+font-size: 9pt;
+line-height: 1.2;}
+
+#info h1 {font-size: 9pt;}
+
+#info ul {
+padding-left: 4%;
+margin: 0 0 0 4%;
+}
+
+#copy{
+text-align: right;
+font-size: 9pt;
+margin-top: 30pt;
+}

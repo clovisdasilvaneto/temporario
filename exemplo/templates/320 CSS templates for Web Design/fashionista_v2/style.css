@@ -1,0 +1,117 @@
+body{
+background:#B89482;
+margin:0;
+font: 10pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif; 
+}
+
+A:link{ color:#B56115; text-decoration:none; }
+A:hover{ color:#FFFFFF; text-decoration:underline; }
+A:active{ color:#B56115; text-decoration:none; }
+A:active:hover{ color:#FFFFFF; text-decoration:underline; }
+A:visited{ color:#B56115; text-decoration:none; }
+A:visited:hover{ color:#FFFFFF; text-decoration:underline; }
+
+#header{
+background:url(headerbg.gif) no-repeat #552A00 top left;
+width:364px;
+height:574px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0;
+float:left;
+}
+
+#wrap{
+width:800px;
+height:651px;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+background:#552A00;
+border:#B37159 1px solid;
+}
+
+#navcontainer{
+background:url(bg.gif) #B89482;
+width:134px;
+height:574px;
+position:absolute;
+margin-top0px;
+margin-left:207px;
+}
+
+ #navlist li{
+ margin-top:15px;
+background:transparent;
+list-style-type: none;
+text-align:left;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:14px;
+letter-spacing:-2px;
+color:#666666;
+width:150px;
+}
+
+#navlist li a:link { color: #2C201D; text-decoration:none; }
+#navlist li a:visited { color: #552A00; text-decoration:none; }
+#navlist li a:hover {color: #FFFFFF; text-decoration:none; }
+
+h3{
+font-size:18px;
+font-weight:bold;
+color:#DFA478;
+letter-spacing:-3px;
+font-style:normal;
+}
+
+#content{
+height:532px;
+width:374px;
+background:#552A00;
+padding:21px;
+text-align:justify;
+font: 9pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#FFFFFF;
+font-style:italic;
+float:right;
+/* change this to overflow:scroll to add a scrollbar. some browsers put ugly horizontal scrolls, so i have it set to hidden by default */
+overflow:hidden;
+}
+
+#footer{
+clear:both;
+background:#2C201D;
+padding:9px;
+text-align:right;
+text-transform:uppercase;
+font: 8pt/9pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#333333;
+}
+
+#title{
+background:#2C201D;
+text-align:right;
+padding:9px;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:10px;
+text-transform:uppercase;
+color:#FFFFFF;
+}
+
+
+.pullquote {
+color:green;
+width:150px;
+float:right;
+width:150px;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+padding-bottom:10px;
+font-family:'Lucida Grande', Helvetica, sans-serif;
+font-size: 24px;
+line-height:26px;
+letter-spacing:-3px;
+text-align: right;
+color:#DFA478;
+}

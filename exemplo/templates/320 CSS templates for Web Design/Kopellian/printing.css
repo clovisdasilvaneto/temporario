@@ -1,0 +1,126 @@
+a:link,a:visited,a:hover{
+ color: #000;
+ text-decoration: none;
+ background-color: transparent;}
+
+/* Main Layout Rules */
+
+#container{ /* parent element to all other div tags */
+ margin:0;
+ padding:0;
+ background-color: white;
+ color: #000;}
+ 
+#mainTitle{
+ font: 28pt arial,verdana,sans-serif;
+ letter-spacing: 10px;
+ height: 100px; /* change height and width according to needs */
+ width: 442px;
+ text-align: left;}
+
+#centerOfPage{
+ color: #000;
+ margin-top: auto;
+ font-family: arial,verdana,sans-serif;
+ background-color: transparent;}
+
+#mainMenu,.menuHeader,ul#progress{
+ display: none;}
+
+#mainContent{
+ line-height: 200%;
+ color: #000;
+ font-family: inherit;
+ font-size: medium;
+ background-color: transparent;}
+
+#notice{
+ border-top: solid black 1px;
+ margin-top: .5px;
+ padding: 3px 0 4px 3px;
+ clear: none;
+ background-color: transparent;
+ color: #000;
+ font-size: 12px;}
+
+#notice .floatRight{
+ display: none;}
+
+/* Inline elements */
+
+h1,h2,h3,h4,h5,h6{
+ margin-left: 15px;
+ margin-top: auto;}
+
+.floatRight{
+ float: right;}
+
+ul,ol{
+ font-family: verdana, arial, sans-serif;
+ line-height: 1.3;}
+
+.contentHeader{
+ border-bottom: solid black 1px;
+ display: block;
+ margin-top: 0;
+ font: inherit;
+ font-family: verdana, arial, sans-serif;
+ background-color: transparent;
+ text-indent: 0;
+ width: 100%;}
+
+p{
+ margin: 0 auto 0 10px;
+ padding: 10px;
+ display: block;}
+
+p+.contentHeader{
+ margin-top: 5px;}
+
+.code{
+ font-family: monospace;
+ margin-left: 3px;}
+
+.codeBlock{
+ border: solid gray 1px;
+ color: #000;
+ font-family: monospace;
+ margin: 0 4px 0 30px;
+ display: block;
+ width: 50%;
+ line-height: 1.5;}
+
+.imageBox{
+ page-break-before: always;
+ width: 174px; /* !!!!! change this width to match the image !!!!! */
+ margin: 9px 5px 0 0;
+ border: solid gray 1px;
+ display: block;
+ float: left;
+ padding: 2px;
+ color: #000;
+ background-color: transparent;
+ font-size: x-small;  /* was 10px */
+ line-height: 100%;}
+
+.imageBox img{
+ padding-bottom: 3px;
+ border-bottom: solid gray 1px;
+ margin-bottom: 5px;}
+
+.imageBox .txt{
+ margin-bottom: 10px;}
+
+.quoteBlock{  /* for quoting something */
+ display: block;
+ padding: 10px 40px 10px 20px;
+ color: #000;
+ background-color: inherit;
+ font: inherit;
+ font-family: verdana, arial, sans-serif;
+ font-size: small;
+ font-style: oblique;
+ text-align: justify;}
+
+.quoteBlock i{
+ font-style: normal;}

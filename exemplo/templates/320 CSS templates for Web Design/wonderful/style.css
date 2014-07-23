@@ -1,0 +1,122 @@
+html{
+overflow-x:hidden;
+}
+body {
+background:url(art.jpg) fixed no-repeat #fff;
+line-height: 100%;
+margin-top: 0px;
+color:#000;
+}
+img{
+border:0px;
+}
+a:hover {
+color:#000;
+text-decoration: underline;
+}
+
+a {
+color: #505050;
+text-decoration: none;
+}
+
+#side {
+float:left;
+width:110px;
+height:200px;
+font-size:18px;
+line-height: 150%;
+margin-top:20px;
+}
+
+#content {
+width: 660px;
+padding: 5px;
+font-family:Georgia, Times New Roman;
+font-size:14px;
+color: #505050;
+margin-left:20px;
+}
+
+#content a{
+text-decoration:underline;
+}
+
+#side a{
+text-decoration:none;
+}
+
+#logo{
+margin:20px;
+padding:2px;
+font-size:28px;
+border-bottom: 1px solid #cccccc;
+line-height:60%;
+}
+
+#logo em{
+font-size:22px;
+margin-left:1px;
+}
+
+#logo a{
+color:#000;
+}
+
+#logo a:hover{
+text-decoration:none;
+}
+#content h2{
+
+font-size:16px;
+margin-top:20px;
+}
+
+#content h4{
+font-size:15px;
+}
+
+#bottom{
+line-height:180%;
+}
+
+
+#bottom a{
+text-decoration:underline;
+}
+
+#imgs{
+border:1px solid #505050;
+float:right;
+}
+
+#archives{
+margin-top:20px;
+line-height:120%;
+font-size:15px;
+}
+
+#foot{
+margin-top:30px;float:right;
+font-size:10px;
+}
+#item{
+float:right;
+border:1px solid #cccccc;
+padding:2px;
+}
+
+input{
+border:1px solid #505050;background-color:transparent;
+}
+
+.clsText
+{
+border:1px solid #505050;background-color:transparent;
+}
+
+.clsButton,.butt
+{
+border:0px;background-color:transparent;cursor:hand;cursor:pointer;
+}
+.pho{border:0;padding:0;}

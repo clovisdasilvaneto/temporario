@@ -1,0 +1,74 @@
+BODY {
+	background: white;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#body2 {
+	background-color: #cbc46f;
+	margin: 0;
+	padding: 0;
+}
+
+#body3 {
+	background: #cbc46f url(LocaWapp_Design_01.jpg) no-repeat;
+	height: 500px;
+	width:  700px;
+}
+
+#title {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	left: 90px;
+	top: 90px;
+}
+
+#header {
+	position: absolute;
+	color: #444444;
+	font-size: 15px;
+	font-weight: bold;
+	left: 240px;
+	top: 205px;
+}
+
+#menu {
+	position: absolute;
+	left: 20px;
+	top: 260px;
+}
+#menu A {
+	display: block;
+	border-bottom: 1px solid blue;
+	color: blue;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 20px;
+	text-decoration: none;
+	width: 150px;
+}
+#menu A:hover {
+	background: #4444ff;
+	color: white;
+}
+
+#middle {
+	position: absolute;
+	color: #444444;
+	font-size: 14px;
+	left: 290px;
+	top: 300px;
+	width: 350px;
+}
+
+#footer {
+	background-color: white;
+	color: red;
+	font-size: 10px;
+	width:  700px;
+	text-align: center;
+}

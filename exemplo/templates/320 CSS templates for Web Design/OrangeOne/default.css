@@ -1,0 +1,206 @@
+/* Standard Stylesheet
+  Orange One
+  Design by Marek Ventur
+*/
+/* Reset all */
+*{
+        padding: 0;
+        margin: 0;
+        border: 0;
+}
+
+/* Allgemeines */
+body {
+        font-size: 80%;
+        line-height: 1.6em;
+        color: #333;
+        background: #fff url('bg.png') repeat-x fixed;
+        font-family: verdana, "Lucida Grande","Lucida Sans Unicode",geneva,,sans-serif;
+        text-align: center;
+}
+
+a:link {
+        color: #333;
+        text-decoration: none;
+}
+
+a:visited {
+        color: #eee;
+        text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+/* Clear Class */
+.c {
+        clear: both;
+}
+
+img, a img {
+        border: 0;
+}
+
+/* Absaetze */
+p {
+        font-size: 1em;
+        line-height: 1.7em;
+        margin: 7px 0;
+        clear: both;
+}
+
+/* Kleinerer Text */
+.s {
+        font-size: 0.9em;
+}
+
+/* Links- bzw. Rechtsausrichtung für Elemente */
+.leftalign {
+        float: left;
+        margin: 0 10px 0 0;
+}
+
+.rightalign {
+        float: right;
+        margin: 0 0 0 10px;
+}
+
+h1 {
+        font: 5em/1.5 verdana, helvetica, arial, sans-serif;
+        margin-left: 40px;
+
+}
+
+h2 {
+        font: bold 2em/1.5 verdana, helvetica, arial, sans-serif;
+        margin-left: 80px;
+}
+
+h3 {
+        font: 2.2em/1.5 verdana, helvetica, arial, sans-serif;
+        clear: both;
+        color: #E17000;
+}
+
+/* Layout */
+#wrapper {
+  width: 724px;
+  background: url(bg2.png);
+  _background-image: url('bg2.gif');
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg2.png',sizingMethod='scale');
+  margin:auto;
+
+  height: 100%;
+  text-align: left;
+}
+
+#header {
+}
+
+#navi {
+  background: url(bbar.png) repeat-x;
+  margin-left: 12px;
+  margin-right: 12px;
+
+  padding-top: 20px;
+
+}
+
+#navi ul {
+  list-style-type:none;
+  margin-left: 7px;
+  margin-top:2px !important;
+  margin-top:1px;
+}
+
+
+#navi li {
+  float:left;
+  margin:0 4px 0 0;
+  padding:4px 0px 13px 11px;
+  font-size: 1.3em;
+  background: url(btn.png) 0 no-repeat 0px !important;
+
+  background: url(btn.png) 0 no-repeat 1px;
+
+}
+
+#navi2 li {
+  background: url(btn.png) 0 no-repeat 0px;
+  float:left;
+  margin:0 4px 0 0;
+  padding:4px 0px 13px 11px;
+  font-size: 1.3em;
+}
+#navi li a {
+  background: url(btn.png) 100% no-repeat ;
+  color: #FFF;
+  padding:4px 32px 15px 10px;
+
+}
+
+#navi li a:hover {
+  background: url(btn.png) 100% no-repeat ;
+  color: #FFF;
+  padding:4px 32px 15px 10px;
+  text-decoration: none;
+  color: #000;
+
+}
+
+#content {
+
+  margin: 60px 0 20px 20px;
+}
+
+#content p a {
+  text-decoration: underline;
+  color: #000;
+}
+
+#content p a:hover {
+  color: #E17000;
+
+
+}
+
+#content h3 {
+  background: url(cnttop.png) no-repeat;
+  height: 39px !important;
+  height: 38px;
+  padding: 10px !important;
+  padding: 9px;
+  margin: 0;
+}
+
+#content p {
+  padding: 10px 35px 0 10px;
+  background: url(cntmdl.png) repeat-y;
+  font-size: 1.3em;
+  margin: 0;
+  text-align: justify;
+}
+
+.cntbtm {
+  background: url(cntbtm.png) no-repeat;
+  height: 15px;
+  margin: 0;
+}
+
+
+#footer {
+  margin: 0 12px 0 12px;
+  background: url(btmbar.png) repeat-x;
+  text-align: right;
+  color: #E17000;
+  padding-right: 5px;
+
+}
+
+#footer a {
+  color: #E17000;
+}
+
+
+

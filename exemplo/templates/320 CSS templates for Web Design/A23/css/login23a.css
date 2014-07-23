@@ -1,0 +1,22 @@
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+/***  login_23a MEMBERSHIP BOX  ***/
+.login_container_23a {display:block;margin:0 auto;margin-top:10px; padding:0; padding-bottom:5px;
+width:96%; 	border: 0px solid #c8dff1; text-align:center;}
+.username_box {display:block;margin:0 auto;padding:0;width:75%;
+background-color: #ffffff;text-align:left;color: #000000;font-size:10px;}
+.password_box {display:block;margin:0 auto;padding:0;width:75%;
+background-color: #ffffff;text-align:left;color: #000000;font-size:10px;}
+.checkbox {cursor:pointer;}
+.login_button {margin:0;padding:0;width:auto;font-size:10px;cursor:pointer;
+background-color:#333366;color: #ffffff;border-color:#ffcc33;border-right:10px solid #930209;}
+/****  "LOGIN BOX BASE LINKS STYLES  ****/
+.login_container_23a a {width:auto;font-weight:bold;padding-bottom:0px;}
+.login_container_23a a:link, .login_container_23a a:visited { color:#293158; border-bottom:2px dotted #930209;text-decoration:underline;}
+.login_container_23a a:hover, .login_container_23a a:active  {color:#000000;border:0px solid red;text-decoration:underline;}
+/****  END LOGIN MEMBERSHIP BOX  ****/

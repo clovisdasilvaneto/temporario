@@ -1,0 +1,116 @@
+body {
+	color:#FFECD3; 
+	background-color: #FFF2DF;
+	font-family:"MS Sans Serif",Tahoma,Verdana;
+	}
+#main {
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:auto; 
+	margin-right:auto;
+	width:780px;
+	height:443px;
+	background-image:url('images/bg_02.jpg') ;
+	}
+#top {
+	color:#FFECD3;
+	background-color: #FFF2DF;
+	width:780px;
+	height:83px;
+	background-image:url('images/index_01.jpg');
+	font-weight: bold;
+	}
+	#top h1 {
+	padding-top: 20px;		
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:28px;
+
+	}
+#left {
+	width:151px;
+	height:295px;
+	background-image:url('images/index_02.jpg');
+	float:left;
+	}
+#content {
+	background-color: #FFF2DF; 
+	direction:rtl;
+	width:478px;
+	height:295px;
+	background-image:url('images/index_03.jpg');
+	float:left;
+	color: #794104;
+	}
+#content p {
+	padding: 30px 25px 0px 25px;
+	text-align:justify;
+	font-size:12px;
+	
+	}	
+#content a,#content a:link,#content a:visited {
+	text-decoration: none;
+	color:#6B341D;
+	}
+#content a:hover {
+	text-decoration: underline overline;
+	} 
+#right {
+	color:#FFECD3; 
+	background-color: #FFF2DF; 
+	width:151px;
+	height:295px;
+	background-image:url('images/index_04.jpg');
+	float:left;
+	}
+ul {
+	text-align: center;
+	direction: rtl;
+	list-style-type: none;
+	}
+ul li {
+	margin: 0px 0px 5px 0px;
+	}
+ul li a {
+	color:#572A01;
+	display: block;
+	font-family: Tahoma,"MS Sans Serif", Geneva, sans-serif;
+	width:81px;
+	height:19px;
+	font-size:11px;
+	background-image: url(images/b.gif);
+	text-decoration:none;
+	background-color: transparent;
+	}
+ul li a:hover {
+	background-image: url(images/bhover.gif);
+	color:#572A01;
+	background-color: transparent;
+	}
+#left ul {
+	direction:ltr;
+	list-style-type: none;
+	}
+#footer {
+	background-image:url('images/index_05.jpg');
+	color:#FEEBD1; 
+	width:780px;
+	height:65px;
+	clear:both;
+	background-color: #FFECD3; 
+	}
+	#footer p{
+	padding-top: 20px;
+	direction:rtl;
+	text-align:center;
+	font-size:12px;
+	}
+#footer a,#footer a:link,#footer a:visited {
+	text-decoration: none;
+	color:#FDDBAC;
+	background-color: transparent;
+	}
+#footer a:hover {
+	color:#FCBF6D;
+	background-color: transparent;
+	}

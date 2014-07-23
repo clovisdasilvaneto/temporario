@@ -1,0 +1,582 @@
+/*
+
+	lime-light.css -- CSS file for raZor's "Lime-Light" template
+	raZor: http://openwebdesign.org/userinfo.phtml?user=raZor
+*/
+
+/*
+
+	COLOR DEFS:
+	dark - #253c01
+	medium - #4b7902;
+	highlight - #ffa228
+	yellow - #ffd500
+	hover - #fe7e10
+	green highlight - #8bb206;
+
+*/
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	min-width: 900px;
+	background: #253c01 url('images/zigzag.jpg') top left; /* dark */
+	font-family: Verdana, Georgia, Lucida, Arial;
+	font-size: 12pt;
+}
+
+/* container wraps layout in a box fixes the 
+	horiz & vertical width of the whole layout */
+
+#container {
+	margin: 0 auto;
+	width: 900px;
+	height: 1000px;
+	text-align: left;
+	border-right: solid 3px #444;
+	border-bottom: solid 3px #444;
+	border-left: solid 2px #aaa;
+	border-top: solid 2px #aaa;
+}
+
+
+/* header is a top bar that can contain small links but is mostly for
+	unifying the layout */
+
+#header, #footer {
+	background: #ffa228 url('images/gradient_vert_light_dark.gif') top left repeat; /* highlight */
+	/*background: #ffa228; /* highlight */
+	height: 20px;
+	font-size: 10pt;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	color: #8bb206; /* green highlight */
+	/*color: #4b7902; /* medium */
+	/*color: #253c01; /* dark */
+}
+
+#header {
+	border-bottom: solid 1px gray;
+}
+
+#footer {
+	border-top: solid 1px gray;
+}
+
+#header input, #footer input {
+	/*height: 20px;*/
+	font-size: 8pt;
+}
+
+#header a, #footer a {
+	/*color: #253c01; /* dark */
+	/*color: #4b7902; /* medium */
+	color: #8bb206; /* green highlight */
+	text-decoration: none;
+}
+
+#header a:hover, #footer a:hover {
+	text-decoration: underline;
+}
+
+
+/* banner is a good place to put a banner image for your site. Also your
+	site title and slogan */
+
+#banner {
+	background: #4b7902 url('images/banner.jpg') top left no-repeat; /* medium */
+	height: 75px;
+	font-size: 18pt;
+	line-height: 75px;
+	padding-left: 150px;
+}
+
+/* navbar holds the navigational links to get the user to the right
+	section of your site */
+
+#navbar {
+	background: #ffa228 url('images/gradient_vert_dark_light.gif') top left;; /* highlight */
+	height: 25px;
+	border: solid 1px #8bb206; /* green highlight */
+	line-height: 25px; /* force text to align to the vertical middle */
+	font-size: 20px;
+}
+
+#navbar ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	padding-left: 0px;
+	display: inline;
+}
+
+#navbar li, #navbar div, #navbar span {
+	display: inline;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 1px solid #253c01; /* dark */
+	border-right: 1px solid #4b7902; /* medium */
+}
+
+#navbar li.current, #navbar div.current, #navbar span.current {
+	background-image: url('images/arrow_yellow.gif');
+	background-position: 5px 7px;
+	background-repeat: no-repeat;
+}
+
+#navbar a {
+	height: 20px;
+	color: #8bb206; /* green highlight */
+	text-decoration: none;
+	/*font-variant: small-caps;*/
+	/*text-transform: uppercase;*/
+	margin-left: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#navbar a:hover {
+	background-image: url('images/arrow_blink_yellow.gif');
+	background-position: 5px 7px;
+	background-repeat: no-repeat;
+	/*background: url('images/flash.gif');*/
+}
+
+
+/* main holds the columns -- left, middle, right -- and the content
+	boxes and the floating content boxes (leftBox & rightBox) */
+
+#main {
+	height: 846px;
+	background: #4b7902 url('images/green_fabric.jpg'); /* medium */
+	color: #8bb206; /* green highlight */
+	padding-top: 1px; /* In Firefox, for some reason the newsletter (1-column) layout had 1px missing */
+}
+
+/* Box styles */
+
+.box, .boxRight, .boxLeft, .smallBox, .tallBox {
+	border-left: solid 2px #8bb206; /* green highlight */
+	border-top: solid 2px #8bb206; /* green highlight */
+	border-bottom: solid 2px #253c01; /* dark */
+	border-right: solid 2px #253c01; /* dark */
+	margin-top: 2px;
+	margin-bottom: 4px;
+	padding: 2px;
+	color: #8bb206; /* green highlight */
+}
+
+.box {
+	background: url('images/gradient_vld500.jpg') top left repeat-x;
+}
+
+.smallBox {
+	background: url('images/gradient_vld250.jpg') top left repeat-x;
+}
+
+.tallBox {
+	background: url('images/gradient_vld1000.jpg') top left repeat-x;
+}
+
+.boxRight {
+	float: right;
+}
+
+.boxLeft {
+	float: left;
+	margin-right: 5px;
+}
+
+.invisibleBox {
+	padding: 5px; 
+	margin-top: 15px;
+}
+
+.invisibleBoxLeft {
+	width: 45%; 
+	float: left; 
+	padding: 5px; 
+	margin-top: 15px;
+}
+
+.invisibleBoxRight {
+	width: 45%; 
+	float: right; 
+	padding: 5px; 
+	margin-top: 15px;
+}
+
+/************* 
+other styles -- 
+here are the styles used on the demo page ********/
+
+/* list styles */
+
+#main ul {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#main ul.right {
+	margin-right: 5px;
+	text-align: right;
+}
+
+#main ul li {
+	list-style-image: url('images/arrow.gif');
+}
+
+#main ul.yellow li, #main ul li.current {
+	list-style-image: url('images/arrow_yellow.gif');
+}
+
+#main ul.red li {
+	list-style-image: url('images/arrow_red.gif');
+}
+
+/* heading styles */
+
+#main h1 {
+	font-size: 18pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#main h2 {
+	font-size: 13pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#main h2.indent {
+	font-size: 13pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+
+#main h3 {
+	font-size: 12pt;
+	/*font-variant: small-caps;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#main h3.indent {
+	font-size: 12pt;
+	/*font-variant: small-caps;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+
+#main h4 {
+	font-size: 10pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* paragraph styles */
+
+#main p {
+	text-indent: 20px;
+}
+
+#main p.clear {
+	text-indent: 0px;
+}
+
+#main p.empty {
+	text-indent: 0px;
+	margin: 0px;
+}
+
+#main p.author {
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+#main p.caption {
+	margin-top: 0px;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#main p.book {
+	text-indent: 0px;
+}
+
+#main p.book:first-letter {
+	float: left;
+	margin-left: 20px;
+	font-size: 20pt;
+}
+
+/* table styles */
+
+#main table.underline {
+}
+
+#main table.underline th {
+	font-size: 1em;
+}
+
+#main table.underline td {
+	border-top: solid 1px #8bb206; /* green highlight */
+	font-size: 0.9em;
+}
+
+#main table.alternating {
+}
+
+#main table.alternating th {
+	font-size: 1em;
+}
+
+#main table.alternating tr.rowa {
+	background: #4b7902; /* medium */
+	font-size: 0.9em;
+}
+
+#main table.alternating tr.rowb {
+	background: #253c01; /* dark */
+	font-size: 0.9em;
+}
+
+#main table.invoice {
+}
+
+#main table.invoice td, #main table.invoice th {
+	text-align: center;
+}
+
+#main table.invoice th {
+	font-size: 1em;
+	border-bottom: solid 1px #8bb206; /* green highlight */
+}
+
+#main table.invoice td.total {
+	border-left: solid 1px #8bb206; /* green highlight */
+}
+
+#main table.invoice td.subtotal {
+	border-top: solid 1px #8bb206; /* green highlight */
+}
+
+#main td.textcolor #main th.textcolor {
+	background: #8bb206; /* green highlight */
+}
+
+#main td.dark, #main th.dark {
+	background: #253c01; /* dark */
+}
+
+#main td.medium, #main th.medium {
+	background: #4b7902; /* medium */
+}
+
+#main td.highlight, #main th.highlight {
+	background: #ffa228; /* highlight */
+}
+
+#main td.yellow, #main th.yellow {
+	background: #ffd500; /* yellow */
+}
+
+#main td.hover, #main th.hover {
+	background: #fe7e10; /* hover */
+}
+
+/* Image styles */
+
+#main img {
+	border: dashed 1px #ffd500; /* yellow */
+	margin: 5px;
+}
+
+#main img.left {
+	float: left;
+}
+
+#main img.right {
+	float: right;
+}
+
+#main img.vcenter {
+	vertical-align: middle;
+}
+
+#main img.clear {
+	border: 0;
+}
+
+#main img.galleryImg {
+	width: 450px;
+	height: 450px;
+	border: solid 1px #8bb206; /* green highlight */
+}
+
+/* link styles */
+
+#main a {
+	color: #8bb206; /* green highlight */
+}
+
+/* blockquote styles */
+
+#main blockquote.dark {
+	border: dashed 1px #8bb206; /* green highlight */
+	padding: 5px;
+	background: #253c01; /* dark */
+}
+
+/* pre & code styles */
+
+#main pre {
+	border-left: solid 3px #8bb206; /* green highlight */
+	padding-left: 5px;
+}
+
+#main pre.dark {
+	/*border-left: solid 3px #253c01; /* dark */
+	padding-left: 5px;
+	background: #253c01; /* dark */
+}
+
+#main code {
+	font-style: italic;
+}
+
+/* dl & dt styles */
+
+#main dl {
+}
+
+#main dt {
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+#main dd {
+	font-size: 0.9em;
+}
+
+/* form styles */
+
+#main input {
+}
+
+/* span styles */
+
+span.leftSpan {
+	/*border: solid 1px white;*/
+	float: left;
+}
+
+span.rightSpan {
+	/*border: solid 1px yellow;*/
+	float: right;
+}
+
+/**********
+Column definitions -- left, middle, right for the 1,2,3-column layouts
+**********/
+
+#left2col {
+	float: left;
+	width: 200px;
+	height: 834px; /* Firefox renders height+padding as the actual height */
+	padding: 5px;
+	overflow: hidden;
+}
+
+#middle2col {
+	margin-left: 205px;
+	height: 834px; /* Firefox renders height+padding as the actual height */
+	padding: 5px;
+	/*overflow: hidden;*/
+}
+
+#left3col {
+	float: left;
+	width: 200px;
+	height: 834px; /* Firefox renders height+padding as the actual height */
+	padding: 5px;
+	overflow: hidden;
+}
+
+#middle3col {
+	float: left;
+	width: 470px;
+	/*margin-left: 5px;*/
+	height: 834px; /* Firefox renders height+padding as the actual height */
+	padding: 5px;
+}
+
+#right3col {
+	float: right;
+	width: 200px;
+	height: 834px; /* Firefox renders height+padding as the actual height */
+	padding: 5px;
+	overflow: hidden;
+}
+
+#middle1col {
+	height: 834px; /* Firefox renders height+padding as the actual height */
+}
+
+#leftimgGallery {
+	float: left;
+	width: 200px;
+	height: 834px; /* Firefox renders height+padding as the actual height */
+	padding: 5px;
+	overflow: hidden;
+}
+
+#middleimgGallery {
+	/*margin-left: 205px;*/
+	float: left;
+	height: 834px;
+	width: 470px;
+	padding: 5px;
+}
+
+#rightimgGallery {
+	float: left;
+	width: 200px;
+	height: 834px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+
+
+#rightimgGallery a.thumb {
+	display: block;
+	text-decoration: none;
+}
+
+#rightimgGallery a.thumb img {
+	border: solid 1px #ffd500; /* yellow */
+	height: 100px;
+	width: 100px;
+	margin: 3px;
+	/*border: 0;*/
+}
+
+#rightimgGallery a.thumb img:hover {
+	/*border: solid 1px url('images/flash.gif');*/
+	background: url('images/flash.gif') top left;
+}
+
+#main img.thumb {
+	width: 100px;
+	height: 100px;
+	display: block;
+}

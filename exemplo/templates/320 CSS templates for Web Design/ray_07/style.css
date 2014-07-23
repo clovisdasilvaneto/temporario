@@ -1,0 +1,89 @@
+/* -------------------- */
+/* -- Written By Ray -- */
+/* -------------------- */
+body{
+	margin: 1em;
+	padding: 0;
+	background-image: url(images/bg.gif);
+	text-align: center;
+	font: 11px/22px Verdana, Arial, Helvetica, sans-serif;
+}
+a{
+	color: #336A2A;
+}
+a:hover{
+	color: #C9D12C;
+}
+#container{
+	width: 465px;
+	margin: auto;
+	padding: 0;
+	border: 2px solid #ccc;
+	background-color: #fcfcfc;
+	background-image: url(images/content_bg.gif);
+	text-align: left;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#nav li{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+#nav li a{
+	float: right;
+	display: block;
+	margin: 0 0.5em 0 0;
+	padding: 0;
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 3px solid #ccc;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+#nav li a:hover{
+	color: #336A2A;
+	border-bottom: 3px solid #336A2A;
+}
+img{
+	margin: 0.5em 0 0.5em 0;
+	padding: 0;
+	border-bottom: 2px solid #ccc;
+	border-top: 2px solid #ccc;
+}
+#content h2{
+	text-indent: 1em;
+	margin: 0;
+	padding: 0;
+	background-image: url("images/h_2.jpg");
+	font-size: 12px;
+	font-variant: small-caps;
+	color: #fff;
+	border-bottom: 2px solid #ccc;
+	border-top: 2px solid #ccc;
+	height: 20px;
+}
+#content p{
+	padding: 0 1em 0 1em;
+	margin: 0.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+#footer{
+	margin: 0;
+	padding: 0;
+	background-color: #f3f3f3;
+	border-top: 2px solid #ccc;
+	font-variant: small-caps;
+	font-size: 10px;
+}
+#footer p{
+	margin: 0;
+	margin: 0;
+	text-align: center;
+}

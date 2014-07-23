@@ -1,0 +1,19 @@
+* {margin:0;padding:0;}form {margin:0;padding:0;}
+.hiddenpic {display:none;}.hide {display:none;}img {border:0;}p {}
+/****  container holds all designs (3 designs per row, presently)  *****/
+.designs_container {margin:0 auto; width:auto;text-align:center;}
+/*** preview holds one design with h5, h6, and ul  ***/
+.preview {float:left;margin:10px 0px;width:33.2%;text-align:center;}
+/** Top Labels **/
+.preview h5 {overflow:hidden;margin:0px 2px;width:auto;
+font-size:1.15em; color:#930209;font-weight:bold;text-align:center;}
+.preview h6 {overflow:hidden;margin:0px 2px;width:auto;
+font-size:1em; color:#293158;font-weight:bold;text-align:center;}
+/** levelone holds thumbnail, two holds submenu links  **/
+/** pad/margin on ul moves text around, ,li nothing, <a> sizes the box  **/
+ul.design{width:auto;}ul,li {list-style:none;}ul.detail{padding-bottom:2px;} ul.detail li{display:inline;}.levelone a {border:0;text-align:center;} 
+.leveltwo_a a {padding:0px 2px;background-color:#48497B;color:white;border-bottom:2px dotted #ffcc33;}
+.leveltwo_b a {padding:0px 2px;background-color:#B7424A;color:white;border-bottom:2px dotted #ffcc33;}
+.leveltwo_c a {padding:0px 2px;background-color:#FAE287;color:black;border-bottom:2px dotted #B7424A;}
+.leveltwo_a a:hover, .leveltwo_b a:hover, .leveltwo_c a:hover {
+background-color:#cccccc;color:#000000;border:0px solid red;} 

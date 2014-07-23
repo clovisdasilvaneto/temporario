@@ -1,0 +1,207 @@
+<!--/*PinkMad CSS Document */ 
+/* Developed by Nendoke , nendoke @ yahoo dot com , http://mzkid.deviantart.com 
+** License: GPL (http://www.gnu.org/copyleft/gpl.html)
+*/
+-->
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/bg_body.gif);
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	background-position: left 100px;
+}
+
+h3 {
+	color: #FF3366;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	text-align: left;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #990000;
+	letter-spacing: 2px;
+	padding: 3px;
+	text-align: left;
+	margin-top: 1px;
+	margin-right: 4px;
+	margin-bottom: 1px;
+	margin-left: 4px;
+}
+
+label {
+	color: #990000;
+	text-decoration: underline;
+	cursor: help;
+
+}
+
+
+.header_spacer {
+	height: 50px;
+	background-image: url(images/headeR_spacer.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+
+}
+.header {
+	background-color: #FF3399;
+	padding: 5px;
+	height: 90px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	width:70%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	background-image: url(images/header_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.header_nav_title {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	float: left;
+	padding-top: 50px;
+	padding-left: 35px;
+}
+
+.header_nav_bar {
+	float: right;
+	padding-right:25px;
+	margin-top: 58px;
+	display:block;
+}
+
+.header_nav_bar A {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 70%;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+	display:block;
+	float: left;
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	margin-right: 5px;
+}
+
+.header_nav_bar A:Hover {
+	color: #666666;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	text-decoration: underline;
+	background-color: #FBFBFB;
+}
+
+.main_body {
+	padding: 5px;
+	width:70%;
+	background-color: #FFFFFF;
+	display:table;
+	height:500px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+
+.main_body_left {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	display: block;
+	float: left;
+	width: 70%;
+	margin-right: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	text-align: left;
+	letter-spacing: 1px;
+	height:500px;
+}
+
+.main_body_menu {
+	text-align: right;
+	float: left;
+	width: 27%;
+	padding: 3px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #EEEEEE;
+	height:500px;
+}
+
+.main_body_menu A {
+	display: block;
+	width: 100%;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #99CC00;
+	margin: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #F1F3F8;
+}
+
+.main_body_menu A:Hover {
+	color: #006699;
+	text-decoration: underline;
+	border-left-color: #FF0000;
+}
+
+.form_button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #F7F7F7;
+	border: 1px solid #0099FF;
+	padding:2px;
+	cursor:pointer;
+}
+
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 3px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #EEEEEE;
+	border-bottom-color: #000000;
+	background-image: url(images/footeR_spacer.gif);
+	height: 50px;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	font-weight: bold;
+}

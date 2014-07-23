@@ -1,0 +1,98 @@
+body {
+margin: 0;
+padding: 0;
+font-size: 76%;
+font-family: Tahoma, Helvetica, Verdana, Arial, Sans-serif;
+background: #b1b1b1;
+color: #000000;
+}
+
+p {margin: 0; padding: 5px; text-indent: 10px;}
+
+a {text-decoration: none; font-weight: bold; color: #000066; background: inherit;}
+a:hover {text-decoration: underline;}
+
+h1,h2,h3,h4,h5,h6,b,i,u,pre,form {margin: 0; padding: 5px;}
+
+form {text-align: center;}
+
+img{padding: 5px;}
+
+img.left {float: left;}
+img.right {float: right;}
+
+#page {
+width: 750px;
+height: 100%;
+background: #ffffff;
+color: inherit;
+border-right: 1px dotted #888888;
+border-bottom: 1px dotted #888888;
+overflow: hidden;
+}
+
+#header {
+background-image: url('images/headerback.jpg');
+background-repeat: no-repeat;
+background-color: inherit;
+color: #ffffff;
+width: 750px;
+height: 100px;
+overflow: hidden;
+}
+
+#menu {
+width: 750px;
+background: #dddddd;
+color: inherit;
+padding-top: 5px;
+padding-bottom: 5px;
+border-top: 1px dotted #888888;
+border-bottom: 1px dotted #888888;
+overflow: hidden;
+}
+
+#menu a {padding: 5px; text-decoration: none; border-right: 1px solid #888888;}
+
+#menu a:hover {background: #eeeeee; color: inherit;}
+
+#lcolum {
+background: #dddddd;
+border-bottom: 1px dotted #888888;
+padding-bottom: 5px;
+color: inherit;
+width: 150px;
+float: left;
+overflow: hidden;
+}
+
+#content {
+width: 440px;
+border-right: 1px dotted #888888;
+border-left: 1px solid #888888;
+float: left;
+overflow: hidden;
+}
+
+#content a {color: #000066; background: inherit;}
+
+#rcolum {
+padding-bottom: 5px;
+width: 150px;
+float: left;
+overflow: hidden;
+}
+
+#footer {
+width: 750px;
+font-size: 70%;
+font-weight: bold;
+background: #000066;
+color: #ffffff;
+text-align: center;
+border-top: 1px dotted #888888;
+clear: both;
+overflow: hidden;
+}
+
+#footer a{color: #66dd00; background: inherit;}

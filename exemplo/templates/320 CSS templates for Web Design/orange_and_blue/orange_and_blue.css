@@ -1,0 +1,167 @@
+/* CSS File for blue&orange by brampamp - www.visual-aid.co.uk */
+#container {
+	width: 750px;
+	margin: 0 auto;
+	font-family: "Courier New", Courier, monospace, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color:#FFFFFF;
+	line-height: 1.6em;
+}
+/* The tags */
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 32px;
+	color:#FF6600;
+	background-color:inherit;
+	margin-bottom:30px;
+	margin-left:2px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 20px;
+	color:#FF6611;
+	margin-top:15px;
+	margin-left:2px;
+	margin-bottom:0px;
+}
+a {
+	color:#FF3333;
+	text-decoration:none;
+}
+a:hover {
+	color:#FF9933;
+	background-color:#C0DCED;
+}
+/* HEADER STUFF */
+#header {
+	clear: both;
+	margin-bottom: 10px;
+	background-color: #CAE2F0;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 1px;
+	padding-left: 0;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+}
+#header p {
+	color: #666666;
+	margin-top: -25px;
+	margin-left: 30px;
+	font-size:13px;
+}
+#header img {
+	padding-right:2px;
+	height:75px; /* Just makes sure the image will not extend the header */
+	float:right;
+}
+/* NAVIGATION WHATSIT */
+#navigation {
+	background-color:#FF6600;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dashed;
+	border-left-style: dashed;
+	border-right-color: #666666;
+	border-left-color: #666666;
+	float:left;
+	width:750px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#navigation ul {
+	margin-top:0px;
+	margin-bottom:0px;
+	list-style-type: none;
+	font-size:13px;
+	margin-bottom:0px;
+}
+#navigation ul li {
+	display:inline;
+	padding-left:15px;
+	padding-right:15px;
+}
+#navigation a:link, #navlist a:visited {
+	color:#333333;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#navigation a:hover {
+	background-color:#666666;
+	color:#FFFFFF;
+}
+/* CONTENT BOBBINS */
+#content {
+	width:750px;
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	background-color: #CAE2F0;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+}
+#content p {
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0px;
+	margin-bottom:10px;
+}
+/*FOOTER THINGY*/
+#footer {
+	background-color: #CAE2F0;
+	margin-top:10px;
+	margin-bottom:0px;
+	font-size:75%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+	float:left;
+	width:750px;
+}
+#footer p {
+	margin:0;
+	color:#666666;
+	padding: 2px;
+}
+		
+#footer p a {
+	color: #89817f;
+	border-bottom: 1px dotted #89817f;
+}
+		
+#footer p a:hover {
+	color: #FF6600;
+	background-color:#575352;
+}
+/*The END*/

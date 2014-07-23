@@ -1,0 +1,114 @@
+/*
+
+css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/
+
+Thanks Dave Shea for his beautiful work.
+
+
+''' ZEN ART ''' by Davide Rognoni
+
+Locawapp - http://www.oswd.org/user/profile/id/7850
+
+*/
+
+BODY {
+	background-color: #cfcfc3;
+	color: #cfcfc3;
+	font-family: sans-serif;
+	margin: 0px;
+}
+A {
+	color: #cfcfc3;
+}
+A:hover {
+	color: yellow;
+	text-decoration: none;
+}
+H1, H2, H3, LI, P, SPAN, UL {
+	margin: 0px;
+	padding: 0px;
+}
+LI {
+	list-style-type: none;
+}
+
+#container {
+	position: absolute;
+	background: #cfcfc3 url(zenArt.jpg) no-repeat;
+	height: 465px;
+	left: 50%;
+	margin-left: -375px;
+	top: 0px;
+	width: 500px;
+}
+
+#intro {
+	position: absolute;
+	background: #cfcfc3 url(over.jpg) no-repeat;
+	height: 1000px;
+	left: 500px;
+	padding-top: 15px;
+	width: 50px;
+}
+#intro:hover {
+	background: transparent url(pix.gif) repeat;
+	border-right: 1px solid black;
+	color: black;
+	font-size: 16px;
+	left: 0px;
+	width: 550px;
+	z-index: 10;
+}
+
+#quickSummary, #preamble, #explanation, #participation, #benefits, #requirements, #footer {
+	padding-right: 100px;
+}
+#quickSummary:hover, #preamble:hover, #explanation:hover, #participation:hover, #benefits:hover, #requirements:hover, #footer:hover {
+	background-color: black;
+	color: #cfcfc3;
+}
+
+#supportingText {
+	position: absolute;
+	background: #cfcfc3 url(over.jpg) no-repeat;
+	height: 1000px;
+	left: 550px;
+	padding-top: 15px;
+	top: 50px;
+	width: 50px;
+}
+#supportingText:hover {
+	background: transparent url(pix.gif) repeat;
+	border-right: 1px solid black;
+	color: black;
+	font-size: 12px;
+	left: 0px;
+	width: 600px;
+	top: 0px;
+	z-index: 10;
+}
+
+#linkList {
+	position: absolute;
+	background: #cfcfc3 url(over.jpg) no-repeat;
+	height: 1000px;
+	left: 600px;
+	padding-top: 15px;
+	top: 100px;
+	width: 50px;
+}
+#linkList:hover {
+	background: transparent url(pix.gif) repeat;
+	border-right: 1px solid black;
+	color: black;
+	font-size: 18px;
+	left: 0px;
+	width: 650px;
+	top: 0px;
+	z-index: 10;
+}
+
+#lselect:hover, #larchives:hover, #lresources:hover {
+	background-color: black;
+	color: #cfcfc3;
+}

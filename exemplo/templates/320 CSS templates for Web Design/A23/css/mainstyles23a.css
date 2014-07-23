@@ -1,0 +1,118 @@
+/**  Mainstyles 23a  ***/
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+body {margin:1px 0px;padding:0;
+background-color: #ffffff;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-align:center;font-size: .60em;color:#000000;}
+
+.wrap {margin:0; padding:0; width:auto, height:auto; height:100%;}
+
+/*** For preloading all the page's images, just add all images ***/  
+/***  Preload media  ***/
+.wrap {
+	background-image: url(../media/1.jpg);
+	background-image: url(../media/2.jpg);
+	background-image: url(../media/3.jpg);
+	background-image: url(../media/6cards20x188.gif);
+	background-image: url(../media/cart_empty.gif);
+	background-image: url(../media/cart_emptyb.gif);
+	background-image: url(../media/cart_full.gif);
+	background-image: url(../media/cart_fullb.gif);
+	background-image: url(../media/cornerblue3.gif);
+	background-image: url(../media/duo_tickleftbluered.gif);
+	background-image: url(../media/goldbird.jpg);
+	background-image: url(../media/quadoctarrowsredblue.gif);
+	background-image: url(../media/slice_bluelist1.gif);
+	background-repeat: no-repeat;
+	background-position: -5000px -5000px;}
+/**** end preload images ****/
+
+
+/**** HEAD STRUCTURE AND STYLES, 
+ABSOLUTE POSITIONED FOR STABILITY ****/
+/*** wraps the head rows  ****/
+.head_wrap {z-index:500;display:block;position:absolute;top:2px;left:0%;
+background: transparent url("../media/slice_bluediag1.gif") repeat top left;
+width:100%;margin:0 auto;padding:0;text-align:center;}
+
+.headrow_one {display:block;margin:0;padding:0;width:100%;
+height:60px;border-top: 2px ridge #ffffff;color:#ffcc33;}
+.rowone_left {float:left;margin:0;padding:0;width:22%;height:60px;border-right: 2px ridge #ffffff;
+text-align:center;background: transparent url(../media/goldbird.jpg) no-repeat center top;}
+.rowone_right {float:right;margin:0;padding:0;width:76%;text-align:center;color:#eaeaea;}
+/***  two has search & translate bars  ****/
+.headrow_two {display:block;margin:0;padding:0;width:100%;height:19px;
+border-top:2px outset #ffffff;background-color:#cccccc;}
+.rowtwo_left  {float:left; margin:0 auto;padding:0;width:22%;text-align:center;}
+.rowtwo_mid  {float:left; margin:0 auto;padding-top:4px;width:55%;text-align:center;font-weight:bold;color:#290158;}
+.rowtwo_right {float:right;margin:0 auto;padding:0;width:22%;text-align:center;}
+
+/***  three (centered) holds top tabs menu  ****/
+.headrow_three {display:block;margin:0 auto;padding:0;width:100%;
+border-top:2px outset #ffffff;border-bottom:2px ridge #ffffff;
+text-align:center;}
+/****  end head_wrap  ****/
+
+
+/****   VERY IMPORTANT NOTE  ****/
+/****   
+   KEEP ALL ABSOLUTE POSITIONED DIVS INSIDE ANY ABSOLUTE PARENT DIVS.  HERE, 
+   THE ABSOLUTE BODY CONTAINER HOLDS THE LEFT AND RIGHT ABSOLUTES, PLUS THE FLOW POSITIONED
+   CENTER CONTENT DIV.  THIS WORKS TO KEEP ALL ABSOLUTE POSITIONED WORK BOXES 
+   VISIBLE IN Nvu and Dreamweaver Editors.  IT's JUST A Z-INDEX RELATED FIX FOR 
+   WYSIWYG HTML EDITORS.   VERY IMPORTANT NOTE  ****/
+
+
+/***  NOTE: Did body_column full width, and layed 
+left and right over it, so that the footer could 
+also be full width at the base of the page, back 
+into flow mode.  BELOW IS THE EXACT ORDER OF THE DIVS  
+BODY LEFT CENTER FOOTER RIGHT ***/
+
+
+.body_column {z-index:1;position:absolute;top:115px;left:0%;
+margin:0 auto;padding:0;width:100%;height:auto;text-align:center;background-color: #cccccc;}
+
+.left_column {z-index:400;position:absolute;top:0px;left:0%;width:22%;
+background: transparent url("../media/slice_bluediag1.gif") repeat top left;
+border-right: 2px ridge #ffffff;border-bottom: 2px ridge #ffffff;
+margin:0 auto;padding:0;text-align:center;} 
+
+/****  "center_content"  ****/
+.center_content {
+margin:0 auto;margin-top:6px;width:54%;height:auto;text-align:center;}
+
+.footer_a21 {
+/** see seperate style sheet  **/}
+
+.right_column {
+z-index:300;position:absolute;top:0px;left:78%;width:22%;
+border-left: 2px ridge #ffffff;border-bottom: 2px ridge #ffffff;
+margin:0 auto;padding:0;text-align:center;}
+
+
+h1 {/*** width must be 100% for dropshadow to work in IE  ***/
+	margin:0;padding:0;padding-top:5px;font-size:2.0em;font-weight: bold;color: #ffffff;
+	width:100%;filter:dropshadow(color=#930209, offx=2, offy=2, positive=true);text-align:center;}
+h2 {/*** width must be 100% for dropshadow to work in IE  ***/
+margin:0;padding:0;font-size: 1.25em;font-weight: bold;text-align:center;
+color: #ffffff;width:100%;filter:dropshadow(color=#000000, offx=2, offy=2, positive=true);}
+.dotgov {color: #e5b555; filter:dropshadow(color=#000000, offx=2, offy=2, positive=true);}
+
+
+
+
+
+
+h3 {	
+margin:0; padding:2px 0px;background-color:#293158;border: 1px solid #ffcc33;
+border-right: 10px solid #930209;color: #ffffff;font-size: 1.25em;
+font-weight:normal;text-indent:2px;text-align:left;}
+
+h4 {margin:0;padding:0;font-size:.8em;font-weight:bold;color: #000000;}

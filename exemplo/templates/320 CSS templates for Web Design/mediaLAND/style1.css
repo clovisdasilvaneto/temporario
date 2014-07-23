@@ -1,0 +1,384 @@
+a
+	{
+	border-bottom: 1px solid white;
+	color: rgb(218,165,32);
+	text-decoration: none;
+	}
+a:hover
+	{
+	border-bottom: 1px dotted rgb(218,165,32);
+	color: rgb(218,165,32);
+	text-decoration: none;
+	}
+#bg
+	{
+	background: gray url('bg.bmp') left top repeat-y;
+	height: 100%;
+	left: 750px;
+	position: absolute;
+	top: 0px;
+	width: 50px;
+	}
+body
+	{
+	background: gray;
+	cursor: default;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	}
+body > #menu
+	{
+	position: fixed;
+	}
+#content
+	{
+	background: silver;
+	height: 100%;
+	left: 200px;
+	margin: 0px;
+	overflow: auto;
+	padding: 0px;
+	position: absolute;
+	scrollbar-3dlight-color: gray;
+	scrollbar-arrow-color: gray;
+	scrollbar-base-color: gray;
+	scrollbar-darkshadow-color: gray;
+	scrollbar-face-color: silver;
+	scrollbar-highlight-color: silver;
+	scrollbar-shadow-color: silver;
+	text-align: center;
+	top: 0px;
+	width: 550px;
+	}
+#footer
+	{
+	font-family: verdana, arial, helvetica, times new roman;
+	font-size: 75%;
+	height: 20px;
+	margin: -20px auto 0px auto;
+	padding: 0px;
+	position: relative;
+	text-align: center;
+	width: 534px;
+	}
+* html #footer
+	{
+	margin-top: -20px;
+	}
+#footer a:link, #footer a:visited
+	{
+	border-bottom: 0px;
+	color: gray;
+	}
+#footer a:hover, #footer a:active
+	{
+	border-bottom: 0px;
+	color: navy;
+	}
+html
+	{
+	height: 100%;
+	}
+a.images:link, a.images:visited
+	{
+	border: 1px solid silver;
+	}
+a.images:hover, a.images:active
+	{
+	border: 1px solid rgb(218,165,32);
+	}
+span.important
+	{
+	color: red;
+	}
+#login
+	{
+	background: rgb(180,180,180);
+	border: 1px solid rgb(80,80,80);
+	font-size: 12px;
+	height: 18px;
+	width: 60px;
+	}
+#loginbox
+	{
+	background: rgb(100,100,100);
+	width: 180px;
+	}
+#loginsite
+	{
+	font-size: 5px;
+	text-align: center;
+	width: 100%;
+	}
+font.logintext
+	{
+	font-family: arial;
+	font-size: 10px;
+	}
+font.logintitle
+	{
+	font-size: 12px;
+	}
+#logo
+	{
+	color: white;
+	font-family: arial;
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+	}
+#menu
+	{
+	background: gray url('menubg.bmp') right top repeat-y;
+	color: black;
+	height: 100%;
+	left: 0px;
+	margin: 0px;
+	overflow: auto;
+	padding: 0px;
+	position: absolute;
+	text-align: left;
+	top: 0px;
+	width: 200px;
+	}
+hr.menusep
+	{
+	color: navy;
+	height: 1px;
+	}
+a.more:link, a.more:visited
+	{
+	border-bottom: 0px;
+	color: rgb(200,0,0);
+	text-decoration: none;
+	}
+a.more:hover, a.more:active
+	{
+	border-bottom: 0px;
+	color: rgb(200,0,0);
+	font-weight: bold;
+	text-decoration: none;
+	}
+a.notactive
+	{
+	border-bottom: 0px;
+	border-top: 0px;
+	color: silver;
+	display: block;
+	font-family: arial, times new roman;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	width: 99%;
+	}
+a.notactive:hover
+	{
+	background: rgb(160,160,160);
+	border-bottom: 0px;
+	border-top: 0px;
+	color: gray;
+	}
+a.active
+	{
+	background: silver;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	color: gray;
+	display: block;
+	font-family: arial, times new roman;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	width: 100%;
+	}
+a.active:hover
+	{
+	background: silver;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	color: gray;
+	}
+#page
+	{
+	margin-bottom: 5%;
+	min-height: 95%;
+	}
+* html #page
+	{
+	height: 95%;
+	}
+#password
+	{
+	background: rgb(160,160,160);
+	border: 1px solid rgb(40,40,40);
+	color: silver;
+	font-size: 10px;
+	height: 14px;
+	width: 90px;
+	}
+#passwordover
+	{
+	background: rgb(160,160,160);
+	border: 1px solid rgb(80,80,80);
+	color: silver;
+	font-size: 10px;
+	height: 14px;
+	width: 90px;
+	}
+#search
+	{
+	border: 1px solid rgb(80,80,80);
+	font-size: 10px;
+	height: 14px;
+	width: 90px;
+	}
+#searchbox
+	{
+	background: rgb(100,100,100);
+	width: 180px;
+	}
+#searchsite
+	{
+	font-family: arial;
+	font-size: 12px;
+	padding-bottom: 5px;
+	text-align: center;
+	width: 100%;
+	}
+#slogan
+	{
+	color: black;
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	}
+span.small
+	{
+	font-size: 80%;
+	}
+a.subnotactive
+	{
+	border-bottom: 0px;
+	border-top: 0px;
+	color: silver;
+	color: silver;
+	display: block;
+	font-family: arial, times new roman;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	width: 99%;
+	}
+a.subnotactive:hover
+	{
+	background: rgb(160,160,160);
+	border-bottom: 0px;
+	border-top: 0px;
+	color: silver;
+	color: gray;
+	}
+a.subactive
+	{
+	{
+	background: silver;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	color: gray;
+	display: block;
+	font-family: arial, times new roman;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	width: 100%;
+	}
+	}
+a.subactive:hover
+	{
+	{
+	background: silver;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	color: gray;
+	}
+	}
+#submit
+	{
+	background: rgb(180,180,180) url('arrow.GIF') no-repeat center;
+	border: 1px solid rgb(80,80,80);
+	font-size: 13px;
+	height: 18px;
+	width: 25px;
+	}
+div.text
+	{
+	background: white url('boxbg.bmp') bottom left repeat-x;
+	color: gray;
+	font-family: verdana, arial, helvetica, times new roman;
+	font-size: 70%;
+	padding: 3px;
+	text-align: left;
+	}
+div.text hr
+	{
+	color: rgb(220,220,220);
+	height: 1px;
+	}
+span.texttitle
+	{
+	font-size: 110%;
+	font-variant: small-caps;
+	font-weight: bold;
+	}
+div.textbox
+	{
+	background: silver url('boxshadow.bmp') left top no-repeat;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 400px;
+	}
+a.top
+	{
+	border: 0px;
+	color: gray;
+	display: block;
+	padding-bottom: 5px;
+	text-align: center;
+	text-decoration: none;
+	}
+a.top:hover
+	{
+	border: 0px;
+	color: silver;
+	display: block;
+	padding-bottom: 5px;
+	text-align: center;
+	text-decoration: none;
+	}
+#username
+	{
+	background: rgb(160,160,160);
+	border: 1px solid rgb(40,40,40);
+	color: silver;
+	font-size: 10px;
+	height: 14px;
+	width: 90px;
+	}
+#usernameover
+	{
+	background: rgb(160,160,160);
+	border: 1px solid rgb(80,80,80);
+	color: silver;
+	font-size: 10px;
+	height: 14px;
+	width: 90px;
+	}

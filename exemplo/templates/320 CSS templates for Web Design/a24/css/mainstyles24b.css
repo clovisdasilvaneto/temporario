@@ -1,0 +1,242 @@
+/**  Mainstyles 24  ***/
+* {margin:0;padding:0;} 
+form {margin:0;padding:0;} 
+img {border:0; border:none;} 
+.hiddenpic, .hidden, .outreach_content {display:none;}
+HTML {HEIGHT: 100%} 
+BODY {HEIGHT: 100%, text-align:center;}
+/** HTML .wrap {HEIGHT: 100%} **/ 
+/** P {MARGIN: 0px 20px; LINE-HEIGHT: 1.6em} **/
+/** .wrap {MIN-HEIGHT: 100%;}  **/
+ACRONYM {BACKGROUND: url(images/acronym.gif) repeat-x 50% bottom; CURSOR: help}
+
+body {margin:0 auto; background: transparent url("../images/gradient_grayb.jpg") repeat fixed;font-family:Verdana, Arial, Helvetica, sans-serif; font-size: .70em;
+color:#000000;text-align:center;}
+
+
+/*** For preloading all the page's images, just add all images ***/  
+/***  Preload media  ***/
+.wrap {
+	background-image: url(../images/banner_travelfadelighter.jpg);
+	background-image: url(../images/seal_me2.gif);
+	background-image: url(../images/planeworkatt3.gif);
+	background-image: url(../media/duoarrowsleft_blackandwhite.gif);
+	background-image: url(../media/duo-arrowdown-navytall.gif);
+	background-repeat: no-repeat;
+	background-position: -5000px -5000px;}
+/**** end preload images ****/
+
+
+/** To change design width; adjust only the wrap. For 90% wide, 
+adjust to left:5%; and width 90%. Other divs will follow, being 
+contained and full width.   **/
+
+/** No width 100%: Use width auto or less than 100% due to border  **/
+.wrap {z-index:600;position:absolute;top:2px;left:1%;width:98%;border:2px ridge #ffcc33;
+background: transparent url("../images/crosshatch3.jpg") repeat top left;}
+
+/**** HEAD STRUCTURE AND STYLES ****/
+/*** wraps the head rows  ****/
+.head_wrap {display:block;width:100%;height:auto;}
+
+.headrow_one {overflow:visible;display:block;width:100%;height:75px;background: #6d939c url("../images/banner_hrlinearmintstriped_slice.jpg") repeat-x top left;border-bottom:2px ridge #e5b555;}
+
+.rowone_left {float:left;width:135px;height:75px;text-align:center;
+background: transparent url("../images/seal_moreblulessglare.gif") no-repeat 2px 1px;}/* hor-vert */
+.rowone_mid {float:left;width:56%;text-align:left;}
+.rowone_right {float:right;width:25%;height:75px;text-align:center;
+background: transparent url("../images/planeworkatt7.gif") no-repeat 98% 50%;}/* hor-vert */
+/***  two has search & translate bars  ****/
+
+.headrow_two {overflow:visible;display:block;width:100%;height:20px;background: #314a62 url("../images/bar20x_hrlinear314a62blue_slice.gif") repeat-x center;border-bottom:2px ridge #e5b555; border-top:2px ridge #89B3D9;}
+
+.rowtwo_left  {float:left;width:22%;height:20px;text-align:center;}
+.rowtwo_mid  {float:left;width:55.8%;height:20px;text-align:center;}
+.rowtwo_right {float:right;width:22%;height:20px;text-align:center;}
+/****  end head_wrap  ****/
+
+/***  DISPLAY:BLOCK makes footer full width stand alone  ***/
+.body_wrap {display:block;margin:0 auto;width:100%;height:auto;
+border-top:0px solid #990000;text-align:center;}
+
+.left_column {float:left; margin:0 auto; width:22%; background-color: #B6C9CD;
+border-right: 2px ridge #e5b555; border-bottom: 2px ridge #e5b555; text-align:center;} 
+
+/** NOTE: Center column is an outer, inner is center_content, did nesting for some left margin  **/
+.center_column {float:left;margin:0:auto;padding-top:6px;
+width:55%; height:auto; text:align:center;}
+
+/****  "center_content"  ****/
+.center_content {margin:0 auto;width:90%;height:auto;text-align:left;}
+
+/****  center_content LINK STYLES  ****/
+.center_content a {
+border-bottom:2px dotted #89B3D9;color:#154165;text-decoration:underline; font-weight:bold;}
+.center_content a:hover {border-bottom:0px dotted #000000;}
+
+
+.right_column {float:right;margin:0 auto;width:22%;background-color: none;
+border-left: 0px ridge #e5b555;border-bottom: 0px ridge #e5b555;text-align:center;}
+
+/*** width must be 100% for dropshadow to work in IE  ***/
+/****  h1 is text on the left banner   ****/
+h1 {padding-top:30px;font-size:1.0em;font-weight:bold;width:100%;
+font-family: Georgia, "Times New Roman", Times, serif;
+filter:dropshadow(color=#cccccc, offx=1, offy=1, positive=true);color: #000000;}
+
+h2 {/*** width must be 100% for dropshadow to work in IE  ***/
+padding-top:20px;font-size:1.55em;font-weight:bold;color:#48546C;width:100%;
+font-family:Georgia, "Times New Roman", Times, serif;
+filter:dropshadow(color=#000000, offx=1, offy=1, positive=true);}
+
+h3 {/*** width must be 100% for dropshadow to work in IE  ***/
+font-size: 1.10em;font-weight: bold;color: #ffffff;width:100%;
+font-family:Georgia, "Times New Roman", Times, serif;
+filter:dropshadow(color=#000000, offx=1, offy=1, positive=true);}
+
+.titlespan {color: #e5b555;}
+
+h4 {background: #6d939c url("../images/bar20x_hrlinearmint_slice.gif") repeat-x center;
+padding:2px 0px;border: 1px ridge #48546C;border-right: 10px double #e5b555;
+color: #ffffff;font-size: 1.25em;font-weight:normal;text-indent:2px;text-align:left;}
+
+
+
+/** Search & Translate Bars  ***/
+form {margin:0;padding:0;}
+/***  This is for the Google language translation box  ***/
+.pullmenus {margin:0 auto;padding:0;background-color: #eaeaea;text-align:left;
+color: #164165;width:96%;font-size:10px;}
+
+/***   Google Search Box  ****/
+/**  searchbox_wrap used for margin-top fix for table margin-top prob , and 
+problem that 100% width does not work, borders break layout  **/
+.searchbox_wrap {margin:0 auto; padding:0; width:96%;  text-align:center;}
+.searchtable    {margin:0 auto; padding:0; width:100%; text-align:center;}
+.searchtable_leftcell {width:auto;}
+.searchtable_midcell {width:100%;}
+.searchtable_rightcell {width:auto;}
+.searchbox1 {margin:0;padding:0;background-color: #eaeaea;text-align: left;
+color: #000000;width:auto;font-size:10px;text-align:left;}
+.searchbox2 {margin:0;padding:0;background-color: #eaeaea;text-align: 
+left;color:#000000;width:auto;font-size:10px;}
+.searchbutton {margin:0;padding:0;width:auto;font-size:10px;cursor:pointer;
+background-color:#48546C;border-color:#eaeaea; color: #ffffff;}
+
+/***  submain left (a_bit_modern) nav LIST STYLES  ***/
+/***  9px padding-left is for spacing away from left dropshadow. Did 
+ width:auto, except on nav ul li, which is 100%, to force cross-browser compatibility   ***/
+.submain_nav {display:block;clear:both;margin:0 auto; margin-top:5px; padding:0; 
+padding-bottom:10px; width:96%;	border: 0px solid #c8dff1; text-align:center;text-indent:0px;}
+.submain_nav ul {display:block;clear:both;margin:0; padding:0;width:auto; height:auto;text-align:left;
+text-indent:0px;}
+.submain_nav ul li {
+display:block; width:100%;margin:0; padding:3px 0px 0px 0px;list-style: none; 
+border-bottom: 0px solid #89B3D9; text-indent:2px;}
+.submain_nav ul li a {/** border-right: 4px ridge #6498ca; **/ width:99%;}
+/****  featuredservices_nav LINK STYLES  ****/
+.submain_nav ul li a:link, .submain_nav ul li a:visited {
+display:block; width:99%;padding: 3px 0px;
+font-size:10px;text-decoration:none; color:#000000;
+border-right: 0px ridge #372F2C;font-weight:bold;}
+.submain_nav ul li a:hover, .submain_nav ul li a:active {
+display:block; width:99%;padding: 3px 0px; 
+background: transparent url("../images/duoarrowsleft_blackandwhite.gif") no-repeat right 4px; 
+font-size:10px;text-decoration:underline;color:#314a62;}
+/* the following 3 rules are for indented submenu items, if applicable  ***/
+/***  JUMPY LINKS, HAD TO SPREAD STYLES  ****/
+.submain_nav ul ul li {line-height: 10px; border: 0px solid white;}
+.submain_nav ul ul li a:link,  .submain_nav ul ul li a:visited 
+{color:#314a62; width:100%; text-indent:8px;font-weight:normal; border: 0px solid white;text-decoration:none; }
+.submain_nav ul ul li a:hover, .submain_nav ul ul li a:active 
+{color:#314a62; width:100%; text-indent:8px; font-weight:normal;text-decoration:underline; }
+/***  Rules for active current topic and subtopic  ***/
+.submain_nav .current_topic {}
+.submain_nav .current_subtopic {
+background: url("../images/duoarrowsleft_blackandwhite.gif") no-repeat right 4px;}
+/***  ************  ***/
+/**  Headlines24  ***/
+
+/**  NOTE: Tried list-type image here, but spacing is all wrong  
+      and cant use hover changes or anything either.  Did 
+	  indent total width, though, which is good.  ***/
+
+/****  Headlines Vertical  ****/
+.headlines_container_24 {
+margin:0 auto; margin-top:5px; width:96%; text-align:center;}
+/***  featuredservices_nav LIST STYLES  ***/
+ul.headlines_nav {list-style: none;width:100%;text-align:left;}
+ul.headlines_nav li {width:100%;margin:5px 0px 5px 0px;}
+ul.headlines_nav li a {display:block;width:100%;text-indent:15px;line-height:13px;
+background-image: url("../images/duo-arrowdown-navytall.gif"); background-repeat:no-repeat;}
+/****  Headlines LINK STYLES  ****/
+ul.headlines_nav li a:link, ul.headlines_nav li a:visited {
+background-position: left 0px;
+text-decoration:none; color:#314a62;}
+ul.headlines_nav li a:hover, ul.headlines_nav li a:active {
+background-position: left -48px; text-decoration:underline;color:#314a62;}
+
+
+/***  footer_24  **/
+.footer24 {display:block;float:left;width:100%;
+border-top:1px solid #e5b555;
+border-bottom:1px solid #e5b555;}
+
+/*** Baseabout ****/
+.baseabout {display:block;padding:2px 0px 4px 0px; width:100%;
+background: #314a62 url("../images/bar20x_hrlinear314a62blue_slice.gif") repeat-x center;
+border-bottom:2px ridge  #89B3D9;text-align:center;color:#e5b555;}
+
+/****  "footer_bottom" link styles   ****/
+.baseabout a {border-bottom:2px dotted #e5b555;color:#FFFFFF;text-decoration:underline; font-weight:bold;}
+.baseabout a:hover {border-bottom:0px dotted #e5b555;}
+
+/****  "basenav menu horizontal   ****/
+.basenav {display:block;padding:1px 0px 2px 0px;width:100%; background: #6d939c url("../images/bar20x_hrlinearmint_slice.gif") repeat-x center center; border-top:2px ridge #e5b555; color:#ffffff;}
+ul.nav {display:block;padding-bottom:2px; list-style: none inside; text-align: center;}
+ul.nav li {display:inline;}
+/****  "basemenu" menu link styles   ****/
+ul.nav li a:link, ul.nav li a:visited {border-bottom:2px dotted #e5b555;color:#154165;text-decoration:underline; font-weight:bold;}
+ul.nav li a:hover, ul.nav li a:active {
+border-bottom:0px dotted #e5b555;}
+
+
+/**** IMPORTANT NOTES  ****/
+
+/***  IN THIS PARTICULAR TEMPLATE, THE OBJECT WAS TO ELIMINATE 
+FLOAT, IN ORDER TO CONTROL OR TO STOP DIV WRAPPING, where the  
+TEXT WRAPS, BUT DIVS DO NOT, WAS MY POINT. Well, ended up being 
+a long-winded research project, and ended up working perfectly, 
+only not 100% in microsoft IE.  Was also a nightmare, to figure 
+how to absolute position every possible div in the layout.  Turns 
+out that absolute div containers can only have one row of internal absolute 
+divs, and that any second row will jump to the top of the page.  Well, made 
+it work by doing 3 rows of divs, and then ended up that the outer wrap wouldn't 
+produce border or background image in IE.  
+
+        Well, took it all back down, experimenting still, and saw 
+that the center column in a three column layout does not necessarily need 
+float, but can be just flow centered, margin:0 auto text-align:center, in IE. 
+To do this, had to reshuffle the column html, from left/center/right to 
+left/right/center, worked well, but not in all browsers, not in dreamweaver, 
+fine in FF, IE, Nvu, had to play with the margin:0 auto and text-align center 
+a bit, got it going, kept a working sample of it, still buggy in dreamweaver view.
+
+Also see that 3 floated columns,  the right will not wrap if you simply change the 
+order in the html from left/center/right to left/right/center.
+
+     Next ploy, toy, was to play with overflow:auto.  See now that overflow:hidden
+stops all div wrapping, but not the text; and the wrapping text becomes hidden.	 
+Overflow:visible just causes the divs to wrap again, with text certainly visible.
+
+   Next ploy, toy, was to put everything back into flow, with float, and then 
+to come back and put only the most common problematic wrapping divs into 
+absolute mode, to see if that will be cross-browser friendly. 
+
+   The whole thing, really, was that I learned the best ways to try and stop, slow, 
+minimize div wrapping.  All in all, overflow:hidden is not worth it.  Absolute 
+works best, but it looks like only the problem wrapping divs need it 
+
+ Another ploy, toy, is to try to use display:inline instead of float, to see is 
+that slows or handles wrapping better.
+****/

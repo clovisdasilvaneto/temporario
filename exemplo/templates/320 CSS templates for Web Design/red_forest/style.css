@@ -1,0 +1,147 @@
+body {
+	color: black;
+	font: 11px Arial, Helvetica, sans-serif;
+	background: #ececec;
+	text-align: left;
+}
+
+p {
+	font-size: 12px;
+	color: black;
+	background: transparent;
+}
+
+a {
+	color: #006e00;
+	text-decoration: none;
+	background: transparent;
+}
+
+a:hover {
+	color: #950a00;
+	background: transparent;
+}
+
+.emph {
+	font-style: oblique;
+	color: #950a00;
+	background: transparent;
+	margin-right: 1px;
+}
+
+h1 {
+	font-size: 35px;
+	padding: 5px 8px;
+	border: 1px solid #b9b000;
+	border-right: 10px solid #950a00;
+	font-style: oblique;
+	border-left: 10px solid #950a00;
+	color: #006e00;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #ececec;
+}
+
+h1:hover {
+	font-size: 35px;
+	padding: 5px 8px;
+	border: 1px solid #b9b000;
+	border-right: 10px solid #950a00;
+	font-style: oblique;
+	border-left: 10px solid #950a00;
+	color: #ececec;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #006e00;
+}
+
+h2 {
+	font-size: 21px;
+	color: #b9b000;
+	background: transparent;
+	padding: 5px 8px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	border: 1px solid #950a00;
+}
+
+h3 {
+	font-size: 17px;
+	color: #950a00;
+	background: transparent;
+}
+
+.container {
+	width: 79%;
+	background: #f4f4f4;
+	color: black;
+	border: 1px dashed gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 566px;
+	padding: 0 8px 8px;
+}
+
+.footer {
+	color: gray;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: silver;
+}
+
+.footer a {
+	color: #950a00;
+	background: transparent;
+}
+
+.footer a:hover {
+	color: #006e00;
+	background: transparent;
+}
+
+.side_box {
+	width: 17%;
+	padding-top: 0;
+	background: #f4f4f4;
+	color: black;
+	border: 1px dotted gray;
+	position: fixed;
+	right: 8px;
+	top: 70px;
+	padding-bottom: 19px;
+	padding-left: 8px;
+}
+
+.side_box a {
+	color: #006e00;
+	font-size: 12px;
+	position: relative;
+	width: 80%;
+	height: 20px;
+	background: #e1e1e1;
+	display: block;
+	padding-top: 7px;
+	padding-left: 8px;ack;ac;a;;
+	border: 1px solid #b9b000;
+	border-right: 10px solid #950a00;
+	border-left: 10px solid #950a00;
+	margin-top: -1px;
+}
+
+.side_box a:hover {
+	color: #950a00;
+	background: #e1e1e1;
+	border-left: 10px solid #006e00;
+}
+
+.slide_bar {
+	position: absolute;
+	top: 70px;
+	right: 17.2em;
+	height: 576px;
+	border-right: 1px dotted black;
+	border-left: 1px dotted black;
+	width: 9px;
+	background: #006e00;
+}

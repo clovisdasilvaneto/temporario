@@ -1,0 +1,32 @@
+#news{
+	float:right;
+	width:100%;
+	margin-bottom: 30px;
+	height:auto;
+	padding:0.2em;
+}
+
+
+#news .data{
+	font: bold 10pt courier;
+	font-weight: bold;
+	text-align: right;
+}
+
+#news .textdata{
+	font: bold 11pt courier;
+	font-weight: bold;
+	font: 10pt Tahoma;
+	margin-bottom:10px;
+}
+
+#news .section{
+	text-align: justify;
+	font: 10pt Tahoma;
+	border: 1px black solid;
+	width:auto;
+}
+
+#news .text{
+	padding: .4em;	
+}

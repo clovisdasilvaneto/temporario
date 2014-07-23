@@ -1,0 +1,82 @@
+body{
+background:#B6E07F;
+margin:0;
+font: 10pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif; 
+}
+
+A:link{ color:#006600; text-decoration:none; }
+A:hover{ color:#333333; text-decoration:underline; }
+A:active{ color:#006600; text-decoration:none; }
+A:active:hover{ color:#333333; text-decoration:underline; }
+A:visited{ color:#006600; text-decoration:none; }
+A:visited:hover{ color:#333333; text-decoration:underline; }
+
+#header{
+background:url(headerbg.gif) no-repeat #FFFFFF bottom left;
+width:740px;
+height:220px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0;
+}
+
+#container{
+background:#FFFFFF;
+width:740px;
+margin-left:auto;
+margin-right:auto;
+margin-top:0;
+}
+
+#navcontainer{
+width:740px;
+margin-left:auto;
+margin-right:auto;
+}
+
+ #navlist li{
+background:#FFFFFF;
+width:740px;
+margin-left:auto;
+margin-right:auto;
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:14px;
+color:#666666;
+}
+
+#navlist li a:link { color: #666666; text-decoration:none; }
+#navlist li a:visited { color: #3366CC; text-decoration:none; }
+#navlist li a:hover {color: #33CC00; text-decoration:none; }
+
+h3{
+font-size:21px;
+font-weight:bold;
+color:#CC9900;
+}
+
+.content{
+padding:21px;
+text-align:justify;
+font: 9pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+}
+
+#footer{
+background:url(footerbg.gif) no-repeat #FFFFFF top left;
+height:66px;
+width:740px;
+margin-right:auto;
+margin-left:auto;
+text-align:center;
+font: 8pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#333333;
+}
+
+.title{
+padding-left:21px;
+font: 18pt/24pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-weight:bold;
+color:#999999;
+}

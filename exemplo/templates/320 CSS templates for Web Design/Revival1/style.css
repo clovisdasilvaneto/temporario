@@ -1,0 +1,176 @@
+/* Revival.1 */
+
+
+* {
+   padding:0;
+   margin:0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	text-align: left;
+	margin:0 auto;
+	padding:0;
+	color:#000;
+	font-style:normal; 
+	font-variant:normal;
+	font-weight:normal;
+	font-size:10px;
+	font-family:Verdana, Tahoma, Arial, sans-serif;
+	background:#fff;
+	background: url('images/bg.gif');
+}
+
+#page {
+	width:809px;
+	margin:0 auto;
+}
+
+#header {
+	height:152px;
+	width:809px;
+	margin: 0 auto;
+	background: url('images/header.gif') no-repeat;
+	padding:0px;
+
+}
+
+#content {
+	background:url('images/content_bg.gif') repeat-y;
+}
+
+/**************************** menu ****************************/
+
+#menu {
+	float:right;
+	padding:0 0 0 20px;
+	width: 218px;
+	height:100%;
+	color:#ffffff;
+}
+
+.menu{
+	height:20px;
+	margin:0;
+	padding:0;
+	width:150px;
+}
+
+#menu ul {	
+	list-style:none;
+	width:150px;
+	margin:0 0 0 10px;
+	padding:0;
+	font-size:1.1em;
+}	
+
+#menu li {
+	margin-bottom:4px;
+}
+
+#menu li a {
+	margin: 5px 5px 5px 5px;
+	color:#95e343;
+	text-decoration: none;
+}	
+	
+#menu li a:hover {
+	color:#000;
+	text-decoration: none;
+}	
+
+#menu a {
+	margin: 5px 5px 5px 5px;
+	color:#95e343;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color:#000;
+	text-decoration: none;
+}
+
+
+/**************************** content ****************************/
+
+#info {
+	float;left;
+	margin:0;
+	width:550px;
+	height:100%;
+}
+
+.post {
+	padding:0 0 15px 25px;
+}
+
+a{
+	color:#95e343;
+}
+
+a:hover{
+	color:#000000;
+}
+
+h1{
+	color:#fff;
+	font-weight:normal;
+	font-size:30px;
+	padding: 50px 0 10px 30px;
+}
+
+h2 a{
+	position:absolute;
+	top:65px;
+	color:#fff;
+	font-size:16px;
+	margin:0 0 0 615px;
+	text-decoration:none;
+}
+
+h2 a:hover{
+	color:#999;
+}
+
+h3{
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+}
+
+h4{
+	font-family:times, "Times New Romans", serif;
+	color:#8d8d8d;
+	font-size:20px;
+	font-weight:normal;
+}
+
+h5{
+	color:#8d8d8d;
+	font-size:10px;
+	font-weight:normal;
+	padding:5px;
+}
+
+h3 img{
+	float:left;
+}
+
+/**************************** footer ****************************/
+
+#footer{
+	padding: 10px 0 0 250px;
+	background:url('images/footer.gif') no-repeat;
+	height:48px;
+}
+
+#footer a {
+	color:#000;
+}
+
+#footer a:hover {
+	color:#fff;
+}

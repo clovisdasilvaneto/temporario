@@ -1,0 +1,255 @@
+/* 	Screen CSS for under.ground - created By Andrew Bramley of http://www.visual-aid.co.uk 	*/
+
+
+/*	General layout styles to set up the type, colours and remove unwanted margins and paddings	*/
+body {
+	margin:	0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	background-color: #FFF;
+}
+	img {
+		padding: 0;
+		margin: 0;
+		border:	none;
+	}
+	h1, h2, h3, p, ul, li, ol, blockquote {
+		padding: 0;
+		margin:	0;
+	}
+	a {
+		color: #1E82B9;
+	}
+	a:hover {
+		color: #EA581A
+	}
+
+/* 	The image style is not used in the layout but if you add any images this will allow them to 	*/
+/*	float in the content; the margins and border can all be changed as necessary 					*/
+img {
+	float: right;
+	margin-right: 25px;
+	margin-left: 5px;
+	margin-top:	5px;
+	margin-bottom: 5px;
+	border: 2px dashed #333333;
+}
+
+
+/* 	The header styles the header text and image at the top of the layout */
+#header {
+	background-color: #333333;
+}
+	#heading {
+		font-size:2.5em;
+		font-weight:bold;
+		color:#FFFFFF;
+		padding-left:5%;
+		padding-top:.5em;
+		padding-bottom:2px;
+		background-color:#EA581A;
+	}
+	.sub_heading {
+		color:#333333;
+		font-size:.7em;
+		font-variant:small-caps;
+	}
+	#header #header_image {
+		width:814px;
+		height:103px;
+		margin: 0 auto;
+		background-attachment: scroll;
+		background-image: url(../images/header_70x103.png);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+	}
+
+	
+/*	The content wrapper holds the faded underground map image and sets the width of the content */
+#content_wrapper {
+	width:814px;
+	height:233px;
+	margin:0 auto;
+	background-attachment: scroll;
+	background-image: url(../images/content_background_790x233.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+	/* The content div sets up the main content of the page, paragraphs, headings etc... */
+	#content {
+		float:right;
+		clear:right;
+		width:602px;
+		min-height:300px;
+		background-attachment: scroll;
+		background-image: url(../images/right_shadow_12x300.jpg);
+		background-repeat: no-repeat;
+		background-position: right top;
+	}
+		#content p {
+			margin-top:1.5em;
+			margin-left:15px;
+			margin-right: 20px;
+			text-align: justify;
+			color: #333333;
+			font-size: 1em;
+			line-height: 1.3em;
+		}
+		#content h1, h2, h3 {
+			margin-top:1.5em;
+		}
+		#content ul {
+			margin-top:1.5em;
+			margin-left: 40px;
+			list-style-type: disc;
+			list-style-image: url(../images/list_10x10.gif);
+		}
+		#content ol {
+			margin-top:1.5em;
+			margin-left: 40px;
+		}
+		#content li {
+			line-height:1em;
+		}
+		/* 	The blockquote styling is here, this includes a class called readmore, this allows a link to be placed
+			at the bottom right of the blockquote */
+		#content blockquote {
+			float:left;
+			width:500px;
+			background-color: #CCCCCC;
+			border-left-width: 4px;
+			border-left-style: solid;
+			border-left-color: #1E81B9;
+			padding-bottom: 2px;
+			padding-top: 2px;
+			margin-left:20px;
+			margin-top:1em;
+			margin-bottom:1em;
+		}
+			#content blockquote .readmore {
+				float:right;
+				font-size:.8em;
+				text-transform:uppercase;
+				padding-top:1em;
+				padding-right:10px;
+			}
+		
+		/* 	The clases below controls the 2 column layout within the main content. */
+		.column {
+			width:280px;
+			float:left;
+		}
+		.right {
+			margin-left:20px;
+			/* Use this space to individually style the right column */
+		}
+		.left {
+			/* Use this space to individually style the left column */
+		}
+
+
+	/* The navigation is styled here */
+	#navigation {
+		float:left;
+		clear:left;
+		width:197px;
+		min-height:300px; /* Minimum height is set to stop the shadow being cut off if not enough content is entered */
+		border-right-width: 5px;
+		border-right-style: solid;
+		border-right-color: #1E81B9;
+		background-image: url(../images/left_shadow_12x300.jpg); /* the left shadow image */
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-position: left top;
+	}
+		/* The menu is styled using an unordered list */
+		#navigation ul {
+			float:right;
+			margin-bottom:2em;
+			width:180px;
+		}
+		#navigation li {
+			font-weight: bold;
+			font-variant: normal;
+			text-transform: uppercase;
+			line-height:1.2em;
+			list-style-type: none;
+			text-align: right;
+			margin-top:1.2em;
+			padding-right:20px;
+			background-attachment: scroll;
+			background-image: url(../images/menu_list_6x6.gif);
+			background-repeat: no-repeat;
+			background-position: right center;
+		}
+		#navigation li a {
+			text-decoration:none;
+			color: #000000;
+		}
+			/* 	The active class is to allow the 'current' link to be distinguished from other links
+				This is set in the HTML by adding 'class="active"' to the link */
+			#navigation li a:hover, #navigation li .active {
+				text-decoration:underline;
+				color: #EA581A;
+			}
+			
+		/* Extra content boxes that can be placed in the navigation column can be styled here */
+		#navigation .extra_content {
+			background-color: #CCCCCC;
+			border-left-width: 4px;
+			border-left-style: solid;
+			border-left-color: #1E81B9;
+			margin-bottom:1em;
+			margin-left:20px;
+			padding-top:3px;
+			padding-bottom:3px;
+			font-size:1em;
+			width:165px;
+			clear:both;
+		}
+			#navigation .extra_content h1 {
+				display:block;
+				text-align:center;
+				text-transform:uppercase;
+				font-size:1.2em;
+				margin:0;
+			}
+			#navigation .extra_content p {
+				padding:0;
+				margin-top:1.2em;
+				margin-left:5px;
+				margin-right:5px;
+				margin-bottom:.2em;
+				text-align:justify;
+			}
+
+
+
+	/* The footer is styled here */
+	#footer {
+		clear:both;
+		float:left;
+		margin-top:2em;
+		width:100%;
+		line-height:1em;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #333333;
+		padding-top:1.5em;
+	}
+		#footer p {
+			line-height:2em;
+			padding:0;
+			margin:0;
+			text-align:center;
+		}
+		#footer a {
+			color:#000000;
+		}
+			#footer a:hover {
+				color:#EA581A;
+			}
+
+/* End - Visit http://www.visual-aid.co.uk for more free templates */

@@ -1,0 +1,129 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0;
+	background-color:#eaeaea;
+}
+
+.conteneur {
+	margin-top: 10px;
+	position: absolute;
+	width: 740px;
+	left: 50%;
+	margin-left: -370px;
+	color: #eaeaea;
+	background-color:#323232;
+}
+
+
+.header {
+	background-image: url("./images/embouchure.jpg");
+	background-repeat: no-repeat;
+	height:157px;
+	padding-left:400px;
+	padding-top:50px;
+	width:340px;
+	color: #eaeaea;
+	border-bottom:1px solid #eaeaea;
+}
+
+.menu {
+	float:right;
+	margin: 0px;
+	padding:0px;
+	border-left:1px solid #eaeaea;
+}
+
+
+* html .menu {
+	margin-left: -3px;
+}
+
+.centre {
+	padding:20px;
+	padding-left:40px;
+}
+
+.pied {
+	height: 25px;
+	text-align:right;
+	padding-right:10px;
+	padding-top:3px;
+	border-top:1px solid #eaeaea;
+}
+
+.menu-list {
+	list-style-type: none;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+}
+
+
+.menu li {
+	margin:0px;
+	border-bottom:1px solid #eaeaea;
+	color: #D9CEB8;
+	font-size: 1.1em;
+	text-decoration: none;
+	background-color:#435D5A;
+	padding:0px;
+}
+
+.menu li a {
+	margin:0px;
+	display: block;
+	color: #eaeaea;
+	font-size: 1.1em;
+	text-decoration: none;
+	border-left:5px solid #5B766D;
+	padding:5px;
+	width:200px;
+}
+
+.menu li a:hover {
+	text-decoration: none;
+	background-color:#5B766D;
+}
+
+.sub-title{
+	margin-left:-20px;
+	margin-top:15px;
+	padding-left:5px;
+	font-size: 1.3em;
+	color: #eaeaea;
+}
+
+.title{
+	margin-left:-30px;
+	margin-top:5px;
+	padding-left:5px;
+	font-size: 1.6em;
+	color: #eaeaea;
+}
+
+.header-title {
+	font-size:2.3em;
+	border-top:2px solid #eaeaea;
+}
+
+.header-title-two {
+	font-size:1.1em;
+	padding-bottom:3px;
+	border-bottom:1px solid #eaeaea;
+}
+
+a{
+	color:#eaeaea;
+	text-decoration:underline;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+blockquote{
+	background-color:rgb(25%, 25%, 25%);
+	padding : 3px;
+	border-left:2px solid #eaeaea;
+}

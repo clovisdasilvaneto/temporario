@@ -1,0 +1,95 @@
+
+<!-- 
+/* use this to format lists in a floating box within a box - although it's often useful to apply anyway... */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix {display: inline-table;}
+/* Hide from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* { margin: 0;  padding: 0; }
+
+/* pre { font-family: monospace; }
+img {border: none;}
+acronym, dfn {cursor: help; border-bottom: 1px dashed #ccc;} */
+
+body {background: #ffffff url(leftshade.png);
+background-repeat: repeat-x; color: #3b2720; font-family: verdana, arial, helvetica, sans-serif; text-align: left;  margin:0; padding: 0;}
+/* body margin and padding of 0 to remove IE white space at top of page */
+
+p {margin: 0; padding: 0; font-size:80%;}
+
+#wrapper {
+	background: #f1f2ea ; width:90%; float:right
+}
+#header {height: 80px; background:#211b1b; padding-bottom:.5em;}
+
+#header h1 {font-family: kudasai, chinoiseries, bamboo, wonton, verdana, arial, helvetica, san-serif; color: #fff; font-size: 230%; }
+#header p {margin: 10px 0 0 50px; padding: 0; font-family: verdana, arial, helvetica, san-serif; color: #fff; font-size: 100%; font-weight: lighter;}
+
+#navcontainer ul {padding-left: 0; margin-left: 0; background-color: #a54; color: #fff; float: left; width: 100%; font-family: verdana, arial, helvetica, sans-serif; font-size: 80%;
+}
+#navcontainer ul li { display: inline;
+}
+#navcontainer ul li a {padding: 0.1em 1em; background-color: #a54; color: #fff; text-decoration: none; float: left; border-right: 1px solid #fff;
+}
+#navcontainer ul li a:hover {background-color: #c14136; color: #fff;text-decoration: underline overline;
+}
+#container { width: 100%; background: #ffffff url(bodytone.jpg); background-repeat: repeat-y; float: left; margin-right: -285px; /* border: 2px solid gold;*/ padding-bottom: 50px /* padding-bottom keeps the footer (neg margin) away from the gallery in IE */
+}
+#content {background: transparent; margin-right: 285px; /*border:1px solid red;*/ 
+}
+#content h2 {font-weight: lighter; font-family: "Trebuchet MS", "lucida sans", Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:200%; color:#a52a2a; letter-spacing: 2.5px; margin-left: 50px; margin-top: 20px;
+}
+hr {width: 50%; background-color: #a52a2a; height: 3px; margin: 15px 0 0 50px; }
+/*whatever the total width of the border-top and border-bottom equal if used*/
+
+.gallerybox {float:left; margin-top: 30px; padding-left: 50px; /*border:1px solid #369;*/ }/* positions the gallery as a whole */
+
+.gallerybox p {padding-right: 20px;}
+.gallerybox a:link, .gallerybox a:visited { font-size: 80%; text-decoration: none; color: #a52a2a }
+.gallerybox a:active {  }
+.gallerybox a:hover {font-weight: bold; color: #3b2720;}
+
+.gallery {float:left; width: 80px; padding: 10px;}
+.gallery img {border:1px solid black;}
+
+#sidebar {
+	width: 270px; /*border:1px solid green;*/
+	float: right; margin: 0; padding: 0
+}
+
+#sidebar ul {margin-left: 2em} /* wasn't rendering properly in FF */
+
+div.figure {/* filter:alpha(opacity=50);opacity:.50; */
+  float: right; border: 2px #c14136 solid; margin: 25px 10px 0 0;}
+/* div.figure p {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+} */
+
+/* FF margins are added to container, so widths need to take account of that */
+
+.footer {float:left; width: 75%; border:1px solid #322; margin: -8px 0 0 0; padding-left:2em; background-color: #a54; color:#fff; }
+
+.footer a:link, .footer a:visited { text-decoration: none; color: #fff }
+.footer a:active {  }
+.footer a:hover {text-decoration: underline overline;
+	font-weight: bold;
+	color: #F0F8FF;
+}
+.footer p { margin: 0; padding: 4px; text-align: left; font-size: 70%; }
+
+.footer img {margin-left: 50px;}
+
+.last {
+	margin-bottom: 0;
+}
+.spacer {
+	height: 0;
+	clear: both; border:1px dashed blue
+} 
+ -->

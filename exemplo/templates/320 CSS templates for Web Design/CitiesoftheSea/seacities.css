@@ -1,0 +1,178 @@
+html,body {
+margin:0;
+padding:0;
+}
+
+.clearfix:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+.clearfix {
+display:block;
+}
+
+* html .clearfix {
+height:1%;
+}
+
+body {
+font:75% verdana, arial, sans-serif;
+background:#bdc8da;
+}
+
+p {
+margin:0 10px 10px;
+padding:0;
+}
+
+.header {
+margin-right:60px;
+background:url(oldsub.jpg);
+background-position:right;
+background-repeat:no-repeat;
+background-color:#bdc8da;
+}
+
+.header h1 {
+height:100px;
+line-height:100px;
+padding-left:30px;
+font-size:300%;
+font-family:"lucida calligraphy", verdana, arial, helvetica, sans-serif;
+color:#534;
+margin:0;
+}
+
+.spacer {
+clear:both;
+background:url(spacer.png) top left;
+}
+
+.montage {
+clear:both;
+height:80px;
+background:url(montage.jpg) top left no-repeat;
+}
+
+.wrapper {
+float:left;
+width:100%;
+}
+
+.content {
+background:#bdc8da;
+margin:0 260px 0 150px;
+padding:5px 0 0 10px;
+}
+
+.content p {
+line-height:1.4;
+color:#333;
+}
+
+.content h2 {
+font-size:200%;
+padding-left:30px;
+color:#534;
+font-family:"lucida calligraphy", verdana, arial, sans-serif;
+}
+
+.nav {
+float:left;
+width:150px;
+margin-left:-100%;
+margin-top:20px;
+}
+
+.nav ul li {
+display:block;
+margin-top:0;
+background:url(navbg.png) left repeat-x;
+border-bottom:1px solid #000;
+font-weight:700;
+padding:10px;
+}
+
+.nav a:hover {
+color:#543;
+}
+
+.nav img {
+margin-top:30px;
+}
+
+.rt_col {
+background:#bdc8da;
+float:left;
+width:250px;
+margin:20px 0 0 -250px;
+}
+
+.rt_col ul li {
+display:block;
+float:left;
+width:250px;
+padding:0;
+}
+
+.rt_col p {
+color:#333;
+font-size:75%;
+text-align:left;
+margin:0 0 0 25px;
+}
+
+.rt_col ul li img {
+padding:0 0 15px 30px;
+}
+
+.footer {
+float:left;
+width:75%;
+border:1px solid #322;
+padding-left:20px;
+background-color:#a54;
+color:#fff;
+margin:-5px 0 0;
+}
+
+.footer a:hover {
+text-decoration:underline overline;
+font-weight:700;
+color:#F0F8FF;
+}
+
+.footer p {
+text-align:left;
+font-size:80%;
+margin:0;
+padding:4px;
+}
+
+.footer img {
+margin-left:50px;
+}
+
+hr {
+text-align:left;
+margin-left:50px;
+width:150px;
+color:maroon;
+background-color:maroon;
+height:1px;
+}
+
+.nav ul,.rt_col ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.nav a:link,a:visited,.footer a:link,a:visited {
+text-decoration:none;
+color:#fff;
+}

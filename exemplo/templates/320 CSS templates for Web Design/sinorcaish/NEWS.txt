@@ -1,0 +1,66 @@
+**************************************************************************
+*                                                                        *
+*                       The Sinorcaish Stylesheet                        *
+*                  Copyright (C) 2004-06, John Zaitseff                  *
+*                                                                        *
+**************************************************************************
+
+The Sinorcaish stylesheet project gives any web site an attractive, clean-
+look interface while maintaining a  separation of style and content to the
+greatest possible  extent.  This allows  the web author to  concentrate on
+the structure  and content of his  or her documents, rather  than on their
+presentation.
+
+The following history is presented in reverse chronological order.  If you
+would like to  see a list of detailed changes to  this project, you should
+consult the Subversion repository  for "sinorcaish"  on  The ZAP Group web
+server at http://www.zap.org.au/services/svn/.
+
+
+Version 1.2 (10th January, 2006)
+--------------------------------
+
+Very  minor  update  to  conform  to  the Open  Source  Web  Design  group
+submission requirements: replaced image  references to the W3C buttons and
+the  Sinorcaish logo  with text  equivalents in  the OSWD  version  of the
+project.
+
+
+Version 1.1 (21st December, 2005)
+---------------------------------
+
+Relatively minor updates  to the  Sinorcaish stylesheet:  added "program",
+"window", "menu", "gui" and "key" styles  for parts of  graphical computer
+programs,  changed the  display fonts to include  Bitstream Vera Sans  and
+Lucida Sans in addition to Verdana,  tweaked the printing fonts to include
+Bitstream Vera Serif, Lucida Bright and Georgia  in addition to  Times New
+Roman, and adjusted the positioning and size of fixed-width text.
+
+Added some testimonials  to "index.html".  Added a number of optimised PNG
+button-style images  from the W3C web site,  http://www.w3.org/.  Included
+extensive instructions in "logo.html", with screenshots,  on how to create
+the logo image using the GIMP; this was the most frequently-asked question
+about Sinorcaish!
+
+
+Version 1.0 (1st December, 2004)
+--------------------------------
+
+Needed an attractive, clean-look web  site design for a particular project
+in November,  2004.  Looked at  a number of  styles available on  the Open
+Source Web Design web  site (http://www.oswd.org/) and elsewhere.  Sinorca
+(http://www.oswd.org/design/preview/id/1165/) by  Haran Sivakumaran seemed
+to  be a good  starting point.   Sinorca, in  its turn,  was based  on the
+Acronis company web site (http://www.acronis.com/).
+
+Although the Sinorca stylesheet was  quite good, it seemed rather limited:
+it did not  allow floating text boxes, did not  really cater for computer-
+oriented  documentation (which requires  appropriate styling  for elements
+like <code>,  <kbd> and <pre>),  and completely ignored (data)  tables and
+many other XHTML elements.
+
+These limitations,  along with  the desire to  update parts of  the visual
+interface, led to Sinorcaish:  a complete redesign and reimplementation of
+the Acronis look-and-feel.  Wrote  a comprehensive "How to Use Sinorcaish"
+sample  document, created  template files  and images,  and  submitted the
+result to the Open Source Web Design group in December, 2004.

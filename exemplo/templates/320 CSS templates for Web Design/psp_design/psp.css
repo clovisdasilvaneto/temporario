@@ -1,0 +1,167 @@
+/* =====================================================================
+
+	PSP-optimised CSS
+	Author: Tane Piper (tane.piper@gmail.com)
+	http://pspdesign.blogsome.com
+
+	By using this CSS file in your website, you will be able
+	to cater for both normal PC/Mac browsers and the Sony PSP
+	browser.  This is untested on other portable browsers
+	but if they support CSS 2 then this webpage should work.
+
+        Feel free to use and change this example, but please make
+        sure you link to my website if you do use it.
+
+====================================================================== */
+
+
+/* Global styles - These are used for the overall site*/
+
+body {
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0;
+	background-color: #e5e5e5;
+	color: #000000;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #9C9969;
+}
+
+a:visited {
+	color: #BDBB9B;
+}
+
+a:hover {
+	border-color: #7A7636;
+	color: #7A7636;
+}
+
+img {
+	border:0px;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.1em;
+	color: #333;
+	font-weight: bold;
+}
+
+/* id styles - id styles can only be used once on a webpage and are used for layout*/
+
+#header {
+	height: 25px;
+	background: #000000;
+	color: #ffffff;
+	text-align:center;
+}
+
+#break {
+	height: 272px;
+	background: #ffffff;
+	color: #000000;
+	text-align:center;
+}
+
+#topmenu {
+	height: 17px;
+        border: 1px solid #000000;
+	background: #ffffff;
+	color: #000000;
+	text-align:left;
+        left: 20px;
+}
+
+#container {
+	position: absolute;
+	width: 100%;
+	background-color:#ffffff;
+}
+
+#centre {
+	background-color:#ffffff;
+	margin-left: 150px;
+}
+
+#menu {
+	position: absolute;
+        border: 0px none #000000;
+	left:0;
+	width: 140px;
+	background-color:#ffffff;
+}
+
+#menu li {
+	list-style-type: square;
+        margin-left: 2px;
+}
+
+#footer {
+	height: 25px;
+	background: #000000;
+	color: #ffffff;
+	text-align:center;
+}
+
+#links {
+	position: relative;
+	background-color:#ffffff;
+        border: 1px dashed #000000;
+}
+
+#links li {
+	list-style-type: square;
+        margin-left: 2px;
+}
+
+/* class styles - class styles can be used over and over again*/
+
+.post {
+	position: relative;
+	background-color:#ffffff;
+        border: 0px none #000000;
+}
+
+.post-footer {
+	margin-bottom: 3em;
+	font-size: 0.9em;
+	color: #666;
+}
+.post-content {
+	padding: 1em 0 0;
+}
+
+.post-title {
+	margin: 0 0 0.2em;	
+	text-align: right;
+	padding: 0.5em 1em 0 0;
+	color: #999;
+	background:transparent url('psp.png') no-repeat right top;
+}
+.post-title em {
+	text-decoration: none;
+	float: left;
+	font-style: normal;
+	font-size: 0.9em;		
+	padding:0;
+	margin-top:-0.3em;
+}
+.post-info {
+	color: #999;
+	font-size:1.2em;
+	margin:0;
+}
+.post-info a {
+	text-decoration: none;
+	color: #6E6A7E;
+	border: none;
+}

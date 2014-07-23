@@ -1,0 +1,241 @@
+/*
+	ghosttown.css -- style sheet for web layout based on the Ghost Town "Bodie"
+*/
+
+
+/*
+	main divisions -- general content panes
+*/
+
+body
+{
+	font-family: Arail, Helvetica, sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	padding: 0;
+	color: black;
+	/*background: url('images/bodie_bg.jpg') repeat #111111;*/
+	/*background: url('images/bodie_bg_small.jpg') repeat #111111;*/
+	/*background: url('images/church_alien_colors.jpg') repeat #111111;*/
+	/*background: url('images/church_shape.jpg') repeat #111111;*/
+	background: #fffed9;
+	align: center;
+}
+
+#wrapper {
+	width: 70%;
+	margin-left: 15%; /* centers it */
+	border: solid 1px black;
+}
+
+/*
+	Header
+*/
+
+#header {
+	/*background: #fff url('images/woodplank_dark.jpg') top left;*/
+	/* Different dark browns: */
+	/*background: #7f5f54;
+	background: #270c1d;
+	background: #5a4147;
+	background: #2c1e0d;
+	*/
+	background: #774d3d;
+	margin: 0px;
+	height: 25px;
+	border-bottom: solid 1px gray;
+	padding-top: 5px;
+}
+
+#header a {
+	color: #fffed9;
+	/*text-decoration: none;*/
+}
+
+
+#header a.navLink {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fffed9;
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#header a.navLink:hover {
+	text-decoration: underline;
+}
+
+/*
+	logos
+*/
+
+
+#logos {
+	background: url('images/panorama.jpg') top left;
+	color: white;
+	font-family: Georgia;
+	font-size: 25px;
+	font-weight: bold;
+	height: 50px;
+	/*padding-top: 15px;*/
+	/*padding-left: 15px;*/
+}
+
+#logos img {
+	/*border: solid 1px #fffed9;*/
+}
+
+#logos .logoWord {
+	color: #fffed9;
+	font-style:	italic;
+}
+
+#logos img {
+	vertical-align: middle;
+}
+
+
+/*
+	main box
+*/
+
+
+#main {
+	/*width: 100%; */
+	/*border: solid 1px gray;*/
+	border-top: solid 1px gray;
+	/*
+	padding: 1px;
+	padding-bottom: -5px;
+	*/
+	
+	/*margin-bottom: -17px;*/
+	/*
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 10px;
+	*/
+}
+
+/*
+	Right nav boxes
+*/
+
+
+#right {
+	float: right;
+	width: 200px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+
+#right .rightBox {
+	border: solid 1px gray;
+	background: #fffed9;
+	margin-bottom: 20px;
+}
+
+#right .rightBox h2 {
+	width: 100%;
+	/*background: #111 url('images/woodplank_light.jpg') top left repeat;*/
+	color: #fffed9;
+	background: #774d3d;
+	border-bottom: solid 1px gray;
+	margin: 0px;
+	font-size: 16px;
+	padding-left: 3px;
+}
+
+#right .rightBox a {
+	padding-left: 3px;
+	color: black;
+	text-decoration: none;
+}
+
+#right .rightBox a:hover {
+	text-decoration: underline;
+}
+
+/*
+	content pane
+*/
+
+
+#content {
+	background: white;
+	padding-top: 5px;
+	padding-left: 5px;
+	/*margin-right: 200px;*/
+}
+
+#content h1 {
+	width: 55%;
+	padding-left: 5px;
+	/*background: #111 url('images/woodplank_light.jpg') top left repeat;*/
+	background: #774d3d;
+	color: white;
+	font-size: 16px;
+	margin-top: 0px;
+	border-top: solid 1px gray;
+	border-bottom: solid 1px gray;
+}
+
+#content h2 {
+	font-size: 16px;
+}
+
+#content h3 {
+	font-size: 12px;
+}
+
+#content p {
+	padding: 5px;
+	text-indent: 25px;
+}
+
+#content a {
+	color: #774d3d;
+	text-decoration: none;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+/*
+	footer
+*/
+
+
+#footer {
+	/*background: #fff url('images/woodplank_dark.jpg') top left;*/
+	/*background: #7f5f54;*/
+	background: #774d3d;
+	margin: 0px;
+	height: 25px;
+	font-size: 12px;
+	color: #fffed9;
+	padding-top: 5px;
+	padding-left: 5px;
+	border-top: solid 1px black;
+}
+
+#footer a {
+	color: #fffed9;
+	/*text-decoration: none;*/
+}
+
+#footer a.navLink {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fffed9; /* light tanish color */
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#footer a.navLink:hover {
+	text-decoration: underline;
+}

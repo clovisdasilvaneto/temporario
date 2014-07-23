@@ -1,0 +1,227 @@
+body {
+   font-family: arial,helvetica,sans-serif;
+    font-size: 11px;
+    text-align: center;
+    background-color: #8A644D;
+    }
+    
+a {
+	color: #000000;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+        
+        }
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-size: 10px;
+}
+
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	border-right: 1px solid #E93711;
+	border-left: 1px solid #E93711;
+	border-top: 1px solid #E93711;
+	border-bottom-color: #E93711;
+}
+
+
+
+
+#banner {
+	width: 700px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: Impact, Arial Black, sans-serif;
+	font-size: 48px;
+	color: #fff;
+	background-color: #CCCCCC;
+	font-weight: normal;
+	height: 120px;
+	background-image: url(images/top.jpg);
+	background-repeat: no-repeat;
+  }
+  
+  
+#linkbar {   
+   width: 680px; 
+   height: 20px;
+   background-color: #8A220A; 
+   padding: 5px 5px 5px 15px;
+   border-top: 2px solid #fff;
+   
+   
+  }
+
+#linkbar a:link { 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 10px; 
+    color: #fff; 
+    font-weight: normal; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    letter-spacing: 0.1em; 
+    background-color: #8A220A;
+    padding-left: 15px;
+    }
+  
+#linkbar a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+	font-weight: normal;
+    }
+#linkbar a:visited {
+	padding-left: 15px;
+}
+
+
+
+
+#wrapper {
+	float: left;
+	width: 700px;
+	background-color: #52818A;
+	background-position: left top;
+	background-repeat: repeat-y;
+	background-image: url(images/fotobg.jpg);
+	border-bottom: 1px solid #E93711;
+	height: auto;
+    }
+
+#main {  
+    width: 350px;
+    
+    padding-left: 15px;
+    padding-right: 5px;
+    float: left;
+    line-height: 18px;
+    padding-top: 10px;
+    height: auto;
+     }
+
+#main h1 {
+     font-size: 24px;
+     color: #9F6984;
+     font-family: serif;
+     text-transform: uppercase;
+     text-align: center;
+     }
+     
+#main h2 {
+     font-size: 16px;
+     color: #E93711;
+     font-family: Geneva, Arial, Helvetica, sans-serif;
+     text-transform: none;
+     text-align: center;
+     }
+     
+ .footer {
+      font-size: 11px;
+      color: #FFFFFF;
+      font-family: sans-serif;
+      text-transform: none;
+      text-align: center;
+   }
+
+#inner {
+	width: 60px;
+	height: 725px;
+	float: left;
+	padding: 10px;
+	border-left: 1px dotted 52818A;
+     }
+
+#inner a:link { 
+	font-family: Arial,sans-serif; 
+	font-size: 10px; 
+	color: #993366; 
+	font-weight: normal; 
+	text-transform: uppercase; 
+	text-align: center; 
+	text-decoration: none; 
+	letter-spacing: 0.1em; 
+	line-height: 18px; 
+	
+	}
+	
+#inner a:visited { 
+	font-family: Arial,sans-serif; 
+	font-size: 10px; 
+	color: #993366; 
+	font-weight: normal; 
+	text-transform: uppercase; 
+	text-align: center; 
+	text-decoration: none; 
+	letter-spacing: 0.1em; 
+	line-height: 18px; 
+	
+	}
+
+#inner a:hover { 
+text-decoration: underline; 
+}
+
+
+#outer {
+	width: 275px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 10px;
+	margin-top: 0px;
+	background: #8A220A;
+	margin-left: 20px;
+	height: auto;
+ 
+     }
+#footer {
+	height: 10px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: left;
+	text-align: center;
+	padding-top: 2px;
+}
+
+     
+#outer p {
+     color: #FFFFFF;
+     padding: 10px;
+     padding-bottom: 15px;
+     margin-top: -15px;
+     font-face: verdana,arial,helvetica,sans-serif;
+     font-size: 13px;
+     line-height: 18px;
+     }
+
+#outer h1 {
+    text-align: center;   
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-family: serif;
+    font-size: 20px;
+    color: #E6CFD9;
+    
+    }
+    
+.imgcenter {
+	text-align: center;
+	margin-top: -25px;
+    }
+img {
+	border: 2px ridge #000000;
+}

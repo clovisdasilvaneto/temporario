@@ -1,0 +1,43 @@
+body{margin:10px; padding:0; font-family:Arial,Lucida,Verdana,'Lucida Grande', sans-serif,'ËÎÌå','ÐÂËÎÌå';}
+
+table{border:3px solid #bbb; text-align:center; background: #000;padding:0; float:left; margin:10px 0}
+
+tr{height:50px}
+
+td{width:50px; border:1px solid #ddd; border-right:4px solid #ddd; border-bottom:4px solid #ddd; background:#fff; color:#000;}
+
+table a{color:#000; background:#fff; text-decoration:none; display: block;}
+
+table a:hover{font-weight:bold; border:1px dotted #ddd; background:#f0f0f0; color:#000}
+
+#right{margin-left:260px !important; margin-top:-280px !important; float:left; margin:15px; font-size:16px; clear:left !important; clear:none}
+
+#title{font-size: 80px; margin:0}
+
+#right a{color:#000; font-weight:bold; text-decoration:none; border-bottom:1px dotted #ccc}
+
+#right a:hover{color:#fff; background:#000}
+
+#note{font-style: italic; clear:both;}
+
+#note p{margin:4px; padding:5px}
+
+#main{clear:both;}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero{border:1px solid #ccc; border-bottom:none; font-weight:bold; color:#000; font-size:18px; padding:5px; margin-bottom:2px;}
+
+.content{border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px dotted #ccc; color:#555; font-weight:normal; font-size:16px; padding:5px; margin-bottom:15px}
+
+a{color:#222; font-weight:normal; text-decoration:underline}
+
+a:hover{color:#fff; background:#000; text-decoration:none}
+
+.totop{font-style: italic; font-size: 10px; float: right;margin-bottom:3px; color:#444}
+
+.totop a{text-decoration:none; border:1px dotted #aaa}
+
+.totop a:hover{text-decoration:none; border:1px dotted #aaa; background:#aaa}
+
+#footer {text-align:center; font-style:italic; font-size:11px}
+
+.notice {font-weight:bold; color:#333}

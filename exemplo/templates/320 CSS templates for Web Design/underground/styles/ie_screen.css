@@ -1,0 +1,8 @@
+/* 	Screen style sheet for under.ground - created By Andrew Bramley of http://www.visual-aid.co.uk 	*/
+/*	This sheet is specifically to fix the lack of min-height in IE									*/
+#content {
+	height:300px;
+}
+#navigation {
+	height:300px;
+}

@@ -1,0 +1,20 @@
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+/****  FeaturedServices_23a  ****/
+.featuredservices_container {margin:0 auto;margin-top:10px;margin-bottom:10px;
+width: 96%;text-align:left;}
+ul.featuredservices_nav {list-style: none;width: 100%;margin-top:5px;}	
+ul.featuredservices_nav li {margin-bottom: 3px;text-indent:15px;width:auto;}
+ul.featuredservices_nav li a {height: 15px;padding-top:3px;
+text-decoration: none;color: #000000;display: block; width:auto;border:1px inset #eaeaea;
+border-left: 4px solid #930209;background: #cccccc url(../media/duo_tickrightbluered.gif) no-repeat left 5px;}	
+ul.featuredservices_nav li a:hover {color: #930209;border-left: 4px solid #293158;
+width:auto;background: #cccccc url(../media/duo_tickrightbluered.gif) no-repeat left -15px;
+text-decoration:none;}
+/***  end  ***/
+
