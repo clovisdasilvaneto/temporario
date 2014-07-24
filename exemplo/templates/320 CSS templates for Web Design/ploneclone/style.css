@@ -1,0 +1,197 @@
+/* CSS Info */
+This design is made by Jason Kingery of DENiAL-Design.com for OSWD. Please leave my (c) at the bottom, and send me an email letting me know what your using it for to: liarfish@gmail.com
+/* CSS Info */
+/* universal layout */
+body {
+background: #fff
+}
+
+a {
+color: red;
+text-decoration: none;
+}
+
+a:hover {
+color: #888888;
+text-decoration: none;
+} 
+
+h1 {
+color: #8d1703;
+border-bottom: 3px dotted #dee7ec;
+}
+h2 {
+border-bottom: 1px solid #dee7ec;
+color: #888888;
+}
+h3 {
+font-size: 18px;
+border: 1px solid #749EA9;
+background: #dee7ec;
+padding: 4px;
+width: 50%;
+}
+
+h4 {
+color: #888888
+}
+
+
+/* container */
+#undernav {
+border-bottom: 1px solid #749EA9;
+background: #dee7ec;
+text-align: right;
+padding: 1px;
+}
+
+#subundernav {
+border-bottom: 1px solid #749EA9;
+background: #fff;
+text-align: left;
+padding: 1px;
+}
+
+#header {
+height: 150px:
+background: #749EA9;
+width: 100%;
+
+}
+
+#leftbar{
+border: 1px solid #dee7ec;
+float: left;
+text-align: left;
+width: 100%;
+}
+
+#rightcontent{
+float: right;
+width: 80%;
+}
+
+#footer {
+position: relative;
+bottom: 0;
+border-bottom: 1px solid #749EA9;
+border-top: 1px solid #749EA9;
+background: #dee7ec;
+text-align: left;
+padding: 1px;
+width:100%;
+}
+
+/* Top Navigation */
+ul#navlist
+{
+font: bold 11px verdana, arial, sans-serif;
+list-style-type: none;
+padding-bottom: 24px;
+border-bottom: 1px solid #749EA9;
+margin: 0;
+}
+
+ul#navlist li
+{
+float: left;
+height: 21px;
+background-color: white;
+margin: 2px 2px 0 2px;
+border: 1px solid #749EA9;
+}
+
+li#active a
+{
+border-bottom: 1px solid #dee7ec;
+background-color: #dee7ec;
+}
+
+li#active a { color: #000; }
+
+#navlist a
+{
+float: left;
+display: block;
+color: #666;
+text-decoration: none;
+padding: 4px;
+}
+
+#navlist a:hover { background: #dee7ec; }
+
+
+/* side navigationn */
+ul#leftbar
+{
+margin: 0 0 0 30px;
+padding: 0;
+width: 12.5%;
+}
+
+#leftbar li
+{
+list-style-type: none;
+background-color: white;
+color: #dee7ec;
+border: 1px solid #blue;
+font-weight: 600;
+text-align: left;
+padding: .3em;
+margin-bottom: .1em;
+}
+
+#leftbar li a
+{
+color: #888888;
+text-decoration: none;
+display: block;
+}
+
+#leftbar li a:hover
+{
+background-color: #dee7ec;
+color: #888888;
+}
+
+/* pull quote */
+.pullquote 
+{width: 145px;
+background: #dee7ec;
+color:black;
+float: right;
+border:1px solid #749EA9;
+font-weight:bold;
+line-height:140%;
+padding:5px;
+margin-top:10px;
+margin-left:10px;
+}
+
+/* drop cap */
+.dropcap {
+float:left;
+color:#D4D4C7;
+font-size:100px;
+line-height:70px;
+padding-top:2px;
+font-family: Times, serif, Georgia;
+}
+
+/* important box */
+#important 
+{
+width: 96%;
+background: rgb(255,235,205);
+color:black;
+border-top:1px solid rgb(255,160,122);
+border-bottom:1px solid rgb(255,160,122);
+font-weight:bold;
+line-height:140%;
+padding:5px;
+margin-top:10px;
+margin-left:10px;
+text-align: right;
+}
+/* comment style */
+

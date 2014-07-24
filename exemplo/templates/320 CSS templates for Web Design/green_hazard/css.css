@@ -1,0 +1,290 @@
+/*
+*
+* file: css.css
+* date: 6 Jan 2006
+* author: tetsucceed
+* mail: tetsucceed [at] gmail [dot] com 
+*
+* Enjoy!
+*
+*******************/
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  background: #fff url(./bg.jpg) repeat-x top;
+}
+
+a {
+  color: maroon;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+#global {
+  width: 700px;
+  height: 100%;
+}
+
+/*
+* Header
+* section
+***************************/
+
+#topheader {
+  clear: left;
+  padding: 5px 5px 5px 5px;
+  margin-right: 300px;
+  background-color: transparent;
+  color: #000;
+}
+
+#header {
+  background-color: #ddff55;
+  color: #000;
+  border-bottom: 1px dashed #000;
+}
+
+/* all about header menu */
+
+#header ul {
+  float: left;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 50px;
+  padding-right: 15px;
+  background: #ddff55 url(./ul.jpg) repeat-y;
+  color: #000;
+}
+
+#header li {
+  list-style: none;
+  padding: 2px 15px 2px 15px;
+  border: 1px solid #ddff55;
+  text-transform: uppercase;
+}
+
+#header li:hover {
+  background-color: #ddffaa;
+  list-style: none;
+  padding: 2px 15px 2px 15px;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
+#header a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+#header .righttext {
+  color: #888;
+  background: #ddff55 url(./ul2.jpg) 100% 100% no-repeat;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 200px;
+  text-align: left;
+}
+
+/*
+* Submenu
+* section
+***************************/
+
+#submenu {
+  width: 100%;
+  float: left;
+  padding-top: 5px; 
+  background: #ddff55 url(./ul3.jpg) repeat-x top;
+  text-transform: uppercase;
+}
+
+#submenu li {
+  background: #ddff55 url(./ul3.jpg) repeat-x top;
+  float: left;
+  margin-left: 14px;
+  margin-right: 4px;
+  list-style: none;
+  border: 1px solid #ddff55;
+}
+
+#submenu li:hover {
+  background: #f0ffb4 url(./ul3s.jpg) repeat-x top;
+  border: 1px solid #000;
+}
+
+#submenu a {
+  color: #000;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+#submenu a:hover {
+  text-decoration: none;
+}
+
+#submenu a.cur {
+  font-weight: bold;
+}
+
+/*
+* Content
+* section
+***************************/
+
+#content {
+  clear: both;
+  background-color: #fff;
+  text-align: justify;
+  border-left: 1px solid #ddff55;
+  border-right: 1px solid #ddff55;
+  border-bottom: 5px solid #ddff55;
+}
+
+/*
+* Leftside
+***************************/
+#leftside {
+  padding-left: 10px;
+  padding-right: 260px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#leftside p,#leftside h2,#leftside h3,#rightside p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#leftside h1 {
+  border-bottom: 1px solid maroon;
+}
+
+#leftside h2,#leftside h1,#leftside h3 {
+  color: #777;
+  line-height: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#leftside blockquote {
+  background:  #f0ffb4 url(./ul5.jpg) repeat-y;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-style: italic;
+  border-top: 2px solid #ddee55;
+  border-bottom: 2px solid #ddee55;
+  border-right: 2px solid #ddee55;
+}
+
+#leftside blockquote p {
+  padding: 5px 15px 5px 15px;
+}
+
+/*
+* Rightside
+***************************/
+#rightside {
+  width: 200px;
+  float: right;
+  padding: 5px 15px 5px 15px;
+  margin: 0;
+  background-color: #f0ffb4;
+  border-left: 3px solid #ddff55;
+  border-bottom: 3px solid #ddff55;
+  border-top: 3px solid #ddff55;
+  font-size: 13px;
+}
+
+#rightside h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  letter-spacing: 1px;
+  background-color: #ddee55;
+}
+
+#rightside h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  border-bottom: 1px  solid #cfcfcf;
+}
+
+#rightside li {
+  list-style: none;
+}
+
+/*
+* Footer
+***************************/
+#footer {
+  margin-top: 20px;
+  padding: 5px 5px 5px; 
+  color: #000;
+  background-color: #f0ffb4;
+  border-left: 3px solid #ddff55;
+  border-right: 3px solid #ddff55;
+  border-top: 3px solid #ddff55;
+}
+
+#footer a {
+  color: #777;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+/*
+* Other
+***************************/
+
+.divends {
+  clear:both;
+  height:15px;
+}
+
+.uptext {
+  text-transform: uppercase;
+  color: #888;
+  padding: 10px 0px 10px 0px;
+}
+
+.divend1 {
+  clear: both;
+  height: 3px;
+}
+
+/*
+* Round Corners 
+* Nifty Corners : http://pro.html.it/esempio/nifty/
+***************************/
+
+    b.rtop, b.rbottom{ display:block;background: #c9b8bb; }
+    b.rtop b, b.rbottom b{ display:block;height: 1px; overflow: hidden; background: #ddff55; }
+    b.r1{ margin: 0 5px; }
+    b.r2{ margin: 0 3px; }
+    b.r3{ margin: 0 2px; }
+    b.rtop b.r4, b.rbottom b.r4{ margin: 0 1px; height: 2px; }
+    b.r5{ margin: 0 5px 0 0; }
+    b.r6{ margin: 0 3px 0 0; }
+    b.r7{ margin: 0 2px 0 0; }
+    b.r8{ margin: 0 1px 0 0; }

@@ -1,0 +1,207 @@
+/***** Page *****/
+
+body {
+  background:#636958;
+  font:70% Verdana,Tahoma,Arial,sans-serif;
+  margin:0;
+  padding:0;
+  color:#333;
+}
+
+#wrapper {
+  color:#000000;
+  border-right:5px solid #53584A;
+  border-left:5px solid #53584A;
+  background:#ffffff;
+  width:740px;
+  margin:0 auto;
+  padding:0;
+}
+
+/***** Top *****/
+
+#top {
+  color:#fff;
+  background:#6699CC;
+  height:80px;
+  margin:0;
+  padding:0;
+}
+
+#top .topleft { 
+  text-align:left;
+  display:inline;
+  float:left;
+  margin:4px 0 0 8px;
+}
+
+#top .topright {
+  text-align:right;
+  display:inline;
+  float:right;
+  margin:4px 8px 0 0;
+}
+
+#top a {
+  text-decoration:none;
+  color:#fff;
+  background:inherit;
+}
+
+#top a:hover {
+  text-decoration:underline;
+}
+
+/***** Navigation *****/
+
+#navigation ul, #navigation li {
+  margin:0;
+  padding:0;
+}
+
+#navigation {
+  font-size:1em;
+  background:#71A70B;
+  height:2em;
+  line-height:2em;
+  color:#fff;
+}
+
+#navigation li{
+  
+  list-style-type:none;
+  white-space:nowrap;
+  float:left;
+}
+
+#navigation li a{
+  display:block;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-decoration:none;
+  background:inherit;
+  color: #fff;
+  float:left;
+  padding:0 10px 0 10px;
+}
+
+#navigation .selected, #navigation a:hover{
+  background:#44DD3C;
+  color:#fff;
+}
+
+/***** Main *****/
+
+#main {
+  width:720px;
+  padding:10px;
+}
+
+/***** Content *****/
+
+#content {
+  float:left;
+  width:555px;
+  padding:5px 5px 5px 5px;
+}
+
+
+#content h2 {
+  text-align:left;
+  font-size:1.2em;
+  margin:0px 0 0 0;
+  padding:10px 5px 0 5px;
+  color:inherit;  
+}
+
+#content p {
+padding-left:10px;
+padding-right:10px;
+margin:10px 5px 10px 5px;
+}
+
+#content a {
+text-decoration:none;
+}
+
+#content a:hover {
+text-decoration:underline;
+}
+
+/***** Sub Content *****/
+
+#subcontent {
+  float:right;
+  width:150px;
+  margin:0;
+  padding:5px 5px 5px 0;
+}
+
+.menu h4 {
+  text-align:center; 
+  font-size:1em;
+  margin:0;
+  padding:5px;
+  color:inherit;
+  background: url(images/corner2nb.jpg) top left no-repeat;
+}
+
+.menu {
+  color: #333;
+  padding:0;
+  margin:0 0 10px 0;
+  background:inherit;
+}
+
+.menu ul {
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+		
+
+.menu li a {
+  display: block;
+  background-color: #2175bc; 
+  color: #fff;
+  text-decoration: none;
+  border:0;
+  padding:5px;
+}
+
+.menu li a:hover {
+  border:0;
+  background-color: #2586d7;
+  color: #fff;
+}
+
+html>body .menu li a {
+  width: auto;
+}
+
+html>body .menu h4 {
+  width: auto;
+}
+
+/***** Footer *****/
+
+#footer {
+  font-size:.9em;
+  background:#71A70B;
+  clear:both;
+  padding:0;
+  line-height:1.8em;
+  height:1.8em;
+  color:#fff;
+  text-align:center;
+}
+
+#footer a {
+color:#fff;
+text-decoration:none;
+}
+
+#footer a:hover {
+text-decoration:underline;
+}

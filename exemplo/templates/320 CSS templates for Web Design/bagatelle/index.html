@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="files/style.css" />
+		<title>Bagatelle</title>
+		<!--
+				Hello, and thanks for downloading Bagatelle.  The first thing
+			I must warn you is that you will have to play with the pullouts
+			for a few minutes to get them to line up.  You have a pulloutspace
+			in the left column, and the actual pullout in the right column,
+			both embedded in the text. I recommend you copy these to a scratch
+			file, write all your text, and then visually spot where to embed
+			each piece in its respective column.  Then, if it doesn't work
+			right, massage it into place by experimenting with where in the
+			text it's embedded.
+
+				The next thing I have to say is that if you look in the CSS,
+			you'll notice a lot of IE hacks.  For example, the sidebar is
+			positioned instead of floating - floating the sidebar for some
+			reason caused a strange rendering bug in IE.  Also, wherever you
+			see an underscore (_) before a CSS rule, it will apply to IE only.
+			This is a good hack for fixing IE-specific bugs without breaking
+			compatability with other browsers, but it will cause your CSS
+			not to validate.
+
+				The rest should be pretty self-explanatory, but send me a message
+			(to duckwizard) on OSWD if you have any questions.
+
+		-->
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<h1 class="shadow3">bagatelle</h1>
+				<h1 class="shadow2">bagatelle</h1>
+				<h1 class="shadow">bagatelle</h1>
+				<h1>bagatelle</h1>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Weblog</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">About</a></li>
+					<li class="last"><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div id="white">
+				<div id="sidebar">
+					<h2>Page Contents</h2>
+					<ul>
+						<li><a href="#1">Articles Are People, Too</a></li>
+						<li><a href="#2">It Works in IE, I Promise!</a></li>
+						<li><a href="#3">Adopt, Adapt, and Improve</a></li>
+						<li><a href="#4">Here Comes the Latin</a></li>
+						<li><a href="#5">More Latin, Sir?</a></li>
+					</ul>
+
+					<h2>Site Contents</h2>
+					<ul>
+						<li><a href="#">Why Stuff is Great</a></li>
+						<li><a href="#">I Like Burritos</a></li>
+						<li><a href="#">Review of a Product</a></li>
+						<li><a href="#">High Tech How-to</a></li>
+						<li><a href="#">Ikebana for Beginners</a></li>
+					</ul>
+
+					<h2>External Links</h2>
+					<ul>
+						<li><a href="http://www.duckwizard.com">duckwizard.com</a></li>
+						<li><a href="http://www.oswd.org">OSWD</a></li>
+						<li><a href="http://www.fark.com">Fark</a></li>
+					</ul>
+				</div>
+				<div id="content">
+					<h2>Bagatelle: A Layout For Articles</h2>
+					<h3>Because Blogs Get Too Much Attention</h3>
+					<div class="leftColumn">
+						<a name="1"></a>
+						<p class="heading">Articles Are People, Too</p>
+						<p>
+							This is <acronym title="Bag-uh-tel (Noun):  A short, light piece of verse or music.">Bagatelle</acronym>,
+							my second submission to OSWD.  It's similar in layout to cityslicker, my first submission, but has a
+							major difference: it's made for articles rather than blogs.  The two-column layout is perfect for
+							larger amounts of text, and the cross-column pullouts are good for drawing attention to certain
+							quotes or images (charts, for example).  Besides the cross-column pullouts (which took a bit of black
+							magic, let me tell you!), I did another subtle experimental thing in<span class="pulloutspace">&nbsp;</span> this design: The faux-soft shadows
+							in the header text.  Yep, that's all CSS and text.  It won't look like that in Opera, but it won't look
+							too far off.
+						</p>
+						<a name="2"></a>
+						<p class="heading">It Works in IE, I Promise!</p>
+						<p>
+							As in my first design, <span style="text-decoration: line-through;">you will probably want to remove the XML prologue</span>
+							I fixed this problem by using a &lt;meta&gt; tag to specify the encoding, instead of the XML prologue.  It interferes with Internet Explorer's ability to sense the DOCTYPE element, and causes
+							the browser to revert to quirks mode, wrecking the box model.  In case you're wondering what's causing
+							the OSWD preview to look incorrect in IE, there you have it.  If you want to see a preview of what the
+							page looks like in IE without that blasted prologue, <a href="http://www.duckwizard.com/bagatelle">click here</a>.
+							Unfortunately, the prologue is required for OSWD submission, because its absence causes a warning
+							(<strong>not an error</strong>) in W3C validation.
+						</p>
+						<a name="3"></a>
+						<p class="heading">Adopt, Adapt, and Improve</p>
+						<p>
+							I hope you enjoy using this design.  Unlike many who submit designs here, I'm a<span class="pulloutspace">&nbsp;</span> firm believer in
+							the greatness of Open Source and its sense of community.  That means, you are free, nay,
+							<strong>encouraged</strong> to change this design in any way you see fit.  I would love for you
+							to submit your improvements back to OSWD, but if you do, please include link in the template
+							body back to this original OSWD preview. This way we can keep a trail of versions, which is a
+							good thing.  Also, it will keep people from thinking you're passing it off as your own original
+							design, which is frowned upon.
+						</p>
+						<a name="4"></a>
+						<p class="heading">Here Comes the Latin</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec tempor tortor et libero. Vestibulum posuere dolor nec augue. Phasellus tincidunt accumsan pede. Aliquam vestibulum dui
+						</p>
+					</div>
+					<div class="rightColumn">
+						<p class="continue">
+							elementum, tellus risus ultrices libero, at tincidunt urna quam
+							vulputate neque. Nulla magna. Sed a justo ut elit scelerisque
+							aliquet. Nulla lacinia. Proin pretium tempus eros. Fusce tempus
+							neque et pede. Vestibulum ac est. Maecenas elementum. Mauris at
+							lacus. Maecenas tristique mattis dolor.
+							Donec ornare dolor id erat. Donec gravida semper odio.
+							Integer nonummy orci vel dolor. Morbi at urna quis ligula ornare
+							convallis. Morbi quis felis ut turpis consectetuer feugiat. Donec
+							ipsum risus, ultricies id, euismod quis, dapibus non, arcu.<span class="pullout pullquote">
+								<span class="hack">
+									<br /><br />The only thing more awesome than pullquotes,
+									are cross-column pullquotes.
+								</span>
+							</span>
+							Nulla tempus turpis ac massa ornare ultrices. Phasellus congue
+							leo sed ligula. Ut tellus. Cras viverra tortor at leo.
+						</p>
+						<p>
+							Praesent tincidunt nibh sit amet nisi. Aliquam iaculis fringilla
+							dui. Sed eleifend, pede in ultricies euismod, nunc turpis mollis
+							justo, a dapibus arcu diam ut massa. Suspendisse ac mi quis mi
+							pretium congue. Ut vel mauris a nunc faucibus convallis. Sed at
+							ante eu pede blandit fringilla. Sed semper elit. Quisque blandit
+							ullamcorper urna. Nulla ut orci. Morbi porta feugiat nisl. Sed
+							sapien. Quisque semper. Sed libero. Nunc adipiscing elit sit amet
+							ligula.
+						</p>
+						<a name="5"></a>
+						<p class="heading">More Latin, Sir?</p>
+						<p>
+							Nunc nec lacus ut mauris porta aliquet. Donec neque. Sed accumsan.
+							Maecenas nec ipsum. Integer aliquet mattis diam. Ut ut nulla eu
+							nibh ullamcorper tempor. Etiam ultricies, massa in porta lacinia,
+							sem tortor vestibulum eros, id pellentesque lectus urna et tellus.
+							Mauris congue dolor pellentesque sem. Suspendisse in erat. Curabitur<span class="pullout">
+								<span class="hack"><br />
+									<img src="files/lillies.jpg" alt="A Colorful Image!" /><br />
+									<span class="caption">A colorful image.</span>
+								</span>
+							</span>
+							tincidunt. Nunc vestibulum urna vitae erat. Curabitur rhoncus diam
+							sed sapien.
+						</p>
+						<p>
+							Vivamus imperdiet iaculis mi. Ut id felis. Donec ante. Ut convallis auctor turpis. Ut turpis pede, ullamcorper eget, egestas in, tempor ac, massa. Maecenas vitae quam. Duis orci. Nam at ante at neque varius pulvinar. Praesent semper. Donec et velit at urna faucibus mattis. Ut erat. Nullam dolor massa, dapibus ac, cursus eu, facilisis vitae, nisl. Pellentesque tincidunt semper tortor. Vivamus lorem leo, vulputate a, euismod quis, sagittis et, turpis. Phasellus eu sapien ut libero fermentum euismod.
+						</p>
+					</div>
+					<div id="clear">&nbsp;</div>
+				</div>
+				<div id="footer">
+					Copyright &copy; 2005, <a href="#">Your Name Here</a>
+				</div>
+			</div>
+			<div id="footerImage">&nbsp;</div>
+		</div>
+	</body>
+</html>

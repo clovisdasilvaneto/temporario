@@ -1,0 +1,87 @@
+/* General HTML elements */
+body
+{
+background: #eee;
+color: #000;
+margin: 0;
+padding: 0;
+font: small Verdana, Tahoma, Arial, sans-serif;
+text-align: center;
+}
+		/* Defines how links on the page should look */
+a:link {color: #080; background-color: #fff; text-decoration: none;}
+a:visited {color: #080; background-color: #fff; text-decoration: none;}
+a:hover {color: #55AB55; background-color: #fff; text-decoration: none;}
+	
+/* Text classes */
+
+.note
+{
+font: 75% Verdana, Tahoma, Arial, sans-serif;
+color: #555;
+background: #fff;
+}
+
+.box-text {font-size: 80%}
+
+h4 {font-size: 115%;}
+h3 {font-size: 125%;}
+h2 {font-size: 150%;}
+h1 {font-size: 180%;}
+	
+/* Layout <div> elements */
+#wrap {background: #fff; width: 750px; margin: 0px auto 0px auto; padding: 0; color: #000; border: 1px solid #000; text-align: left;}
+
+#header
+{
+background: #080;
+color: #000;
+padding: 35px 0 35px 0;
+margin: 0;
+text-align: center;
+}
+
+	#intro /* This element is embedded in #header */
+	{
+	background: #080; /* should match #header background */
+	color: #fff;
+	font-size: 75%;
+	}
+	
+#content
+{
+margin: 5px 20px 5px 20px;
+padding: 0;
+width: 510px;
+float: left;
+}
+
+#sidebar
+{
+background: #080 url(img/sidebar.gif) no-repeat bottom left;
+color: #000;
+margin: 0;
+padding: 5px 20px 50px 20px;
+float: right;
+width: 150px;
+}
+
+		/* Styling the <ul> used for navigation in the sidebar */
+	.nav-list a:link {border-bottom: dotted 1px #fff; text-decoration: none; color: #fff; background: #080;}
+	.nav-list a:hover {background: #080; color: #000; text-decoration: none; border: none;}
+	.nav-list a:visited {border-bottom: dotted 1px #fff; text-decoration: none; color: #fff; background: #080;}
+
+#footer
+{
+clear: both;
+width: 700px;
+text-align: center;
+padding: 3px;
+}
+
+.footer-text
+{
+font-size: 75%;
+color: #555;
+background: #fff;
+}

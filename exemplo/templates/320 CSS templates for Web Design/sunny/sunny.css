@@ -1,0 +1,330 @@
+/* ie5 win - grrr - start */
+body { 
+	font: small serif;
+	margin: 0px; 
+	padding: 0px; 
+	line-height: 14px;
+	color: #000;
+	font-size: x-small;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	font-size: small;
+	text-align: center; }
+/* ie5 win - grrr - end */
+ 
+/* opera - grrr - start */
+html>body {
+	font-size: small;
+	}
+/* opera - grrr - end */
+
+
+/* start of the real css */
+
+/* basic elements */
+body {
+	color: #444; 
+	background-color: #edf6e3;
+ 	background-image: url(background.gif);
+	background-position: top center;
+	background-repeat: repeat-y;
+	font-size: 11px; 
+	line-height: 14px;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left;
+	margin: 0px; 
+	padding: 0px;
+	}
+p {
+	font-size: 11px; 
+	line-height: 14px;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	margin: 0px; 
+	padding: 0px;
+	}
+h1, h2, h3 {
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: bold; 
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	margin: 0px; 
+	padding: 0px;
+	}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #854500;
+	}
+a:visited,
+a:visited:hover {
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D17836;
+	}
+a:hover,
+a:active {
+	text-decoration: underline; 
+	color: #854500;
+	}
+acronym {
+	font-weight: normal; 
+	font-style: normal;
+	border: 0;
+	}
+
+/* major divs */
+#container { 
+	width: 900px; 
+	position: relative;   
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	}
+
+#header {
+ 	width: 450px;
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+#content {
+ 	width: 450px;
+	margin: 4px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	}
+	
+#linkList {
+	position: absolute;
+	top: 175px;
+	left: 0px;
+	width: 220px;
+	margin: 0px 0px 0px 682px;
+	padding: 0px 0px 0px 0px;
+	}
+
+/* minor divs */
+#pageHeader {
+ 	width: 900px;
+ 	height: 20px; /* strange but ie6 needs this */
+ 	background-image: url(banner.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	border-top: 0px;    
+	border-right: 1px solid #aaa;    
+	border-bottom: 1px solid #aaa;    
+	border-left: 1px solid #aaa;    
+	margin: 0px 0px 0px 0px; 
+	padding: 150px 0px 0px 0px;
+	}
+	
+#pageHeader h1 {
+ 	width: 600px;
+	color: #000;
+	font-size: 24px; 
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: -50px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+#pageHeader h2 {
+ 	width: 600px;
+	color: #000;
+	font-size: 11px; 
+	line-height: 16px;
+	font-weight: normal;
+	padding: 0px 0px 0px 3px;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 10px 4px;
+	}
+
+.contentbox {
+ 	width: 650px;
+	border: 1px solid #e4c55b;
+ 	background-image: url(swirl.gif);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #FFFEFA;
+	margin: 0px -10px 10px -10px;
+	padding: 10px 10px 20px 10px;
+	}
+
+	
+#footer {
+ 	width: 662px;
+	border: 1px solid #aaa;    
+ 	background-image: url(longbg_2.gif);
+	background-position: center center;
+	background-repeat: repeat;
+	background-color: #284C00;	
+	margin: 10px -10px 20px -10px; 
+	padding: 4px 4px 4px 4px;
+	text-align: center;
+	}
+	
+.contentbox p , .contentbox li {
+	padding-bottom: 8px;
+	text-align: justify;
+	line-height: 160%;
+	}
+
+.contentbox h3 {
+	color: #854500;
+	background-color: #ddd;
+ 	background-image: url(longbg_2.gif);
+	background-position: bottom center;
+	background-repeat: repeat;
+	font-size: 11px; 
+	line-height: 16px;
+	text-transform: uppercase;
+	margin: -10px -10px 4px -10px;
+	padding: 3px 4px 4px 10px;
+	}
+	
+#linkList ul {
+	border-top: 1px dotted #939238;
+	margin: 5px 5px 0px 5px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+#linkList li {
+	display: block;
+	list-style-type: none;
+	color: #6c9e2d;
+	background-color: #FDFAF0;
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: normal; 
+	font-style: italic;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	border-bottom: 1px dotted #939238;
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+#linkList li a:link,
+#linkList li a:visited, 
+#linkList li a:visited:hover,
+#linkList li a:hover, 
+#linkList li a:active {
+	display: block;
+	line-height: 14px;
+	font-style: normal;
+	color: #9F9584;
+	}
+
+#linkList li:hover,
+#linkList li a:hover{	
+	display: block;
+	font-style: normal;
+	color: #fff !important;
+}
+
+#linkList h3 {
+	color: #939238;
+	background-color: #dbda93;
+ 	background-image: url(contentbg.gif);
+	background-position: center right;
+	background-repeat: repeat-x;
+	font-size: 11px; 
+	line-height: 16px;
+	font-weight: bold; 
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-transform: uppercase;
+	text-align: left; 
+	border-bottom: 1px solid #939238;
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+.thelinks {
+	background-image: url(swirl.gif);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #FFFEFA;
+	border: 1px solid #939238;    
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 30px 0px;
+	}
+
+/* hovers */
+	
+#linkList li:hover{
+	background-color: #EDA93A;
+	color: #9F9584;
+	}
+
+
+/* -- Image alignment classes -- */
+
+.imgLeft, .imgRight {
+  margin: 5px;
+}
+
+.imgLeft {
+  float: left;
+  margin-left: 0px;
+}
+
+.imgRight {
+  float: right;
+  margin-right: 0px;
+}
+
+img
+{
+	border: 0;
+}
+
+/*tabs*/
+#tabs11 {
+	float:left;
+	width:900px;
+	font-size:93%;
+ 	line-height:normal;
+	margin-top: -13px;
+}
+#tabs11 ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+}
+#tabs11 li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#tabs11 a {
+	float:left;
+	background:url("tableft11.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+}
+#tabs11 a span {
+	float:left;
+	display:block;
+	background:url("tabright11.gif") no-repeat right top;
+ 	padding:5px 15px 4px 6px;
+	color:#9F9584;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs11 a span {float:none;}
+/* End IE5-Mac hack */
+#tabs11 a:hover span,
+#tabs11 a.currentTab span{
+	color:#FFF;
+}
+#tabs11 a:hover,
+#tabs11 a.currentTab {
+	background-position:0% -42px;
+}
+#tabs11 a:hover span,
+#tabs11 a.currentTab span {
+	background-position:100% -42px;
+}

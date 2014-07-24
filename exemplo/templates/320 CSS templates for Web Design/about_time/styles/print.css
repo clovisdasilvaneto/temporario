@@ -1,0 +1,24 @@
+#leftcol {
+	display: none;
+	}
+#mainbody {
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+#topnav {
+	display: none;
+	}
+#header {
+	display: none;
+	}
+.screenshot {
+	display: none;
+	}
+#footer {
+	display: none;
+	}
+#toplink {
+	display: none;
+	}

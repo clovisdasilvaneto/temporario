@@ -1,0 +1,183 @@
+/*  CSS for "Homepage," an open design by Christian Montoya
+ *  http://www.christianmontoya.com 
+ */
+
+body * {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+/* kills font sizing bugs, do not remove */
+html { font-size:100.01%; }
+body { font-size:1em; }
+
+body {
+	font-family: "Trebuchet MS", Trebuchet, Verdana, sans-serif;
+	color:#fff;
+	background:#000 url(contentback.png) fixed;
+}
+
+a {
+	color:#09f;
+	text-decoration:none;
+}
+
+a:link {}
+a:visited {}
+a:hover {text-decoration:underline;}
+a:active {}
+
+div#top {
+	width:600px;
+	height:100px;
+	margin:0 auto; 
+	background: url(top.png) bottom center no-repeat;
+	text-align:center;
+}
+
+h2 {
+	font-size:1.2em;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+h3, h4, h5, h6 {
+	font-size:1em;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+div#top h1 {
+	text-align:center;
+	padding-top:35px; 
+	font-size:2em;
+	text-decoration:none;   
+	color:#09f; 
+}
+
+div#content {
+	width:600px; 
+	margin:0 auto; 
+	background:#000 url(contentback.png) top center repeat-y;
+	border-top:3px solid #fff;
+}
+
+div#content h2, div#content p, h3, h4, h5, h6, ul, ol {
+	margin:5px 10px 5px 10px;
+}
+
+ul, ol { 
+	margin-left:30px; 
+}
+
+p.indent {
+	margin:5px 10px 5px 20px;
+}
+
+div#content dl {
+	margin:0 10px 0 10px;
+}
+
+div#content dt {
+	text-decoration:underline;
+}
+
+div#content dd {
+	margin-left:10px;
+	margin-bottom:3px;
+}
+
+div#sidebar {
+	float:right;
+	display:inline;
+	width:198px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right:3px;
+	font-size:1.1em;
+	background-color:#000;
+}
+
+ul#nav {
+	list-style:none;
+	margin:0;
+}
+
+ul#nav li {
+}
+
+.first {
+	padding-top:10px;
+}
+
+.navspan {
+	border-left:1px solid #fff;
+	padding:3px;
+	padding-top:10px;
+}
+
+ul#nav a {
+	padding:3px;
+	text-decoration:none;
+	display:block;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff;
+	background-color:#000;
+	color:#09f;
+	width:100%;
+}
+
+html>body ul#nav a {
+	width:auto;
+}
+
+ul#nav a:link {
+	text-decoration:none;
+}
+
+ul#nav a:visited {
+	text-decoration:none;
+}
+
+ul#nav a:hover {
+	text-decoration:none;
+	position:relative;
+	left:-10px;
+	top:-5px;
+	border:1px solid #fff;
+}
+
+ul#nav a:active {
+	text-decoration:none;
+}
+
+div#foot1 {
+	clear:right;
+	margin-top:15px;
+	border-top:3px solid #fff;
+	font-size:.9em;
+	text-align:center;
+}
+
+div#foot1 p {
+	margin:5px 10px 5px 10px;
+}
+
+div#foot2 {
+	height:25px;
+	width:600px;
+	background:url(bottom.png) top center no-repeat;
+	position:relative;
+	left:50%;
+	top:-5px;
+	margin-left:-300px;
+	margin-bottom:25px;
+}
+
+abbr, acronym, .help {
+	border-bottom: 1px dotted #999;
+	cursor: help;
+	speak:spell-out;
+}

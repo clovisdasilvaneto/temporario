@@ -1,0 +1,152 @@
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	cursor: default;
+}
+
+.content {
+	float: left;
+	height: 100%;
+	margin-top: 10px;
+	background: #fe4d30;
+	width: 673px;
+	margin-right: 10px;
+}
+
+.content h1 {
+	text-align: center;
+	color: #f4f4f4;
+	background: #fb9622;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	border-right: 1px solid #c1c1c1;
+	border-left: 1px solid #c1c1c1;
+}
+
+.content p {
+	margin-left: 22px;
+	color: white;
+}
+
+.navigation {
+	float: right;
+	width: 310px;
+	margin-top: 10px;
+	background: #fe4d30;
+	height: 100%;
+	margin-left: 0;
+}
+
+.navigation h1 {
+	text-align: center;
+	color: #f4f4f4;
+	background: #fb9622;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	border-right: 1px solid #c1c1c1;
+	border-left: 1px solid #c1c1c1;
+}
+
+.navigation a {
+	display: block;
+	text-indent: 20px;
+	color: white;
+	border: 1px solid silver;
+	background: #434343;
+	text-decoration: none;
+	margin-bottom: -1px;
+}
+
+.navigation a:hover {
+	background: #333333;
+}
+
+.inv {
+	color: #fe4d30;
+}
+
+.bot {
+	margin-bottom: 20px;
+}
+
+.footer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	height: 26px;
+	background: #fe4d30;
+	position: absolute;
+	bottom: 6px;
+	right: 0;
+	left: 0;
+	text-align: center;
+	color: white;
+}
+
+.footer a {
+	color: silver;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #939393;
+}
+
+.header {
+	background: #fe4d30;
+	text-align: center;
+}
+
+.header h1 {
+	color: #c1c1c1;
+	background: #fe4d30;
+	height: 100%;
+	font-weight: bold;
+	font-size: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 19.5em;
+}
+
+.rtop, .rbottom {
+	background: white;
+	display: block;
+}
+
+.rtop div, .rbottom div {
+	display: block;
+	background: #fe4d30;
+	height: 1px;
+}
+
+.r1 {
+	margin: 0 5px;
+}
+
+.r2 {
+	margin: 0 3px;
+}
+
+.r3 {
+	margin: 0 2px;
+}
+
+.rtop .r4, .rbottom .r4 {
+	margin: 0 1px;
+	height: 2px;
+}
+
+.r5 {
+	margin: 0 5px 0 0;
+}
+
+.r6 {
+	margin: 0 3px 0 0;
+}
+
+.r7 {
+	margin: 0 2px 0 0;
+}
+
+.r8 {
+	margin: 0 1px 0 0;
+}

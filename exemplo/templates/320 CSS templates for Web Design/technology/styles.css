@@ -1,0 +1,112 @@
+		#container {
+			width: 790px;
+			border: 1px solid gray;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#banner {
+	background-color: rgb(213, 219, 225);
+	height: 130px;
+	background-image: url(banner.jpg);
+	margin: 0px;
+	padding: 0px;
+		}
+#navbar li {
+	display: inline;
+	padding-left: 25px;
+}
+#navbar {
+	background: #CCCCCC url(button_bg.gif) repeat-x;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+#navbar a {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	text-decoration: none;
+	background: url(button_bg.gif) repeat-x;
+	border: 1px solid #000000;
+	padding: 0px 5px;
+	margin-left: 30px;
+}
+#navbar a:hover {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background: url(button_bg2.gif);
+}
+
+
+		#content {
+	padding-right: 170px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-top: 1px solid #000000;
+	background: #FFFFFF;
+	margin: 0px;
+		}
+#content p {
+	font: 0.8em Verdana, Arial, Helvetica, sans-serif;
+}
+
+#content h3 {
+	font: 1.3em Verdana, Arial, Helvetica, sans-serif;
+}
+
+		#sidebar-a {
+	float: right;
+	margin: 0;
+	padding: 5px;
+	background-color: #FFFFFF;
+	width: 150px;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+		}
+img {
+	border: 1px solid #000000;
+}
+#sidebar-a a {
+	font: normal 0.9em Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 1px solid #000000;
+	padding-right: 5px;
+	padding-left: 5px;
+	background: url(button_bg.gif) repeat-x;
+	color: #003366;
+}
+#sidebar-a a:visited {
+	color: #003366;
+}
+body {
+	background: #CCCCCC;
+}
+#sidebar-a a:hover {
+	background: url(button_bg2.gif) repeat-x;
+}
+
+#sidebar-a p {
+	text-align: center;
+	font: bold 0.9em Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+		#footer {
+	clear: both;
+	padding: 5px;
+	background-color: #CCCCCC;
+	border-top: 1px solid #000000;
+		}
+	.footertext {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+#lefttextheader {
+	height: 80px;
+	width: 380px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 20px;
+	color: #FFFFFF;
+}

@@ -1,0 +1,29 @@
+/** Search & Translate Bars  ***/
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+/***  This is for the Google language translation box  ***/
+.pullmenus {margin:0 auto;padding:0;background-color: #ffffff;text-align:left;
+color: #930209;width:96%;font-size: 10px;}
+
+/***   Google Search Box  ****/
+/**  searchbox_wrap used for margin-top fix for table margin-top prob , and 
+problem that 100% width does not work, borders break layout  **/
+.searchbox_wrap {margin:0 auto; padding:0; width:96%;  text-align:center;}
+.searchtable    {margin:0 auto; padding:0; width:100%; text-align:center;}
+.searchtable_leftcell {width:auto;}
+.searchtable_midcell {width:100%;}
+.searchtable_rightcell {width:auto;}
+
+.searchbox1 {margin:0;padding:0;background-color: #ffffff;text-align: left;
+color: #930209;width:auto;font-size:10px;text-align:left;}
+
+.searchbox2 {margin:0;padding:0;background-color:#ffffff;text-align: 
+left;color:#930209;width:auto;font-size:10px;}
+
+.searchbutton {margin:0;padding:0;width:auto;font-size:10px;cursor:pointer;
+background-color:#333366;color: #ffffff;border-color:#ffcc33;border-right:10px solid #930209;}

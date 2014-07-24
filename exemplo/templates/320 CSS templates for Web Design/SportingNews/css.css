@@ -1,0 +1,116 @@
+/*
+
+This is the style sheet for scratchpad.
+It's free to use, just like the site template.
+Mod it, copy it, build on it.
+You're the man now, dog.
+
+*/
+
+body   {
+background: url(bg.png);
+background-repeat: repeat-x;
+background-attachment: fixed;
+margin: 0 0 0 0 ;
+}
+
+div.top {
+	height: 50px;
+	background-color: blue;
+	border-bottom: 2px solid #eaeaea;
+	color: #fff;
+	
+}
+
+div.top h1 {
+	letter-spacing: -2px;
+	font-size: 40px;
+	margin: -5px 0 5px 0;
+	padding-left: 10px;
+	
+}
+div.top h1 a { text-decoration: none; color: white; }
+div.body {
+	padding: 10px;	
+	font-family: tahoma;
+}
+div.left h2, div.right h2 {
+	border-bottom: 1px dotted;
+
+	font-size: 16px;	
+	padding: 10px;
+	margin-top: -0px;
+}
+div.right h5 {
+	margin-left: 10px;
+	margin-top: 0px;
+}
+div.left {
+	background-color: #fff;
+	padding: 5px;
+	float: left;
+	min-height: 400px;
+	width: 200px;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+}
+div.right {
+	background-color: #fff;
+	padding: 5px;
+	min-height: 400px;
+	margin-left: 220px;
+	border: 1px solid #fff;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;	
+}	
+div.footer {	
+	clear: all;
+	margin-top: 15px;
+	border: 1px solid #fff;
+	font-size: 90%;
+}
+
+ul.menu  {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+}
+
+ul.menu li  {
+	border-bottom: 1px solid white;
+	padding: 1px;
+}
+
+blockquote {
+	padding: 10px;	
+	border-left: 1px dotted blue;	
+}
+
+ul.menu li a {
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	border-left: 1px dotted;
+	padding-left: 15px;
+	font-size: 85%;
+	
+	
+}
+ul.menu li a:hover {
+	background-color: #eaeaea;
+	border-left: 10px solid blue;
+	padding-left: 6px;
+}
+
+p {
+	padding: 5px;
+	font-size: 90%;
+}
+
+img.rightBorder { float: right; border: 1px solid #808080; padding: 5px; margin: 5px;}
+img.leftBorder	{ float: left; border: 1px solid #808080; padding: 5px; margin: 5px;}
+img.border	{ border: 1px solid #808080; padding: 5px; margin: 5px; }
+span.gray { color: #808080; }	
+span.gray a { color: #808080; text-decoration: none; }

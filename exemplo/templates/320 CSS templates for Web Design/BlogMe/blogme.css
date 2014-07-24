@@ -1,0 +1,441 @@
+/* CSS Document */
+
+  /*************************************
+   *  BlogMe.css - By Jacob Tallman    *
+   *                                   *
+   * (C)Copyright 2006 - Jacob Tallman *
+   *								   *
+   *  You are free to use and/or       *
+   *  manipulate this file as much     *
+   *  as you want so long as this      *
+   *  seal stays intact                *
+   *                                   *
+   *************************************/
+   
+/******  Main Styles ******/
+html{
+background-color:#000;
+color:#527611;
+}
+
+body{
+background-color:#000;
+color:#143151;
+text-align:center;
+}
+
+a{
+color:#0099FF;
+background-color:inherit;
+text-decoration:none;
+padding-bottom:2px;
+border-bottom:1px dotted #AFAFAF;
+font-size:90%;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+a:visited{
+color:#0099FF;
+background-color:inherit;
+}
+a:hover{
+color:#00CCFF;
+background-color:inherit;
+border-bottom:1px dotted #FEFFFF;
+}
+a:active{
+color:#FF6600;
+background-color:inherit;
+}
+
+p{
+color:#121313;
+background-color:inherit;
+text-indent:4px;
+font-size:90%;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+#container{
+width:760px;
+height:auto;
+border:2px solid #000102;
+text-align:left;
+background-color:#000000;
+color:#EFEFEF;
+margin:20px auto;
+}
+
+/****** Header Styles ******/
+
+#header{
+background:#000000 url(header.jpg) no-repeat;
+color:#EEE;
+width:750px;
+height:110px;
+margin:3px 5px 1px 5px;
+padding:0;
+}
+
+#header h1{
+float:right;
+color:#333538;
+background:none;
+font-family:"Times New Roman", Tahoma, serif;
+font-size:250%;
+margin:30px 160px 0px 0px;
+padding:0px;
+}
+
+#header h2{
+float:left;
+font-weight:normal;
+color:#FCFCFC;
+background:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-transform:lowercase;
+margin:30px 0px 0px 15px;
+padding:0px;
+}
+
+/***** Navigation Styles ******/
+#nav{
+clear:both;
+padding:2px 0 2px 0;
+margin-left:25px;
+}
+
+#nav ul{
+list-style:none;
+display:inline;
+padding:0;
+}
+
+#nav ul li {
+list-style:none;
+display:inline;
+padding:0px 3px 0px 3px;
+}
+
+#nav ul li a{
+text-decoration:none;
+font-size:80%;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+color:#FEFFFF;
+background-color:inherit;
+font-weight:bold;
+padding:2px 0px 2px 0px;
+border-bottom:1px dotted #121313;
+}
+
+#nav ul li a:hover{
+color:#FF6600;
+background-color:inherit;
+border-bottom:1px dotted #ffffff;
+}
+
+#nav ul li a:active{
+color:#009933;
+background-color:inherit;
+border-bottom:1px dotted #666666;
+}
+
+#nav ul li a.selected{ border-bottom:1px dotted #FFFFFF; }
+
+/****** Upper Links Styles ******/
+#upperLinks{
+width:50%;
+background-color:#000000;
+margin:0px 0px 0px 20px;
+padding:0px 0px 2px 0px;
+color:#B6B6B6;
+}
+
+#upperLinks p{
+color:#B6B6B6;
+padding:0px;
+margin:0px;
+}
+
+#upperLinks a{
+color:#0099CC;
+border:none;
+background-color:#000;
+}
+
+#upperLinks a:hover{
+color:#00CC66;
+}
+
+/****** Content Styles *****/
+#content{
+clear:both;
+width:750px;
+margin:10px 5px 20px 5px;
+padding:0px 0px 10px 0px;
+background-color:#000000;
+color:#EEFFFF;
+}
+
+/***** Blog and Entries Styles *****/
+#blog{
+float:left;
+width:70%;
+height:auto;
+}
+
+.entry{
+border-bottom:1px dotted #CCCCCC;
+background-color:#000000;
+color:#EFFFFF;
+padding:5px 0px 13px 0px;
+margin-left:20px;
+width:90%;
+}
+
+.entry h2{
+color:#0099FF;
+background-color:inherit;
+margin-bottom:0px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:150%;
+}
+
+.entry p{
+padding-left:15px;
+text-indent:10px;
+line-height: 1.4em;
+color:#CEEFFF;
+background-color:inherit;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:80%;
+}
+
+.tools{
+background-color:#000000;
+color:#303030;
+clear:both;
+margin:0px 0px 2px 0px;
+padding:0px 0px 2px 0px;
+}
+
+.tools a.toolsComments{
+background:url("star.jpg") no-repeat;
+padding-left:17px;
+float:left;
+color:#FF6600;
+text-decoration:none;
+font-family:"Times New Roman", Tahoma, serif;
+font-size:80%;
+border-bottom:none;
+}
+.tools a.toolsComments:hover{
+background:url("starHover.jpg") no-repeat;
+color:#0099CC;
+}
+.tools a.toolsComments:active{
+background:url("starActive.jpg") no-repeat;
+color:#00CC66;
+}
+
+.tools a.permalink{
+background:url("spiral.jpg") no-repeat;
+padding-left:17px;
+float:right;
+color:#09C;
+text-decoration:none;
+font-family:"Times New Roman", Tahoma, serif;
+font-size:80%;
+border-bottom:none;
+}
+.tools a.permalink:hover{
+background:url("spiralHover.jpg") no-repeat;
+color:#F60;
+}
+.tools a.permalink:active{
+background:url("spiralActive.jpg") no-repeat;
+color:#00CC66;
+}
+
+/**** SubMenu Styles ****/
+#subMenu{
+float:right;
+width:23%;
+line-height:1.5em;
+}
+
+#subMenu h3{
+color:#F60;
+background-color:inherit;
+padding:0px;
+margin:0px;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-size:110%;
+font-weight:bold;
+}
+
+#subMenu ul{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+
+#subMenu ul li{
+display:block;
+padding-left:10px;
+}
+
+#subMenu ul li ul li{
+padding-left:12px;
+}
+
+#subMenu ul li ul li ul li{
+padding-left:14px;
+}
+
+#subMenu ul li ul li ul li ul li{
+padding-left:16px;
+}
+
+#subMenu ul li ul li ul li ul li ul li{
+padding-left:18px;
+}
+
+#subMenu ul li ul li ul li ul li ul li ul li{
+padding-left:20px;
+}
+
+#subMenu a{
+color:#0099CC;
+background-color:inherit;
+padding:0px 3px 0px 0px;
+border-bottom:none;
+text-decoration:none;
+font-weight:bold;
+}
+
+#subMenu a:hover{
+color:#FF6600;
+background-color:inherit;
+padding:0px 3px 0px 0px;
+border-bottom:none;
+text-decoration:none;
+}
+
+#subMenu a.link{
+margin-left:10px;
+padding-left:5px;
+border-left:5px solid #494949;
+}
+
+#subMenu a.link:hover{
+margin-left:10px;
+padding-left:5px;
+border-left:5px solid #A9A9A9;
+}
+
+#subMenu ul.links{
+list-style:none;
+}
+
+/******* Footer Styles ********/
+#footer{
+clear:both;
+width:750px;
+height:35px;
+margin:10px 5px 1px 5px;
+padding:0px;
+background:url("footer.jpg") no-repeat;
+}
+
+#footer h3{
+margin:8px 0 0 20px;
+float:left;
+color:#111;
+background-color:inherit;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:80%;
+}
+
+#footer h4{
+margin:10px 20px 0 0;
+float:right;
+color:#cacaca;
+background-color:inherit;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size:70%;
+}
+
+#footer a{
+color:#333333;
+border:none;
+text-decoration:none;
+}
+
+#footer a:hover{
+color:#006699;
+}
+
+/*** Search ***/
+.searchKeywords{
+background:none;
+color:#0066CC;
+width:90%;
+height:auto;
+font-size:90%;
+font-family:Arial, Helvetica, sans-serif;
+border-right:1px solid #000; border-left:1px solid #000; border-top:1px solid #000;
+border-bottom:1px solid #7D7D7D;
+}
+
+.searchBtn{
+padding:2px;
+margin-left:30%;
+margin-top:4px;
+background:none;
+color:#0066CC;
+width:auto;
+height:auto;
+font-size:90%;
+font-family:Arial, Helvetica, sans-serif;
+border:1px solid #5F5F5F;
+}
+
+/****** Blog Navigation ******/
+#blogNav{
+background-color:#000000;
+color:#33CCFF;
+width:90%;
+padding:5px 0px 13px 0px;
+margin-left:20px;
+}
+
+#blogNav a{
+color:#00CC99;
+background-color:#000000;
+text-decoration:none;
+border:none;
+}
+
+#blogNav a:visited{
+color:#FFCC00;
+background-color:#000000;
+}
+
+#blogNav a:hover{
+color:#0099FF;
+background-color:#000000;
+}
+
+#blogNav a:active{
+color:#0099FF;
+background-color:#000000;
+text-shadow:#FFFFFF;
+}
+
+/**** Misc Styles ****/
+.important{ color:#F00; background-color:inherit; font-weight:bold; }
+.right{ float:right; text-align:right; }
+.left{ float:left; text-align:left; }

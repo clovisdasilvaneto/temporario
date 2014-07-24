@@ -1,0 +1,278 @@
+/* Thank you (www.iseeyou-designs.com) for your help with the mouseovers ... This CSS style sheet was developed by www.studio7designs.com  ... drop me off and email if you have any questions aran@studio7designs.com  Have fun! */
+
+html{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background:#ffffff url('images/bg.jpg') top center repeat-x;
+	margin:0;
+	padding:0;
+	color:#999999;
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:62.5%;
+	text-align:center;
+}
+
+h1{
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:2.6em;
+	font-weight:normal;
+	background:#fff url(images/booksmall.gif) no-repeat bottom left;
+	padding:0 0 10px 50px;
+	margin:20px 5px 5px 5px;
+}
+
+h3{
+	color:#9aba11;
+	font-family:geneva,arial,sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+	word-spacing:4px;
+	letter-spacing:3px;
+	font-size:0.8em;
+	font-weight:bold;
+	padding:0 2px;
+	margin:0;
+}
+
+h2{
+	font-family:"Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+	font-size:1.4em;
+	margin:auto;
+	text-transform:capitalize;
+}
+
+h2 span{
+	background:#fff url(images/booksmall.gif) no-repeat bottom right;
+	padding:10px 50px 0px 0;
+	margin:auto;
+	line-height:2em;
+}
+
+p{
+	line-height:1.8em;
+}
+
+a{
+	text-decoration:none;
+	color:#72a12d;
+	border-bottom:1px solid #dbe6be;
+}
+
+a:hover{
+	color:#999999;
+	background-color:#fcfded;
+	border-bottom:1px solid #aecb6e;
+}
+
+#border{
+	width:700px;
+	padding:0;
+	margin:15px auto;
+	background:#fff 
+	
+}
+
+#blogtitle{
+	width:700px;
+	margin:10px auto;
+    padding:0 0 5px 0;
+	text-align:left;
+	padding-left: 20px;
+    font-size:1.1em;
+    line-height:1.2em;
+	
+}
+
+#small{
+background: url(images/nautica.jpg) no-repeat;
+padding-left: 20px;
+}
+
+#blogtitle a:link, a:visited{
+	color:#b8ce83;
+}
+
+#blogtitle a:hover, a:active{
+	color:#cccccc;
+}
+
+#container{
+	font-size:1.2em;
+	text-align:left;
+	margin:0px 0 0px 0;
+	padding:10px;
+	border-color:#686923;
+	border-style:solid;
+	border-width:0 0px;
+}
+
+#introduction{
+	float:right;
+	width:170px;
+	padding:10px 20px;
+	margin:20px 0 20px 20px;
+	background: url(images/menu.gif) no-repeat;
+	text-align:center;
+	line-height:1.5em;
+	color:#999999;
+	font-size:1.0em;
+	font-family:"Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+	letter-spacing:0px;
+}
+
+#introduction ul, #introduction li {
+text-align:center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#introduction a {
+	border-bottom: none;
+	color:#999999;
+}
+
+#introduction h3{
+	text-align: center;
+	position:static;
+}
+
+.splitright {
+background-color: #ffffff;
+margin:19px 0 0 0;
+width: 45%;
+float: right;
+overflow: hidden;
+}
+
+.splitleft {
+background-color: #ffffff;
+margin:19px 0 0 0;
+width: 45%;
+float: left;
+overflow: hidden;
+}
+
+.maintext {
+background-color: #ffffff;
+text-align:justify;
+margin:0px auto;
+padding-top:5px;
+width: 65%;
+float: left;
+overflow: hidden;
+}
+
+.maintext img{
+	display:inline;
+	color:#303030;
+	border: 2px dashed #CCCCCC;
+	background-color: #FFFFFF;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+	padding: 2px;
+}
+
+.maintext2 {
+background-color: #ffffff;
+padding:5px;
+margin:0px auto;
+width: 75%;
+height:45px;
+float: left;
+overflow: hidden;
+}
+
+.maintext3 {
+background-color: #ffffff;
+margin:0px 0px 0px 0px;
+width: 100%;
+float: left;
+
+}
+
+#footer{
+background-color: #ffffff;
+border-top: 1px solid #86C32A;
+margin:80px 0 0 0;
+padding-top: 5px;
+width: 100%;
+float: left;
+overflow: hidden;
+}
+
+
+#footer a{
+	background-color:#fff;
+	border:0;
+}
+#footer a:link, a:visited{
+	color:#b8ce83;
+}
+
+#footer a:hover, a:active{
+	color:#999999;
+}
+
+/* ~~~~~~~~~ PROPS FOR THE MENU GO OUT TO EXPLODING-BOY.COM ~~~~~~~~~ */
+
+    #topmenu {
+	position: relative;
+	top: 13px;
+	left: 0px;
+	width: 600px;
+	font-size:93%;
+	margin: 0;
+	line-height:normal;
+	height: 35px;
+      }
+    #topmenu ul {
+	  margin:0;
+	  padding:0px 0px 0 0px;
+	  list-style:none;
+      }
+    #topmenu li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #topmenu a {
+      float:left;
+      background:url(images/menuleft.gif) no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #topmenu a span {
+      float:left;
+      display:block;
+      background:url(images/menuright.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#669900;
+      }
+	  
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #topmenu a span {float:none;}
+    /* End IE5-Mac hack */
+    #topmenu a:hover span {
+      color:#999999;
+      }
+    #topmenu a:hover {
+      background-position:0% -42px;
+      }
+    #topmenu a:hover span {
+      background-position:100% -42px;
+    }
+	
+	.left{
+margin:10px 10px 5px 0;
+float:left;
+}
+
+.right{
+margin:2px 0 2px 2px;
+float:right;
+}

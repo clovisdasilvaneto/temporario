@@ -1,0 +1,242 @@
+/*
+*
+* file: css.css
+* date: 16 Dec 2005
+* author: tetsucceed
+* mail: tetsucceed [at] gmail [dot] com 
+*
+* Enjoy!
+*
+*******************/
+
+body {
+  background-color: #286ea0;
+  color: #000;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#global {
+  width: 760px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*
+* HEADER
+*********************/
+
+#header {
+  background-color: #fff;
+  color: #ccc;
+  text-align: right;
+  padding: 4px 4px 4px 4px;
+  margin: 0;
+  border-right: 2px solid #fffccc;
+  border-left: 2px solid #fffccc;
+  border-bottom: 2px solid #fffccc;
+}
+
+#header a {
+  background-color: #ffffff;
+  color: #000;
+  text-decoration: none;
+  text-align: right;
+  padding: 1px 3px 1px 3px;
+  border: 1px solid white;
+}
+
+#header a:hover {
+  background-color: #fffccc;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+/* 
+* HIMG
+**********************/
+
+#himg {
+  background: #286ea0 url(ul.jpg) repeat-x bottom;
+  color: #fff;
+  padding: 0 0 5px 10px;
+  margin: 0 auto ;  
+  border: 1px solid #fff;
+}
+
+#himg h1 {
+  color: #fff;
+  position: relative;
+  top: 10px;
+  left: 0;
+  font-size: 50px;
+}
+
+#himg em {
+  color: #ff4444;
+}
+
+/*
+* CONTENT
+**********************/
+#content {
+  background-color: #fff;
+  color: #000;
+  text-align: justify;
+  padding: 5px 15px 5px 5px;
+  margin: 0 0 10px 0px;
+  border-top: 2px solid #fffaaa;
+  border-bottom: 2px solid #fffccc;
+  border-right: 2px solid #fffccc;
+  border-left: 2px solid #fffccc;
+}
+
+#content a {
+  color: #ff4444;
+  text-decoration: none;
+}
+
+#content a:hover {
+  color: #ee0000;
+  text-decoration: none;
+}
+
+#content h1 {
+  color: #286589;
+}
+
+#content h2,h3,h4 {
+  color: #286589;
+  padding-left: 10px;
+  border-left: 2px solid #286589;
+}
+
+#content blockquote {
+  width: 460px;
+  background: #fff;
+  color: #000;
+  text-align: justify;
+  font-size: 13px;
+  padding: 5px 15px 5px 25px;
+  border-left: 2px solid #fffccc;
+  border-top: 1px dashed #cccccc;
+  border-bottom: 1px dashed #cccccc;
+}
+
+#content blockquote p {
+  padding: 0;
+  margin: 0;
+}
+
+/* sub content stylesheets */
+
+.gright {
+  color:#ccaaaa;
+  font-size: 13px;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+.gright p {
+  padding: 0;
+  margin: 0;
+}
+
+.gtop {
+  color: #ccaaaa;
+  font-size: 13px;
+  text-align: right;
+  border-top: 1px solid #cfcfcf;
+}
+
+.gtop p {
+  padding: 0;
+  margin: 0;
+}
+
+.rightcon {
+  background: #fffccc;
+  color: #000;
+  width: 150px;
+  text-align: justify;
+  font-size: 12px;
+  float: right;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 0 10px 10px;
+  border-left: 2px solid #000;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;  
+} 
+
+/*
+* MENU
+*********************/
+
+#menu {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  margin: 0;
+  border-right: 2px solid #fffccc;
+  border-left: 2px solid #fffccc;
+}
+
+#menu a {
+  background-color: #ffffff;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 2px 20px 2px 20px;
+  margin: 0 25px 0 25px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #fff;
+  border-left: 2px solid #000;
+  border-top: 1px solid #fff;
+}
+
+#menu a:hover {
+  background-color: #fffccc;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 2px solid #000;
+  border-top: 1px solid #000;
+}
+
+/*
+* FOOTER
+*******************/
+
+#footer {
+  background-color: #ffffff;
+  color: #000;
+  font-size: 10px;
+  padding: 4px 4px 4px 4px;
+  margin: 0;
+  border-top: 2px solid #fffccc;
+  border-right: 2px solid #fffccc;
+  border-left: 2px solid #fffccc;
+}
+
+#footer a,a:hover {
+  color: #ccc;
+  text-decoration: underline;
+  text-align: left;
+}
+
+/*
+* OTHER
+*******************/
+
+.lst {
+  list-style: square;
+}
+

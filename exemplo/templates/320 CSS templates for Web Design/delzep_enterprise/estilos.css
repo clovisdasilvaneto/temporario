@@ -1,0 +1,224 @@
+/************HENRY RIOS**********/
+ body {
+	background-color: #D1D3D5;
+	background-image: url(img/bkgr.gif);
+	background-repeat: repeat-x;
+}
+
+a {
+color: #286ea0;
+text-decoration: none;
+}
+
+a:hover {
+background: #eaeaea;
+color: #286ea0;
+}
+/*************************/
+#content {
+	position:absolute;
+	left:12px;
+	top:126px;
+	width:275px;
+	height:462px;
+	margin-left: 470px;
+	padding: 20px 10px 10px 10px;
+	background-color: #E0E0E0;
+	border-right-width: thick ;
+	border-right-style: groove;
+	border-top-width: thin ;
+	border-top-style: solid ;
+	border-color: #999999;
+}
+
+#content p{
+text-align:justify;
+color:#505050;
+font-size: 0.9em;
+}
+
+#content h1 {
+font-weight: bold;
+font-size: 1.2em;
+text-decoration: none;
+color: #505050;
+border-left: 24px solid #999999;
+border-bottom: 1px solid #999999;
+padding: 0px 0px 0px 10px;
+}
+
+#content h2 {
+font-weight: bold;
+font-size: 1em;
+text-decoration: none;
+color: #505050;
+padding: 0px 0px 0px 10px;
+}
+/*************/
+#leftside {
+	position:absolute;
+	left:12px;
+	top:127px;
+	width:146px;
+	height:509px;
+	padding: 20px 10px 5px 10px;
+	background-color: #E0E0E0;
+}
+
+#leftside h2 {
+font-weight: bold;
+font-size: 1em;
+text-decoration: none;
+color: #505050;
+border-left: 4px solid #999999;
+border-bottom: 1px solid #999999;
+padding: 0px 0px 0px 10px;
+}	
+	
+#leftside p {
+font-size: 0.7em;
+text-decoration: none;
+color: #666666;
+}
+
+/***********************/
+#encabezado {
+	position:absolute;
+	left:12px;
+	top:7px;
+	width:745px;
+	height:50px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em ;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px;
+	background-image: url(img/titleimg.gif);
+	letter-spacing: -2px;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#titulo {
+	position:absolute;
+	left:12px;
+	top:9px;
+	width:765px;
+	height:60px;
+	background-color: #39607D;
+	vertical-align: middle;
+}
+
+/**********/
+#descrimg{
+	position:absolute;
+	left:182px;
+	top:126px;
+	width:290px;
+	height:462px;
+	background-color: #E0E0E0;
+	padding: 20px 5px 10px 5px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+
+#descrimg p {
+text-align: center;
+font-weight: bold;
+font-size: 1em;
+text-decoration: none;
+color: #999999;
+}
+
+#descrimg h2 {
+text-align: center;
+font-weight: bold;
+font-size: 1.2em;
+text-decoration: none;
+color: #666666;
+}	
+
+#descrimg img{
+	padding: 2px;
+	background: #cccccc;
+	border: 4px solid #f0f0f0;
+}
+
+/******menu principal*****/
+#menuprinc {
+	position:absolute;
+	left:181px;
+	top:89px;
+	width:597px;
+	height:14px;
+}
+
+#tabs {
+      float:left;
+      width:100%;
+      /*background:url("tableftF.gif")#efefef;*/
+      font-size:93%;
+      line-height:normal;
+	  border-bottom:1px solid #c0c0c0;
+}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 0px;
+	list-style:none;
+      }
+    #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs a {
+      float:left;
+      background:url("img/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs a span {
+      float:left;
+      display:block;
+      background:url("img/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#FFF;
+      }
+    #tabs a:hover {
+      background-position:0% -42px;
+      }
+    #tabs a:hover span {
+      background-position:100% -42px;
+      }
+/**************************/
+#footer {
+	position:absolute;
+	left:182px;
+	top:620px;
+	width:575px;
+	height:32px;
+	background-color: #E0E0E0;
+	padding: 5px 10px 5px 10px;
+	font-size: 0.8em;
+	font-style: italic;
+	color: #666666;
+	border-right-width: thick;
+	border-right-style: groove;
+	border-color: #999999;
+}

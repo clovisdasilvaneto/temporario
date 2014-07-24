@@ -1,0 +1,149 @@
+body{                            
+background-color: #0E0905;
+}
+
+#container {
+width: 800px;
+border: 0px solid white;
+margin: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 5px;
+background-color: #;
+}
+
+#banner {
+color:#843D09;
+padding: 5px;
+margin-bottom: 0px;
+margin-right:0px;
+background-color: rgb(#);
+background-image:  url(picks/1.jpg);
+background-repeat: no-repeat;
+height: 249px;
+width: 799px;
+}
+div#text {
+color: #843D09;
+position: relative;
+height: auto;
+width: auto;
+ left: 5.0em;
+top: 0.0em;
+}
+
+div#text2 {
+font-size: 1.9em; color:#843D09;
+position: relative;
+height: auto;
+width: auto;
+ left: 9.0em;
+top: -1.0em;
+}
+
+div#text3 {
+font-size: 1.3em; color:#843D09;
+position: relative;
+height: auto;
+width: auto;
+ left: 1.0em;
+top: -5.5em;
+}
+
+.menu {
+width: 90%;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+ height: 1.0em;
+}
+.menu li {
+width: 12%;
+float: left;
+display: inline; 
+list-style-type: none;
+margin: 0; padding: 0;
+
+}
+.menu li a {
+background: #000;
+color: white;
+border: solid 0.01em #843D09;
+display: block;
+height: 100%;
+ padding: 0.2em 0;
+text-align: center;
+text-decoration: none;
+width: 100%;
+}
+.menu li a:hover {
+background: #AB8D59;
+color: black;
+}
+.clear {
+visibility: hidden;
+clear: both;
+font-size: 1px;
+}
+
+img.left {
+float:left;
+padding:1px;
+margin-right:6px;
+border:0px solid #B5B5B5;
+}
+
+
+
+#left {
+padding: 5px;
+margin-right: 215px;
+background-color:  #0E0905;
+color:#ADACA7;
+}
+
+img.left {
+float:left;
+padding:1px;
+margin-right:6px;
+border:0px solid #;
+}
+
+
+p {
+font: bold 10pt/18pt ,sans-serif;
+}
+
+h1 {
+font-size: 3.9em; color: #843D09;
+}
+H3{
+font-size: 1.9em; color: #AE8A56;
+}
+
+
+H3,h2,h4 {text-align: center; color: blue;}
+
+
+
+#right {
+float: right;
+width: 200px;
+margin: 5;
+margin-left: 5px;
+padding: 15px;
+background-color: #0E0905;
+border-left: 2px solid #AB8D59;
+color: #CFE1EB;
+}
+
+#footer {
+clear: both;
+padding: 5px;
+margin-top: 0px;
+background-color: #0E0905;
+border:0px solid blue;
+color: white;
+}

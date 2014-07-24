@@ -1,0 +1,999 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>Creating Your Own Logo Images for Sinorcaish</title>
+  <meta name="Author" content="John Zaitseff, J.Zaitseff@zap.org.au" />
+  <meta name="Description" content="Step-by-step instructions for creating your own logo images to use with the Sinorcaish CSS stylesheet" />
+  <meta name="Copyright" content="Copyright (C) 2004-06, John Zaitseff.  This file may be redistributed and/or modified on the condition that the original copyright notice is retained." />
+  <meta name="SVNInfo" content="$Id: logo.html 164 2006-01-10 04:01:17Z john $" />
+  <meta name="Language" content="en" />
+  <meta name="Generator" content="Hand-written XHTML using Emacs under Debian GNU/Linux" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Language" content="en" />
+  <link rev="made" href="mailto:J.Zaitseff@zap.org.au" />
+  <link rel="StyleSheet" href="sinorcaish-screen.css" type="text/css" media="screen" />
+  <link rel="StyleSheet" href="sinorcaish-print.css" type="text/css" media="print" />
+
+  <style type="text/css">
+    /* Styles local to this document */
+    div.widerbox { width: 17em; padding-left: 1.75em }
+  </style>
+</head>
+
+<body>
+
+<!-- For non-visual or non-stylesheet-capable user agents -->
+<div id="mainlink"><a href="#main">Skip to main content.</a></div>
+
+
+<!-- ======== Header ======== -->
+
+<div id="header">
+  <div class="left">
+    <p><a href="http://www.zap.org.au/documents/styles/sinorcaish/">Sinorca<span class="alt">ish</span></a></p>
+  </div>
+
+  <div class="right">
+    <span class="hidden">Useful links:</span>
+    <a href="index.html">Contacts</a> |
+    <a href="index.html">Feedback</a> |
+    <a href="index.html">Search</a> |
+    <a href="index.html">About</a>
+  </div>
+
+  <div class="subheader">
+    <span class="hidden">Navigation:</span>
+    <a href="index.html">Home</a> |
+    <a href="index.html">Products</a> |
+    <a href="index.html">Services</a> |
+    <a href="index.html">Support</a> |
+    <a href="index.html">About</a> |
+    <a class="highlight" href="index.html">Other</a>
+  </div>
+</div>
+
+
+<!-- ======== Left Sidebar ======== -->
+
+<div id="sidebar">
+  <div>
+    <p class="title"><a href="index.html">Other</a></p>
+    <ul>
+      <li><a href="index.html">Overview</a></li>
+      <li><a href="template.html">Template</a></li>
+      <li><a href="sample.html">Sample Page</a></li>
+      <li class="highlight"><a href="logo.html">Logo Images</a>
+        <span class="hidden">(this page)</span></li>
+    </ul>
+  </div>
+
+  <div>
+    <p class="title">W3C Validation</p>
+
+    <p>Check this document for <a
+      href="http://validator.w3.org/check?uri=referer"
+      title="Validate against the XHTML 1.0 Strict standard">XHTML
+      1.0 Strict conformance</a> and <a
+      href="http://jigsaw.w3.org/css-validator/check/referer"
+      title="Validate against the CSS 2.1 standard">CSS 2.1
+      conformance</a>.</p>
+  </div>
+</div>
+
+
+<!-- ======== Main Content ======== -->
+
+<div id="main">
+
+<div id="navhead">
+  <hr />
+  <span class="hidden">Path to this page:</span>
+  <a href="index.html">Home</a> &raquo;
+  <a href="index.html">Other</a> &raquo;
+</div>
+
+
+<h1>Creating Your Own Logo Images for Sinorcaish</h1>
+
+
+<p>This document shows you, step by step, how to create your own logo
+image for the Sinorcaish stylesheet using the <a
+href="http://www.gimp.org/">GNU Image Manipulation Program</a>.  Although
+the instructions in this document were developed under the <a
+href="http://www.debian.org/">Debian GNU/Linux</a> operating system
+running the <a href="http://www.kde.org/">K Desktop Environment</a>, there
+should not be too much difference when running under Microsoft Windows,
+Apple Mac OS&nbsp;X or a BSD-based operating system.</p>
+
+
+<h2>Prerequisites</h2>
+
+<p>Before you start, you need to make sure you have the following
+installed on your system:</p>
+
+<ul>
+  <li>The <a href="http://www.gimp.org/">GNU Image Manipulation
+    Program</a> (also known as the GIMP), version 2.2 or later, and</li>
+  <li>The <strong>Verdana Bold</strong> font, formerly part of the
+    Microsoft Core Web TrueType fonts.</li>
+</ul>
+
+<p>The Verdana Bold font is installed as a core component of Microsoft
+Windows and Apple Mac OS&nbsp;X.  If you do not have this font, you may
+use the <strong>Bitstream Vera Sans Bold</strong> font as a reasonable
+substitute.  The Bitstream Vera font family was developed by Bitstream
+Inc. and is freely available from the <a
+href="http://www.gnome.org/fonts/">GNOME Desktop Environment Fonts web
+site</a>.  The Bitstream Vera fonts should already be installed on most
+Linux and BSD-based distributions.</p>
+
+
+<h2>Step-By-Step Instructions</h2>
+
+
+<div class="navbox widerbox">
+  <ol>
+    <li><a href="#step1">Start Running the GIMP</a></li>
+    <li><a href="#step2">Set the Foreground Colour</a></li>
+    <li><a href="#step3">Create a New Image</a></li>
+    <li><a href="#step4">Save That Image!</a></li>
+    <li><a href="#step5">Revert to Default Colours</a></li>
+    <li><a href="#step6">Enter the Full Logo Text</a></li>
+    <li><a href="#step7">Tweak the Logo Text</a></li>
+    <li><a href="#step8">Rename and Expand</a></li>
+    <li><a href="#step9">The White Part of the Logo</a></li>
+    <li><a href="#step10">The Orange Part of the Logo</a></li>
+    <li><a href="#step11">Create the Gradient Layer</a></li>
+    <li><a href="#step12">Shadow for the White Text</a></li>
+    <li><a href="#step13">Shadow for the Orange Text</a></li>
+    <li><a href="#step14">Crop the Image</a></li>
+    <li><a href="#step15">Duplicate the Image</a></li>
+    <li><a href="#step16">Make a Single Layer</a></li>
+    <li><a href="#step17">Convert to Indexed Format</a></li>
+    <li><a href="#step18">(Almost) the Final Save</a></li>
+    <li><a href="#step19">For the Perfectionist</a></li>
+    <li><a href="#step20">The End</a></li>
+  </ol>
+</div>
+
+
+<p>This document assumes that you are familiar with using graphical
+applications, although you may not be an expert when it comes to using the
+GIMP.  The following conventions are used in this document:</p>
+
+<ul>
+  <li><p>The notation <span class="menu">File&nbsp;&raquo; New</span>
+    means that you need to select <span class="menu">File</span> from the
+    appropriate window menu, then select the <span class="menu">New</span>
+    menu item.</p></li>
+
+  <li><p><dfn>Left-clicking</dfn> and <dfn>right-clicking</dfn> refer to
+    clicking the left or right mouse button.  This assumes, of course,
+    that you haven&rsquo;t swapped the mouse buttons around; if so, you
+    will need to mentally adjust every occurrence of these
+    phrases.</p></li>
+
+  <li><p>When you are asked to press an alphabetic key, such as <span
+    class="key">M</span>, do <em>not</em> use the <span
+    class="key">Shift</span> key: if <span class="key">Shift</span> is
+    needed, it will be shown by something like <span
+    class="key">Shift+M</span>.</p></li>
+
+  <li><p><dfn>Selecting a window</dfn> means using the mouse or <span
+    class="key">Alt+Tab</span> (or equivalent) to bring that window to the
+    front and/or make sure the window is receiving keyboard input.  In
+    X&nbsp;Window parlance (as used on Linux and BSD-based systems), this
+    is known as making sure the window has <dfn>input
+    focus</dfn>.</p></li>
+</ul>
+
+
+<h3 id="step1">Step 1: Start Running the GIMP</h3>
+
+<p>Start the GNU Image Manipulation Program in the usual way.  In general,
+the exact sequence of steps you need to perform to execute the GIMP
+depends very much on the system you are running.  Try looking around your
+<span class="menu">Start</span> menu (if applicable), or type
+<kbd>gimp</kbd> on the command line.</p>
+
+<p>If this is your first time starting the GIMP, you will be walked
+through the <span class="window">GIMP User Installation</span> wizard.  In
+most cases, clicking <span class="gui">Continue</span> throughout the
+wizard will be sufficient.</p>
+
+<p>The GIMP is a very powerful software package for manipulating images.
+It comes with extensive documentation that you are encouraged to read.
+And it&rsquo;s completely free!</p>
+
+
+<h3 id="step2">Step 2: Set the Foreground Colour</h3>
+
+<p>Once the GIMP has started, you need to set the foreground colour to
+cyan.  To do this, double-click on the current foreground colour (which is
+typically black).  You can find the current foreground colour in the main
+toolbox window (whose window title should be &ldquo;The GIMP&rdquo;) under
+the various tool icon buttons.  When the <span class="window">Change
+Foreground Color</span> dialog box appears, remove anything that appears
+in the <span class="gui">HTML Notation</span> text edit box, then enter
+<kbd>00FFFF</kbd> in that box and click <span class="gui">OK</span>.</p>
+
+
+<h3 id="step3">Step 3: Create a New Image</h3>
+
+<p>Create a new image by selecting <span class="menu">File&nbsp;&raquo;
+New</span> (you can also press <span class="key">Ctrl+N</span>).  The
+<span class="window">Create a New Image</span> dialog box will appear.
+Click on the <span class="gui">Advanced Options</span> line, then make
+sure the settings in the dialog box match the following:</p>
+
+<ul>
+  <li><strong>Width: 400 pixels</strong>.  This is not a critical value
+    (at this stage); it depends on the text you plan to include as part of
+    your logo.  Any value from about 250 to 500 pixels will do, although
+    you should plan your logo to be no more than 400 pixels wide, if at
+    all possible; this may mean you need to use a smaller font for your
+    logo in <a href="#step6">step&nbsp;6</a>.</li>
+
+  <li><strong>Height: 60 pixels</strong>.  Again, this value depends on
+    your logo text.  Ideally, your logo should consist of a
+    <em>single</em> line of text with either one or two words.</li>
+
+  <li><strong>Colorspace: RGB color</strong>.</li>
+
+  <li><strong>Fill with: Foreground color</strong>.  This is an easy
+    setting to overlook!</li>
+
+  <li><strong>Comment:</strong> You should set this to something like
+    &ldquo;Copyright &copy;&nbsp;2006, <var>copyright owner</var>&rdquo;,
+    where the copyright owner is either you (enter your full name, in this
+    case), or your company.</li>
+</ul>
+
+<p>Entering the copyright symbol &ldquo;&copy;&rdquo; in the GIMP can be
+tricky.  Under Windows, hold down the left <span class="key">Alt</span>
+key.  While holding down this key, type <span class="key">0169</span>
+<em>using the numeric keypad</em>.  Finally, release the <span
+class="key">Alt</span> key: the copyright symbol should appear.  Under
+Linux, the easiest way to obtain this character is to generate it using
+another application, then use the clipboard to paste it into the GIMP.
+For example, under KDE, run the <span class="program">kcharselect</span>
+Character Selection application.  When this program appears, enter
+<kbd>00A9</kbd> into the <span class="gui">UTF code</span> field, press
+the <span class="key">Enter</span> key, then click on the <span
+class="gui">To Clipboard</span> button.  Finally, press <span
+class="key">Ctrl+V</span> in the <span class="gui">Comment</span> text box
+in the GIMP.  You can also use the OpenOffice Writer to do the same thing.
+If worst comes to worst, you can always simply use the three ASCII
+characters &ldquo;<code>(C)</code>&rdquo;!</p>
+
+<p>Once the settings in the dialog box match the above list, click <span
+class="gui">OK</span>.  A new window should open containing the image, as
+shown in Figure&nbsp;1; this window will be called the <dfn>image
+window</dfn> for the rest of this document:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen1.png"
+    width="530" height="190"
+    alt="[Screenshot of the GIMP new image window]" /><br />
+
+    <strong>Figure&nbsp;1:</strong> Screenshot of the new image window in
+    the GIMP.</p>
+</blockquote>
+
+
+<h3 id="step4">Step 4: Save That Image!</h3>
+
+<p>Now that you have created a brand new image, the first thing you should
+do is save it.  To do this, select the image window and press <span
+class="key">Ctrl+S</span> (or select <span class="menu">File&nbsp;&raquo;
+Save</span> from the image window&rsquo;s menu).  A <span
+class="window">Save Image</span> dialog box will appear, asking for the
+name you wish to give the image.  Type in an appropriate name with <span
+class="fn">.xcf</span> as the extension; <span
+class="fn">sinorcaish.xcf</span> will be used in this document.  Make sure
+the <span class="gui">Save in folder</span> location is appropriate before
+clicking <span class="gui">Save</span>.</p>
+
+<p>From now on, you should press <span class="key">Ctrl+S</span> at the
+end of each step &mdash; you don&rsquo;t want to lose all of your work
+due to a power failure, for example!</p>
+
+
+<h3 id="step5">Step 5: Revert to Default Colours</h3>
+
+<p>Make sure the image window is selected, then press <span
+class="key">D</span> (or select <span class="menu">Tools&nbsp;&raquo;
+Default Colors</span>).  The current foreground colour (as shown in the
+main toolbox window) should revert to black; the current background colour
+should remain white.</p>
+
+
+<h3 id="step6">Step 6: Enter the Full Logo Text</h3>
+
+<p>It&rsquo;s time to enter the logo text!  To do this, press <span
+class="key">T</span> (or select <span class="menu">Tools&nbsp;&raquo;
+Text</span>).  The tool options in the main toolbox window should show
+<span class="gui">Text</span> as the title.  Make sure the settings in
+that window match the following:</p>
+
+<ul>
+  <li><strong>Font: Verdana Bold</strong>.  If you do not have this font,
+    you can select <strong>Bitstream Vera Sans Bold</strong> instead.  You
+    should <em>not</em> be tempted to use another font, particularly
+    Arial, as the results will not match the &ldquo;look and feel&rdquo;
+    of the Sinorcaish stylesheet.</li>
+  <li><strong>Size: 50&nbsp;px</strong>.  You may need to tweak this
+    setting if your logo turns out too large; you can do so in <a
+    href="#step7">step&nbsp;7</a>.</li>
+  <li><strong>Hinting: selected</strong>.</li>
+  <li><strong>Force auto-hinter: <em>not</em> selected</strong>.</li>
+  <li><strong>Antialiasing: selected</strong>.</li>
+  <li><strong>Color: Black</strong>.</li>
+  <li><strong>Justify: Left justified</strong> (the first button).</li>
+  <li><strong>Indent: 0.0</strong>.</li>
+  <li><strong>Line spacing: 0.0</strong>.</li>
+</ul>
+
+<p>You can play around with some of these settings (particularly hinting
+and auto-hinting) in <a href="#step7">step&nbsp;7</a>; in general,
+however, leaving these settings as suggested here gives a more pleasing
+result.</p>
+
+<p>Once these settings have been entered, select the image window, then
+click the left mouse at a point close to the top left-hand corner.  Notice
+that the pixel position of the mouse is given in the bottom left-hand
+corner of the window; you should left-click when this shows
+<strong>10,&nbsp;0</strong>.</p>
+
+<p>Once you left-click, the <span class="window">GIMP Text Editor</span>
+dialog box should appear.  Enter the full text of your logo;
+&ldquo;Sinorcaish&rdquo; will be used in this document.  Notice how the
+final result appears in the image window as you type.  Click <span
+class="gui">Close</span> when finished.  This provides the <dfn>guide
+text</dfn>; you should end up with a window that looks like
+Figure&nbsp;2:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen2.png"
+    width="530" height="190"
+    alt="[Screenshot of the image window with logo text]" /><br />
+
+    <strong>Figure&nbsp;2:</strong> Screenshot of the image window with
+    the logo text &ldquo;Sinorcaish&rdquo;.</p>
+</blockquote>
+
+
+<h3 id="step7">Step 7: Tweak the Logo Text (Optional)</h3>
+
+<p>If the logo text is too long to fit into the image size, you may need
+to do one of two things:</p>
+
+<ol>
+  <li>Start again by jumping to <a href="#step2">step&nbsp;2</a>, this
+    time selecting a new image that is wider than the last one; or</li>
+  <li>Resize the current logo text.</li>
+</ol>
+
+<p>To resize the current logo text, first left-click on any part of the
+text logo.  Next, simply alter the value of <span class="gui">Size</span>
+in the text tool options.  The logo text will be resized in &ldquo;real
+time&rdquo;.  You may also modify the hinting and auto-hinting parameters
+in a similar fashion to see which settings look better for you.</p>
+
+<p>If you change the size of the logo text, you may need to reposition it.
+To do this, press <span class="key">M</span> (or select <span
+class="menu">Tools&nbsp;&raquo; Transform Tools&nbsp;&raquo; Move</span>).
+Then, hold down the left <span class="key">Shift</span> key and use the
+left mouse button to drag the logo to the desired position.  You can even
+zoom in on the image for a closer look to make this easier: press the
+<span class="key">+</span> key (actually <span
+class="key">Shift</span>+<span class="key">=</span>) a few times, or use
+the <span class="menu">View&nbsp;&raquo; Zoom</span> menu.</p>
+
+
+<h3 id="step8">Step 8: Rename and Expand the Text Layer</h3>
+
+<p>Select the <span class="window">Layers</span> dialog box by pressing
+<span class="key">Ctrl+L</span> (or by selecting <span
+class="menu">Dialogs&nbsp;&raquo; Layers</span>).  Right-click on the
+layer name corresponding to the logo text (in this case, Sinorcaish).
+Select <span class="menu">Edit Layer Attributes&hellip;</span> from the
+pop-up menu that appears; this should cause the <span class="window">Layer
+Attributes</span> dialog box to appear.</p>
+
+<p>In the <span class="window">Layer Attributes</span> dialog box, change
+the layer name to <strong>Guide Text</strong>.  Make sure <span
+class="gui">Set Name from Text</span> is <em>not</em> selected before
+clicking <span class="gui">OK</span>.</p>
+
+<p>Next, right-click on this newly-named layer and select <span
+class="menu">Layer to Image Size</span>.  This should expand the dashed
+outline of the layer to the whole image, as shown in Figure&nbsp;3:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen3.png"
+    width="530" height="190"
+    alt="[Screenshot of the renamed image layer]" /><br />
+
+    <strong>Figure&nbsp;3:</strong> Screenshot of the image window with
+    the renamed layer name.</p>
+</blockquote>
+
+
+<h3 id="step9">Step 9: The White Part of the Logo</h3>
+
+<p>Select white as the current foreground colour.  There are at least two
+ways of doing this:</p>
+
+<ol>
+  <li>Double-click on the foreground colour in the toolbar, then set the
+    <span class="gui">HTML Notation</span> text edit box to
+    <kbd>FFFFFF</kbd>; or</li>
+  <li>Make sure the default colours are selected (by pressing <span
+    class="key">D</span>, as in <a href="#step5">step&nbsp;5</a>), then
+    press <span class="key">X</span> to swap current foreground and
+    background colours.  Learning the keyboard shortcuts in the GIMP makes
+    your job <em>much</em> faster!</li>
+</ol>
+
+<p>Next, select the text tool once again by pressing <span
+class="key">T</span> (or by selecting <span
+class="menu">Tools&nbsp;&raquo; Text</span>).  The tool options should
+still be the same as in <a href="#step6">step&nbsp;6</a> (or <a
+href="#step7">step&nbsp;7</a> if you tweaked the size of the logo text).
+Left-click at the same spot as you started the previous text string, that
+is, at pixel location <strong>10,&nbsp;0</strong>.  The <span
+class="window">GIMP Text Editor</span> dialog box should reappear.  Enter
+the first part of your logo text, the part that is to be white (in this
+case, &ldquo;Sinorca&rdquo;), then click <span
+class="gui">Close</span>.</p>
+
+<p>Depending on how accurately you clicked the left mouse button and/or
+whether you moved the guide text around in <a
+href="#step7">step&nbsp;7</a>, you may need to move the new text layer
+around until you get a perfect overlap (although you <em>may</em> still
+see faint traces of black around the edges).  To do this, press <span
+class="key">M</span>, then make sure that the <span class="gui">Transform
+layer</span> icon (the first one following the <span
+class="gui">Affect:</span> label) is selected in the <span
+class="gui">Move</span> tool options.  Finally, move the white text around
+by holding down the left <span class="key">Shift</span> key while dragging
+the left mouse button.</p>
+
+<p>Once you have achieved a perfect overlap, move to the <span
+class="window">Layers</span> dialog box by pressing <span
+class="key">Ctrl+L</span>, right-click on the new layer name and select
+<span class="menu">Edit Layer Attributes&hellip;</span>.  Change the layer
+name to <strong>White Text</strong>, make sure <span class="gui">Set Name
+from Text</span> is <em>not</em> selected and click <span
+class="gui">OK</span>.  Finally, right-click on the (new) layer name and
+select <span class="menu">Layer to Image Size</span>.  You should end up
+with a window similar to Figure&nbsp;4:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen4.png"
+    width="530" height="190"
+    alt="[Screenshot of the white logo text]" /><br />
+
+    <strong>Figure&nbsp;4:</strong> Screenshot of the image window with
+    the white logo text &ldquo;Sinorca&rdquo;.</p>
+</blockquote>
+
+
+<h3 id="step10">Step 10: The Orange Part of the Logo</h3>
+
+<p>Now that you have entered the white part of the logo, you need to do
+the same for the orange part.  First, set the current foreground colour to
+<kbd>FF9800</kbd> (see the instructions in <a
+href="#step2">step&nbsp;2</a> if you are not sure how to do this).</p>
+
+<p>Next, select the image window and choose the text tool again by
+pressing <span class="key">T</span>.  Left-click near the location of the
+second part of the logo text &mdash; in the case of
+&ldquo;Sinorcaish&rdquo;, for example, the start of the &ldquo;ish&rdquo;
+is around pixel location <strong>220,&nbsp;0</strong>.  Enter the part of
+the logo text that is meant to be orange into the <span
+class="window">GIMP Text Editor</span> dialog box, then move the layer
+around (by selecting the move tool with the <span class="key">M</span>
+key) until you achieve a perfect overlap.</p>
+
+<p>Once the new text layer aligns perfectly with the guide text, change
+the layer name to <strong>Orange Text</strong> and expand the layer to the
+image size using <span class="menu">Layer to Image Size</span> &mdash; the
+details are contained in the <a href="#step9">previous step</a>.  Your
+image window should now look something like Figure&nbsp;5:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen5.png"
+    width="530" height="190"
+    alt="[Screenshot of the orange logo text]" /><br />
+
+    <strong>Figure&nbsp;5:</strong> Screenshot of the image window with
+    the orange logo text &ldquo;ish&rdquo;.</p>
+</blockquote>
+
+
+<h3 id="step11">Step 11: Create the Gradient Layer</h3>
+
+<p>Now for the fun part: creating the gradient transition from a darker
+blue to a lighter blue under the current text.  Make sure the <span
+class="window">Layers</span> dialog box window is selected by pressing
+<span class="key">Ctrl+L</span>.  Right-click on the <span
+class="key">Guide Text</span> layer name in this dialog box window, then
+select <span class="menu">New Layer&hellip;</span> from the pop-up menu.
+A <span class="window">New Layer</span> dialog box should appear.</p>
+
+<p>Once the <span class="window">New Layer</span> dialog box appears,
+change the layer name to <strong>Gradient</strong>.  Make sure the <span
+class="gui">Layer Fill Type</span> is set to <span
+class="gui">Transparency</span> before clicking <span
+class="gui">OK</span>.</p>
+
+<p>Now that a new layer has been created to hold the gradient, set the
+current foreground colour to <kbd>3365CB</kbd> and the current background
+colour to <kbd>8CA8E6</kbd>.  You can set the background colour in the
+same way as you set the foreground colour (see <a
+href="#step2">step&nbsp;2</a> for the details); the only difference is
+that you double-click on the background colour instead of the foreground
+colour.</p>
+
+<p>Make sure the image window is selected, then press <span
+class="key">L</span> (or select <span class="menu">Tools&nbsp;&raquo;
+Paint Tools&nbsp;&raquo; Blend</span>) to select the Gradient Fill tool
+(also known as the Blend tool).  Make sure the settings in the main
+toolbox window match the following:</p>
+
+<ul>
+  <li><strong>Opacity: 100.0</strong>.</li>
+  <li><strong>Mode: Normal</strong>.</li>
+  <li><strong>Gradient: FG to BG (RGB)</strong>.  You may need to click on
+    the drop-down list to see the name of the gradient.</li>
+  <li><strong>Reverse: <em>not</em> selected</strong>.</li>
+  <li><strong>Offset: 0.0</strong>.</li>
+  <li><strong>Shape: Linear</strong>.</li>
+  <li><strong>Repeat: None</strong>.</li>
+  <li><strong>Dithering: selected</strong>.</li>
+  <li><strong>Adaptive Supersampling: <em>not</em> selected</strong>.</li>
+</ul>
+
+<p>Once the Gradient Fill settings are correct, hold down the <span
+class="key">Ctrl</span> key and drag the left mouse button in a horizontal
+direction from left to right in the image window.  Releasing the left
+mouse button (and the <span class="key">Ctrl</span> key) will draw the
+gradient.</p>
+
+<p>The starting and ending pixel coordinates of the mouse drag depend very
+much on your logo text.  The suggested formula is to take the starting
+point of the orange text (which you worked out roughly in <a
+href="#step10">step&nbsp;10</a>) and subtract&nbsp;/ add 60 pixels or so
+to get the start and end positions respectively.  For example, the
+&ldquo;ish&rdquo; in &ldquo;Sinorcaish&rdquo; begins at about pixel
+position 220 (the vertical coordinate is not important here).  Thus, 220
+&plusmn;&nbsp;60 pixels gives a starting position of 160 and an ending
+position of 280.</p>
+
+<p>In practice, you may need to experiment with the gradient fill tool
+before you are satisfied with the result.  Always remember that pressing
+<span class="key">Ctrl+Z</span> (or selecting <span
+class="menu">Edit&nbsp;&raquo; Undo</span>) undoes any mistakes you might
+make, allowing you to try again!  You should end up with something like
+Figure&nbsp;6:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen6.png"
+    width="530" height="190"
+    alt="[Screenshot of the gradient]" /><br />
+
+    <strong>Figure&nbsp;6:</strong> Screenshot of the image window with
+    the gradient layer in place.</p>
+</blockquote>
+
+
+<h3 id="step12">Step 12: Shadow for the White Text</h3>
+
+<p>The GIMP makes it very easy to add a shadow (also called a <dfn>drop
+shadow</dfn>) behind text letters.  To add such a shadow, select the
+<strong>White Text</strong> layer by left-clicking on the layer name in
+the <span class="window">Layers</span> dialog box.  Next, select <span
+class="menu">Script-Fu&nbsp;&raquo; Shadow&nbsp;&raquo; Drop-Shadow</span>
+from the image window menu bar.  A <span class="window">Script-Fu:
+Drop-Shadow</span> dialog box will appear.  Make sure the settings in this
+dialog box match the following:</p>
+
+<ul>
+  <li><strong>Offset X: 3</strong>.</li>
+  <li><strong>Offset Y: 3</strong>.</li>
+  <li><strong>Blur Radius: 6</strong>.</li>
+  <li><strong>Color: 003399</strong>.  You will need to click on the
+    colour (typically black) to pop up a <span class="window">Script-Fu
+    Color Selection</span> dialog box to do this.</li>
+  <li><strong>Opacity: 95</strong>.</li>
+  <li><strong>Allow resizing: <em>not</em> selected</strong>.</li>
+</ul>
+
+<p>Clicking on the <span class="gui">OK</span> button will create a dark
+blue shadow just to the right and below each of the white letters.  You
+can experiment with almost all of the above settings (apart from <span
+class="gui">Allow resizing</span>) until you are satisfied with the
+result: simply press <span class="key">Ctrl+Z</span> to undo the shadow
+and try again!</p>
+
+<p>Once you are satisfied with the way the shadow looks, move to the <span
+class="window">Layers</span> dialog box by pressing <span
+class="key">Ctrl+L</span>.  Rename the newly-created
+<strong>Drop-Shadow</strong> layer to <strong>White Text Shadow</strong>
+and expand the layer boundary to the image size using the <span
+class="menu">Layer to Image Size</span> pop-up menu item (the exact
+sequence of steps has already been covered in <a
+href="#step8">step&nbsp;8</a>).  You should end up with a window that
+looks something like Figure&nbsp;7:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen7.png"
+    width="530" height="190"
+    alt="[Screenshot of the white text shadow]" /><br />
+
+    <strong>Figure&nbsp;7:</strong> Screenshot of the image window with
+    the white text shadow.</p>
+</blockquote>
+
+
+<h3 id="step13">Step 13: Shadow for the Orange Text</h3>
+
+<p>Adding a shadow to the orange text is done in exactly the same way as
+<a href="#step12">step&nbsp;12</a>; the only difference is that the
+<strong>Orange Text</strong> layer needs to be selected instead of the
+<strong>White Text</strong> layer.  You should also use the same settings
+for the <span class="window">Script-Fu: Drop-Shadow</span> dialog box.
+Figure&nbsp;8 should be the result:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen8.png"
+    width="530" height="190"
+    alt="[Screenshot of the orange text shadow]" /><br />
+
+    <strong>Figure&nbsp;8:</strong> Screenshot of the image window with
+    the orange text shadow.</p>
+</blockquote>
+
+
+<h3 id="step14">Step 14: Crop the Image</h3>
+
+<p>You are now on the home stretch!  When you created the new image in <a
+href="#step3">step&nbsp;3</a>, you almost certainly created one that was
+too large.  This unneeded space to the right of the orange text should be
+trimmed (cropped), as it only represents a logo image that is larger than
+it needs to be.  Such an image will take more space on the hard drive and
+will take longer to download, sometimes significantly so.</p>
+
+<p>To crop the image, press <span class="key">Shift+C</span> (or select
+<span class="menu">Tools&nbsp;&raquo; Transform Tools&nbsp;&raquo;
+Crop&nbsp;&amp; Resize</span>).  Click and drag the left mouse button from
+coordinate <strong>0,&nbsp;0</strong> in the top left-hand corner to the
+bottom right-hand side of the image.  A <span
+class="window">Crop&nbsp;&amp; Resize</span> dialog box will pop up;
+ignore it while you are dragging the mouse button.  Once you let go,
+select the dialog box window and adjust the settings to match the
+following:</p>
+
+<ul>
+  <li><strong>Origin X: 0</strong>.</li>
+  <li><strong>Origin Y: 0</strong>.</li>
+  <li><strong>Width:</strong> an appropriately rounded figure.  For
+    example, the Sinorcaish logo was cropped from a width of 400 pixels to
+    325, even though a figure of 308 or so might have sufficed.</li>
+  <li><strong>Height:</strong> the height of your image as selected in <a
+    href="#step3">step&nbsp;3</a>, typically <strong>60</strong>.</li>
+  <li><strong>Aspect ratio:</strong> ignore this value.</li>
+</ul>
+
+<p>You will notice that the crop highlight automatically adjusts itself as
+you alter these values.  Once you are satisfied with the new width, press
+the <span class="gui">Crop</span> button.  The image will be resized,
+leaving you with something like Figure&nbsp;9:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen9.png"
+    width="530" height="190"
+    alt="[Screenshot of the cropped image]" /><br />
+
+    <strong>Figure&nbsp;9:</strong> Screenshot of the image window cropped
+    to the required final size.</p>
+</blockquote>
+
+
+<h3 id="step15">Step 15: Duplicate the Image</h3>
+
+<p>If you haven&rsquo;t already done so, save the current image by
+pressing <span class="key">Ctrl+S</span>.  This image represents the final
+&ldquo;high-quality&rdquo; version of your logo; further manipulations
+will be done to a <em>copy</em> of this image.</p>
+
+<p>To make a copy of the image, select the image window and press <span
+class="key">Ctrl+D</span> (or select <span class="menu">Image&nbsp;&raquo;
+Duplicate</span>).  A new image window with &ldquo;Untitled&rdquo; in its
+title will appear; this window will be called the <dfn>new image
+window</dfn>, appropriately enough, for the rest of this document.</p>
+
+
+<h3 id="step16">Step 16: Make a Single Layer</h3>
+
+<p>Select <span class="menu">Image&nbsp;&raquo; Flatten Image</span> from
+the new image window&rsquo;s menu.  This causes all seven layers to
+collapse into a single layer.</p>
+
+
+<h3 id="step17">Step 17: Convert to Indexed Format</h3>
+
+<p>Most images do not need the full range of colours offered by the RGB
+colour-space in which the image was created: converting it to an
+<dfn>indexed format</dfn> can save over 50% of disk space for the image,
+making it load a least twice as fast.  In the case of the Sinorcaish logo,
+for example, the resulting image shrunk from 14,429 bytes to 6,576 bytes:
+a reduction of over 54%!</p>
+
+<p>Select <span class="menu">Image&nbsp;&raquo; Mode&nbsp;&raquo;
+Indexed&hellip;</span> from the new image window&rsquo;s menu.  An <span
+class="window">Index Color Conversion</span> dialog box will appear.  Make
+sure the settings in this dialog box match the following before clicking
+<span class="gui">OK</span>:</p>
+
+<ul>
+  <li><strong>Colormap: Generate optimum palette</strong>.</li>
+  <li><strong>Maximum number of colors: 256</strong>.</li>
+  <li><strong>Color dithering: None</strong>.</li>
+  <li><strong>Enable dithering of transparency: <em>not</em>
+    selected</strong>.</li>
+</ul>
+
+<p>You should end up with something like Figure&nbsp;10; notice the new
+image window now has &ldquo;indexed&rdquo; instead of &ldquo;RGB&rdquo; in
+its title:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen10.png"
+    width="530" height="190"
+    alt="[Screenshot of the indexed image]" /><br />
+
+    <strong>Figure&nbsp;10:</strong> Screenshot of the image window
+    converted to an indexed format.</p>
+</blockquote>
+
+
+<h3 id="step18">Step 18: (Almost) the Final Save</h3>
+
+<p>Make sure the new image window is selected and press <span
+class="key">Ctrl+S</span> (or select <span class="menu">File&nbsp;&raquo;
+Save</span>).  A <span class="window">Save Image</span> dialog box will
+appear.  Enter the name of the logo image filename with <span
+class="fn">.png</span> as the extension; <span
+class="fn">sinorcaish.png</span> will be used in this document.  Once
+again, make sure the <span class="gui">Save in folder</span> location is
+appropriate before clicking <span class="gui">Save</span>.  This will, in
+turn, cause a <span class="window">Save as PNG</span> dialog box to
+appear.  Make sure the settings in that dialog box agree with the
+following:</p>
+
+<ul>
+  <li><strong>Interlacing (Adam7): <em>not</em> selected</strong>.</li>
+  <li><strong>Save background color: <em>not</em> selected</strong>.</li>
+  <li><strong>Save gamma: <em>not</em> selected</strong>.</li>
+  <li><strong>Save layer offset: <em>not</em> selected</strong>.</li>
+  <li><strong>Save resolution: <em>not</em> selected</strong>.</li>
+  <li><strong>Save creation time: <em>not</em> selected</strong>.</li>
+  <li><strong>Save comment: selected</strong>.  Please note, however, that
+    even though this option should be selected, the <span
+    class="window">Save as PNG</span> dialog box might <em>not</em> save
+    the comment; this bug may have been fixed in later versions of the
+    GIMP.</li>
+  <li><strong>Compression level: 9</strong>.</li>
+</ul>
+
+<p>Clicking <span class="gui">OK</span> will save the image in Portable
+Network Graphics format, the format recommended by the <a
+href="http://www.w3.org/">World Wide Web Consortium</a> for images.  You
+should get a window similar to Figure&nbsp;11:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen11.png"
+    width="530" height="190"
+    alt="[Screenshot of the saved indexed image]" /><br />
+
+    <strong>Figure&nbsp;11:</strong> Screenshot of the final image
+    window (excluding Step&nbsp;19).</p>
+</blockquote>
+
+
+<h3 id="step19">Step 19: For the Perfectionist</h3>
+
+<p>(If you are not a perfectionist, you may safely skip this rather
+advanced step: jump directly to <a href="#step20">step&nbsp;20</a> without
+further ado.  If you don&rsquo;t mind spending a little extra time and
+effort to produce the best possible logo, read on&hellip;)</p>
+
+<p>The conversion to indexed format that the GIMP uses is good, but not
+perfect.  In particular, the colours present in the final image may not be
+the ones selected during the design: there is no way to tag certain
+colours as being important.  This can be especially noticeable with the
+light blue colour on the right-hand side of the image and the white used
+in the logo text.  The solution is to manually fix the colour palette used
+by the image.</p>
+
+<p>Make sure the new image window is selected and press <span
+class="key">O</span> (the letter &ldquo;O&rdquo;, not the number
+&ldquo;0&rdquo;; alternatively, select <span
+class="menu">Tools&nbsp;&raquo; Color Picker</span>).  Left-click as close
+as possible to the top right-hand corner of the image.  A <span
+class="window">Color Picker</span> dialog box will appear.  Write down the
+<span class="gui">Hex</span> hexadecimal value of the colour: although it
+should be <kbd>8ca8e6</kbd> (the colour chosen in <a
+href="#step11">step&nbsp;11</a>), it is more likely to read something like
+<kbd>8aa9e6</kbd> &mdash; at least, this was the case for the Sinorcaish
+logo!  Although this colour is similar to the desired colour, it is
+sufficiently different that the transition between colours will be
+noticeable.</p>
+
+<p>Select the main image window again and open the <span
+class="window">Colormap</span> editor dialog box by selecting <span
+class="menu">Dialogs&nbsp;&raquo; Colormap</span>.  Now increment the
+colour index value from 0 to 255 until you find the one corresponding to
+the value you previously wrote down.  In the case of the Sinorcaish image,
+for example, colour <kbd>8aa9e6</kbd> corresponded to index 222.  Change
+the <span class="gui">HTML Notation</span> edit box from the noted value
+to <kbd>ff0000</kbd> (red), as shown in Figure&nbsp;12:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen12.png"
+    width="260" height="330"
+    alt="[Screenshot of the Colormap dialog box]" /><br />
+
+    <strong>Figure&nbsp;12:</strong> Screenshot of the Colormap dialog
+    box.</p>
+</blockquote>
+
+<p>Doing this allows you to see exactly which pixels correspond to the
+relevant index, as shown in Figure&nbsp;13:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/logo-screen13.png"
+    width="530" height="190"
+    alt="[Screenshot of the modified image]" /><br />
+
+    <strong>Figure&nbsp;13:</strong> Screenshot of the image with modified
+    palette index.</p>
+</blockquote>
+
+<p>Having confirmed that the only pixels changed are on the right-hand
+side of the image, change the <span class="gui">HTML Notation</span> edit
+box to the correct value of <kbd>8CA8E6</kbd>.</p>
+
+<p>Now, repeat this entire process with the white pixels used in the
+centre of the white text: the pixel colour should be <kbd>ffffff</kbd>,
+although it was <kbd>fefffc</kbd> in the case of the Sinorcaish logo.
+Other pixel colour values are not so critical.  Finally, save the image by
+pressing <span class="key">Ctrl+Shift+S</span> (or select <span
+class="menu">File&nbsp;&raquo; Save as&hellip;</span>), which gives you
+the opportunity of confirming the <span class="window">Save as PNG</span>
+settings.</p>
+
+<p>There are two further optional steps: adding PNG image-specific
+comments, and creating an optimised version of the image.  The first
+requires the <span class="program"><a
+href="http://sng.sourceforge.net/">sng</a></span> program, the second the
+<span class="program"><a
+href="http://pmt.sourceforge.net/pngcrush/">pngcrush</a></span>
+program.</p>
+
+<p>The <a href="http://www.libpng.org/pub/png/spec/">Portable Network
+Graphics specification</a> defines numerous text string keywords that can
+be used to annotate a PNG image.  These keywords include
+&ldquo;Title&rdquo;, &ldquo;Author&rdquo;, &ldquo;Description&rdquo;,
+&ldquo;Copyright&rdquo; and &ldquo;Comment&rdquo;.  Unfortunately, the
+GIMP does not support most of these keywords; in fact, some versions of
+the GIMP do not even support the &ldquo;Comment&rdquo; field correctly.
+The solution is to use <span class="program">sng</span> to convert the
+image to a text file, edit that file and reconvert to a PNG image.</p>
+
+<p>To convert your logo image to a text file, type the following on the
+command line, replacing <span class="fn">filename.png</span> with your
+logo image&rsquo;s filename:</p>
+
+<pre>
+<kbd>sng <var>filename.png</var></kbd>
+</pre>
+
+<p>Next, edit the resulting text file <span class="fn">filename.sng</span>
+using your favourite text editor.  Search for the line starting with
+&ldquo;<code>IMAGE&nbsp;{</code>&rdquo; and add something similar to the
+following <em>before</em> that line:</p>
+
+<pre>
+tEXt {
+    keyword: "Title";
+    text: "The Sinorcaish logo";
+}
+tEXt {
+    keyword: "Author";
+    text: "John Zaitseff";
+}
+tEXt {
+    keyword: "Copyright";
+    text: "Copyright (C) 2004-06, John Zaitseff.  All rights reserved.";
+}
+</pre>
+
+<p>As you can see, you can add as many <code>tEXt</code> chunks as you
+like, each having a different keyword and associated text.  Please note
+that the text part of each <code>tEXt</code> chunk must be in ISO 8859-1
+format; the <code>tEXt</code> chunks must appear before
+<code>IMAGE</code>.</p>
+
+<p>Once you have added the <code>tEXt</code> chunks to the SNG text file,
+you need to rerun the <span class="program">sng</span> program.  In
+addition, it is wise to make a backup copy of the original image before
+doing so:</p>
+
+<pre>
+<kbd>cp -p <var>filename.png</var> <var>filename.png.copy</var></kbd>
+<kbd>sng <var>filename.sng</var></kbd>
+</pre>
+
+<p>Assuming running <span class="program">sng</span> was successful, the
+final step is to create a version of that image that is optimised for fast
+loading and minimal storage space using the <span
+class="program">pngcrush</span> program.  You can undertake this step even
+if you did not use <span class="program">sng</span>.  Type the following
+on the command line, replacing <span class="fn">filename.png</span> with
+the filename used by your logo image:</p>
+
+<pre>
+<kbd>pngcrush -m 0 <var>filename.png</var> <var>filename.png.new</var></kbd>
+<kbd>mv <var>filename.png.new</var> <var>filename.png</var></kbd>
+</pre>
+
+
+<h3 id="step20">Step 20: The End</h3>
+
+<p>You have finally finished creating a logo that you can use with the
+Sinorcaish stylesheet.  Congratulations!  You can now exit the GIMP by
+pressing <span class="key">Ctrl+Q</span> (or by selecting <span
+class="menu">File&nbsp;&raquo; Quit</span>).  Figure&nbsp;14 shows the
+results of following these instructions for the Sinorcaish logo
+itself:</p>
+
+<blockquote>
+  <p><img src="http://www.zap.org.au/documents/styles/sinorcaish/example/sinorcaish.png"
+    width="325" height="60"
+    alt="[The final Sinorcaish image]" /><br />
+
+    <strong>Figure&nbsp;14:</strong> The final Sinorcaish image.</p>
+</blockquote>
+
+<p>You can now incorporate your logo image into your site&rsquo;s header,
+as suggested on the Sinorcaish <a href="sample.html#design-header">Sample
+Page</a>; you will need to know the filename of your logo (obviously), and
+its width and height.  Happy coding!</p>
+
+
+<br id="endmain" />
+</div>
+
+
+<!-- ======== Footer ======== -->
+
+<div id="footer">
+  <hr />
+  Copyright &copy; 2004&ndash;06, John Zaitseff.  All rights reserved.
+  <span class="notprinted">
+    <a href="index.html">Terms of Use</a>.
+    <a href="index.html">Privacy Policy</a>.
+  </span>
+  <br />
+
+  This web site is maintained by
+  <a href="mailto:J.Zaitseff@zap.org.au">John Zaitseff</a>.
+  Last modified: 10th January, 2006.
+</div>
+
+</body>
+</html>

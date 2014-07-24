@@ -1,0 +1,257 @@
+/* CSS Document */
+
+/* Layout Specific Designs */
+
+body{
+	background-color: #FFFFFF;
+	margin: 0px;
+	height: 100%;
+}
+
+#container{
+	width: 760px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#header{
+	height: 75px;
+	width: 760px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #A0C80E;
+}
+
+#header h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #A0C80E;
+	letter-spacing: 3px;
+	float: left;
+	margin: 0px;
+	padding-left: 20px;
+	padding-top: 35px;
+}
+
+#header #search{
+	float: right;
+	padding-right: 20px;
+	padding-top: 35px;
+}
+
+#header #search .text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A0C80E;
+	border: 1px solid #A0C80E;
+	margin: 1px;
+	background: #FFFFFF;
+	padding: 2px;
+}
+
+#header #search .submit{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A0C80E;
+	border: 1px solid #A0C80E;
+	margin: 1px;
+	background: #FFFFFF;
+	padding: 1px;
+}
+
+#nav{
+	width: 760px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #A0C80E;
+	float: left;
+}
+
+#nav ul{
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#nav li{
+	position: relative;
+	float: left;
+	margin: 0px;
+}
+
+#nav ul li a{
+	display: block;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #A0C80E;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-transform: lowercase;
+}
+
+#nav ul li a:hover, #nav ul li .selected{
+	color: #FFFFFF;
+	background-color: #A0C80E;
+}
+
+#content{
+	width: 760px;
+}
+
+#content h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #A0C80E;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #A0C80E;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+#content h2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #A0C80E;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#content h3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A0C80E;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+#content p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #7E9F0B;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin: 0px;
+}
+
+#content a{
+	font-weight: bold;
+	color: #A0C80E;
+	text-decoration: none;
+}
+
+#content a:hover{
+	font-weight: bold;
+	color: #A0C80E;
+	text-decoration: underline;
+}
+
+#content img{
+	padding: 3px;
+	border: 1px solid #A0C80E;
+}
+
+#footer{
+	width: 760px;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #A0C80E;
+	margin-bottom: 50px;
+}
+
+#footer h1{
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin: 0px;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A0C80E;
+}
+
+#footer h2{
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin: 0px;
+	float: right;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A0C80E;
+}
+
+#footer a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #A0C80E;
+}
+
+/* Commen Content Classes */
+
+.alginLeft{
+	text-align: left;
+}
+
+.alignRight{
+	text-align: right;
+}
+
+.alignCenter{
+	text-align: center;
+}
+
+.floatLeft{
+	float: left;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+.floatRight{
+	float: right;
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.box{
+	background-color: #EEEEEE;
+	border: 1px solid #A0C80E;
+	width: 48%;
+}

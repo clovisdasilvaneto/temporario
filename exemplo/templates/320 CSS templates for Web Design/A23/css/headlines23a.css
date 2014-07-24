@@ -1,0 +1,27 @@
+/**  Mainstyles 23a  ***/
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+/**  NOTE: Tried list-type image here, but spacing is all wrong  
+      and cant use hover changes or anything either.  Does 
+	  indent total height, though, which is good.  ***/
+
+/****  Headlines Vertical  ****/
+.headlines_container_23a {
+margin:0 auto; margin-top:10px; width:96%; text-align:center;}
+/***  featuredservices_nav LIST STYLES  ***/
+ul.headlines_nav {list-style: none;width:100%;text-align:left;}
+ul.headlines_nav li {width:100%;margin:5px 0px 5px 0px;}
+ul.headlines_nav li a {display:block;width:100%;text-indent:15px;line-height:13px;
+background-image: url(../media/quad_octarrowsredblue.gif); background-repeat:no-repeat;}
+/****  Headlines LINK STYLES  ****/
+ul.headlines_nav li a:link, ul.headlines_nav li a:visited {
+background-position: -26px 1px;
+text-decoration:none; color:#000000;}
+ul.headlines_nav li a:hover, ul.headlines_nav li a:active {
+background-position: -25px -25px; text-decoration:underline;color:#000000;}
+

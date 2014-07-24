@@ -1,0 +1,155 @@
+/* ||| CSS file for Gamer 01-dk ||| */
+
+/* It is HIGHLY recommended that the doctype stay on the page for the best rendering possible. Without the doctype, the browsers start pulling some crazy stunts. For example, #content, the div that encloses actual content, has the overflow set to auto. While this creates a layout where the content does not flow under #subMenu (as it is floating left), the page creates scrollbars when the page lacks a doctype. These scrollbars are visually distracting. If you want a visually distracting layout, then I guess it would be OK.
+
+That is only one such example. Doctypes will make the page less distracting and make it easier to use. */
+
+
+/* General Link Rules */
+
+a:link{
+ color: #3366cc;
+ background-color: transparent;
+ text-decoration: underline;}
+
+a:visited{
+ color: #3399ff;
+ text-decoration: none;
+ background-color: transparent;}
+
+a:active{
+ color: #ff3300;
+ text-decoration: none;
+ background-color: transparent;}
+
+a:hover{
+ color: #6666cc;
+ text-decoration: none;
+ background-color: transparent;}
+
+/* Layout Rules */
+
+body{
+ color: #fff;
+ background-color: #000;}
+
+#container{
+ color: #fff;
+ background-color: #000;
+ margin: 0% 0% 0% 10%;}
+
+#pageHeader{
+ width: 468px;
+ height: 145px;
+ background: transparent url(images/gamer_01dk_ani.gif) no-repeat;}
+
+#headerText{
+ font: 28pt verdana,arial,sans-serif;
+ margin-bottom: 25px;}
+
+#bodyOfPage{
+ height: 100%;
+ color: #fff;
+ background-color: transparent;}
+
+#subMenu{
+ height: 100%;
+ width: 10em;
+ float: left;
+ margin: 0;}
+
+#mainLinks{   /* regular menu links */
+ display: block;
+ border: solid #fff 1px;
+ margin: 0;
+ padding: 0;}
+
+#subLinks{  /* anchor links for same page */
+ display: block;
+ border: solid #fff 1px;
+ margin: 15px 0 0 0;
+ padding: 0;}
+
+ul.menu li{ /* for IE 6 only */
+ width: 100%;
+ list-style-type: none;
+ margin-left: -35px;}
+
+ul.menu > li{ /* for REAL browsers (Firefox, Opera, etc) */
+ width: auto;
+ list-style-type: none;
+ margin-left: -35px;}
+
+ul.menu li a{ /* again, for IE 6 only, it is fickle with the menu items */
+ width: 100%;
+ display: block;
+ margin: auto 3px 15px 0px;
+ padding: 25px 0 25px 25px;
+ background: transparent url(images/list_item_off.gif) no-repeat 5px 50%;}
+
+ul.menu li > a{ /* again, for REAL browsers (Firefox, Opera, etc) */
+ width: auto;
+ display: block;
+ margin: auto 3px 10px 0px;
+ padding: 25px 0 25px 25px;
+ background: transparent url(images/list_item_off.gif) no-repeat 5px 50%;}
+
+ul.menu li a:visited{
+ background: transparent url(images/list_item_off.gif) no-repeat 5px 50%;}
+
+ul.menu li a:hover{
+ background: #333 url(images/list_item_on.gif) no-repeat 5px 50%;}
+
+ul.menu li a:active{
+ background: transparent url(images/list_item_on.gif) no-repeat 5px 50%;}
+
+#content{
+ padding-left: 10px;
+ overflow: auto;
+ width: 30em;
+ font: medium "times new roman",serif;}
+
+#notice{
+ clear: both;
+ margin: 5px;
+ padding-left: 5px;
+ border: solid #fff 1px;
+ font: small arial,verdana,sans-serif;
+ background: transparent url(images/notice_bg.png) no-repeat center right;}
+
+/* Other Formatting */
+
+.noDisplay{
+ display: none !important;}
+
+.menuHead{     /* menu headers before links */
+ margin-top: 5px;
+ font: small-caps 16px arial,serif;
+ text-align: center;
+ border-bottom: dotted #fff 1px;
+ display: block;}
+
+.sectionHead{ /* headers for content */
+ font: x-large verdana,arial,sans-serif;
+ display: block;
+ background-image: url(images/header_bg.gif);
+ background-repeat: repeat-x;
+ background-position: bottom left;
+ padding-bottom: 15px;}
+
+p{
+ line-height: 170%;}
+
+.sectionHead+p{  /* Mozilla, Opera, etc. only */
+ margin-top: 5px;}
+
+p+.sectionHead{  /* Mozilla, Opera, etc. only */
+ margin-top: 30px;}
+
+.gameName{
+ color: #ff0000;
+ font-style: italic;}
+
+acronym{
+ cursor: help;
+ border-bottom: dotted #c0c0c0 1px;}

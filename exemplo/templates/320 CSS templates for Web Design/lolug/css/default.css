@@ -1,0 +1,141 @@
+a {
+	color: #FE2B00;
+	text-decoration: none;
+	background-color: transparent;
+}
+a:visited {
+	color: #a31800;
+	text-decoration: none;
+	background-color: transparent;
+}
+a:hover {
+	background-color: #ffa54a;
+/*	background-image: url(./img/link_img.png);*/
+	color: black;
+}
+
+#top{
+	text-align:center;
+	width: 100%;
+	min-width: 800px;
+	font-size: 300%;
+	margin-bottom: 20px;
+}
+
+#main{
+	width: 100%;
+	min-width:830px;
+	margin: auto;
+	clear: both;
+/*	position:relative;*/
+	height:100%;
+}
+
+#box{
+	width: 70%;
+	height: 100%;
+	float:left;
+	margin-bottom:30px;
+}
+
+#box .menu{
+	height:22px;
+}
+
+.menu{
+	height:22px;
+}
+
+.menu_voice{
+	letter-spacing: 0.5pt;
+	text-align: center;
+	font:Small-caps Normal 11pt Verdana;
+	padding:0px 5px 0px 5px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+/*	font-variant: small-caps;*/
+	background-color:#fff97f;
+	float: right;
+	margin:0px;
+	max-width:100%;
+	height:21px;
+}
+
+.menu_voice a{
+	display: block;
+	color: black;
+}
+
+.menu_voice a:hover{
+	background-color: #fff97f;
+	background-image: url(../img/link_img.png);
+}
+
+.menu_voice_dx{
+	background-color: black;
+	width: 10px;
+}
+
+.top_section{
+	height:30px;
+	background-image: url(../img/menu_center.png);
+}
+
+.section{
+	text-align: justify;
+	font: 11pt Tahoma;
+	border: 1px black solid;
+	width:auto;
+	margin-bottom: 30px;
+}
+
+
+#column{
+	width:28%; 
+	height:100%; 
+	float:right;
+}
+
+.subtitle{
+	font: bold 15pt Verdana, Tahoma;
+	font-family: bold;
+	text-align: center;
+}
+
+.subsubtitle{
+	text-align:center;
+	font: bold 13pt Verdana;
+	margin-bottom:10px;
+}
+
+.small_title{
+	font: bold 15px Tahoma;
+}
+
+.enphass{
+	font: bold 12pt Verdana;
+	text-align: left;
+}
+
+.enphass2{
+	font: bold 9pt Verdana;
+	text-align: center;
+}
+
+.enphass3{
+	font: bold 10pt Verdana, Arial;
+}
+
+.text{
+	padding: .5em;
+}
+.text2{
+	padding: .5em;
+	font: 10pt Tahoma, Verdana, Arial, Times;
+}
+
+.smallText{
+	padding: .5em;
+	font: 8pt Tahoma, Verdana, Arial;
+}
+

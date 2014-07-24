@@ -1,0 +1,24 @@
+#body { min-height: 300px }
+#footer { font-size: 80.0% }
+#footer, #header, .left, .right { border-left: 1px dashed grey; border-top: 1px dashed grey; margin-left: 3px; margin-top: 5px; padding-top: 5px }
+#footer, .left, .right { padding-left: 10px }
+#header { letter-spacing: -2px; line-height: 5px; padding-left: 3px }
+#leftWall { background: white url(shadow-left.gif) no-repeat left top }
+#leftWall, #rightWall { min-height: 800px }
+#leftWall, .left { float: left }
+#pleft { min-height: 400px; padding-left: 20px; width: 750px }
+#pright { padding-right: 20px }
+#rightWall { background: white url(shadow-right.gif) no-repeat right top }
+#rightWall, .right { float: right }
+#wrapper { margin: 0.0 auto 0.0 auto; min-height: 600px; width: 800px }
+.c1 { color: #F40000 }
+.c2 { color: #A80000 }
+.c3 { color: #F57A00 }
+.c4 { color: #A85400 }
+.c5 { color: #0A0A0A }
+.c6 { color: #F5F5F5 }
+.left { width: 540px }
+.right { widht: 210px }
+a { border-bottom: #F40000 1px dashed; text-decoration: none }
+body { font-family: tahoma; margin: 0.0 }
+h1 a { border-bottom: 0px }

@@ -1,0 +1,94 @@
+body {
+background: #c1c1ff;
+}
+
+#headleft {
+float: left;
+clear: left;
+width: 56px;
+height: 150px;
+background-image: url("head1.gif");
+background-position: left;
+background-repeat: no-repeat;
+margin-left: 30px;
+}
+
+#headright {
+float: right;
+clear: right;
+width: 56px;
+height: 150px;
+background-image: url("head2.gif");
+background-position: right;
+background-repeat: no-repeat;
+margin-right: 30px;
+}
+
+#head {
+background: #5858FF;
+margin-left: 56px;
+margin-right: 56px;
+height: 150px;
+}
+
+#head h1 {
+color: #c1c1ff;
+padding-top: 50px;
+text-align: center;
+}
+
+#main {
+background: #ffffff;
+margin-top: 0px;
+margin-right: 30px;
+margin-left: 30px;
+margin-bottom: 10px;
+border: 1px solid #5858ff;
+height: 1000px;
+}
+
+#menu {
+float: left;
+clear: left;
+width: 120px;
+height: 1000px;
+border-right: 1px dashed #5858ff;
+}
+
+#menu a {
+display: block;
+text-align: center;
+text-decoration: none;
+color: #000000;
+font-weight: bold;
+}
+
+#menu a:hover {
+background: #5858ff;
+}
+
+#menu a:visited {
+color: #000000;
+}
+
+#extra {
+float: right;
+clear: right;
+width: 120px;
+height: 1000px;
+border-left: 1px dashed #5858ff;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#content {
+margin-left: 120px;
+margin-right: 120px;
+height: 1000px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+p.foot {
+text-align: center;
+}

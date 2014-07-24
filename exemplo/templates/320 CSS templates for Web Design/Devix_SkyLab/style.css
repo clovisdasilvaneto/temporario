@@ -1,0 +1,276 @@
+/* SITE THEME DEVELOPED BY FERNANDO LUCAS SANTOS, ALL RIGHTS RESERVED 2005 */
+
+/* NOTE: Anything after a "_" is a special tag for Internet Explorer. As it does not recognize all of the CSS tags created by the W3C, a few hacks had to be used to get the site looking right on it */
+
+/* == */
+
+body {
+	margin: 0;
+	padding: 5px;
+	background-color:#EBEBEB;
+	_text-align: center;
+}
+
+p {
+	position: static;
+	width: 540px;
+	margin: 3px 4px;
+	padding: 4px;
+	display: block;
+	text-align: justify;
+	line-height: 20px;
+	text-indent: 15px;
+}
+
+p:first-letter {
+	font-weight: bold;
+	color:#002748;
+	padding: 0;
+	width: 30px;
+	margin: 2px;
+	font-size: 25px;
+	font-family: fantasy;
+}
+
+div#sideBlock p {
+	padding: 3px;
+	width: auto;
+	background-color:#F0F7FD;
+	border: 1px solid #D7DDE3;
+}
+
+div#siteLock {
+	background: transparent;
+	margin: -5px auto 0 auto;
+	text-align: center;
+	padding: 0;
+	float: none;
+	position: relative;
+	height: auto;
+	width: auto;
+	clear: all;
+}
+
+div {
+	padding: 10px;
+	margin: 0 auto 0 auto;
+	text-align: justify;
+	color: #333;
+	font-family: arial, times, Times, georgia, serif;
+	font-size: 12px;
+	height: auto;
+}
+
+div#images {
+	padding: 0;
+	margin: 0 auto 5px auto;
+	text-align: justify;
+	color: #333;
+	font-family: arial, times, Times, georgia, serif;
+	font-size: 12px;
+	height: auto;
+	border-bottom: 1px dotted #9AA8B3;
+}
+
+div#block {
+	width: 570px;
+	font-size: 12px;
+	height: auto;
+	padding: 0 8px 0 8px;
+	float: none;
+	position: relative;
+	background-color:#D7E6F3;
+}
+
+div#sideBlock {
+	width: auto;
+	font-size: 11px;
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	margin: 0 4px;
+	padding: 3px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+div#textos {
+	padding: 6px;
+	margin: 0 auto 0 auto;
+	text-align: justify;
+	color: #111;
+	font-family: Verdana;
+	font-size: 11px;
+	height: auto;
+	width: auto;
+	float: none;
+	position: static;
+	line-height: 18px;
+	background-color:#FFFFFF;
+}
+
+div#header {
+	position: static;
+	width: auto;
+	height: 140px;
+
+	/* IE Instruction */
+	_width: 597px;
+
+	padding: 0;
+	color:#FFFFFF;
+	background-color:#103255;
+	background-image: url(images/header.jpg);
+	background-position: bottom left;
+}
+
+/* SITE TITLE */
+
+h2, h2 a {
+	font-size: 40px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-family: Georgia;
+	padding: 40px 32px 50px 32px;
+	margin: 0;
+	text-shadow: 0 2px 4px #002846;
+}
+
+/* ARTICLE TITLES */
+
+h1 {
+	color:#005DBA;
+	font-family: Helvetica;
+	letter-spacing: 1px;
+	font-size: 26px;
+	padding: 6px;
+	margin: 0;
+	font-weight: 600;
+	margin-top: 10px;
+	background-image: url(images/title_background.jpg);
+	background-repeat: repeat-x;
+	padding: 6px;
+
+	/* IE Instruction */
+	_width: 245px;
+
+	text-align: left;
+	font-weight: normal;
+	text-shadow: 0 2px 4px #AEBFCC;
+}
+
+h1 span {
+	color:#007E8E;
+	font-size: 10px;
+	font-family: arial;
+	font-style: normal;
+	letter-spacing: 2px;
+	background: transparent;
+
+	/* IE Instruction */
+	_letter-spacing: -1px;
+	_margin-left: -3px;
+
+	text-align: left;
+	text-shadow: none;
+}
+
+/* MENU */
+	/* LISTS */
+
+ul {
+	text-align: center;
+	width: 100%;
+
+	/* IE Instruction */
+	_width: 597px;
+
+	margin: 0;
+	margin-bottom: 10px;
+	margin-top: -4px;
+	padding: 6px 0;
+	position: relative;	
+	float: left;
+	background-color:fff;
+	background-image: url(images/menu_background.jpg);
+	background-repeat: repeat-x;
+	display: block;
+
+	/* MENU FONT */
+	font-family: Trebuchet, "Trebuchet MS",  Geneva, sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color:#2C8BEE;
+}
+
+li {
+	display: inline;
+	margin: 0 -2px;
+	list-style: none;
+	padding: 6px;
+}
+
+li a:link, li a:link:visited
+{
+	padding: 10px 6px;
+	color:#103255;
+	text-decoration: none;
+	background: transparent;
+}
+
+li a:link:hover, li a:link:visited:hover
+{
+	color:#000000;
+}
+
+li:hover, li.over
+{
+	background-color:#4678A3;
+	background-image: url(images/menu_hover.jpg);
+	background-repeat: repeat-x;
+	border-bottom: 2px solid #17CEFF;
+}
+
+li:hover a:link, li.over a:link {
+	color:#fff;
+	text-shadow: 0 2px 2px #496580;
+}
+
+li.selected
+{
+	background-color:#DCE6F0;
+	background-repeat: repeat-x;
+	border: 1px solid #AEBECB;
+	border-width: 1px 1px 0 1px;
+}
+
+li.selected a { color:#000;
+	text-shadow: 0 1px 4px #fff; }
+
+div#textos a:link, div#textos a:link:visited
+{
+	color:#02578E;
+	font-size: 11px;
+	font-family: arial, verdana, tahoma, helvetica, sans-serif;
+	border-bottom: 1px solid #A5C2DB;
+	background-color: white;
+	text-decoration: none;
+	padding: 2px;
+	letter-spacing: 1px;
+}
+
+div#textos a:link:hover
+{
+	background-color:#E4F2F9;
+	color:#003D70;
+	text-decoration: none;
+	padding: 2px;
+}
+
+/* IMAGES */
+img {
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid #9AA8B3;
+}

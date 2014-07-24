@@ -1,0 +1,303 @@
+/***********************************************/
+/* 3col_leftNav.css                             */
+/* Use with template 3col_leftNav.html          */
+/***********************************************/
+
+/***********************************************/
+/* HTML tag styles      background: #EEEEEE url("../imgs/bg_main.jpg") repeat-y center;                            */
+/***********************************************/ 
+
+body {
+  font-family: Verdana,Arial, sans-serif;
+  color: #5E86C3;
+  line-height: 1.166;	
+  margin: 0px;
+  padding: 0px;
+  background-color: #2A80C3;
+}
+
+a{
+	color: #800000;
+	text-decoration: none;
+}
+
+a:link{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #880000;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #BDA57B;
+	text-decoration: underline;
+}
+
+h1{
+ font-family: Comic Sans MS;
+ font-size: 160%;
+ color: #800000;
+ margin: 0px;
+ padding: 0px;
+ text-align: center;
+}
+
+h2 {
+padding-right: 0px; 
+padding-left: 0px; 
+padding-bottom: 0px;
+padding-top: 0px;
+margin: 0px; 
+font: bold 114% Arial,sans-serif; 
+color: #000000;
+}
+
+h3{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+h4{
+ font-family: Arial,sans-serif;
+ font-size: 130%;
+ color: #800000;
+ margin: 0px;
+ padding: 0px;
+}
+
+h5{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 100%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+h6{
+ font-family: Arial,sans-serif;
+ font-size: 60%;
+ color: #29E63A;
+ margin: 0px;
+ padding: 0px;
+ text-align: center;
+}
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #000000;
+}
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#masthead{
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px solid #3964A9;
+        border-top: 1px solid #3964A9;
+	width: 100%;
+        height: 10%;
+        background-color: #1d1cfe;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+}
+
+
+
+#pagecell1 {
+        left: 5px;
+	/*right: 5px;*/ 
+        width: 98%; 
+        position: relative; 
+        top: 15px;
+        border-top: 2px solid #000000;
+	border-left: 3px solid #000000;
+	border-right: 3px solid #000000;
+	border-bottom: 3px solid #000000;
+        bottom: 5px; 
+        background-color: #ffffff;
+        padding: 0px 0px 0px 0px;
+}
+
+
+#tl {
+	PADDING-RIGHT: 0px; 
+        PADDING-LEFT: 0px; 
+        Z-INDEX: 100; 
+        LEFT: -1px; 
+        PADDING-BOTTOM: 0px; 
+        MARGIN: 0px; 
+        PADDING-TOP: 0px; 
+        POSITION: absolute; 
+        TOP: -1px
+}
+#tr {
+	PADDING-RIGHT: 0px; 
+        PADDING-LEFT: 0px; 
+        Z-INDEX: 100; 
+        RIGHT: -1px;   
+        PADDING-BOTTOM: 0px; 
+        MARGIN: 0px; 
+        PADDING-TOP: 0px; 
+        POSITION: absolute; 
+        TOP: -1px
+}
+
+
+#tla {
+	PADDING-RIGHT: 0px; 
+        PADDING-LEFT: 0px;  
+        PADDING-TOP: 0px;
+        PADDING-BOTTOM: 0px;
+        Z-INDEX: 100; 
+        LEFT: -1px;  
+        MARGIN: 0px; 
+        POSITION: absolute; 
+        bottom: -1px
+}
+#trb {
+	PADDING-RIGHT: 0px; 
+        PADDING-LEFT: 0px;
+        PADDING-BOTTOM: 0px;
+        PADDING-TOP: 0px; 
+        Z-INDEX: 100; 
+        RIGHT: -1px;    
+        MARGIN: 0px;  
+        POSITION: absolute; 
+        bottom: -1px
+}
+
+#pic{
+        position: relative;
+        top: 10px;
+        left: 250px;
+        z-index: 1;
+}
+
+#pageName {
+        margin: 0px;
+	padding-right: 0px; 
+        padding-left: 10px; 
+        padding-bottom: 14px;  
+        padding-top: 0px; 
+        background-color: #ffffff
+}
+
+
+#content{
+        width: 90%;
+        padding: 10px 10px 20px 30px;
+        margin: 0;
+        background-color: #ffffff;
+}
+
+/***********************************************/
+/* Components                                  */
+/***********************************************/
+
+#siteName{
+	margin: 0;
+	padding: 0px 0px 0px 10px;
+}
+
+
+/************* #globalNav styles 5E86C3EF0B0B**************/
+
+#globalNav{
+        font-family: Verdana,Arial, sans-serif;
+        text-transform: uppercase;
+        color: #000000;
+        padding: 0px 0px 5px 10px;
+        border-top: 1px solid #000000; 
+        border-bottom: 2px solid #000000;
+        /*background-color: #5E86C3;*/
+        background: #FFFFFF url("../images/bg_menu.jpg") repeat left;
+        text-align: center;
+}
+
+#globalNav img{
+        display: block;
+        background-color: #5E86C3;
+}
+
+#globalNav a {
+        font: bold 114% Arial,sans-serif;
+        background: #FFFFFF url("../images/bg_menu.jpg") repeat left;
+        color: #000000;
+	font-size: 90%;
+	padding: 0 4px 0 0;
+        background-color: #5E86C3;
+}
+
+#globalNav a:hover{
+        font-family: bold 114% Arial, sans-serif;
+	color: #FBE551;
+	font-size: 90%;
+	text-decoration: underline;
+        background-color: #5E86C3;
+        background: #EEEEEE url("../imgs/bg_main.jpg") repeat-y center; 
+}
+
+
+/************* #siteInfo styles ***************/
+
+#siteInfo{
+	clear: both;
+	border: 0px solid #cccccc;
+	font-size: 65%;
+	color: #800000;
+	padding: 2px 2px 2px 2px;
+        background-color: #ffffff;
+	text-align: center;
+}
+
+#siteInfo a:hover{
+        font-family: Verdana,Arial, sans-serif;
+	color: #800000;
+	text-decoration: underline;
+}
+
+a{
+	color: #800000;
+	text-decoration: none;
+}
+
+a:link{
+	color: #800000;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #800000;
+	text-decoration: none;
+}
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}

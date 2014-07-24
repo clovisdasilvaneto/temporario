@@ -1,0 +1,191 @@
+* {
+	background:			transparent;
+}
+body {
+	padding:			0px;
+	margin:				0px;
+	border:				0px;
+	margin-top:			0px;
+	background:			#ffffff;
+}
+a:link, a:visited { 
+	color: #002E82; 
+	text-decoration: none; 
+}
+a:hover{ 
+	color: #666; text-decoration: none; 
+}
+#content{
+	position:			relative;
+	margin:				0;
+	line-height:		normal;
+	width:				760px;
+	margin:				0 auto;
+}
+#content ul {
+	margin:				0 0 0 0;
+	padding:			0 0 0 0;
+	list-style:			none;
+}
+#content li {
+	display:			inline;
+	margin:				0;
+	padding:			0;
+}
+#leftBorder {
+	position:			relative;
+	top:				0px;
+	float:				left;
+	width:				16px;
+	height:				800px;
+	background:			url(../image/leftBorder.gif) top left no-repeat;
+	display:			block;
+}
+#rightBorder {
+	position:			relative;
+	top:				0px;
+	float:				right;
+	width:				16px;
+	height:				800px;
+	background:			url(../image/rightBorder.gif) top right no-repeat;
+	display:			block;
+
+}
+#page {
+	position:			relative;
+	top:				0px;
+	margin:				0 auto;
+}
+#footer {
+	height:				36px;
+	display:			block;
+	width:				100%;
+	position:			fixed; 
+	bottom:				0px; 
+	opacity:			.7;
+	filter:				alpha(opacity=70);
+	background:			url(../image/yellow-tulips-bottom.jpg) top center no-repeat;
+}
+#footerText {
+	border:				0px #666666 solid;
+	border-top-width:	1px;
+	width:				762px;
+	height:				100%;
+	vertical-align:		middle;
+	margin:				0 auto;
+	text-align:			center;
+	font-family:		geneva,arial,sans-serif;
+	font-weight:		normal;
+	word-spacing:		-1px;
+	font-size:			70%;
+}
+#menu{
+	display:			block;
+	float:				left;
+	padding-bottom:		20px;	
+	padding-top:		20px;
+	line-height: 		160%;
+	background:			url(../image/menu-top.gif) top center no-repeat;
+	font-family:		"Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+	font-size: 			90%;
+	position:			relative;
+	width:				160px;
+	top:				0px;
+	margin-top:			5px;
+	margin-left:		5px;	
+	height:				150px;
+}
+#header{
+	display:			block;
+	position:			relative;
+	float:				right;
+	margin-top:			5px;
+	margin-right:		5px;
+	width:				550px;
+	height:				200px;
+	background:			url(../image/red-tulips-banner.jpg) top left no-repeat;
+}
+#menu ul li{
+	font-weight:		bold;
+	display:			block;
+	list-style-type:	none;
+
+}
+#menu ul li a{
+	background:			url(../image/menu-point.gif) top left no-repeat;
+	padding:			0px 0px 0px 20px;
+	cursor:				pointer;	
+	text-decoration:	none;
+}
+#menu ul li a:hover{
+	background-position:0% -24px; 
+}
+#pageName{
+	display:			block;
+	float:				left;
+	position:			relative;
+	top:				0px;
+	margin-top:			5px;
+	margin-left:		5px;
+	width:				630px;
+	height:				80px;
+	background:			url(../image/page.gif) top left no-repeat;			
+}
+#pageName span{
+	font-variant:		small-caps;
+	font-family:		"Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+	font-size: 			400%;
+	margin-left:		20px;
+}
+#logo{
+	display:			block;
+	position:			relative;
+	float:				right;
+	margin-top:			5px;
+	margin-right:		5px;
+	width:				80px;
+	height:				80px;
+	background:			url(../image/tulip-logo.gif) top left no-repeat;
+}
+#subMenu{
+	font-family: 		trebuchet ms, verdana, tahoma, arial;
+	display:			block;
+	margin:				0 auto;
+	float:				right;
+	margin-top:			5px;
+	margin-right:		5px;
+	text-align:			right;
+	width:				720px;
+}
+#subMenu ul li{
+	display:			inline;
+	text-transform:		uppercase;
+	font-size:			70%;
+}
+#subMenu ul li a{
+	border:				0px #FFFFFF solid;
+	border-bottom-width:3px;
+}
+#subMenu ul li a:hover{
+	border:				0px #CCCCCC solid;
+	border-bottom-width:3px;
+}
+#main{
+	font-family: 		trebuchet ms, verdana, tahoma, arial;
+	display:			block;
+	margin:				0 auto;
+	float:				right;
+	margin-top:			5px;
+	margin-right:		5px;
+	width:				720px;
+}
+#main h1,h2,h3,h4,h5,h6{
+	margin-left:		10px;
+	font-size: 			200%;
+	border:				0px #CCCCCC solid;
+	border-bottom-width:3px;
+}
+#main p {
+	margin:				10px 10px 10px 10px;
+	font-size: 			75%;	
+}

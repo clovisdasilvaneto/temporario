@@ -1,0 +1,36 @@
+body {background-color: #630;
+font-family: Verdana,Arial,sans;
+font-size: 16px;
+color: #c93;
+}
+div.header {font-size: 300%;
+text-align: center;
+}
+div.subtitle {font-size: 120%;
+text-align: center;
+font-family: Lucida Calligraphy,fantasy;
+}
+div.leftcolumn {background-color: #960;
+color: #300;
+width: 73%;
+float: left;
+margin: 5px;
+padding: 5px;
+}
+div.rightcolumn {background-color: #630;
+margin: 5px 5px 5px 0;
+padding: 5px;
+float: right;
+width: 23%;
+list-style-image: url('pawprint.png');
+}
+img {margin: 5px;
+}
+a,a:visited,a:link {color: #c93;
+}
+.nav {height: 20px; list-style-image: url('pawprint.png'); clear: both; padding-left: 20%;
+}
+.nav li {float: left;
+}
+.nav li a {width: 100px; line-height: 20px; display: block; margin-left: 5px;
+}

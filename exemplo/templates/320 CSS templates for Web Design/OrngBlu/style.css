@@ -1,0 +1,46 @@
+/* CSS Document For OrngBlu */
+body {margin:0; background-color:cornflowerBlue; font-family:Verdana, Arial, Helvetica, sans-serif; color:#333333;}
+#page {background-color:orange; width:70%; border-top: 8px darkBlue solid; border-bottom: 3px darkBlue solid; margin: 0 auto; display:table; padding-bottom:5px;}
+#header {width:600px;}
+#logo {float:left; width: 190px; border-right: 1px #cccccc solid; padding-bottom: 12px; background-color:#eeeeee}
+#logo h1 {font-size:12px; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; padding:5px 0 0 10px; margin:0}
+#logo .tagline {font-size:10px; padding-left: 8px; margin-top:-5px}
+
+
+#topHead {background-color:blue; width:70%; height:10%; float:left; font-size:20px; color:orange}
+#topHead h1 {color:orange; font-size:20px; padding:0 0 0 10px}
+
+#rightNav {background-color:darkOrange; float:right; width:20%; height:80%} 
+
+#nav {float:right; padding-bottom: 5px}
+#nav .menu {width: 120px; float:right; border-bottom: 4px darkBlue solid; margin-right: 10px}
+#nav .menu_item {padding-top:5px; font-size:18px;}
+#nav .menu_item a{color:darkBlue; text-decoration:none;}
+#nav .menu_item a:hover{color:white}
+#nav .here{color:white; text-transform:uppercase; padding-top:5px; font-size:18px;}
+#nav .menu_desc {font-size:10px;}
+
+
+.post {float:left; width: 50%; margin:10px 0; padding-left:1%; display:table}
+.post h2 {margin:0; color:darkBlue; font-size:18px; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+.post p {font-size:10px; margin:0}
+.post p a{color:blue; text-decoration:none}
+
+
+#leftNav {background-color:darkOrange; float:left; width:20%; height:80%}
+#leftNav {float:left; margin:0; width: 170px;}
+#leftNav .sidebar_head {background-color:#FF9900; margin-top:4px; padding:4px}
+#leftNav h3{margin:0; color:#FFFFFF; font-size:14px; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-weight:bolder;}
+#leftNav ul {margin:5px 0; padding:0 0 0 20px;}
+#leftNav ul li{font-size:11px}
+#leftNav ul li a{text-decoration:none; color:#333333}
+#leftNav ul li a:hover{color:white}
+
+
+#footer {text-align:center}
+#footer p {color:#FFFFFF; font-size:10px;}
+#footer p a{color:#FFFFFF; text-decoration:none}
+#footer p a:hover{color:#FFFFFF; text-decoration:underline}
+.folio_img {margin: 5% 0; text-align:center; width: 100%; background-color:white; padding: 10px; border: 1px blue dashed}
+.folio_img img {border: 1px #cccccc solid; padding:4px; background-color:#eeeeee; margin: 10px 10px 0 0}
+.style1 {color: #FF9900}

@@ -1,0 +1,139 @@
+/*
+
+Theme By Logan Sorese - shehatesska.com
+Start of build: 3:37 pm 12/24/05
+End of build: 1:02 pm 12/25/05
+
+Enjoy
+*/
+
+body {
+	background-color:#60592B;
+	color: #ffffff;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size : 10px;
+        margin:0;
+	background-image:url(bg.gif);
+        background-position:top left;
+	background-repeat:repeat-x;
+}
+/* Main Div */
+#main {
+        margin:0;
+	margin-left:auto;
+        margin-right:auto;
+
+	width:750px;
+
+}
+/* Main Div: #left [content div] */
+#content {
+	width: 750px;
+        float:left;
+	background-color : #A29E6F;
+        border:4px white solid;
+        padding:0;
+        margin:0;
+}
+/* Main Div: #header */
+#main h2.header {
+	font-size:25px;
+        text-transform: uppercase;
+        margin-bottom:-5px;
+}
+#header {
+	width:750px;
+        height:100px;
+        border-top:4px white solid;
+        border-left:4px white solid;
+        border-right:4px white solid;
+	background-image:url(header.gif);
+        background-position:top left;
+	background-color:#60592B;
+
+}
+#header a {font:11px trebuchet ms;color:#ffffff;}
+#header a:hover{text-decoration:none;}
+/* Main Div: #right [sidebar] */
+#right {
+	width: 150px;
+        height:auto;
+        float:right;
+	background-color : #A29E6F;
+
+}
+#right ul {width:150px;}
+#right li {border-bottom:1px solid #60592B;list-style:none;}
+#right ul,li {
+	margin:0;
+	padding:0;
+	display:block;
+}
+#right li a {
+	color:white;
+	text-decoration:none;
+	display:block;
+	padding:2px;
+}
+#right li a:hover {
+	background-color:#A29E6F;
+	border-right:7px solid #60592B;
+	display:block;
+	background-image:url(images/star.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+#right a {color:#009EC6;display:block;}
+#right a.links {margin-top:6px;}
+#right h2 {
+	color:#60592B;
+	font-size:16px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+/* Main Div: Post DIVs */
+div.post {
+	width:593px;
+	border-right:4px white solid;
+}
+/* Post Head is the name of the document */
+
+div.posthead {
+        background:#60592B;
+        height:15px; 
+        border-top:4px white solid;
+        border-bottom:4px white solid;
+}
+div.postheadfirst {
+        background:#60592B;
+        height:15px; 
+        border-bottom:4px white solid;
+}
+div.postbody {
+padding-left:5px;
+padding-right:5px;
+text-align:justify;
+}
+/* Main Div: #footer */
+#footer {
+        margin:0 auto;
+	width:750px;
+        height:15px;
+        border-top:4px white solid;
+	background-color:#60592B;
+        text-align:center;
+}
+/* Main Div: Text */
+a:hover, p, li, ol, ul, b, strong, small, div, em, i, table, td, tr {
+        color: #ffffff;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size : 10px;
+}
+a {
+	color: #ffffff;
+	text-decoration: underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size : 10px; 
+}
+
+blockquote {border-left:4px #60592B solid; padding-left:2px;}

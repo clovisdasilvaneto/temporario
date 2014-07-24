@@ -1,0 +1,119 @@
+/*Stylesheet by elgunvis http://www.kricit.co.uk/elgunvis*/
+
+/*General info*/
+
+body {
+font-family: Tahoma, Arial, Helvetica, Verdana, Sans-serif;
+font-size: 76%;
+text-align: center;
+}
+
+a {text-decoration: none; color: #000066; background-color: inherit;}
+a:hover {text-decoration: underline;}
+
+h1,h2,h3,h4,h5,h6,p,form {margin: 0;}
+blockquote {padding: 5px; margin: 5px; border: 1px dotted #000000;}
+.info {padding: 5px; font-weight: bold; border: 1px solid #b1b1b1; background: #eeeeee; color: #000066;}
+
+img.left, img.right, img {padding: 5px; margin: 0;}
+img.left {float: left;}
+img.right {float: right;}
+
+.nomargin {padding: 0; margin: 0}
+li.arrowlink {list-style-type: none; text-indent: 25px; margin: 0; padding: 5px; height: 14px; background-image: url('images/arrow.png'); background-repeat: no-repeat;}
+li.squarelink {list-style-type: none; text-indent: 25px; margin: 0; padding: 5px; height: 14px; background-image: url('images/square.png'); background-repeat: no-repeat;}
+li.circlelink {list-style-type: none; text-indent: 25px; margin: 0; padding: 5px; height: 14px; background-image: url('images/circle.png'); background-repeat: no-repeat;}
+
+/*Page*/
+
+#page {
+width: 760px;
+text-align: left;
+overflow: hidden;
+margin: auto;
+}
+
+/*header information*/
+
+#header {
+background-image: url('images/header.jpg');
+background-repeat: no-repeat;
+background-color: inherit;
+color: #ffffff;
+height: 99px;
+width: 750px;
+padding: 5px;
+overflow: hidden;
+}
+
+/*Menu Style*/
+
+#menu {
+background-image: url('images/bar.gif');
+background-repeat: repeat-x;
+border: 1px solid #dddddd;
+padding-bottom: 5px;
+font-size: 1em;
+height: 20px;
+width: 758px;
+float: left;
+overflow: hidden;
+}
+
+#menu ul {list-style-type: none; padding: 0; margin: 0;}
+#menu li {display: inline; margin: 0; float:left;}
+
+#menu li a {
+background-image: url('images/nav.gif');
+background-repeat: repeat-x;
+border-right: 1px solid #dddddd;
+font-weight: bold;
+text-decoration: none;
+padding: 5px;
+display: block;
+}
+
+#menu li a:hover {background-image: url('images/pressed.gif'); background-repeat: repeat-x;}
+
+/*Contenarea style*/
+
+#contentarea {
+border-right: 1px solid #dddddd;
+border-left: 1px solid #dddddd;
+padding: 5px;
+width: 748px;
+overflow: hidden;
+float: left;
+}
+
+/*main content*/
+
+#content {
+padding: 5px;
+width: 580px;
+float: left;
+overflow: hidden;
+}
+
+/*inner content*/
+
+#inner {
+border: 1px solid #dddddd;
+padding: 5px;
+width: 135px;
+float: left;
+overflow: hidden;
+}
+
+
+/*footer syle*/
+
+#footer {
+background: #dddddd;
+color: inherit;
+text-align: center;
+width: 750px;
+padding: 5px;
+overflow: hidden;
+clear: both;
+}

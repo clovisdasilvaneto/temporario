@@ -1,0 +1,12 @@
+The template is free to use, all I ask is you let me know where it is and that the link back to
+my place remains.
+
+I originally develped this from an old dreamweaver 6.0 template and it's mainly css asthetics 
+that have changed. The css therefore may need tidying up to get rid of any old unused stuff.
+
+It should validate though - if not let me know at webmaster@blogireland.ie and I'll gladly 
+fix it. The xhtml is valid though - feel free to check :) 
+
+Template design/layout/color remains my copyright basic-blue 2006
+
+If you want to see the template in operation please contact me at above e-mail for site address

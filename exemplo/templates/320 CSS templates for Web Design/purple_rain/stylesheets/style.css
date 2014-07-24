@@ -1,0 +1,132 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #FFFFFF url(../images/bg.png) repeat;
+}
+
+table
+{
+    empty-cells: show;
+}
+
+table.nav
+{
+    float: right;
+    width: 15%;
+    margin-top: -2px;
+    margin-right: -2px;
+}
+
+td.header_image
+{
+    background-image: url(../images/purple_flower.jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 395px;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+td.header_text
+{
+    width: 60%;
+    padding: 2px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #AB8BC2;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+td.footer_text
+{
+    padding: 2px;
+    text-align: right;
+    background-color: #674780;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+td.content
+{
+    padding: 2px;
+    background-color: #8969A0;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+td.link
+{
+    padding-left: 3px;
+    height: 20px;
+    border-left: 2px solid #000000;
+    border-bottom: 1px solid #000000;
+    background-color: #674780;
+    font-family: sans-serif;
+}
+
+td.link:hover
+{
+    border-left: 2px solid #550055;
+    background-color: #341450;
+}
+
+h1
+{
+    color: #000000;
+    font-family: Eurostile , sans-serif;
+    font-size: 36pt;
+    margin: 0px;
+}
+
+h2
+{
+    position: relative;
+    top: -10px;
+    left: 20px;
+    color: #000000;
+    font-family: Eurostile , sans-serif;
+    font-size: 18pt;
+    margin: 0px;
+}
+
+h3
+{
+    float: left;
+    text-align: right;
+    width: 85%;
+    border-bottom: 1px dashed #000000;
+    font-family: Garamond , serif;
+    font-size: 16pt;
+    font-weight: normal;
+    font-variant: small-caps;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+font.content
+{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 10pt;
+}
+
+font.footer_text
+{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 8pt;
+}
+
+a:link , a:visited , a:active
+{
+    color: #CC99CC;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #BC9CD5;
+    text-decoration: none;
+}

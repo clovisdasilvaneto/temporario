@@ -1,0 +1,172 @@
+
+* {
+   padding:0;
+   margin:0;
+}
+
+html,body {height: 100%;}
+
+body {background:#fff;
+	margin			: 0;
+	padding			: 0;
+	text-align		: center;
+font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:100%;
+}
+
+/* the bg image provides the blue bar*/
+#bg {
+background : url(images/bg.jpg) repeat-y 50% 0%;
+width:700px;
+margin:0 auto;
+}
+
+#container {
+	width:700px;
+	background:transparent;
+margin:0 auto;
+}
+
+/*this controls the top bar*/
+#top {
+	background : url(images/top.jpg);
+	width:700px;
+	height:55px;
+text-align:left;
+padding-left:90px;
+padding-top:25px;
+ voice-family: "\"}\"";
+    voice-family: inherit;
+    width: 610px;
+}	
+
+html>body #top {
+  width:610px;
+}
+
+/*this is the left content*/
+#content_one {
+margin-top:20px;
+width:300px;
+float:left;
+font-size:80%;
+}
+
+#content_one p{
+	text-align:left;
+	padding:10px;
+}
+
+/*this is the right content*/
+#content_two {
+margin-top:20px;
+width:200px;
+float:right;
+font-size:80%;
+}
+
+#content_two p{
+	text-align:left;
+	padding:10px;
+}
+
+/*this formats the logo text*/
+#headertext_one {
+font-size:250%;
+color:#fff;
+}
+
+#headertext_two {
+font-size:250%;
+padding-left:10px;
+color:#262C62;
+}
+
+/*this is the blue bar*/
+#sidebar {
+	width:200px;
+	float:left;
+}
+
+/*navigation is here*/
+#navcontainer { width: 200px;
+float:left;}
+
+#navcontainer ul
+{
+border-top:1px solid #9399d5;
+margin-left: 0;
+margin-top:30px;
+padding-left: 0;
+list-style-type: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#navcontainer a
+{
+display: block;
+padding: 10px 3px 3px 3px;
+width: 194px;
+height:30px;
+background: transparent;
+border-bottom: 1px solid #9399d5;
+}
+
+#navcontainer a:link, #navlist a:visited
+{
+color: #EEE;
+text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+background-color: #333B8B;
+color: #fff;
+font-weight:bold;
+}
+
+/*footer, obviously*/
+#footer {
+background : url(images/footer.jpg);
+	width:700px;
+	height:75px;
+	clear:both;
+	margin:0;
+	font-size:80%;
+	text-align:center;
+	padding-top:5px;
+	color:#262C62;
+}
+
+/* this is my link, please leave if poss */
+span.design {
+	font-size:80%;
+	color:#9a9a9a;
+}
+
+a.design {
+	text-decoration:none;
+	color:#9a9a9a;
+}
+
+a.design:hover {
+	color:#000;
+}
+
+a.midtext {
+text-decoration : none;
+color:#126C12;
+font-weight:bold;
+}
+
+/*this positions the three circles at the side */
+#side_logo {
+position:absolute;
+height:80px;
+width:30px;
+top:0;
+left:0;
+}
+
+
+

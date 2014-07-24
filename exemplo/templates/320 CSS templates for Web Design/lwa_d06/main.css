@@ -1,0 +1,82 @@
+BODY {
+	background-color: black;
+	font-family: sans-serif;
+	margin: 0px;
+}
+H1, H2, H3, LI, P, SPAN, UL {
+	margin: 0px;
+	padding: 0px;
+}
+
+#page {
+	position: absolute;
+	left: 50%;
+	margin-left: -375px;
+	top: 10px;
+	width: 750px;
+}
+
+#intro H1 {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#content {
+	background: #eeeeee url(content.jpg) repeat-y;
+	color: black;
+	font-size: 14px;
+	padding: 10px;
+}
+#content TABLE {
+	border-collapse: collapse;
+	margin: 10px;
+}
+#content TD {
+	border: 1px solid #888888;
+	color: black;
+	font-size: 14px;
+	padding: 4px;
+}
+#content .tdTitle {
+	color: white;
+	background-color: #666666;
+	font-weight: bold;
+	text-align: right;
+}
+#content .tdBk {
+	background-color: #dddddd;
+}
+
+.square {
+	float: left;
+	background: #888888 url(bk.jpg);
+	color: white;
+	border: 1px solid black;
+	font-size: 12px;
+	width: 140px;
+	height: 90px;
+}
+.square:hover {
+	border: 1px solid red;
+}
+.squareEnd {
+	clear: left;
+}
+
+#s8 {
+	background: white url(demo.jpg);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+#s8 A {
+	color: white;
+	text-decoration: none;
+}
+#s8 A:hover {
+	color: black;
+	letter-spacing: 2px;
+}

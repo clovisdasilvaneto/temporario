@@ -1,0 +1,146 @@
+/* apnerve - an open source html/css website layout by apnerve (http://apnerve.blogspot.com). Made for OSWD.org, free to use as-is for any purpose as long as the proper credits are given for the original design work. For design assistance and support, contact me through my email apnerve@gmail.com
+
+Version: 1.0
+(january 21, 2005) */
+/* This was made in 4 hours only, hence no proper comments are available. For help write to me:apnerve@gmail.com */
+body{
+	margin:0px;
+	padding:0px 1% 0px 1%;
+	font:80% trebuchet ms;
+	text-align:center;
+}
+#container{
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	width:100%;
+}
+#header{
+	height:180px;
+	background-color:#369;
+	color:#fff;
+	padding:1%;
+	margin-bottom:2px;
+}
+#topnav{
+	text-align: center;
+	margin:30px 0px 0px 0px;
+	background:#eec url('images/tc_04.gif') top right no-repeat;
+}
+#content{
+	clear:both;
+}
+#breadcrumb{
+	float:right;
+	color:#c30;
+}
+#main{
+	float:left;
+	width:70%;
+	padding:1%;
+	background-color: #ccf;
+	margin:0px 0px 2px 0px;
+}
+#sidebar{
+	float:right;
+	width:25%;
+	background-color: #eec;
+	padding:1%;
+	margin:0px;
+}
+#infobar{
+	margin:2px 0px 0px 0px;
+	padding:1%;
+	background-color: #fff;
+	float:right;
+	width:24.5%;
+	border:1px dashed #eec;
+}
+#footer{
+	clear: both;
+	text-align: center;
+	background:#369 url('images/bl_03.gif')  bottom left  no-repeat;
+	color:#fff;
+	padding:1%;
+}
+p{
+	font-size:105%;
+}
+h1{
+	font:bold 2.2em trebuchet ms;
+	color:#c30;
+	margin:0px;
+}
+h2{
+	color:#333;
+	font-size:1em;
+	margin:0px;
+}
+.apnerve{
+	color:#333;
+}
+.indent{
+	text-indent: 10px;
+}
+#topnav a{
+	padding:3px 10px 0px 10px;
+	font-weight: bold;
+}
+#topnav a:hover{
+	text-decoration:none;
+	background-color: #eec;
+}
+#topnav a.active{
+	background-color: #369;
+	color:#fff;
+}
+.hide{
+	display:none;
+}
+a{
+	color:#369;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color:#c30;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+ul.sidelinks li{
+	list-style: none;
+}
+ul.sidelinks li a{
+	display: block;
+	width:100%;
+	background-color: #eee;
+	border-top:1px solid #fff;
+	font:bold 1em/2em verdana;
+}
+a.sidelinks span{
+	color:#eee;
+}
+a.sidelinks:hover span{
+	color:#369;
+}
+ul.sidelinks li a:hover{
+	text-decoration: none;
+}
+#footer a{
+	color:#fff;
+}
+.logo a{
+	color:#c30;
+}
+.white{
+	color: #fff;
+}
+img{
+	border:none;
+}
+acronym{
+	border-bottom: 1px dashed #eec;
+	cursor: help;
+}

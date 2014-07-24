@@ -1,0 +1,168 @@
+/* Orange Sun CSS  LFS ACES*/
+
+body { 
+	font:8pt verdana; 
+	background: #FFFFFF;
+	margin:0;
+	padding:0;
+	}
+.style5 {color: #003366}
+.style6 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.style7 {color: #FFFFFF}
+
+#navlist
+{
+padding: 0 1px 1px;
+margin-left: 0;
+font: bold 12px Verdana, sans-serif;
+}
+
+#navlist li
+{
+list-style: none;
+margin: 0;
+display: inline;
+}
+
+#navlist li a
+{
+padding: 0.25em 0.5em 0.25em 0.75em;
+border-left: 1em solid #0066FF;
+background: #DE9F4E;
+text-decoration: none;
+}
+
+#navlist li a:link { color: #448; }
+#navlist li a:visited { color: #fff; }
+
+#navlist li a:hover
+{
+border-color: #DE9F4E;
+color: #FFF;
+background: #0066FF;
+}
+
+a:link {
+color: #FFFFFF;
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+color: #FFFFFF;
+}
+a:hover {
+text-decoration: none;
+color: #0066FF;
+}
+a:active {
+text-decoration: none;
+color: #FFFFFF;
+}
+
+h1 {
+
+	font:28pt verdana, arial, sans-serif;
+	color:#666;
+	margin:0;
+	padding:20px;
+}
+
+h2 {
+
+	font:14pt verdana, arial, sans-serif;
+	color:#666;
+	padding:10px;
+	margin:0;
+        text-align: center;
+}
+
+h3 {
+
+	font:10pt verdana, arial, sans-serif;
+	color:#FFFFFF;
+	padding:12px;
+	margin:0;
+        text-align: center;
+}
+
+p { 
+	font: 8pt verdana; 
+	margin: 0px; 
+	text-align: justify;
+	}
+	
+#contain {
+
+	width:750px;
+	border-right:5px solid #000000;
+	border-left:5px solid #000000;
+	margin-left:auto;
+	margin-right:auto;
+	background: #FFF url('sun.gif') bottom right no-repeat;
+        }
+	
+#header {
+        background: #FFF url('suntree.gif') right no-repeat;
+	width:750px;
+        height:165px;
+	border-bottom:1px solid #CCC;
+	
+}
+
+#leftcol {
+
+	width:150px;
+	float:left;
+	padding:5px 0 5px 0;
+	background-color: #DE9F4E;
+
+}
+
+#leftcol p {
+
+	padding:3px 18px 3px 18px;
+	margin:0;
+
+}
+
+#content {
+
+	margin-left:160px;
+	width:575px
+
+}
+
+#content p {
+
+	padding:3px 18px 3px 18px;
+	margin:0;
+
+}
+
+#footer {
+
+	width:750px;
+	clear:left;
+	border-top:1px solid #DE9F4E;
+	border-bottom:1px solid #DE9F4E;
+	background: #DE9F4E;
+	padding: 3px 0 3px 0;
+
+}
+
+#footer p {
+	text-align:center;
+	padding-right:8px;
+	font:8pt verdana, arial, sans-serif;
+        
+}
+
+#leftImg
+{
+float:left;
+padding: 0 0px 0px 0;
+}

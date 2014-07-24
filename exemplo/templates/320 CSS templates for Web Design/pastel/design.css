@@ -1,0 +1,246 @@
+* {
+   padding:0;
+   margin:0;
+}
+
+html,body {height: 100%;}
+
+body {
+font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:100%;
+}
+
+#container
+{
+    color: #000;
+   background-image : url(images/shadow.jpg);
+	background-repeat : repeat-y;
+    margin: 0 auto;
+	padding:0px 30px 0px 30px;
+    width: 700px;
+	text-align:left;
+	 /* IE Box Model Hack */
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    width: 640px;
+}
+#container:after{ 
+content: "."; display: block; line-height: 1px; font-size: 1px; clear: both;}
+
+
+
+#header 
+{
+    color: #000;
+    background: transparent url(images/left2.jpg) no-repeat top left;
+    width:640px;
+    height: 150px;
+    margin:0;
+}
+
+#header h1 {
+	color:#fff;
+	padding:10px 0 0 10px;
+	font-size:150%;
+	float:left;
+}
+
+#header p {
+	width:240px;
+	float:right;
+	font-size:90%;
+	padding:5px;
+	background:#E5DDFF;
+	margin-top:5px;
+	height:128px;
+	border:1px solid #C8B7FF;
+	text-align:justify;
+	color:#00103E;
+	    /* IE Box Model Hack */
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    width: 228px;
+}
+
+html>body #header p {
+  width:228px;
+} 
+
+#header img {
+	float:right;
+	margin-top:5px;
+}
+
+#introduction
+{
+    float: right;
+    width: 640px;
+	height:150px;
+    padding: 10px;
+     border:1px solid #c2d1ff;
+	background-color : #dbe4ff;
+	margin-bottom:0px;
+	overflow:auto;
+	font-size:80%;
+    /* IE Box Model Hack */
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    width: 618px;
+}
+
+html>body #introduction {
+  width:618px;
+} 
+
+
+#one h2
+{
+ color:#00103E;
+    background: #fff;
+	font-size : 130%;
+	border:1px solid #ccc;
+	padding:2px 0px 2px 2px;
+}
+
+#one h3 {
+	font-size:110%;
+	padding:10px 4px 4px 4px;
+}
+
+#one p {
+	margin:5px 2px 5px 2px;
+}
+
+#mainBody
+{
+    width: 485px;
+	background-color : #f5f7ff;
+    padding: 10px;
+   border:1px solid #dbe2ff;
+   margin-top:5px;
+	font-size:90%;
+	float:right;
+    /* IE Box Model Hack */
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    width: 463px;
+}
+
+html>body #mainBody {
+  width:463px;
+} 
+
+#mainBody h4
+{
+    color:#00103E;
+    background: #fff;
+	font-size : 110%;
+	border:1px solid #ccc;
+	padding:2px 0px 2px 2px;
+}
+
+#mainBody p {
+	margin:10px 3px 10px 2px;
+}
+
+#left {
+float:left;
+background-color : #f0ebff;
+ width: 150px;
+    padding: 10px;
+	margin-top:5px;
+	  border:1px solid #d1c2ff;
+	font-size : 80%;
+    /* IE Box Model Hack */
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    width: 128px;
+} 
+
+html>body #left {
+  width:128px;
+} 
+
+#left h3
+{
+      color: #001d8f;
+    background: transparent;
+    padding:10px 2px 5px 0;
+	font-size:120%;
+	margin:0px;
+}
+
+#left p{
+margin:5px 2px 10px 0;
+font-size:90%;
+}
+
+#left a
+{
+    font-weight: bold;
+	font-size : 100%;
+	text-decoration : none;
+}
+
+#left a:hover
+{
+   
+	text-decoration : underline;
+}
+
+ul {
+list-style : square;
+margin-left:5px;
+padding-left:15px;
+}
+
+#footer
+{
+    color: #366;
+    background: #dbe4ff;
+    text-align: center;
+	font-size:70%;	
+	height:20px;
+	padding-top:6px;
+}
+
+#footer a
+{
+    text-decoration: none;
+    color: #366;
+    background: transparent;
+}
+
+#footer a:hover
+{
+color:#000;
+}
+
+
+/* General styles */
+body 
+{
+text-align:center;
+    color: #000;
+    background: #eee;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    color: #666;
+    background: transparent;
+}
+
+a:hover
+{
+    color: #900;
+    background: transparent;
+	text-decoration : underline;
+}
+
+
+

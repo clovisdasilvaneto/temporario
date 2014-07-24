@@ -1,0 +1,24 @@
+/** TopTabmenu 23a  ***/
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+
+/****  STYLES FOR toptabmenu_23a  ******/
+.toptabmenu_container_23a {background-color:#293158; border-top:4px solid #930209;border-bottom:7px solid #FFCC33;}
+/****  FLOAT:LEFT WAS NEVER USED IN MANY HORIZONTAL ULs  *****/
+ul.toptabmenu  {display:block; margin:0;  padding:0; padding-top:4px;
+list-style: none inside; text-align: center;}
+ul.toptabmenu  li {display:inline;}
+/****  "toptabmenu" menu link styles   ****/
+ul.toptabmenu  li a {padding: 0px 4px 0px 4px; 
+background: #fff9e1 url(../media/cornerblue3.gif) no-repeat right top;
+color:#000000;text-decoration:none;}
+ul.toptabmenu  li a:hover, ul.toptabmenu li a:active,
+.toptabmenu .current_tab {padding: 0px 4px 0px 4px; 
+background: #ffcc33 url(../media/cornerblue3.gif) no-repeat right top;
+ color:#000000;text-decoration:none;}
+

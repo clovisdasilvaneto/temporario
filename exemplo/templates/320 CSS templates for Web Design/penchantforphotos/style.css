@@ -1,0 +1,167 @@
+* {
+   padding: 0;
+   margin: 0;            /*THIS FIXES POSITIONING PROBLEMS IN IE*/
+}
+
+body {
+	background: url(images/background.png);
+	font-family: trebuchet MS, sans-serif;
+	font-size: 100%;
+}
+
+div#container {
+	position: absolute;
+	top: 50%;
+	width: 96%; /* MUST BE 100% MINUS THE LEFT AND RIGHT MARGINS */
+	height: 500px;
+	margin-top: -250px; /* MUST BE HALF OF THE HEIGHT */
+	margin-left: 2%;
+	margin-right: 2%;
+	background: #DC7F32;
+}	
+
+/*----------------------------------------------------------------
+               STYLES FOR THE TITLE/SLOGAN DIVS
+-----------------------------------------------------------------*/
+
+#title {
+	position: absolute;
+	display: inline; /* PREVENTS OTHER DIVS FROM WRAPPING */
+	background: url(images/orangebackground.jpg) no-repeat;
+	float: left;
+	margin: 10px 2%;
+	width: 26%;
+	height: 480px;
+}	
+
+#title h1 {
+	font-family: trebuchet MS, sans-serif;
+	font-size: 22px;
+	color: black;
+	text-align: right;
+	margin: 200px 30px 0 0;
+}
+
+#title h1 span {
+	color: #1A658D;
+}
+
+#title h2 {
+	font-family: trebuchet MS, sans-serif;
+	font-size: 18px;
+	color: #1A658D;
+	text-align: right;
+	margin: 5px 20px 0 0;
+}
+
+/*------------------------------------------------------------------
+               STYLES FOR THE NAVIGATION MENU DIV
+------------------------------------------------------------------*/
+
+#nav {
+	background: url(images/separator.jpg) no-repeat;
+	display: inline;
+	position: absolute;
+	margin-left: 30%;
+	width: 20%;
+	height: 100%; /* MUST BE 100% FOR SEPARATOR IMAGE TO BE VISIBLE */
+}
+
+#nav ul {
+	font-size: 18px;
+	font-weight: bold;
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 108px; /* DEPENDING ON THE NUMBER OF LINKS IN THE NAVBAR, AND THE SIZE OF THE BACKGROUND IMAGES, YOU MAY NEED TO ADJUST THIS NUMBER TO VERTICALLY CENTER THE NAVBAR */
+}
+
+#nav ul li {
+	line-height: 32px; /* HEIGHT OF BACKGROUND IMAGE */
+	margin-bottom: 10px; /* SPACES OUT LIST ITEMS */
+}
+
+#link1 {background: url(images/nav/home.png) no-repeat;}
+#link2 {background: url(images/nav/gallery.png) no-repeat;}
+#link3 {background: url(images/nav/compass.png) no-repeat;}
+#link4 {background: url(images/nav/globe.png) no-repeat;}
+#link5 {background: url(images/nav/world.png) no-repeat;}
+#link6 {background: url(images/nav/info.png) no-repeat;}
+#link7 {background: url(images/nav/contact.png) no-repeat;}
+
+#nav ul li a:link, #nav ul li a:hover, #nav ul li a:visited {
+	display: block; /* THIS MAKES THE ENTIRE LIST ITEM CLICKABLE (NOT JUST TEXT) */
+	width: 100%;
+	color: #000000;
+	text-decoration: none;
+	text-indent: 35px; /* ACTS LIKE LEFT PADDING */
+}
+
+#nav ul li a:link, #nav ul li a:visited {
+	border-right: 5px #E29A5F solid;
+}
+
+#nav ul li a:hover {
+	border-right: 5px #1A658D solid;
+	color: #1A658D;
+}
+
+#nav ul li a#active {
+	border-right: 5px #1A658D solid;
+	color: #1A658D;
+}
+
+/*-----------------------------------------------------------------
+                  STYLES FOR THE CONTENT DIV
+-----------------------------------------------------------------*/
+
+#content {
+	position: absolute;
+	display: inline;
+	background: url(images/orangebackground.jpg) no-repeat fixed center right; /* POSITION MUST BE CENTER-RIGHT TO SHOW UP CORRECTLY IN FF */
+	width: 46%; /* WIDTH = 100% - (MARGIN-RIGHT + MARGIN-LEFT) */
+	height: 476px; /* HEIGHT = CONTAINER HEIGHT - (MARGIN-TOP + MARGIN-BOTTOM + BORDER-TOP + BORDER-BOTTOM) */
+	margin: 10px 2% 10px 52%;
+	border: 2px #1A658D solid;
+	overflow: auto;
+}
+
+#content h1 {
+	color: #1A658D;
+	font-size: 2em;
+	margin-left: 10px;
+}
+
+#content p {
+	margin: 5px 5px 0 5px;
+	text-align: justify;
+	text-indent: 1em;
+}
+	
+#content a {
+	color: #FFFFCC;
+	text-decoration: underline;
+	letter-spacing: 0.1em;
+}
+
+/*-----------------------------------------------------------------
+                  STYLES FOR THE GALLERY IMAGES
+-----------------------------------------------------------------*/
+
+.galleryimage {
+	float: left; /* THIS LETS THE DIVS DISPLAY AS INLINE, AND WRAP ACCORDING TO THE SCREEN SIZE */
+	border: 2px #FFFFCC solid;
+	margin: 5px;
+	padding: 2px;
+	text-align: center;
+	width: 104px;
+	height: auto;
+	text-decoration: none;
+}
+
+.galleryimage a {
+	text-decoration: none;
+}
+
+.galleryimage img {
+	border: none;
+}

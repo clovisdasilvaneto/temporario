@@ -1,0 +1,132 @@
+body {
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 11px;
+	background-color: #80033E;overflow-x:hidden;
+}
+
+#content a:link, a:visited, a:active {
+	color: #B37894;
+	text-decoration: none;
+}
+a:link, a:visited, a:active {
+	color: #B37894;font-size:13px;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#content a:hover {
+	text-decoration: underline;
+	color: #B37894;
+}
+#content a {
+	text-decoration: none;
+	color: #B37894;
+}
+
+#thebox {
+	width: 50em;
+	background-color: white;
+	color: #666;
+	border: 1px rgb(75,55,52) solid;
+	margin: 10px auto 0px auto;
+	padding: 0px 20px 0 20px
+}
+
+#logo { 
+	text-align: center;
+	width: 290px;
+	margin: 0px 5px 30px -15px;
+	padding: 50px 10px 5px 10px;
+	color: #000000;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-weight: normal;
+	font-size: 19px;
+	letter-spacing: 4px;
+	
+}
+#headtag{
+	background: url('sakura.jpg') no-repeat;
+	height:150px;
+}
+#logo strong{
+	color:#B37894;font-style: italic;letter-spacing: 1px;margin-left:5px;font-size:20px;
+}
+
+#nav {	text-align:right;
+	width: 455px;
+	margin: -65px 0px 50px 100px;
+	padding: 0px 0px 0px 0px;
+	color: #999;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-weight: normal;
+	font-size: 11px;letter-spacing: 2px;
+}
+
+#nav li {
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+}
+
+#nav a {
+	
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(255,236,245);
+	text-decoration: none;margin-left:10px;
+}
+
+#nav a:hover {
+	color: #B37894;
+	text-decoration: none;
+}
+
+#content p{
+margin-right:130px;
+}
+
+#floatright{font-size:14px;
+float:right;
+}
+
+#content {
+	color: #666;
+	font-family:Trebuchet MS, Arial, Helvetica;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 10px 10px;font-size:13px;
+}
+
+#content h1,h2 {
+
+font-size: 15px;
+text-decoration: none;
+	font-family:Trebuchet MS, Arial, Helvetica;
+	color: #B37894;
+}
+
+#content h1,h2 a:link, a:visited, a:active {
+	color: #80033E;
+	font-family:Trebuchet MS, Arial, Helvetica;
+	
+	font-weight: normal;
+}
+
+#content h1,h2 a:hover {
+	text-decoration: underline;
+	font-family:Trebuchet MS, Arial, Helvetica;
+	color: #B37894;
+}
+
+#content h3,h4 { 
+font-size: 12px;
+letter-spacing: 3px;
+font-weight: normal;
+}
+
+#foot {
+
+text-align: center;
+color: #fff;
+}

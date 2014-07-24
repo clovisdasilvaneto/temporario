@@ -1,0 +1,96 @@
+a{
+ color: black;
+ background: transparent;
+ text-decoration: none;}
+
+body{
+ color: black;
+ background: white;}
+
+#pageContainer{
+ color: black;
+ background: white;}
+
+#subHead{
+ display: none;}
+
+#header{
+ color: black;
+ background: white none;
+ margin: auto;}
+
+#logoText{
+ display: block;
+ font: oblique 2.5em arial,verdana,sans-serif;}
+
+#logoTextTagline{
+ display: block;
+ padding-left: 15px;
+ margin-bottom: 2em;
+ font: 1em verdana,arial,sans-serif;}
+
+#logo{
+ position: static;}
+
+#centerOfPage{
+ color: black;
+ background: white;}
+
+#menuLeft{
+ display: none;}
+
+#contentBlock{
+ color: #000;
+ font: small arial,verdana,sans-serif;
+ background: #fff;}
+
+#contentBlock ul li{
+ list-style-type: disc;
+ list-style-image: none;}
+
+#contentBlock ul li+li{
+ margin-top: 3px;}
+
+.contentHead{
+ border-bottom: solid 1px black;
+ font-family: verdana,arial,sans-serif;
+ text-indent: 1%;
+ display: block;
+ color: #000;
+ font-size: large;
+ background: transparent;}
+
+.highlight{
+ color: #000;
+ font-weight: bold;
+ background: transparent;}
+
+.quote{
+ display: block !important;
+ padding: 3px 4px;
+ margin: auto 15% auto 3%;
+ font-style: italic;
+ text-align: justify;
+ color: black;
+ background: white none;}
+
+.quote i{
+ font-style: normal;}
+
+#notice{
+ clear: both;
+ border-top: solid 1px black;
+ margin: auto;
+ padding: 5px 7px;
+ color: black;
+ font: x-small arial,verdana,sans-serif;
+ background: transparent;}
+
+#notice .floatRight{
+ display: none;}
+
+.floatLeft{
+ float: left;}
+
+.floatRight{
+ float: right;}

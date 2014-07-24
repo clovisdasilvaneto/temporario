@@ -1,0 +1,80 @@
+a:hover {
+color: #990000;
+text-decoration: underline;
+background-color: #;
+}
+a {
+color: black;
+text-decoration: none;
+}
+#container {
+width: 80%;
+border: 0px inset #43729E;
+margin: 20px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+background-color: #;
+
+}
+
+img.left {
+float:left;
+padding:1px;
+margin-right:6px;
+border:0px solid #B5B5B5;
+}
+
+img.right {
+float:right;
+padding:0px;
+margin-right:6px;
+border:1px solid #547FA9;
+}
+
+#box {
+float:left;
+padding:0px;
+margin-right:6px;
+border:0px solid #4D7AA4;
+background-color: #;
+background-image:  url(picks/bg5.jpg);
+background-repeat: no-repeat;
+width:132px;
+text-align: center;
+}
+
+#banner {
+padding: 0px;
+margin-bottom: -5px;
+margin-left:5px;
+background-image:  url(picks/1.jpg);
+background-repeat: no-repeat;
+height: 130px;
+width: 780 px;
+border:0px inset #547FA9;
+}
+
+div#text {
+    position: relative;
+    height: auto;
+    width: auto;
+    left: 250px;
+    top: 40px;
+}
+
+#content {
+padding: 5px;
+background-color: #;
+font-family:"times", verdana, arial, sans-serif, times;
+font-size:15px;
+font-weight:bold;
+}
+
+#footer {
+clear: both;
+padding: 5px;
+margin-top: 5px;
+background-image:  url(picks/1.jpg);
+background-repeat: no-repeat;			
+}

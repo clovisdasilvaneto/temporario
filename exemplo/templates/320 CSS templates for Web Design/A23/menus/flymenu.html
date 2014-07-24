@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Flyout Backup</title>
+
+
+<style type="text/css">
+/**  Mainstyles 23a  ***/
+* {margin:0;padding:0;}
+form {margin:0;padding:0;}
+.hiddenpic {display:none;}
+.hide {display:none;}
+img {border:0;}
+p {}
+
+body {margin:1px 0px;padding:0;
+background-color: #ffffff;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-align:center;font-size: .60em;color:#000000;}
+
+#wrap {
+position:absolute;
+top:20px;
+left:10%;
+width:25%;
+background-color:#293158;
+color:white;}
+
+<!--
+/*** ntflymenu_23a can be used as a norml UL menu, or as a 
+javascript flyout menu.  Just needs the 3 scripts, 
+enclosed with this template.  ntrk ****/
+/*** ntmenu_container_23a to align and to pad  ****/
+/*** margin:0 auto; to center nav in left column ***/
+/**  I now have it align left, 15px left pad, this template  ****/
+/****  used only if menu aligns left in left column  ****/
+/**  text-align:center; to center nav in left column  ***/
+
+.ntflymenu {
+margin:0 auto;margin-top:10px;WIDTH: 96%;
+/****  ADJUDST THE HEIGHT HERE, FOR FIREFOX MOZILLA BROWSERS, DUE TO 
+THE FACT THAT MENU IS NOT ABSOLUTE, NOT NAILED IN PLACE.   ****/
+height:290px;text-align:left;}
+
+/*****   ITEM STYLES   *****/
+/***  NTNAV IS MAIN UL: DO NOT Align toplevel UL HERE, 
+      margin:0 auto fouls; and this text-align: does all LI text ***/
+#ntnav {margin:0;margin-top:5px;padding:0;
+ /**** padding-left:10px; used only if menu aligns left in left column  ****/
+WIDTH: 140px;LIST-STYLE-TYPE: none; text-align:left;}
+
+/***  Levels: Styles and Positioning  *****/
+.toplevel {
+	FONT-SIZE: 11px; 
+	WIDTH: 140px; 
+	COLOR: #000000;
+	BORDER-BOTTOM: #866a32 0px solid; }
+.level2,
+.level3 {
+	FONT-SIZE: 11px; 
+	WIDTH: 200px; 
+	COLOR: #000000;  
+/** if li border here, do also with hover  **/  
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	text-indent:2px;
+}
+
+/***  first level background image button  
+      and padding above below buttons ***/
+#ntnav .toplevel  { 
+ /***  CSS is the Better way, but Button BACKGROUND 
+or button side image file here;  Text indent here also    ****/
+margin-bottom:3px; /**** space buttons  ****/
+padding-top:3px; /*** padding here is above below TEXT IN buttons ***/
+padding-bottom:3px; /*** padding here is above below TEXT IN buttons ***/
+/**  darkblue button-look = background #2b4b7c  **/
+BACKGROUND: #cccccc url("../media/duo_tickrightbluered.gif") no-repeat left 5px; 
+border: 1px inset #eaeaea;border-left:4px solid #930209;text-indent:15px;}
+/***  2nd + 3rd level list items  ****/
+ /*** padding here is above below 2nd level buttons ***/
+#ntnav LI LI, 
+#ntnav LI LI LI {
+padding-top:2px; /*** padding here is above below TEXT IN buttons ***/
+padding-bottom:2px; /*** padding here is above below TEXT IN buttons ***/
+}
+
+
+/****  2nd-3rd backgrounds of flyout boxes (UL) 
+        NO BORDER CAUSE GRABS FIRST, TEXT-ALIGN FLYS HERE   ****/
+#ntnav UL, #ntnav UL UL {
+	margin:0; padding:0; FLOAT: left; WIDTH: 100%; LIST-STYLE-TYPE: none; 
+	BACKGROUND-COLOR: #FFFFFF;}
+
+#ntnav LI {
+	FLOAT: left; 
+}
+
+/*** 2nd main FLYOUT. Second List position: (margin-left:distance) ****/
+#ntnav LI UL {
+	MARGIN-TOP: -2.9em; LEFT: -999em; MARGIN-LEFT: 144px; BORDER: 1px solid #000000;
+	width:200px; POSITION: absolute; 
+}
+
+/**** 3rd main FLYOUT. Third list postion (margin-left:distance)  *****/
+#ntnav LI UL UL {
+	MARGIN-TOP: -1.7em; LEFT: -999em; MARGIN-LEFT: 200px; BORDER: 1px solid #000000;
+	width:200px;; position: abolute;
+	}
+
+/***  This one effects all LI, All levels ****/
+#ntnav LI A {
+	DISPLAY: block; margin:0; padding:0; TEXT-DECORATION: none;
+}
+
+/***  Main List Hover text all levels  ***/
+#ntnav LI A:hover {COLOR: #930209;}
+
+/*** toplevel levelone hover ****/
+/***  li hover border here  ****** if hover background-color:#eaeaea; desired  ****/
+#ntnav li .toplevel:hover {
+BACKGROUND: #cccccc url("../media/duo_tickrightbluered.gif") no-repeat left -15px;
+border-left:4px solid #293158; }
+
+
+/*** 2-3-4 fly lists items link, can color 
+	or border or underline here  ***/
+#ntnav LI LI A,
+#ntnav LI LI LI A,
+#ntnav LI LI LI LI A {	
+	DISPLAY: block;
+	TEXT-DECORATION: none;
+	color:#000000;
+}
+
+/*** 2-3-4 fly lists items link-hover can color 
+	or border or underline here ***/
+#ntnav LI LI A:hover,
+#ntnav LI LI LI A:hover,
+#ntnav LI LI LI LI A:hover {
+/*** TEXT AND BACKGROUND COLOR FOR ALL FLYOUT ITEMS  ****/
+COLOR: #000000; background-image:none; BACKGROUND-COLOR: #eaeaea; 
+border:none;border:none;}
+
+
+/*** aligns left ***/
+#ntnav LI:hover UL UL {LEFT: -999em;}
+#ntnav LI:hover UL UL UL {LEFT: -999em}
+#ntnav LI.sfhover UL UL {	LEFT: -999em;}
+#ntnav LI.sfhover UL UL UL {	LEFT: -999em}
+#ntnav LI:hover UL {	LEFT: auto}
+#ntnav LI LI:hover UL {	LEFT: auto}
+#ntnav LI LI LI:hover UL {	LEFT: auto}
+#ntnav LI.sfhover UL {	LEFT: auto}
+#ntnav LI LI.sfhover UL {	LEFT: auto}
+#ntnav LI LI LI.sfhover UL {	LEFT: auto}
+
+
+/* Fix IE. Hide from IE Mac \*/
+ html #ntnav li { float:left; height:1%; }
+ html #ntnav li a { height:1%; }
+/* End */-->
+</style>
+<!-- Upgrade to flymenu, 3 scripts, one before </HEAD> & two near identical after <BODY>  -->
+<script language="JavaScript" type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<!-- Upgrade to flymenu, 3 scripts, one before </HEAD> & two near identical after <BODY>  -->
+</head>
+<body>
+<!-- Upgrade to flymenu, 3 scripts, one before </HEAD> & two near identical after <BODY>  -->
+<script type="text/javascript">
+sfHover = function() {
+	var sfEls = document.getElementById("ntnav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+</script>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("ntnav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+<!-- Upgrade to flymenu, 3 scripts, one before </HEAD> & two near identical after <BODY>  -->
+<div id="wrap">
+<div class="ntflymenu">
+    <h3>Navigation</h3>
+    <ul id="ntnav">
+      <li><a href="#" class="toplevel">About Us</a>
+        <ul>
+          <li><a class="level2" 
+          title="" 
+          href="#">2005 Dates</a>
+            <ul>
+              <li><a class="level3" 
+            title="" 
+            href="">August</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">September</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">October</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">November</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">December</a> </li>
+            </ul>
+          </li>
+          <li><a href="#" class="level2">Office Location</a></li>
+          <li><a href="#" class="level2">Overview</a></li>
+          <li><a href="#" class="level2">Vision, Mission, Philosophy</a></li>
+          <li><a href="#" class="level2">Guidelines</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">Agency Center</a>
+        <ul>
+          <li><a class="level2" 
+          title="" 
+          href="#">2005 Dates</a>
+            <ul>
+              <li><a class="level3" 
+            title="" 
+            href="">August</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">September</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">October</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">November</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">December</a> </li>
+            </ul>
+          </li>
+          <li><a href="#" class="level2">Procurement Handbook</a></li>
+          <li><a href="#" class="level2">Request for Proposal (RFP)
+            Manual with Exhibits</a></li>
+          <li><a href="#" class="level2">Quick Reference Pocket Guide</a></li>
+          <li><a href="#" class="level2">Procurement &amp; Contract Network</a></li>
+          <li><a href="#" class="level2">Employee Purchase Program</a></li>
+          <li><a href="#" class="level2">Equipment Financing Programs</a></li>
+          <li><a href="#" class="level2">Frequently Asked Questions</a></li>
+          <li><a href="#" class="level2">Glossary of Printing Terms</a></li>
+          <li><a href="#" class="level2">Saturn Procurement Card Prog.</a></li>
+          <li><a href="#" class="level2">Saturn Purchasing News</a></li>
+          <li><a href="#" class="level2">Saturn Reciprocal Preferences</a></li>
+          <li><a href="#" class="level2">SP - Chapter</a></li>
+          <li><a href="#" class="level2">OSP Memos</a></li>
+          <li><a href="#" class="level2">Vendor Search - Search for Vendor Payments from Central Acounting</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">Technology Center</a>
+        <ul>
+          <li><a class="level2" 
+          title="" 
+          href="#">2005 Dates</a>
+            <ul>
+              <li><a class="level3" 
+            title="" 
+            href="">August</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">September</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">October</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">November</a> </li>
+              <li><a class="level3" 
+            title="" 
+            href="#">December</a> </li>
+            </ul>
+          </li>
+          <li><a href="#" class="level2">Approved Catalog Microcomputer Contracts</a></li>
+          <li><a href="#" class="level2">Microcomputers &amp; Peripherals</a></li>
+          <li><a href="#" class="level2">Networking &amp; Storage</a></li>
+          <li><a href="#" class="level2">Telecommunications</a></li>
+          <li><a href="#" class="level2">Software Volume Pricing Agreements</a></li>
+          <li><a href="#" class="level2">Procedures-BN Microcomputer Contracts</a></li>
+          <li><a href="#" class="level2">Microcomputer Contract Additions</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">Vendor Center</a>
+        <ul>
+          <li><a href="#" class="level2">LaPAC - Louisiana Procurement &amp; Contract Network</a></li>
+          <li><a href="#" class="level2">Procurement Handbook</a></li>
+          <li><a href="#" class="level2">Contracting Opportunties</a></li>
+          <li><a href="#" class="level2">How To Do Business with Saturn</a></li>
+          <li><a href="#" class="level2">Frequently Asked Questions</a></li>
+          <li><a href="#" class="level2">Vendor Registration</a></li>
+          <li><a href="#" class="level2">Commodity Catalog</a></li>
+          <li><a href="#" class="level2">Saturn Regional Map</a></li>
+          <li><a href="#" class="level2">OSP Memos</a></li>
+          <li><a href="#" class="level2">Louisiana Procurement Technical Assistance Center</a></li>
+          <li><a href="#" class="level2">Procedures-BN Microcomputer Contracts</a></li>
+          <li><a href="#" class="level2">Microcomputer Contr. Additions</a></li>
+          <li><a href="#" class="level2">Vendor Search - Search for Vendor Payments from Central Accounting</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">Online Forms</a>
+        <ul>
+          <li><a href="#" class="level2">Download Instructions</a></li>
+          <li><a href="#" class="level2">Agency Forms</a></li>
+          <li><a href="#" class="level2">Vendor Forms</a></li>
+          <li><a href="#" class="level2">Quasi Agency</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">Contracts</a>
+        <ul>
+          <li><a href="#" class="level2">Contract Search</a></li>
+          <li><a href="#" class="level2">Contracts by Title &amp; T-Number</a></li>
+          <li><a href="#" class="level2">Approved Catalog Contracts</a></li>
+          <li><a href="#" class="level2">Brand Name or LaMAS Contracts</a></li>
+          <li><a href="#" class="level2">Featured Contracts</a></li>
+          <li><a href="#" class="level2">Printing Contracts</a></li>
+          <li><a href="#" class="level2">Vehicle Contracts</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">Legal Info</a>
+        <ul>
+          <li><a href="#" class="level2">Small Purchases Executive Order</a></li>
+          <li><a href="#" class="level2">Policy &amp; Procedures - Memo 51</a></li>
+          <li><a href="#" class="level2">Purchasing Rules &amp; Regulations</a></li>
+          <li><a href="#" class="level2">Saturn Law Search</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">Saturn Travel</a>
+        <ul>
+          <li><a href="#" class="level2">Travel Homepage</a></li>
+          <li><a href="#" class="level2">New Visa Travel Card - FAQs</a></li>
+          <li><a href="#" class="level2">2005-06 Travel Guide</a></li>
+          <li><a href="#" class="level2">Travel Pocket Guide</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="toplevel">DOA Home</a></li>
+      <li><a href="#" class="toplevel">OSP Home</a> </li>
+      <li><a href="#" class="toplevel">Saturn.Gov</a> </li>
+    </ul>
+</div> 
+Note: this java flyout works in firefox/mozilla with no js files or java scripts,
+    but needs only the three scripts, on in head, two in
+    body sections, as provided in this file. I also put 
+    all css here, to eliminate any confusion, and for 
+    a backup of the original css coding. The only other
+    trick that I've seen, to make this thing work, is that 
+    it must be placed inside of some sort of container 
+    or wrapper.  Also watch it, that you use the right scripts,
+	as I have several versions with differing scripts referring to 
+	a ul named nav instead of ntnav, and that wont flyout.</div> 
+</body>
+</html>

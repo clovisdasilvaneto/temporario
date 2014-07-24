@@ -1,0 +1,296 @@
+/*Style sheet for GScape must be included to with HTML.*/
+/*Styles for body.*/
+body
+{
+	margin:0 auto;
+	padding:0;
+	font:76% Verdana, Helvetica, Tahoma, Arial, sans-serif;
+	background-color:#6B74AE;/*#7B82B7;*//*#F2F3F7;*//*#626294;*//*#575F9F;*/
+	color:#494949;
+}
+
+/*Styles for main content which will be wrapped to centere with a black border. */
+#MainWrapperBlack
+{
+	margin:0 auto;
+	width:751px;
+	background-color:#ffffff;
+	border:solid 1px #000000;/*#37127b;*/
+}
+
+/*Styles for main content which will be wrapped to centere with a gray border inside balck border. */
+#WrapperGray
+{
+	margin:0 auto;
+	padding:5px 5px 5px 5px;
+	width:737px;
+	background-color:#ffffff;
+	border:solid 2px #ACABC4;/*#D9D9D9;*/
+}
+
+/*Styles for the main header at the top. */
+#Header
+{
+	margin:0 0 10px 0;
+	height:144px;
+	background:#6B74AE url(images/header.jpg_remove_) top left no-repeat;
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+}
+#Header h1
+{
+	margin:0 auto;
+	padding:10px 0 0 21px;
+	color:#000000;
+	font-size:4em;
+	font-weight:normal;
+	font-family:inherit;
+}
+#Header h2
+{
+	margin:0 auto;
+	padding:4px 0 0 22px;
+	color:#ffffee;
+	font-size:1.6em;
+	font-weight:normal;
+}
+
+/*Styles for the Title of the page with shadow effect. */
+#Title
+{
+	margin:-72px 0 0 0;
+	padding:10px 0 0 19px;
+	background-color:Transparent;
+}
+#Title a
+{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:inherit;
+	font-size:4em;
+	font-weight:normal;
+	font-family:inherit;
+}
+
+/*Styles for the main header menus. */
+#HeaderMenus
+{
+	padding-left:11px;
+	height:1.2em;
+	line-height:1.2em;
+	color:#000000;
+}
+#HeaderMenus ul
+{
+	margin:22px 0 0 0;
+	padding:0 0 0 0;
+	color:#000000;
+}
+#HeaderMenus li
+{
+	color:#000000;
+	list-style-type:none;
+	float:left;
+}
+#HeaderMenus li a
+{
+	padding:0 10px 14px;
+	display:block;
+	text-decoration:none;
+	color:#660066;/*#2f4fab;*//*#660066;*//*#22527B;*//*#73227B;*/
+	font-size:1.5em;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+#HeaderMenus a:hover
+{
+	text-decoration:none;
+	color:#000000;
+}
+#HeaderMenus .selected
+{
+	color:#000000;
+}
+
+/*Styles for the right columms. */
+#RightColumn
+{
+	margin:0 auto;
+	padding:0 0 0 0;
+	width:26%;
+	float:right;
+}
+
+/*Styles for the Login Button in the right column. */
+#LoginSubmit
+{
+	margin:4px 0;
+	border:1px solid #899aba;
+	text-align:center;
+	font-size:0.9em;
+}
+
+/*Styles for the container that wrappas the contents to left side. */
+#LeftContainer
+{
+	margin: 0 186px 0 0;
+}
+
+/*Styles for the main contets in the page. */
+#LeftContents
+{
+	padding: 0 20px 0 12px;
+	line-height: 1.6em;
+}
+#LeftContents h2
+{
+	margin:0 auto;
+	padding:4px 0 4px 0;
+	background-color:#F2F3F7;/*#E8ECF5*//*#E7E9F1;*/
+	font-family: "Book Antiqua", Helvetica, Tahoma, Arial, sans-serif;
+	border:1px solid #899aba;
+	text-align: left;
+	color:#000000;
+	font-size: 1.6em;
+}
+#LeftContents p
+{
+	background-color:inherit;
+	text-align: justify;
+	color:#494949;
+}
+#LeftContents a
+{
+	background-color:inherit;
+	text-decoration: none;
+	color: #000080;
+}
+#LeftContents img
+{
+	background-color:inherit;
+	border: 2px solid #79A3C1;
+	display:inline;
+	color: inherit;
+}
+
+/*Styles for the page footer. */
+#Footer
+{
+	margin:6px 0 0 0;
+	padding:4px 0 4px 11px;
+	background-color:#575F9F;/*#E8ECF5*//*#E7E9F1;*/
+	border:solid 1px #000000;
+	text-align:left;
+	color: #ffffff;
+}
+#Footer a
+{
+	background-color: inherit;
+	text-decoration: underline;
+	color:#ffffff;
+}
+
+/*The general classes used throughout the page. */
+/*Classes for adding the rounded corner images. */
+.TopRight
+{
+	float:right;
+	height:11px;
+	width:11px;
+	background-repeat:no-repeat;
+	background-image:url(images/CrTopRight.gif_remove_);
+}
+.TopLeft
+{
+	float:left;
+	height:11px;
+	width:11px;
+	background-repeat:no-repeat;
+	background-image:url(images/CrTopLeft.gif_remove_);
+}
+.BottomRight
+{
+	margin:-11px 0 0 0;
+	float:right;
+	height:11px;
+	width:11px;
+	background-repeat:no-repeat;
+	background-image:url(images/CrBottomRight.gif_remove_);
+}
+.BottomLeft
+{
+	margin:-11px 0 0 0;
+	float:left;
+	height:11px;
+	width:11px;
+	background-repeat:no-repeat;
+	background-image:url(images/CrBottomLeft.gif_remove_);
+}
+
+/*The general class for the contents in the right column. */
+.RightContents
+{
+	margin:0 auto;
+	padding:8px 7px 8px 7px;
+	background-color:#F2F3F7;/*#E8ECF5*//*#E7E9F1;*/
+	border:1px solid #899aba;
+	line-height:1.4em;
+}
+.RightContents h3
+{
+	margin: 5px 0 0 0;
+	padding: 0 0 8px 0;
+	background-color:inherit;
+	color:#575F9F;/*#4D4D4D;*/
+	text-align:left;
+	font-size: 1.3em;
+	/*font-family: Fantasy, Helvetica, Arial;*/
+}
+.RightContents h4
+{
+	font-size: 1em;
+	margin: 5px 0 0 0;
+	background-color:inherit;
+}
+.RightContents p
+{
+	margin: 0 0 14px 0;
+	text-align: justify;
+	background-color:inherit;
+	color: #000000;
+	font-size: 90%;
+}
+.RightContents a
+{
+	background-color:inherit;
+	text-decoration: none;
+	color: #000066;
+}
+
+/*The class for comments in the main contents. */
+.Comments
+{
+	background:inherit;
+	border-top:solid 1px #dcdcdc;
+	border-bottom:solid 1px #dcdcdc;
+	text-align:right;
+	color: #000000;
+	font-size:1em;
+}
+
+/*Classes for aligning the images in the main conetes. */
+.AlignLeft
+{
+	margin: 10px 10px 5px 0;
+	float: left;
+}
+.AlignRight
+{
+	margin: 10px 0 0 10px;
+	float: right;
+}
+
+/*Class filling the left column. */
+.Fill
+{
+	margin:0;
+	clear:both;
+}

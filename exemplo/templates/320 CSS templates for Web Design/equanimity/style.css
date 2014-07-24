@@ -1,0 +1,299 @@
+/*CSS for ::equanimity::
+by Soliac*/
+/*BASICS*/
+body
+{
+    margin : 0;
+    padding : 0;
+	font-size : 100%;	/*Enable font resizing in IE*/
+    background-color : rgb(102, 128, 89);
+	color : rgb(240, 161, 140);
+    text-align : center;
+    line-height : 1.5em;
+    font-family : Verdana, Arial, sans-serif;
+}
+html > body
+{
+    font-size : 9pt;	/*Resets font size for non-IE browsers*/
+}
+p
+{
+	margin : 5px 10px 10px 10px;
+	padding : 5px;
+	color : black;
+	clear : both;
+	display : block;
+}
+a
+{
+    padding : 2px;
+    text-decoration : underline;
+}
+a:hover
+{
+    text-decoration : none;
+}
+h3
+{
+	font-size : 1.1em;
+	font-weight : normal;
+	text-align : center;
+	padding : 3px 0;
+	margin : 0;
+	border-bottom : 1px dotted;
+	display : block;
+}
+/*WRAPPER*/
+#content
+{
+    background-color : rgb(230, 230, 230);
+    color : black;
+    margin : 0 auto;
+    text-align : center;
+	width : 95%;
+}
+/***TOP CONTENT***/
+#header
+{
+	font-size : 2.5em;
+	font-weight : normal;
+	color : rgb(85, 113, 71);
+	text-align : center;
+	padding : 0.8em 0 0.6ex 0;
+	margin : 0;
+}
+#topnav
+{
+	background-color : rgb(159, 230, 115);
+	color : rgb(80, 80, 80);
+	padding : 0;
+	text-align : left;
+}
+/*top navigation*/
+#topnav ul
+{
+	list-style : none;
+	padding : 6px 2px 0 2px;
+	margin : 0;
+	height : 3em;
+	float : left;
+}
+#topnav ul li
+{
+	padding : 0;
+	margin : 0;
+	float : left;
+}
+#topnav a
+{
+	background-color : rgb(230, 230, 230);
+	color : rgb(85, 113, 71);
+	margin : 0 2px 15px 2px;
+	padding : 2px 8px;
+	text-decoration : none;
+	border : 1px solid black;
+	display : inline;
+	float : left;
+}
+a#current, #topnav a:hover
+{
+	background-color : rgb(219, 235, 212);
+	padding : 8px;
+	margin : 0 2px;
+	text-decoration : underline;
+}
+#topnav a:hover
+{
+	margin : 0 2px 2px 2px;
+}
+a#current:hover
+{
+	margin : 0 2px;
+}
+/*top search box*/
+#search
+{
+	padding : 3px 0;
+	margin : 0;
+	float : right;
+	height : 3em;
+	width : 18%;
+}
+#search p
+{
+	margin : 0;
+	padding : 0;
+}
+#search input
+{
+	background-color : rgb(240, 240, 240);
+	font-size : 8pt;
+	border : 1px solid rgb(100, 100, 100);
+	margin : 0 5px 5px auto;
+	display : block;
+	width : 95%;
+}
+#search .button
+{
+	width : auto;
+	margin-left : auto;
+}
+/***CONTENT***/
+/*LEFT CONTENT*/
+#left
+{
+    width : 18%;
+	clear : left;
+    float : left;
+}
+#left h3
+{
+    background-color : rgb(102, 128, 89);
+	color : rgb(170, 255, 128);
+}
+#navblock
+{
+	border : 0;
+}
+/*MIDDLE CONTENT*/
+#middle
+{
+	text-align : left;
+	background-color : rgb(240, 255, 240);
+	padding-top : 5px;
+	float : left;
+	width : 64%;
+}
+#middle h2
+{
+    font-size : 9pt;
+	font-weight : bold;
+	color : rgb(84, 171, 28);
+	background-color : rgb(205, 250, 205);
+	margin : 0 10px;
+	padding : 2px 15px;
+	border-bottom : 1px dashed rgb(165, 205, 145);
+}
+#middle p
+{
+	padding-bottom : 20px;
+}
+/*RIGHT CONTENT*/
+#right
+{
+    width : 18%;
+	line-height : 1.5em;
+	float : right;
+}
+#right h3
+{
+	background-color : rgb(170, 255, 128);
+	color : rgb(75, 103, 61);
+}
+/*FOOTER*/
+#footer
+{    
+	background-color : rgb(159, 230, 115);
+	border-top : 1px solid rgb(206, 255, 182);
+    clear : both;
+}
+#footer a
+{
+	color : rgb(80, 80, 80);
+	padding : 9px 8px 4px 8px;
+}
+#content > #footer a
+{
+	padding-top : 3px;
+}
+#footer p
+{
+	color : rgb(80, 80, 80);
+	margin : 0;
+}
+/***CLASSES***/
+.top-left, .top-right
+{
+	font-size : 8pt;
+	margin : 0 1ex;
+}
+.top-left
+{
+	text-align : left;
+	float : left;
+}
+.top-right
+{
+	text-align : right;
+	float : right;
+}
+.block
+{
+	background-color : rgb(219, 235, 212);
+	margin : 5px 10px 10px 10px;
+	text-align : center;
+	border : 1px dotted rgb(170, 205, 134);
+}
+.block a
+{
+	color : rgb(100, 100, 100);
+	margin : 2px 0;
+	display : block;
+}
+.block ul
+{
+	text-align : left;
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+.block ul li
+{
+	margin : 0;
+	padding : 0;
+}
+.block li a
+{
+	border : 1px dotted rgb(96, 191, 48);
+	border-top : 0;
+	padding : 7px 5px;
+	margin : 0;
+	height : 1em;	/*hack to control ul link for IE*/
+	display : block;
+	text-decoration : none;
+}
+#navblock > ul a
+{
+	height : auto;	/*resets link height for non-IE browsers*/
+}
+.block li a:hover
+{
+	background-color : rgb(195, 235, 170);
+	color : rgb(110, 110, 110);
+}
+.footer-left
+{
+	float : left;
+}
+.clearfix:after
+{
+    content : ".";
+    display : block;
+    height : 0;
+    clear : both;
+    visibility : hidden;
+}
+.clearfix
+{
+    display : inline-table;
+}
+/* Hides from IE-mac \*/
+ html .clearfix
+{
+    height : 1%;
+}
+.clearfix
+{
+    display : block;
+}
+/* End hide from IE-mac */

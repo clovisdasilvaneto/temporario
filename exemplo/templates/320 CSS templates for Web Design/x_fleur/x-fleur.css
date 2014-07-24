@@ -1,0 +1,284 @@
+html
+{
+	text-align: center;
+	font-size: 76%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #CF0000 none repeat 0 0;
+	color: #ddd;
+}
+html, body {height:100%;} #container{min-height:100%;_height:100%}
+html, body { background: #CF0000 url(images/_black.gif) repeat-y 50% 0%; }
+
+#container
+{
+	margin: 0 auto;
+	text-align: left;
+	width: 772px;
+	padding-left: 0 !important;
+	padding-left: 1px;
+	background: transparent url(images/leaf.gif) no-repeat 50% 100%;
+}
+
+body, div, img, h1
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a
+{
+	color: white;
+	background-color: inherit;
+}
+
+a:hover
+{
+	color: #FE7CBA;
+	background-color: inherit;
+}
+
+.forAccessibilityOnly, .forAccessibilityOnly * { display: none; }
+
+#header
+{
+	clear: both;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+	#header #logo
+	{
+		position: relative;
+		height: 43px;
+		width: 772px;
+		background: transparent none repeat 0 0;
+		color: white;
+	}
+	
+		#header #logo h1
+		{
+			position: absolute;
+			bottom: -4px !important;
+			bottom: -5px;
+			right: 10px;
+			font-size: 1.8em;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+#main { clear: both; }
+
+	#main #mNavigation
+	{
+		float: left;
+		width: 150px;
+	}
+
+		#main #mNavigation h2
+		{
+			float: none;
+			clear: none;
+			background-color: #CF0000;
+			color: white;
+			font-size: 1.1em;
+			margin: 0;
+			padding: 2px 4px;
+			text-align: right;
+		}
+
+		#main #mNavigation ul
+		{
+			list-style: none;
+			margin: 0 0 20px 0;
+			padding: 10px 0;
+			border-top: 1px solid #CF0000;
+			border-bottom: 1px solid #CF0000;
+			border-right: 1px solid #CF0000;
+		}
+
+			#main #mNavigation ul li
+			{
+				display: block;
+				margin: 4px 0 0 20px;
+				padding: 2px 0;
+				background: url(images/poinsettia.gif) no-repeat 0px 2px;
+			}
+
+				#main #mNavigation ul li a
+				{
+					padding: 2px 0 0 25px;
+					font-size: .9em;
+					display: block;
+					height: 16px;
+					width: 100px;
+				}
+
+				#main #mNavigation ul li a:hover { background: url(images/poinsettia.gif) no-repeat 0px -20px; }
+				#main #mNavigation ul li.selected { background: url(images/poinsettia.gif) no-repeat 0px -18px; }
+				#main #mNavigation ul li.child { background-color: transparent; background-image: none; }
+
+	#main #mContent
+	{
+		float: left;
+		width: 402px;
+		padding: 5px 20px;
+	}
+
+		#main #mContent #imageSwitchboard td
+		{
+			width: 120px;
+			padding: 5px 10px;
+			font-size: .8em;
+		}
+
+		#main #mContent h3.blog, #main #mContent #resume h3
+		{
+			background: inherit;
+			color: white;
+			height: 20px;
+			text-align: right;
+			margin: 0;
+			font-size: 1.2em;
+		}
+
+			#main #mContent h3.blog .date
+			{
+				font-size: .7em;
+				font-weight: normal;
+				padding: 0 10px 0 0;
+			}
+
+		#main #mContent p
+		{
+			border: 1px dashed #CF0000;
+			background: black;
+			color: white;
+			padding: 10px;
+			font-size: .9em;
+			margin: 0 0 25px 0;
+		}
+
+
+		#main #mContent div.blogEntry
+		{
+			padding-bottom: 30px;
+			background: black none;
+			margin-bottom: 20px;
+			border: 1px dashed #CF0000;
+		}
+
+			#main #mContent div.blogEntry p
+			{
+				border: 0;
+				margin: 0;
+				padding: 10px;
+			}
+			
+			#main #mContent div.blogEntry ul
+			{
+				list-style: none;
+				margin: 0;
+				padding: 0 10px;
+			}
+			
+			#main #mContent div.blogEntry ul li
+			{
+				display: block;
+				float: left;
+				font-size: .9em;
+				margin: 0 0 0 50px;
+				padding: 0;
+			}
+
+				#main #mContent div.blogEntry ul li.first
+				{
+					margin-left: 0;
+				}
+			
+				#main #mContent div.blogEntry ul li a
+				{
+					display: block;
+					float: left;
+					line-height: 20px;
+					height: 20px;
+					padding-left: 25px;
+					background: url(images/poinsettia.gif) no-repeat 0 0;
+				}
+				
+					#main #mContent div.blogEntry ul li a:hover
+					{
+						background: url(images/poinsettia.gif) no-repeat 0 -20px;
+					}
+
+		#main #mContent div.blogEntryPerm
+		{
+			padding-bottom: 0;
+		}
+
+		#main #mContent #resume h2
+		{
+			text-align: center;
+			letter-spacing: 0.2em;
+		}
+
+		#main #mContent #resume div.resumeheader { text-align: center; }
+
+		#main #mContent .codeSearchResult
+		{
+			border-top: 1px dashed #ddd;
+			padding: 10px;
+		}
+
+		#main #mContent .codeFirstSearchResult { border-top: 0; }
+
+		#main #mContent .codeSearchResult *
+		{
+			margin: 0;
+			padding: 4px 0;
+			font-weight: normal;
+		}
+
+		#main #mContent #relatedFiles li { margin-top: 5px; }
+
+		#main #mContent #relatedFiles li h4
+		{
+			font-size: 1.1em;
+			margin: 0;
+			padding: 0;
+			font-weight: normal;
+		}
+
+	#main #mGallery
+	{
+		float: left;
+		width: 180px;
+		text-align: center;
+	}
+
+		#main #mGallery #gallery
+		{
+			list-style: none;
+			margin: 0;
+			padding: 0 0 10px 0;
+		}
+
+			#main #mGallery #gallery li
+			{
+				margin: 25px 0 0 0px;
+				font-size: .8em;
+			}
+
+#footer
+{
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+}
+
+	#footer p
+	{
+		font-size: .8em;
+		margin: 0;
+		padding: 0;
+	}

@@ -1,0 +1,109 @@
+html, body{
+ background-color: #666666;
+ color: #ffffff;
+ font-size: 12px;
+ font-family: verdana,arial,helvetica,sans-serif;
+ font-weight: normal;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+* {margin: 0; padding: 0;}
+
+a{
+ color: #33cc00; 
+ text-decoration: none;}
+ 
+a:hover{
+ color: #ffffff;
+ text-decoration: underline;}
+
+#middle h1{ 
+ font-size: 12px;
+ font-weight: bold;
+ text-align: center;
+ color: #000000;
+ background-color: #339900;
+ border-bottom: 3px #336633 solid;
+}
+
+p{
+ font-size: 12px;
+ color: #ffffff;
+ background-color: transparent;
+ padding: 10px;
+}
+
+#banner{
+background: #003300 url(banner.jpg) top center  no-repeat;
+text-align: center;
+width: 100%;
+margin: auto;
+height: 150px;
+}
+/* Navigation 1 Stuff */
+/*----------------------------------*/
+#nav{
+ background-color: #000000;
+ width: 15%;
+ float: left;
+ border: 4px #000000 solid;
+}
+
+#nav a{
+ color: #ffffff;
+ font-size: 12px;
+ background-color: #202020;
+ display: block;
+ padding: 3px;
+ text-align: center;
+ text-decoration: none;
+ border: 1px #999999 solid;
+ font-weight: bold;	
+}
+
+#nav a:hover{
+ background-color: #000000;
+ display: block;
+ text-decoration: underline;
+}
+
+#nav ul{
+list-style: none;
+line-height: 14px;}
+
+#nav h1 {
+ color: #000000;
+ font-weight: bold;
+ font-size: 12px;
+ text-align: center;
+ padding: 2px;
+ background-color: #009900;
+ padding: 0px;
+ margin: 0px;
+}
+
+/* ------------------------------------------------*/
+#middle{
+ background-color: #202020;
+ width: 80%;
+ float: right;
+ border: 3px #336600 solid;
+ }
+}
+
+#middle ul{
+ padding: 25px;}
+
+#copyright{
+float: right;
+font-weight: normal;
+background-color: #222222;
+width: 80%;
+text-align: center;
+padding-top: 3px;
+padding-bottom: 3px;
+border: 3px #339900 solid;
+font-size: 12px;}
+

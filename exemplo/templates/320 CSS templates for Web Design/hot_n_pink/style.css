@@ -1,0 +1,161 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:arial, helvetica, sans-serif;
+	background:#fff url("imgs/bg.jpg") top left repeat-x;
+	color:#000;
+}
+
+#header {
+	height:50px;
+	background:#ff007e;
+	border-top:5px solid #d9006b;
+	border-bottom:1px solid #000;
+}
+
+#navlist {
+	width:700px;
+	padding-top:33px;
+	margin:0 auto 0 auto;
+	text-align:right;
+}
+
+#navlist ul {
+	margin:0;
+	padding:0;
+	display:inline;
+	float:right;
+}
+
+#navlist ul li {
+	width:100px;
+	margin:0 5px 0 5px;
+	padding:1px;
+	float:left;
+	list-style-type:none;
+	text-align:center;
+}
+
+#navlist ul li a {
+	display:block;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	background:#d9006b;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:9pt;
+}
+
+#navlist ul li a:hover {
+	background:#fff;
+	color:#d9006b;
+}
+
+#container {
+	width:700px;
+	margin:20px auto 20px auto;
+	height:auto !important;
+	height:600px;
+	min-height:600px;
+	color:#000;
+}
+	
+#footer {
+	clear:both;
+	height:30px;
+	padding:10px 0 10px 0;
+	background:#ff007e;
+	border-bottom:5px solid #d9006b;
+	border-top:1px solid #000;
+	text-align:center;
+	color:#fff;
+	font-size:8pt;
+	line-height:30px;
+}
+
+#content {
+	width:500px;
+	float:left;
+}
+
+#content h1 {
+	font-size:14pt;
+	color:#1000a5;
+	border-bottom:1px dotted #1000a5;
+	margin:20px 0 0 0;
+	padding:0;
+	text-transform:uppercase;
+	font-weight:100;
+}
+
+#content p {
+	font-size:9pt;
+	line-height:2em;
+}
+
+#content p:first-letter {
+	float:left;
+	font-size:50px;
+	line-height:45px;
+	padding:8px 8px 0 0;
+	color:#d9006b;
+}
+
+#sidebar {
+	width:180px;
+	float:right;
+	margin-top:40px;
+	padding-top:180px;
+	background:#fff url("imgs/logo.jpg") top left no-repeat;
+}
+
+#sidebar ul {
+	margin:0 0 40px 0;
+	padding:0;
+}
+
+#sidebar ul li {
+	margin:0;
+	padding:0;
+	border-bottom:1px dotted #1000a5;
+	list-style-type:none;
+}
+
+#sidebar ul li a {
+	display:block;
+	width:168px;
+	height:18px;
+	line-height:18px;
+	padding:2px 2px 2px 10px;
+	background:#fff;
+	color:#1000a5;
+	font-size:8pt;
+	text-decoration:none;
+}
+
+#sidebar ul li a:hover {
+	color:#fff;
+	background:#1000a5;
+}
+
+#sidebar b {
+	color:#d9006b;
+	font-size:9pt;
+	border-bottom:1px dotted #1000a5;
+	display:block;
+	width:180px;
+}
+
+#sidebar .xhtml {
+	float:left;
+}
+
+#sidebar .wsg {
+	float:right;
+}
+
+#sidebar p {
+	font-size:7pt;
+}

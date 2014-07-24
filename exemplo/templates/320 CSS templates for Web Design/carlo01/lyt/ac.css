@@ -1,0 +1,126 @@
+/*
+andreas05-alternative - an open source xhtml/css website layout
+by Andreas Viklund (http://andreasviklund.com).
+Made for OSWD.org, free to use as-is for any purpose as long as the proper
+credits are given for the original design work.
+Version: 1.0, September 27, 2005
+
+Deeply modified by Carlo Perassi.
+*/
+
+body {
+padding:0;
+margin:0;
+font:76% verdana, syntax, sans-serif;
+background-color:#000000;
+color:#ffffff;
+}
+
+a {
+text-decoration:none;
+background-color:inherit;
+font-weight:bold;
+color:#6592ff;
+}
+
+a:hover {
+background-color:inherit;
+color:#6592ff;
+}
+
+h1 {
+margin:0;
+font-size:3.6em;
+letter-spacing:-3px;
+background-color:inherit;
+color:#505050;
+}
+
+h2 {
+margin:5px 0 10px 0;
+font-size:1.8em;
+letter-spacing:-1px;
+font-weight:normal;
+}
+
+h3 {
+margin:5px 0 10px 0;
+font-size:1.2em;
+letter-spacing:-1px;
+font-weight:normal;
+}
+
+p {
+margin:0 0 15px 0;
+line-height:1.3em;
+}
+
+img {
+border: 0px;
+float:left;
+padding: 0px 0px 0px 0px;
+}
+
+/* carlo */
+ul {
+float: left;
+list-style-type: none;
+padding: 0px 0px 0px 0px;
+}
+
+#title{
+margin:60px 0 10px 0;
+/*margin:20px auto -9px auto;*/
+width:700px;
+}
+
+#container{
+margin:60px auto 15px auto;
+width:750px;
+padding:10px;
+background-color:#000000;
+color:#ffffff;
+border:1px solid #ffffff;
+}
+
+#sidebar{
+float:left;
+width:125px;
+}
+
+#main{
+width:575px;
+padding-left:20px;
+border-left:1px solid #ffffff;
+float:right;
+}
+
+#footer {
+/* carlo */
+/*border-top: 1px solid #ffffff;*/
+clear: both;
+/* carlo */
+/*padding:10px 0px 0px 0px;*/
+}
+
+#footer p {
+text-align: center;
+}
+
+.menu{
+display:block;
+width:125px;
+padding:4px 2px 4px 10px;
+font-size:1.1em;
+font-weight:bold;
+background-color:inherit;
+color:#6592ff;
+border:1px solid #000000;
+}
+
+.menu:hover {
+background-color: #000000;
+color: #6592ff;
+border: 1px solid #ffffff;
+}
+

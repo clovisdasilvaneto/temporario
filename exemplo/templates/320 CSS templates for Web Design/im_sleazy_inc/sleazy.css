@@ -1,0 +1,259 @@
+/*       Anchor Rules for Main Menu / Content / Notice          */
+
+	/*       Main Menu          */
+a.menuLeft:link{
+ color: #3333cc;
+ background: transparent;
+ text-decoration: underline;}
+
+a.menuLeft:visited{
+ color: #cc0000;
+ background: transparent;
+ text-decoration: underline;}
+
+a.menuLeft:hover{
+ color: #6666ff;
+ background: transparent;
+ text-decoration: none;}
+
+a.menuLeft:active{
+ color: #6600cc;
+ background: transparent;
+ text-decoration: none;}
+
+	/*       Content          */
+a:link{
+ color: #336699;
+ background: transparent;
+ text-decoration: underline;}
+
+a:visited{
+ color: #990066;
+ background: transparent;
+ text-decoration: underline;}
+
+a:hover{
+ color: #333399;
+ background: transparent;
+ text-decoration: none;}
+
+a:active{
+ color: #000;
+ background: transparent;
+ text-decoration: none;}
+
+	/*       Notice          */
+#notice a:link{
+ color: #0000cc;
+ background: transparent;
+ text-decoration: underline;}
+
+#notice a:visited{
+ color: #330066;
+ background: transparent;
+ text-decoration: underline;}
+
+#notice a:hover{
+ color: #663333;
+ background: transparent;
+ text-decoration: none;}
+
+#notice a:active{
+ color: #000;
+ background: transparent;
+ text-decoration: none;}
+
+
+/*       Container Elements           */
+
+
+body{
+ margin: 0;
+ padding: 0;}
+
+#pageContainer{
+ margin: 0;}  /* div that contains all the content */
+
+
+/*       Top Menu           */
+
+
+#subHead{
+ color: #fff;
+ background-color: #333;
+ padding: 10px 0;}
+
+ul#menuAbove{
+ height: 2em;
+ color: inherit;
+ background: inherit;
+ margin: auto 0;}
+
+ul#menuAbove li{     /* IE hack to fix font-size */ 
+ display: inline;
+ color: #fff;
+ font: 900 small-caps x-small arial,verdana,sans-serif;
+ vertical-align: middle;
+ background: transparent;
+ text-decoration: none;}
+
+ul#menuAbove > li{
+ display: inline;
+ color: #fff;
+ font: 900 small-caps small arial,verdana,sans-serif;
+ vertical-align: middle;
+ background: transparent;
+ text-decoration: none;}
+
+ul#menuAbove li a.menuAbove{  /* IE hack to fix border-color */
+ color: #fff;
+ margin-right: 1em;
+ padding: .5em 1em;
+ border: solid 2px;
+ border-color: #333;
+ background: transparent;
+ text-decoration: none;}
+
+ul#menuAbove li > a.menuAbove{
+ color: #fff;
+ margin-right: 1em;
+ padding: .5em 1em;
+ border: solid 2px;
+ border-color: transparent;
+ background: transparent;
+ text-decoration: none}
+
+ul#menuAbove li a.menuAbove:hover{
+ color: #ff9933;
+ background: transparent;
+ border-bottom: solid 2px white;}
+
+
+/*       Page Header           */
+
+
+#header{
+ color: #000;
+ display: block;
+ height: 120px;
+ background: #00cc00 url(images/cash.jpg) no-repeat left bottom;
+ margin: auto;}
+
+#logoText{
+ display: block;
+ font: oblique 2.5em arial,verdana,sans-serif;}
+
+#logoTextTagline{
+ margin-left: 2.5em;
+ font: 1em verdana,arial,sans-serif;}
+
+#logo{
+ position: absolute;
+ top: 6em;
+ left: 3em;}
+
+
+/*       Main Menu           */
+
+
+#centerOfPage{
+ height: 100%;     /* used to extend menuLeft */
+ color: inherit;
+ background: #ccc;}
+
+#menuLeft{
+ float: left;
+ height: 100%; /* used to extend menuLeft */
+ width: 10em;
+ padding: 2px 3px;
+ color: #000;
+ background: transparent;}
+
+.menuHead{
+ display: block;
+ font-family: sans-serif;}
+
+#menuLeft p{
+ margin: 3px auto 10px auto;}
+
+
+/*       Main Content           */
+
+
+#contentBlock{   /* IE hack to fix the font-size and layout of content */
+ height: 100%;
+ overflow: visible;
+ color: #000;
+ font: small arial,verdana,sans-serif;
+ padding: .5em 3em 0 1em;
+ background: #fff;}
+
+#centerOfPage > #contentBlock{
+ height: auto;
+ width: auto;
+ overflow: auto;
+ color: #000;
+ font: medium arial,verdana,sans-serif;
+ padding: .5em 3em 0 1em;
+ background: #fff;}
+
+#contentBlock ul li{
+ list-style-type: disc;
+ list-style-image: url(images/list_item.gif);}
+
+#contentBlock ul li+li{
+ margin-top: 3px;}
+
+.contentHead{
+ font-family: verdana,arial,sans-serif;
+ text-indent: 1%;
+ display: block;
+ color: #eee;
+ font-size: large;
+ background: #336633;}
+
+code{
+ font: medium "courier new",courier,monospace;}
+
+.highlight{
+ color: #00f;
+ font-weight: bold;
+ background: transparent;}
+
+.quote{
+ display: block !important;
+ padding: 3px 4px;
+ margin: auto 15% auto 3%;
+ font-style: italic;
+ text-align: justify;
+ color: inherit;
+ background: #ccc url(images/nietzsche.jpg) no-repeat right bottom;}
+
+.quote i{
+ font-style: normal;}
+
+
+/*       Page Footer           */
+
+
+#notice{       /* another IE fix: changed font-size */
+ clear: both;
+ margin: auto;
+ padding: 5px 7px;
+ color: inherit;
+ font: x-small arial,verdana,sans-serif;
+ background: #007700;}
+
+#pageContainer > #notice{
+ clear: both;
+ margin: auto;
+ padding: 5px 7px;
+ color: inherit;
+ font: small arial,verdana,sans-serif;
+ background: #999;}
+
+.floatLeft{
+ float: left;}
+
+.floatRight{
+ float: right;}
