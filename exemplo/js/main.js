@@ -22,15 +22,16 @@ $(".menu a").click(function(){
       $("body,html").stop().animate({
         scrollTop: 688
       });
+      return false; 
       break
 
-    default:
+    case "templates":
       $("body,html").stop().animate({
         scrollTop: 1655
       });
+      return false; 
       break
   }
-  return false;
 })
 
 
@@ -45,3 +46,12 @@ $(".menu a").click(function(){
           easing: "easeOutQuad",
           pager:false
         });
+
+
+var slides = document.querySelectorAll(".slides li a");
+
+Array.prototype.forEach.call(slides,function(element) {
+  element.addEventListener("click",function(){
+    location.href = this.getAttribute("href");
+  });
+});

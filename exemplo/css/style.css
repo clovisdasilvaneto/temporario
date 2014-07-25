@@ -16,7 +16,7 @@ a[href^="tel:"] {
   margin: 1px 29px 16px 0;
   float: left;
 }
-#temp {color: #fff}
+#temp,.titles {color: #fff}
 .wrapper {
   width: 100%;
   overflow: hidden;
@@ -36,6 +36,10 @@ a[href^="tel:"] {
 .preloader {
   background: url(../img/loader.gif) center center no-repeat;
 }
+
+#contato {
+float: right;
+margin-right: 0;}
 
 .magnifier img {width: inherit!important;}
 .magnifier {overflow: hidden;}
