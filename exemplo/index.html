@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/jquery.bxslider" />
 	<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/kwicks-slider.css" type="text/css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -59,11 +60,11 @@
               <div class="container">
             <h1 class="brand brand_"><a href="index.html"><img alt="" src="img/gloose1.png"> </a></h1>
             <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
-            <div class="nav-collapse nav-collapse_  collapse">
+            <div class="nav-collapse nav-collapse_  collapse menu">
                   <ul class="nav sf-menu">
                 <li class="active"><a href="index.html">inicio</a></li>
-                <li><a href="index-1.html">Clientes</a></li>
-                <li><a href="index-2.html">Templates</a></li>
+                <li><a href="index-1.html" data-href="clientes">Clientes</a></li>
+                <li><a href="index-2.html" data-href="templates">Templates</a></li>
                  <li><a href="index-4.html">Contato</a></li>
               </ul>
                 </div>
@@ -142,7 +143,7 @@
       
       <div id="content" class="content-extra"><div class="ic">More Website Templates @ TemplateMonster.com. November19, 2012!</div>
 
-    <div class="row-1">
+    <div class="row-1 secoes" data-href="clientes">
 
           <div class="container">
             <h3>Principais Projetos Realizados</h3>
@@ -265,7 +266,7 @@
         </div>
 
     <div class="container">
-          <div class="row">
+          <div class="row secoes" data-href="templates">
  <!--        <article class="span6">
               <h3>Shortly about me</h3>
               <div class="wrapper">
@@ -292,39 +293,28 @@
           </div>
             </article> -->
         <article class="span6">
-              <h3>Galeria dos sites</h3>
-              <ul class="list-photo">
-          <li><a href="templetes/exe1" class="magnifier" ><img src="img/exemplo1.png" alt="" /></a></li>
-          <li><a href="templates/exe2" class="magnifier" ><img src="img/exemplo2.png" alt="" /></a></li>
-          <li><a href="templates/exe3" class="magnifier"><img src="img/exemplo3.png" alt="" /></a></li>
-        <li class="last"><a href="templates/exe4" class="magnifier" ><img src="img/exemplo4.png " alt="" /></a></li>
+              <h3 id="temp">Nossos Templates</h3>
+              <ul>
+                <li>
+                  
+                    <ul class="list-photo">
+                      <li><a href="templetes/exe1" class="magnifier" ><img src="img/exemplo1.png" alt="" /></a></li>
+                      <li><a href="templates/exe2" class="magnifier" ><img src="img/exemplo2.png" alt="" /></a></li>
+                      <li><a href="templates/exe3" class="magnifier"><img src="img/exemplo3.png" alt="" /></a></li>
+                    <li class="last"><a href="templates/exe4" class="magnifier" ><img src="img/exemplo4.png " alt="" /></a></li>
 
-            <li><a href="templates/exe5" class="magnifier"><img src="img/exemplo5.png" alt="" /></a></li>
-            <li><a href="templates/exe6" class="magnifier"><img src="img/exemplo6.png" alt="" /></a></li>
-            <li><a href="templates/exe7" class="magnifier" ><img src="img/exemplo7.png" alt="" /></a></li>
-            <li class="last"><a href="templates/exe8" class="magnifier" ><img src="img/exemplo8.png " alt="" /></a>
+                        <li><a href="templates/exe5" class="magnifier"><img src="img/exemplo5.png" alt="" /></a></li>
+                        <li><a href="templates/exe6" class="magnifier"><img src="img/exemplo6.png" alt="" /></a></li>
+                        <li><a href="templates/exe7" class="magnifier" ><img src="img/exemplo7.png" alt="" /></a></li>
+                        <li class="last"><a href="templates/exe8" class="magnifier" ><img src="img/exemplo8.png " alt="" /></a>
 
-            <li><a href="templates/exe9" class="magnifier" ><img src="img/exemplo9.png " alt="" /></a></li>
-            <li><a href="templates/exe10" class="magnifier" ><img src="img/exemplo10.png " alt="" /></a></li>
-            <li><a href="templates/exe11" class="magnifier" ><img src="img/exemplo11.png " alt="" /></a></li>
-            <li class="last"><a href="templates/exe12" class="magnifier" ><img src="img/exemplo12.png " alt="" /></a></li>
-
-            <li><a href="templates/exe13" class="magnifier" ><img src="img/exemplo13.png " alt="" /></a></li>
-            <li><a href="templates/exe14" class="magnifier" ><img src="img/exemplo14.png " alt="" /></a></li>
-            <li><a href="templates/exe15" class="magnifier" ><img src="img/exemplo15.png " alt="" /></a></li>
-            <li class="last"><a href="templates/exe16" class="magnifier" ><img src="img/exemplo16.png " alt="" /></a></li>
-
-            <li><a href="templates/exe17" class="magnifier" ><img src="img/exemplo17.png " alt="" /></a></li>
-            <li><a href="templates/exe18" class="magnifier" ><img src="img/exemplo18.png " alt="" /></a></li>
-            <li><a href="templates/exe19" class="magnifier" ><img src="img/exemplo19.png " alt="" /></a></li>
-            <li class="last"><a href="templates/exe20" class="magnifier" ><img src="img/exemplo20.png " alt="" /></a></li>
-
-            <li><a href="templates/exe21" class="magnifier" ><img src="img/exemplo21.png " alt="" /></a></li>
-            <li><a href="templates/exe22" class="magnifier" ><img src="img/exemplo22.png " alt="" /></a></li>
-            <li><a href="templates/exe23" class="magnifier" ><img src="img/exemplo23.png " alt="" /></a></li>
-            <li class="last"><a href="templates/exe24" class="magnifier" ><img src="img/exemplo24.png " alt="" /></a></li>
-
-          </ul>
+                        <li><a href="templates/exe9" class="magnifier" ><img src="img/exemplo9.png " alt="" /></a></li>
+                        <li><a href="templates/exe10" class="magnifier" ><img src="img/exemplo10.png " alt="" /></a></li>
+                        <li><a href="templates/exe11" class="magnifier" ><img src="img/exemplo11.png " alt="" /></a></li>
+                        <li class="last"><a href="templates/exe12" class="magnifier" ><img src="img/exemplo12.png " alt="" /></a></li>
+                </ul>
+                </li>
+              </ul>
             </article>
       </div>
         </div>
@@ -343,7 +333,8 @@
     <div class="privacy pull-left">Website Template designed by <a href="http://www.templatemonster.com/" target="_blank" rel="nofollow">TemplateMonster.com</a> </div>
   </div>
     </footer>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

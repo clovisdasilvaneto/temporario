@@ -16,6 +16,7 @@ a[href^="tel:"] {
   margin: 1px 29px 16px 0;
   float: left;
 }
+#temp {color: #fff}
 .wrapper {
   width: 100%;
   overflow: hidden;
@@ -35,6 +36,10 @@ a[href^="tel:"] {
 .preloader {
   background: url(../img/loader.gif) center center no-repeat;
 }
+
+.magnifier img {width: inherit!important;}
+.magnifier {overflow: hidden;}
+
 .clear {
   clear: both;
   line-height: 0;
@@ -511,6 +516,7 @@ padding-left: 23px;}
   transition: all 0.3s ease;
   width: 270px;
   background: #fff;
+  overflow: hidden;
 }
 .magnifier:hover {
   opacity: 0.7;
@@ -524,7 +530,7 @@ padding-left: 23px;}
   opacity: 0;
   left: 0;
   top: 0;
-  background: url('../img/magnifier.png') center center no-repeat #000000;
+  background: url('../img/magnifier.png') center center no-repeat #e85356;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;

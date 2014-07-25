@@ -14,4 +14,24 @@ window.addEventListener("scroll",function(){
     document.querySelector("header").style.boxShadow = "none";
     document.querySelector("header > div img").style.marginTop = "0";
   }
+});
+
+$(".menu a").click(function(){
+  switch($(this).data("href")){
+    case "clientes":
+      $("body,html").stop().animate({
+        scrollTop: 688
+      });
+      break
+
+    default:
+      $("body,html").stop().animate({
+        scrollTop: 1655
+      });
+      break
+  }
+  return false;
 })
+
+
+  $('.bxslider').bxSlider();
