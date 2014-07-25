@@ -34,4 +34,15 @@ $(".menu a").click(function(){
 })
 
 
-  $('.bxslider').bxSlider();
+  $('.bxslider').bxSlider({
+          slideWidth: 1200,
+          minSlides: 4,
+          moveSlides: 1,
+          slideMargin: 20,
+          autoDelay: 5000,
+          pause: 2000,
+          speed:2000,
+          auto: true,
+          easing: "easeOutQuad",
+          pager:false
+        });

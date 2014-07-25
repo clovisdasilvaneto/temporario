@@ -47,7 +47,7 @@ a[href^="tel:"] {
   overflow: hidden;
   height: 0;
   width: 100%;
-}
+}.bx-wrapper .bx-viewport {background: transparent!important;border: none!important; box-shadow: none!important}
 .m-top {
   margin-top: -7px;
 }
@@ -536,6 +536,9 @@ padding-left: 23px;}
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+.bx-slider {width: 800px;}
+
 .magnifier:hover:after {
   opacity: 0.6;
 }
