@@ -40,7 +40,6 @@ $(".menu a").click(function(){
           moveSlides: 1,
           slideMargin: 20,
           autoDelay: 5000,
-          pause: 2000,
           speed:2000,
           auto: true,
           easing: "easeOutQuad",

@@ -57,7 +57,14 @@ width: 0!important;
 height: 0!important;
 border: solid 20px transparent;
 border-right-color: #E45255;
-left: -30px;}
+left: -30px!important;}
+
+.bx-next {
+width: 0!important;
+height: 0!important;
+border: solid 20px transparent;
+border-left-color: #E45255;
+right: -40px!important;}
 
 .overflow.extra {
   overflow: visible;
