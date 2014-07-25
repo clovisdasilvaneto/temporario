@@ -51,6 +51,14 @@ a[href^="tel:"] {
 .m-top {
   margin-top: -7px;
 }
+
+.bx-prev {
+width: 0!important;
+height: 0!important;
+border: solid 20px transparent;
+border-right-color: #E45255;
+left: -30px;}
+
 .overflow.extra {
   overflow: visible;
 }
