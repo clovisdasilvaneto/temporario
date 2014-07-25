@@ -120,6 +120,7 @@ html[xmlns] .slides {
 }
 .flexslider .slides > li{
 	position:relative;
+	box-shadow:-2px 0px 3px rgba(0, 0, 0, 0.29);
 }
 .flexslider .slides > li.active {
 	opacity:1
