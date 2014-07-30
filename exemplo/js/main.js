@@ -32,7 +32,7 @@ $(".menu a").click(function(){
       return false; 
       break
   }
-})
+});
 
 
   $('.bxslider').bxSlider({
